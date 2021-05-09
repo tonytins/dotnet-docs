@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CoUninitializeEE Function"
 title: "CoUninitializeEE Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # CoUninitializeEE Function
+
 `CoUninitializeEE` is obsolete and provides no functionality.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ void CoUninitializeEE (
 ```  
   
 ## Remarks  
+
  The common language runtime execution engine cannot be unloaded from a process. To shut down the execution engine call [CorExitProcess](corexitprocess-function.md).  
   
 ## See also

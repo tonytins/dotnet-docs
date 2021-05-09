@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugAppDomain::GetId Method"
 title: "ICorDebugAppDomain::GetId Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugAppDomain::GetId Method
+
 Gets the unique identifier of the application domain.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetID (
 ```  
   
 ## Parameters  
+
  `pId`  
  [out] The unique identifier of the application domain.  
   
 ## Remarks  
+
  The identifier for the application domain is unique within the containing process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

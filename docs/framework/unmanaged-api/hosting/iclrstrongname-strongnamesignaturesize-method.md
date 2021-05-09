@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName::StrongNameSignatureSize Method"
 title: "ICLRStrongName::StrongNameSignatureSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName::StrongNameSignatureSize Method
+
 Returns the size of the strong name signature. This method is typically used by compilers to determine how much space to reserve in the file when creating a delay-signed assembly.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT StrongNameSignatureSize (
 ```  
   
 ## Parameters  
+
  `pbPublicKeyBlob`  
  [in] A structure of type [PublicKeyBlob](../strong-naming/publickeyblob-structure.md) that contains the public portion of the key pair used to generate the strong name signature.  
   
@@ -40,9 +43,11 @@ HRESULT StrongNameSignatureSize (
  [in] The number of bytes required to store the strong name signature.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

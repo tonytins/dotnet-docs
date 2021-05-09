@@ -1,5 +1,6 @@
 ---
 title: "How to use the My namespace - C# Programming Guide"
+description: Learn how to us the 'My' namespace. The 'My' namespace gives easy and intuitive access to a number of .NET classes.
 ms.date: 07/20/2015
 helpviewer_keywords: 
   - "C# language, My namespace access"
@@ -26,6 +27,7 @@ The <xref:Microsoft.VisualBasic.MyServices> namespace (`My` in Visual Basic) pro
      [!code-csharp[csProgGuideNamespaces#18](~/samples/snippets/csharp/VS_Snippets_VBCSharp/csProgGuideNamespaces/CS/Namespaces3.cs#18)]  
   
 ## Example  
+
  This example calls various static methods contained in the `MyServices` namespace. For this code to compile, a reference to Microsoft.VisualBasic.DLL must be added to the project.  
   
  [!code-csharp[csProgGuideNamespaces#19](~/samples/snippets/csharp/VS_Snippets_VBCSharp/csProgGuideNamespaces/CS/Namespaces3.cs#19)]  

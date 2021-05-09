@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader2::GetMethodByVersionPreRemap Method"
 title: "ISymUnmanagedReader2::GetMethodByVersionPreRemap Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader2::GetMethodByVersionPreRemap Method
+
 Gets a symbol reader method, given a method token and an edit-and-continue version number. Version numbers start at 1 and are incremented each time the method is changed as a result of an edit-and-continue operation.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetMethodByVersionPreRemap(
 ```  
   
 ## Parameters  
+
  `token`  
  [in] The method metadata token.  
   
@@ -39,9 +42,11 @@ HRESULT GetMethodByVersionPreRemap(
  [out] A pointer to the returned [ISymUnmanagedMethod](isymunmanagedmethod-interface.md) interface.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl. CorSym.h  
   
 ## See also

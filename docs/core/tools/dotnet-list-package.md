@@ -1,7 +1,7 @@
 ---
 title: dotnet list package command
 description: The 'dotnet list package' command provides a convenient option to list the package references for a project or solution.
-ms.date: 02/14/2020
+ms.date: 11/11/2020
 ---
 # dotnet list package
 
@@ -15,16 +15,17 @@ ms.date: 02/14/2020
 
 ```dotnetcli
 dotnet list [<PROJECT>|<SOLUTION>] package [--config <SOURCE>]
+    [--deprecated]
     [--framework <FRAMEWORK>] [--highest-minor] [--highest-patch]
     [--include-prerelease] [--include-transitive] [--interactive]
-    [--outdated] [--source <SOURCE>]
+    [--outdated] [--source <SOURCE>] [-v|--verbosity <LEVEL>]
 
 dotnet list package -h|--help
 ```
 
 ## Description
 
-The `dotnet list package` command provides a convenient option to list all NuGet package references for a specific project or a solution. You first need to build the project in order to have the assets needed for this command to process. The following example shows the output of the `dotnet list package` command for the [SentimentAnalysis](https://github.com/dotnet/samples/tree/master/machine-learning/tutorials/SentimentAnalysis) project:
+The `dotnet list package` command provides a convenient option to list all NuGet package references for a specific project or a solution. You first need to build the project in order to have the assets needed for this command to process. The following example shows the output of the `dotnet list package` command for the [SentimentAnalysis](https://github.com/dotnet/samples/tree/main/machine-learning/tutorials/SentimentAnalysis) project:
 
 ```output
 Project 'SentimentAnalysis' has the following package references
@@ -36,7 +37,7 @@ Project 'SentimentAnalysis' has the following package references
 (A) : Auto-referenced package.
 ```
 
-The **Requested** column refers to the package version specified in the project file and can be a range. The **Resolved** column lists the version that the project is currently using and is always a single value. The packages displaying an `(A)` right next to their names represent [implicit package references](csproj.md#implicit-package-references) that are inferred from your project settings (`Sdk` type, `<TargetFramework>` or `<TargetFrameworks>` property, etc.)
+The **Requested** column refers to the package version specified in the project file and can be a range. The **Resolved** column lists the version that the project is currently using and is always a single value. The packages displaying an `(A)` right next to their names represent implicit package references that are inferred from your project settings (`Sdk` type, or `<TargetFramework>` or `<TargetFrameworks>` property).
 
 Use the `--outdated` option to find out if there are newer versions available of the packages you're using in your projects. By default, `--outdated` lists the latest stable packages unless the resolved version is also a prerelease version. To include prerelease versions when listing newer versions, also specify the `--include-prerelease` option. The following examples shows the output of the `dotnet list package --outdated --include-prerelease` command for the same project as the previous example:
 
@@ -51,7 +52,7 @@ Project `SentimentAnalysis` has the following updates to its packages
    > Microsoft.ML         1.4.0       1.4.0      1.5.0-preview
 ```
 
-If you need to find out whether your project has transitive dependencies, use the `--include-transitive` option. Transitive dependencies occur when you add a package to your project that in turn relies on another package. The following example shows the output from running the `dotnet list package --include-transitive` command for the [HelloPlugin](https://github.com/dotnet/samples/tree/master/core/extensions/AppWithPlugin/HelloPlugin) project, which displays top-level packages and the packages they depend on:
+If you need to find out whether your project has transitive dependencies, use the `--include-transitive` option. Transitive dependencies occur when you add a package to your project that in turn relies on another package. The following example shows the output from running the `dotnet list package --include-transitive` command for the [HelloPlugin](https://github.com/dotnet/samples/tree/main/core/extensions/AppWithPlugin/HelloPlugin) project, which displays top-level packages and the packages they depend on:
 
 ```output
 Project 'HelloPlugin' has the following package references
@@ -72,6 +73,10 @@ The project or solution file to operate on. If not specified, the command search
 
   The NuGet sources to use when searching for newer packages. Requires the `--outdated` option.
 
+- **`--deprecated`**
+
+  Displays packages that have been deprecated.
+
 - **`--framework <FRAMEWORK>`**
 
   Displays only the packages applicable for the specified [target framework](../../standard/frameworks.md). To specify multiple frameworks, repeat the option multiple times. For example: `--framework netcoreapp2.2 --framework netstandard2.0`.
@@ -82,15 +87,15 @@ The project or solution file to operate on. If not specified, the command search
 
 - **`--highest-minor`**
 
-  Considers only the packages with a matching major version number when searching for newer packages. Requires the `--outdated` option.
+  Considers only the packages with a matching major version number when searching for newer packages. Requires the `--outdated` or `--deprecated` option.
 
 - **`--highest-patch`**
 
-  Considers only the packages with a matching major and minor version numbers when searching for newer packages. Requires the `--outdated` option.
+  Considers only the packages with a matching major and minor version numbers when searching for newer packages. Requires the `--outdated` or `--deprecated` option.
 
 - **`--include-prerelease`**
 
-  Considers packages with prerelease versions when searching for newer packages. Requires the `--outdated` option.
+  Considers packages with prerelease versions when searching for newer packages. Requires the `--outdated` or `--deprecated` option.
 
 - **`--include-transitive`**
 
@@ -106,7 +111,11 @@ The project or solution file to operate on. If not specified, the command search
 
 - **`-s|--source <SOURCE>`**
 
-  The NuGet sources to use when searching for newer packages. Requires the `--outdated` option.
+  The NuGet sources to use when searching for newer packages. Requires the `--outdated` or `--deprecated` option.
+
+- **`-v|--verbosity <LEVEL>`**
+
+  Sets the MSBuild verbosity level. Allowed values are `q[uiet]`, `m[inimal]`, `n[ormal]`, `d[etailed]`, and `diag[nostic]`. The default is `minimal`.
 
 ## Examples
 

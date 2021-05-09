@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_PRF_JIT_CACHE Enumeration"
 title: "COR_PRF_JIT_CACHE Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_PRF_JIT_CACHE Enumeration
+
 Indicates the result of a cached function search.  
   
 > [!NOTE]
@@ -38,6 +40,7 @@ typedef enum {
 |`COR_PRF_FUNCTION_NOT_FOUND`|The search did not find the function.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEditAndContinueErrorInfo::GetModule Method"
 title: "ICorDebugEditAndContinueErrorInfo::GetModule Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEditAndContinueErrorInfo::GetModule Method
+
 `GetModule` is obsolete. Do not call this method.  
   
 ## See also

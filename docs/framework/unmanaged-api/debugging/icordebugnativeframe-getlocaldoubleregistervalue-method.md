@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugNativeFrame::GetLocalDoubleRegisterValue Method"
 title: "ICorDebugNativeFrame::GetLocalDoubleRegisterValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugNativeFrame::GetLocalDoubleRegisterValue Method
+
 Gets the value of an argument or local variable that is stored in the two specified registers for this native frame.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT GetLocalDoubleRegisterValue (
 ```  
   
 ## Parameters  
+
  `highWordReg`  
  [in] A value of the "CorDebugRegister" enumeration that specifies the register containing the high word of the value.  
   
@@ -48,9 +51,11 @@ HRESULT GetLocalDoubleRegisterValue (
  [out] A pointer to the address of an "ICorDebugValue" object representing the retrieved value that is stored in the specified registers.  
   
 ## Remarks  
+
  The `GetLocalDoubleRegisterValue` method can be used either in a native frame or a just-in-time (JIT)-compiled frame.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

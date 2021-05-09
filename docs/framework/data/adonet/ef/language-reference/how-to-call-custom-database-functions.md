@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Call Custom Database Functions"
 title: "How to: Call Custom Database Functions"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -30,7 +31,7 @@ The procedure below provides a high-level outline for calling a custom database 
 
 ## Example
 
-The following example demonstrates how to call a custom database function from within a LINQ to Entities query. The example uses the School model. For information about the School model, see [Creating the School Sample Database](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/bb399731(v=vs.100)) and [Generating the School .edmx File](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/bb399739(v=vs.100)).
+The following example demonstrates how to call a custom database function from within a LINQ to Entities query. The example uses the School model. For information about the School model, see [Creating the School Sample Database](/previous-versions/dotnet/netframework-4.0/bb399731(v=vs.100)) and [Generating the School .edmx File](/previous-versions/dotnet/netframework-4.0/bb399739(v=vs.100)).
 
 The following code adds the `AvgStudentGrade` function to the School sample database.
 
@@ -61,5 +62,5 @@ Finally, call the method in a LINQ to Entities query. The following code display
 
 ## See also
 
-- [.edmx File Overview](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/cc982042(v=vs.100))
+- [.edmx File Overview](/previous-versions/dotnet/netframework-4.0/cc982042(v=vs.100))
 - [Queries in LINQ to Entities](queries-in-linq-to-entities.md)

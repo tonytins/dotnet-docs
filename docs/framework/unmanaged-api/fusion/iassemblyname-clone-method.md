@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyName::Clone Method"
 title: "IAssemblyName::Clone Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyName::Clone Method
+
 Creates a shallow copy of this [IAssemblyName](iassemblyname-interface.md) object.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT Clone (
 ```  
   
 ## Parameters  
+
  `pName`  
  [out] The returned copy of this `IAssemblyName` object.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

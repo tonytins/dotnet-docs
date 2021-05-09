@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugReferenceValue::GetValue Method"
 title: "ICorDebugReferenceValue::GetValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugReferenceValue::GetValue Method
+
 Gets the current memory address of the referenced object.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetValue (
 ```  
   
 ## Parameters  
+
  `pValue`  
  [out] A pointer to a `CORDB_ADDRESS` value that specifies the address of the object to which this ICorDebugReferenceValue object points.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

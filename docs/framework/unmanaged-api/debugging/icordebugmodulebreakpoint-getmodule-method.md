@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModuleBreakpoint::GetModule Method"
 title: "ICorDebugModuleBreakpoint::GetModule Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModuleBreakpoint::GetModule Method
+
 Gets an interface pointer to an "ICorDebugModule" that references the module in which this breakpoint is set.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetModule (
 ```  
   
 ## Parameters  
+
  `ppModule`  
  [out] A pointer to the address of an `ICorDebugModule` interface that references the module in which the breakpoint is set.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

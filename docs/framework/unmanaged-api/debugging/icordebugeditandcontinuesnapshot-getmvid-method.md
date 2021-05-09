@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEditAndContinueSnapshot::GetMvid Method"
 title: "ICorDebugEditAndContinueSnapshot::GetMvid Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEditAndContinueSnapshot::GetMvid Method
+
 `GetMvid` is obsolete. Do not call this method.  
   
 ## See also

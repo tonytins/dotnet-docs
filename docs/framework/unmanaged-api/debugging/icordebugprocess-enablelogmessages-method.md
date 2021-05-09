@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess::EnableLogMessages Method"
 title: "ICorDebugProcess::EnableLogMessages Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess::EnableLogMessages Method
+
 Enables and disables the transmission of log messages to the debugger.  
   
 ## Syntax  
@@ -26,13 +28,16 @@ HRESULT EnableLogMessages([in]BOOL fOnOff);
 ```  
   
 ## Parameters  
+
  `fOnOff`  
  [in] `true` enables the transmission of log messages; `false` disables the transmission.  
   
 ## Remarks  
+
  This method is valid only after the [ICorDebugManagedCallback::CreateProcess](icordebugmanagedcallback-createprocess-method.md) callback occurs.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

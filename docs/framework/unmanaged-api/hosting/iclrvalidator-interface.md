@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRValidator Interface"
 title: "ICLRValidator Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRValidator Interface
+
 Provides methods for validating portable executable (PE) images and reporting validation errors.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Provides methods for validating portable executable (PE) images and reporting va
 |[Validate Method](iclrvalidator-validate-method.md)|Validates the portable executable or Microsoft intermediate language (MSIL) in the specified file.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** IValidator.idl, IValidator.h  

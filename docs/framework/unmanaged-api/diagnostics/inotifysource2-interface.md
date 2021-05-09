@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INotifySource2 Interface"
 title: "INotifySource2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # INotifySource2 Interface
+
 Declares a method for setting notification filters.  
   
 ## Methods  
@@ -25,6 +27,7 @@ Declares a method for setting notification filters.
 |[SetNotifyFilter Method](inotifysource2-setnotifyfilter-method.md)|Assigns a notification filter for use with this source.|  
   
 ## Requirements  
+
  **Header:** ProtocolNotify2.idl  
   
 ## See also

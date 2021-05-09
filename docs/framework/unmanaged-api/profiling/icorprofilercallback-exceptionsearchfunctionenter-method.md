@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::ExceptionSearchFunctionEnter Method"
 title: "ICorProfilerCallback::ExceptionSearchFunctionEnter Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::ExceptionSearchFunctionEnter Method
+
 Notifies the profiler that the search phase of exception handling has begun searching a function to find a handler for the current exception.  
   
 ## Syntax  
@@ -28,11 +30,11 @@ HRESULT ExceptionSearchFunctionEnter(
   
 ## Parameters
 
-- `functionId`
-
-  \[in] The ID of the function that has been entered.
+`functionId`
+[in] The ID of the function that has been entered.
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

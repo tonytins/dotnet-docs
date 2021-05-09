@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugAssembly::GetCodeBase Method"
 title: "ICorDebugAssembly::GetCodeBase Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugAssembly::GetCodeBase Method
+
 This method is not implemented in the current version of the .NET Framework.  
   
 ## Syntax  

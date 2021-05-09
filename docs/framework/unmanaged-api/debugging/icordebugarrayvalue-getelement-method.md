@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugArrayValue::GetElement Method"
 title: "ICorDebugArrayValue::GetElement Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugArrayValue::GetElement Method
+
 Gets the value of the given array element.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetElement (
 ```  
   
 ## Parameters  
+
  `cdim`  
  [in] The number of dimensions of this `ICorDebugArrayValue` object.  
   
@@ -45,6 +48,7 @@ HRESULT GetElement (
  [out] A pointer to the address of an ICorDebugValue object that represents the value of the specified element.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

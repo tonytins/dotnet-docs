@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostSemaphore::ReleaseSemaphore Method"
 title: "IHostSemaphore::ReleaseSemaphore Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostSemaphore::ReleaseSemaphore Method
+
 Increases the count of the current [IHostSemaphore](ihostsemaphore-interface.md) instance by the specified amount.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT ReleaseSemaphore (
 ```  
   
 ## Parameters  
+
  `lReleaseCount`  
  [in] The amount by which to increase the count of the current `IHostSemaphore` instance. This amount must be greater than zero.  
   
@@ -47,9 +50,11 @@ HRESULT ReleaseSemaphore (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  The CLR typically calls `ReleaseSemaphore` to notify the host that it has finished using a resource, passing a value of 1 for the `lReleaseCount` parameter.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Circular Tracing"
 title: "Circular Tracing"
 ms.date: "03/30/2017"
 ms.assetid: 5ff139f9-8806-47bc-8f33-47fe6c436b92
@@ -58,4 +59,4 @@ A service can be configured to use the Circular Buffer Trace Listener by adding 
 
 ## See also
 
-- [AppFabric Monitoring Samples](https://docs.microsoft.com/previous-versions/appfabric/ff383407(v=azure.10))
+- [AppFabric Monitoring Samples](/previous-versions/appfabric/ff383407(v=azure.10))

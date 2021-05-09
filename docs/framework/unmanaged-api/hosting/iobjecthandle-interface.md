@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IObjectHandle Interface"
 title: "IObjectHandle Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IObjectHandle Interface
+
 Provides a method for unwrapping marshal-by-value objects from indirection.  
   
 ## Methods  
@@ -25,6 +27,7 @@ Provides a method for unwrapping marshal-by-value objects from indirection.
 |[Unwrap Method](iobjecthandle-unwrap-method.md)|Unwraps a marshal-by-value object from indirection.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

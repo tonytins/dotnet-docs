@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::EnumMemberRefs Method"
 title: "IMetaDataImport::EnumMemberRefs Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::EnumMemberRefs Method
+
 Enumerates MemberRef tokens representing members of the specified type.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT EnumMemberRefs (
 ```  
   
 ## Parameters  
+
  `phEnum`  
  [in, out] A pointer to the enumerator.  
   
@@ -55,6 +58,7 @@ HRESULT EnumMemberRefs (
 |`S_FALSE`|There are no MemberRef tokens to enumerate. In that case, `pcTokens` is to zero.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

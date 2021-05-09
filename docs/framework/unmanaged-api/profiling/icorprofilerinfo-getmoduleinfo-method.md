@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo::GetModuleInfo Method"
 title: "ICorProfilerInfo::GetModuleInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo::GetModuleInfo Method
+
 Given a module ID, returns the file name of the module and the ID of the module's parent assembly.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT GetModuleInfo(
 ```  
   
 ## Parameters  
+
  `moduleId`  
  [in] The ID of the module for which information will be retrieved.  
   
@@ -52,6 +55,7 @@ HRESULT GetModuleInfo(
  [out] A pointer to the ID of the module's parent assembly.  
   
 ## Remarks  
+
  For dynamic modules, the `szName` parameter is an empty string, and the base address is 0 (zero).  
   
  Although the `GetModuleInfo` method may be called as soon as the module's ID exists, the ID of the parent assembly will not be available until the profiler receives the [ICorProfilerCallback::ModuleAttachedToAssembly](icorprofilercallback-moduleattachedtoassembly-method.md) callback.  
@@ -61,6 +65,7 @@ HRESULT GetModuleInfo(
  Alternatively, you can first call `GetModuleInfo` with a zero-length `szName` buffer to obtain the correct buffer size. You can then set the buffer size to the value returned in `pcchName` and call `GetModuleInfo` again.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostThreadPoolManager::SetMaxThreads Method"
 title: "IHostThreadPoolManager::SetMaxThreads Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostThreadPoolManager::SetMaxThreads Method
+
 Sets the maximum number of threads that the host can maintain in the thread pool.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT SetMaxThreads (
 ```  
   
 ## Parameters  
+
  `MaxThreads`  
  The maximum number of worker threads in the thread pool.  
   
@@ -44,9 +47,11 @@ HRESULT SetMaxThreads (
 |E_NOTIMPL|The host does not provide an implementation of `SetMaxThreads`.|  
   
 ## Remarks  
+
  A host is not required to allow the CLR to configure the size of the thread pool. Some hosts might want exclusive control over the thread pool, for reasons such as implementation, performance, or scalability. In this case, a host should return an HRESULT value of E_NOTIMPL.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

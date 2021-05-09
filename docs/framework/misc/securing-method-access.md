@@ -13,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: f7c2d6ec-3b18-4e0e-9991-acd97189d818
 ---
 # Securing Method Access
+
 [!INCLUDE[net_security_note](../../../includes/net-security-note-md.md)]  
   
  Some methods might not be suitable to allow arbitrary untrusted code to call. Such methods pose several risks: The method might provide some restricted information; it might believe any information passed to it; it might not do error checking on the parameters; or with the wrong parameters, it might malfunction or do something harmful. You should be aware of these cases and take action to help protect the method.  
@@ -23,7 +24,7 @@ ms.assetid: f7c2d6ec-3b18-4e0e-9991-acd97189d818
   
 - Limit the scope of accessibility to the class, assembly, or derived classes, if they can be trusted. This is the simplest way to limit method access. In general, derived classes can be less trustworthy than the class they derive from, though in some cases they share the parent class's identity. In particular, do not infer trust from the keyword `protected`, which is not necessarily used in the security context.  
   
-- Limit the method access to callers of a specified identity--essentially, any particular [evidence](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/7y5x1hcd%28v=vs.100%29) (strong name, publisher, zone, and so on) you choose.  
+- Limit the method access to callers of a specified identity--essentially, any particular [evidence](/previous-versions/dotnet/netframework-4.0/7y5x1hcd(v=vs.100)) (strong name, publisher, zone, and so on) you choose.  
   
 - Limit the method access to callers having whatever permissions you select.  
   
@@ -50,6 +51,7 @@ public class Class1
 ```  
   
 ## Excluding Classes and Members from Use by Untrusted Code  
+
  Use the declarations shown in this section to prevent specific classes and methods, as well as properties and events, from being used by partially trusted code. By applying these declarations to a class, you apply the protection to all its methods, properties, and events. However, field access is not affected by declarative security. Note also that link demands help protect against only the immediate callers and might still be subject to luring attacks.  
   
 > [!NOTE]

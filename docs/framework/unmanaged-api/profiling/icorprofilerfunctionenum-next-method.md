@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerFunctionEnum::Next Method"
 title: "ICorProfilerFunctionEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerFunctionEnum::Next Method
+
 Gets the specified number of contiguous functions from a sequential collection of functions, starting at the enumerator's current position in the sequence.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT Next([in]  ULONG      celt,
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of functions to retrieve.  
   
@@ -39,6 +42,7 @@ HRESULT Next([in]  ULONG      celt,
  [out] A pointer to the number of functions actually returned in the `ids` array.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -47,6 +51,7 @@ HRESULT Next([in]  ULONG      celt,
 |S_FALSE|Fewer than `celt` elements were returned, which indicates that the enumeration is complete.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

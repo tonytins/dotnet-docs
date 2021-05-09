@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XML Processing Instruction Literal (Visual Basic)"
 title: "XML Processing Instruction Literal"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: cef4f7f8-0011-4f64-8602-795077ad4f15
 ---
 # XML Processing Instruction Literal (Visual Basic)
+
 A literal representing an <xref:System.Xml.Linq.XProcessingInstruction> object.  
   
 ## Syntax  
@@ -19,6 +21,7 @@ A literal representing an <xref:System.Xml.Linq.XProcessingInstruction> object.
 ```  
   
 ## Parts  
+
  `<?`  
  Required. Denotes the start of the XML processing instruction literal.  
   
@@ -32,9 +35,11 @@ A literal representing an <xref:System.Xml.Linq.XProcessingInstruction> object.
  Required. Denotes the end of the processing instruction.  
   
 ## Return Value  
+
  An <xref:System.Xml.Linq.XProcessingInstruction> object.  
   
 ## Remarks  
+
  XML processing instruction literals indicate how applications should process an XML document. When an application loads an XML document, the application can check the XML processing instructions to determine how to process the document. The application interprets the meaning of `piName` and `piData`.  
   
  The XML document literal uses syntax that is similar to that of the XML processing instruction. For more information, see [XML Document Literal](xml-document-literal.md).  
@@ -50,6 +55,7 @@ A literal representing an <xref:System.Xml.Linq.XProcessingInstruction> object.
  The Visual Basic compiler converts the XML processing instruction literal to a call to the <xref:System.Xml.Linq.XProcessingInstruction.%23ctor%2A> constructor.  
   
 ## Example  
+
  The following example creates a processing instruction identifying a style-sheet for an XML document.  
   
  [!code-vb[VbXMLSamples#28](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbXMLSamples/VB/XMLSamples13.vb#28)]  

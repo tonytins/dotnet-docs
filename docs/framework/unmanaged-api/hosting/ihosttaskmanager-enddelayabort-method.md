@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTaskManager::EndDelayAbort Method"
 title: "IHostTaskManager::EndDelayAbort Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTaskManager::EndDelayAbort Method
+
 Notifies the host that managed code is exiting the period in which the current task must not be aborted, following an earlier call to [IHostTaskManager::BeginDelayAbort](ihosttaskmanager-begindelayabort-method.md).  
   
 ## Syntax  
@@ -38,9 +40,11 @@ HRESULT EndDelayAbort ();
 |E_UNEXPECTED|`EndDelayAbort` was called without a corresponding call to `BeginDelayAbort`.|  
   
 ## Remarks  
+
  The CLR makes a corresponding call to `BeginDelayAbort` on the current task before calling `EndDelayAbort`. In the absence of such a corresponding call, the host's implementation of [IHostTaskManager](ihosttaskmanager-interface.md) should return E_UNEXPECTED from `EndDelayAbort`, and should take no action.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

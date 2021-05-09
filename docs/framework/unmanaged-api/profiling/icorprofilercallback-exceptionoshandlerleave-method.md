@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::ExceptionOSHandlerLeave Method"
 title: "ICorProfilerCallback::ExceptionOSHandlerLeave Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::ExceptionOSHandlerLeave Method
+
 Not implemented. A profiler that needs unmanaged exception information must obtain this information through other means.  
   
 ## Syntax  
@@ -27,6 +29,7 @@ HRESULT ExceptionOSHandlerLeave(
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

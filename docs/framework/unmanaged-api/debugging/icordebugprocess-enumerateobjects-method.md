@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess::EnumerateObjects Method"
 title: "ICorDebugProcess::EnumerateObjects Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess::EnumerateObjects Method
+
 This method has not been implemented.  
   
 ## Syntax  

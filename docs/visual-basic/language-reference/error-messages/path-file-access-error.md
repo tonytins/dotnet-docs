@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Path/File access error"
 title: "Path-File access error"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 6ce3a161-7316-46bd-a785-0d50e5414020
 ---
 # Path/File access error
+
 During a file-access or disk-access operation, the operating system could not make a connection between the path and the file name.  
   
 ## To correct this error  

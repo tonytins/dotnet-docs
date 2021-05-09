@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Lock Down Endpoints in the Enterprise"
 title: "How to: Lock Down Endpoints in the Enterprise"
 ms.date: "03/30/2017"
 ms.assetid: 1b7eaab7-da60-4cf7-9d6a-ec02709cf75d
@@ -62,5 +63,5 @@ You may also want to encrypt the configuration file elements. For more informati
 
 ## See also
 
-- [Encrypting configuration file elements using DPAPI](https://docs.microsoft.com/previous-versions/msp-n-p/ff647398(v=pandp.10))
-- [Encrypting configuration file elements using RSA](https://docs.microsoft.com/previous-versions/msp-n-p/ff650304(v=pandp.10))
+- [Encrypting configuration file elements using DPAPI](/previous-versions/msp-n-p/ff647398(v=pandp.10))
+- [Encrypting configuration file elements using RSA](/previous-versions/msp-n-p/ff650304(v=pandp.10))

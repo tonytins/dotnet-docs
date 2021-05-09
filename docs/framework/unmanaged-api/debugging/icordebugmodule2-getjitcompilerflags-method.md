@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule2::GetJITCompilerFlags Method"
 title: "ICorDebugModule2::GetJITCompilerFlags Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule2::GetJITCompilerFlags Method
+
 Gets the flags that control the just-in-time (JIT) compilation of this ICorDebugModule2.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetJITCompilerFlags (
 ```  
   
 ## Parameters  
+
  `pdwFlags`  
  [out] A pointer to a value of the [CorDebugJITCompilerFlags](cordebugjitcompilerflags-enumeration.md) enumeration that controls the JIT compilation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

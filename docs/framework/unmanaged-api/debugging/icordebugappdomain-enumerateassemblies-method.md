@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugAppDomain::EnumerateAssemblies Method"
 title: "ICorDebugAppDomain::EnumerateAssemblies Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugAppDomain::EnumerateAssemblies Method
+
 Gets an enumerator for the assemblies in the application domain.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT EnumerateAssemblies (
 ```  
   
 ## Parameters  
+
  `ppAssemblies`  
  [out] A pointer to the address of an ICorDebugAssemblyEnum object that is the enumerator for the assemblies in the application domain.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugGenerationTypes Enumeration"
 title: "CorDebugGenerationTypes Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugGenerationTypes Enumeration
+
 Specifies the generation of a region of memory on the managed heap.  
   
 ## Syntax  
@@ -41,6 +43,7 @@ typedef enum CorDebugGenerationTypes {
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: ISymUnmanagedAsyncMethod Interface"
 title: "ISymUnmanagedAsyncMethod Interface"
 ms.date: "03/30/2017"
 ms.assetid: f2de5224-fd91-45de-9e58-bc600c6d22f1
 ---
 # ISymUnmanagedAsyncMethod Interface
+
 This interface is the reading complement to [ISymUnmanagedAsyncMethodPropertiesWriter Interface](isymunmanagedasyncmethodpropertieswriter-interface.md).  
   
 ## Syntax  
@@ -13,6 +15,7 @@ This interface is the reading complement to [ISymUnmanagedAsyncMethodPropertiesW
 ```  
   
 ## Methods  
+
  This interface contains the following methods:  
   
 |Method|Description|  
@@ -25,6 +28,7 @@ This interface is the reading complement to [ISymUnmanagedAsyncMethodPropertiesW
 |[IsAsyncMethod Method](isymunmanagedasyncmethod-isasyncmethod-method.md)|Checks if the method has async information or not.<br /><br /> If this method returns `FALSE` then it is invalid to call any other methods in this interface. They will all return `E_UNEXPECTED` in this case.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader::GetSymAttribute Method"
 title: "ISymUnmanagedReader::GetSymAttribute Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader::GetSymAttribute Method
+
 Gets a custom attribute based upon its name. Unlike metadata custom attributes, these custom attributes are held in the symbol store.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT GetSymAttribute (
 ```  
   
 ## Parameters  
+
  `parent`  
  [in] The metadata token for the object for which the attribute is requested.  
   
@@ -48,9 +51,11 @@ HRESULT GetSymAttribute (
  [out] A pointer to the variable that receives the attribute data.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

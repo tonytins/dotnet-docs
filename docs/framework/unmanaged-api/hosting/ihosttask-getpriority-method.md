@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTask::GetPriority Method"
 title: "IHostTask::GetPriority Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTask::GetPriority Method
+
 Gets the thread priority level of the task represented by the current [IHostTask](ihosttask-interface.md) instance.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT GetPriority (
 ```  
   
 ## Parameters  
+
  `pPriority`  
  [out] A pointer to an integer that indicates the thread priority level of the task represented by the current `IHostTask` instance.  
   
@@ -43,9 +46,11 @@ HRESULT GetPriority (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  Thread priority level values are defined by the Win32 `SetThreadPriority` function.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

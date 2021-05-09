@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess5::GetArrayLayout Method"
 title: "ICorDebugProcess5::GetArrayLayout Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess5::GetArrayLayout Method
+
 Provides information about the layout of array types.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT GetArrayLayout(    [in] COR_TYPEID id,     [out] COR_ARRAY_LAYOUT *pLayo
 ```  
   
 ## Parameters  
+
  `id`  
  [in] A [COR_TYPEID](cor-typeid-structure.md) token that specifies the array whose layout is desired.  
   
@@ -35,6 +38,7 @@ HRESULT GetArrayLayout(    [in] COR_TYPEID id,     [out] COR_ARRAY_LAYOUT *pLayo
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebug::Terminate Method"
 title: "ICorDebug::Terminate Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebug::Terminate Method
+
 Terminates the `ICorDebug` object.  
   
 > [!NOTE]
@@ -29,9 +31,11 @@ HRESULT Terminate ();
 ```  
   
 ## Remarks  
+
  `Terminate` must be called when the `ICorDebug` object is no longer needed.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

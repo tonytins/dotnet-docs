@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StrongNameGetPublicKeyEx Method"
 title: "StrongNameGetPublicKeyEx Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # StrongNameGetPublicKeyEx Method
+
 Gets the public key from a public/private key pair, and specifies a hash algorithm and a signature algorithm.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT StrongNameGetPublicKey (
 ```  
   
 ## Parameters  
+
  `pwzKeyContainer`  
  [in] The name of the key container that contains the public/private key pair. If `pbKeyBlob` is null, `szKeyContainer` must specify a valid container within the cryptographic service provider (CSP). In this case, the `StrongNameGetPublicKeyEx` method extracts the public key from the key pair stored in the container.  
   
@@ -60,12 +63,15 @@ HRESULT StrongNameGetPublicKey (
  [in] Reserved for future use; defaults to null.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Remarks  
+
  The public key is contained in a [PublicKeyBlob](../strong-naming/publickeyblob-structure.md) structure.  
   
 ## Remarks  
+
  The following table shows the set of accepted values for the `uHashAlgId` parameter.  
   
 |Name|Value|  
@@ -77,6 +83,7 @@ HRESULT StrongNameGetPublicKey (
 |SHA-512|0x800e|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

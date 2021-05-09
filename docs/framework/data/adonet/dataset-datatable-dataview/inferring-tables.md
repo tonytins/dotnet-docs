@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: Inferring Tables"
 title: "Inferring Tables"
 ms.date: "03/30/2017"
 ms.assetid: 74a288d4-b8e9-4f1a-b2cd-10df92c1ed1f
 ---
 # Inferring Tables
+
 When inferring a schema for a <xref:System.Data.DataSet> from an XML document, ADO.NET first determines which XML elements represent tables. The following XML structures result in a table for the **DataSet** schema:  
   
 - Elements with attributes  
@@ -13,6 +15,7 @@ When inferring a schema for a <xref:System.Data.DataSet> from an XML document, A
 - Repeating elements  
   
 ## Elements with Attributes  
+
  Elements that have attributes specified in them result in inferred tables. For example, consider the following XML:  
   
 ```xml  
@@ -34,6 +37,7 @@ When inferring a schema for a <xref:System.Data.DataSet> from an XML document, A
 |value2|Text1|  
   
 ## Elements with Child Elements  
+
  Elements that have child elements result in inferred tables. For example, consider the following XML:  
   
 ```xml  
@@ -92,6 +96,7 @@ When inferring a schema for a <xref:System.Data.DataSet> from an XML document, A
 |value1|value2|  
   
 ## Repeating Elements  
+
  Elements that repeat result in a single inferred table. For example, consider the following XML:  
   
 ```xml  

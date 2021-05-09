@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugStackWalk Interface"
 title: "ICorDebugStackWalk Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugStackWalk Interface
+
 Provides methods for getting the managed methods, or frames, on a thread’s stack.  
   
 ## Methods  
@@ -33,6 +35,7 @@ Provides methods for getting the managed methods, or frames, on a thread’s sta
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

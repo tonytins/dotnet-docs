@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bad record number"
 title: "Bad record number"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 1fcc33f8-822a-4de9-a6e3-228ddb5824a6
 ---
 # Bad record number
+
 The record number in `a FileGet`, `FilePut`, `FileGetObject`, or `FilePutObject` statement is less than or equal to zero.  
   
 ## To correct this error  

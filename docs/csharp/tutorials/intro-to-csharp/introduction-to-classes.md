@@ -6,7 +6,11 @@ ms.custom: mvc
 ---
 # Explore object oriented programming with classes and objects
 
-This tutorial expects that you have a machine you can use for development. The .NET tutorial [Hello World in 10 minutes](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro) has instructions for setting up your local development environment on Windows, Linux, or macOS. A quick overview of the commands you'll use is in the [Become familiar with the development tools](local-environment.md) with links to more details.
+In this tutorial, you'll build a console application and see the basic object-oriented features that are part of the C# language.
+
+## Prerequisites
+
+The tutorial expects that you have a machine set up for local development. On Windows, Linux, or macOS, you can use the .NET CLI to create, build, and run applications. On Windows, you can use Visual Studio 2019. For setup instructions, see [Set up your local environment](../../tour-of-csharp/tutorials/local-environment.md).
 
 ## Create your application
 
@@ -90,7 +94,7 @@ var account = new BankAccount("<name>", 1000);
 Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
 ```
 
-Let's run what you've built so far. If you're using Visual Studio, Select **Start without debugging** from the **Run** menu. If you're using a command line, type `dotnet run` in the directory where you've created your project.
+Let's run what you've built so far. If you're using Visual Studio, Select **Start without debugging** from the **Debug** menu. If you're using a command line, type `dotnet run` in the directory where you've created your project.
 
 Did you notice that the account number is blank? It's time to fix that. The account number should be assigned when the object is constructed. But it shouldn't be the responsibility of the caller to create it. The `BankAccount` class code should know how to assign new account numbers.  A simple way to do this is to start with a 10-digit number. Increment it when each new account is created. Finally, store the current account number when an object is constructed.
 
@@ -115,11 +119,11 @@ Your bank account class needs to accept deposits and withdrawals to work correct
 
 Let's start by creating a new type to represent a transaction. This is a simple type that doesn't have any responsibilities. It needs a few properties. Create a new file named *Transaction.cs*. Add the following code to it:
 
-[!code-csharp[Transaction](~/samples/snippets/csharp/classes-quickstart/Transaction.cs)]
+:::code language="csharp" source="./snippets/introduction-to-classes/Transaction.cs":::
 
 Now, let's add a <xref:System.Collections.Generic.List%601> of `Transaction` objects to the `BankAccount` class. Add the following declaration after the constructor in your *BankAccount.cs* file:
 
-[!code-csharp[TransactionDecl](~/samples/snippets/csharp/classes-quickstart/BankAccount.cs#TransactionDeclaration)]
+:::code language="csharp" source="./snippets/introduction-to-classes/BankAccount.cs" id="TransactionDeclaration":::
 
 The <xref:System.Collections.Generic.List%601> class requires you to import a different namespace. Add the following at the beginning of *BankAccount.cs*:
 
@@ -127,9 +131,9 @@ The <xref:System.Collections.Generic.List%601> class requires you to import a di
 using System.Collections.Generic;
 ```
 
-Now, let's change how the `Balance` is reported.  It can be found by summing the values of all transactions. Modify the declaration of `Balance` in the `BankAccount` class to the following:
+Now, let's correctly compute the `Balance`. The current balance can be found by summing the values of all transactions. As the code is currently, you can only get the initial balance of the account, so you'll have to update the `Balance` property. Replace the line `public decimal Balance { get; }` in *BankAccount.cs* with the following code:
 
-[!code-csharp[BalanceComputation](~/samples/snippets/csharp/classes-quickstart/BankAccount.cs#BalanceComputation)]
+:::code language="csharp" source="./snippets/introduction-to-classes/BankAccount.cs" id="BalanceComputation":::
 
 This example shows an important aspect of ***properties***. You're now computing the balance when another programmer asks for the value. Your computation enumerates all transactions, and provides the sum as the current balance.
 
@@ -137,13 +141,13 @@ Next, implement the `MakeDeposit` and `MakeWithdrawal` methods. These methods wi
 
 This introduces the concept of ***exceptions***. The standard way of indicating that a method cannot complete its work successfully is to throw an exception. The type of exception and the message associated with it describe the error. Here, the `MakeDeposit` method throws an exception if the amount of the deposit is negative. The `MakeWithdrawal` method throws an exception if the withdrawal amount is negative, or if applying the withdrawal results in a negative balance. Add the following code after the declaration of the `allTransactions` list:
 
-[!code-csharp[DepositAndWithdrawal](~/samples/snippets/csharp/classes-quickstart/BankAccount.cs#DepositAndWithdrawal)]
+:::code language="csharp" source="./snippets/introduction-to-classes/BankAccount.cs" id="DepositAndWithdrawal":::
 
 The [`throw`](../../language-reference/keywords/throw.md) statement **throws** an exception. Execution of the current block ends, and control transfers to the first matching `catch` block found in the call stack. You'll add a `catch` block to test this code a little later on.
 
 The constructor should get one change so that it adds an initial transaction, rather than updating the balance directly. Since you already wrote the `MakeDeposit` method, call it from your constructor. The finished constructor should look like this:
 
-[!code-csharp[Constructor](~/samples/snippets/csharp/classes-quickstart/BankAccount.cs#Constructor)]
+:::code language="csharp" source="./snippets/introduction-to-classes/BankAccount.cs" id="Constructor":::
 
 <xref:System.DateTime.Now?displayProperty=nameWithType> is a property that returns the current date and time. Test this by adding a few deposits and withdrawals in your `Main` method, following the code that creates a new `BankAccount`:
 
@@ -190,7 +194,7 @@ Save the file and type `dotnet run` to try it.
 
 To finish this tutorial, you can write the `GetAccountHistory` method that creates a `string` for the transaction history. Add this method to the `BankAccount` type:
 
-[!code-csharp[History](~/samples/snippets/csharp/classes-quickstart/BankAccount.cs#History)]
+:::code language="csharp" source="./snippets/introduction-to-classes/BankAccount.cs" id="History":::
 
 This uses the <xref:System.Text.StringBuilder> class to format a string that contains one line for each transaction. You've seen the string formatting code earlier in these tutorials. One new character is `\t`. That inserts a tab to format the output.
 
@@ -204,6 +208,13 @@ Run your program to see the results.
 
 ## Next steps
 
-If you got stuck, you can see the source for this tutorial [in our GitHub repo](https://github.com/dotnet/docs/tree/master/samples/snippets/csharp/classes-quickstart/).
+If you got stuck, you can see the source for this tutorial [in our GitHub repo](https://github.com/dotnet/docs/tree/main/docs/csharp/tutorials/intro-to-csharp/snippets/introduction-to-classes).
 
-Congratulations, you've finished all our introduction to C# tutorials. If you're eager to learn more, try more of our [tutorials](../index.md).
+You can continue with the [object oriented programming](object-oriented-programming.md) tutorial.
+
+You can learn more about these concepts in these articles:
+
+- [If and else statement](../../language-reference/keywords/if-else.md)
+- [While statement](../../language-reference/keywords/while.md)
+- [Do statement](../../language-reference/keywords/do.md)
+- [For statement](../../language-reference/keywords/for.md)

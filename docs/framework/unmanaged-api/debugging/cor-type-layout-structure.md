@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_TYPE_LAYOUT Structure"
 title: "COR_TYPE_LAYOUT Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_TYPE_LAYOUT Structure
+
 Provides information about the layout of an object in memory.  
   
 ## Syntax  
@@ -41,9 +43,11 @@ typedef struct COR_TYPE_LAYOUT {
 |`type`|The CorElementType to which this type belongs.|  
   
 ## Remarks  
+
  If `numFields` is greater than zero, you can call the [ICorDebugProcess5::GetTypeFields](icordebugprocess5-gettypefields-method.md) method to obtain information about the fields in this type. If `type` is `ELEMENT_TYPE_STRING`, `ELEMENT_TYPE_ARRAY`, or `ELEMENT_TYPE_SZARRAY`, the size of objects of this type is variable, and you can pass the [COR_TYPEID](cor-typeid-structure.md) structure to the [ICorDebugProcess5::GetArrayLayout](icordebugprocess5-getarraylayout-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

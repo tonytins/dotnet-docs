@@ -1,14 +1,14 @@
 ---
+description: "Learn more about: How to: Resolve ambiguous times"
 title: "How to: Resolve ambiguous times"
 ms.date: "04/10/2017"
-ms.technology: dotnet-standard
 dev_langs: 
   - "csharp"
   - "vb"
 helpviewer_keywords: 
-  - "time zones [.NET Framework], ambiguous time"
-  - "ambiguous time [.NET Framework]"
-ms.assetid: 2cf5fb25-492c-4875-9245-98cac8348e97
+  - "time zones [.NET], ambiguous time"
+  - "ambiguous time [.NET]"
+ms.topic: how-to
 ---
 # How to: Resolve ambiguous times
 

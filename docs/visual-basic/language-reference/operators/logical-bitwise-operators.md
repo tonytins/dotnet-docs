@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logical/Bitwise Operators (Visual Basic)"
 title: "Logical-Bitwise Operators"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 55de4889-7679-4859-8063-bee15abca53f
 ---
 # Logical/Bitwise Operators (Visual Basic)
+
 The following are the logical/bitwise operators defined in Visual Basic.  
   
  [And Operator](and-operator.md)  

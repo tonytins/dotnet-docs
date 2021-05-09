@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetFieldProps Method"
 title: "IMetaDataImport::GetFieldProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetFieldProps Method
+
 Gets metadata associated with the field referenced by the specified FieldDef token.  
   
 ## Syntax  
@@ -38,6 +40,7 @@ HRESULT GetFieldProps (
 ```  
   
 ## Parameters  
+
  `mb`  
  [in] A FieldDef token that represents the field to get associated metadata for.  
   
@@ -72,6 +75,7 @@ HRESULT GetFieldProps (
  [out] The size in chars of `ppValue`, or zero if no string exists.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

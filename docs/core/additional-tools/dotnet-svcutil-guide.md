@@ -1,7 +1,7 @@
 ---
 title: WCF svcutil tool overview
 description: An overview of the Microsoft WCF dotnet-svcutil tool that adds functionality for .NET Core and ASP.NET Core projects, similar to the WCF svcutil tool for .NET Framework projects.
-author: mlacouture
+author: honggit
 ms.date: 02/22/2019
 ---
 # WCF dotnet-svcutil tool for .NET Core
@@ -70,6 +70,7 @@ From a Windows, macOS, or Linux command window perform the following steps:
     ```
 
     # [dotnet-svcutil 1.x](#tab/dotnetsvcutil1x)
+
     Open the `HelloSvcutil.csproj` project file in your editor, edit the `Project` element, and add the [`dotnet-svcutil` NuGet package](https://nuget.org/packages/dotnet-svcutil) as a CLI tool reference, using the following code:
 
     ```xml
@@ -152,6 +153,7 @@ You should see the following output:
 "Hello dotnet-svcutil!"
 
 For a detailed description of the `dotnet-svcutil` tool parameters, invoke the tool passing the help parameter as follows:
+
 # [dotnet-svcutil 2.x](#tab/dotnetsvcutil2x)
 
 ```dotnetcli
@@ -172,7 +174,7 @@ If you have any questions or feedback, [open an issue on GitHub](https://github.
 
 ## Release notes
 
-- Refer to the [Release notes](https://github.com/dotnet/wcf/blob/master/release-notes/dotnet-svcutil-notes.md) for updated release information, including known issues.
+- Refer to the [Release notes](https://github.com/dotnet/wcf/blob/main/release-notes/dotnet-svcutil-notes.md) for updated release information, including known issues.
 
 ## Information
 

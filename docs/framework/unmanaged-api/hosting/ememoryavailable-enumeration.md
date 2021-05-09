@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EMemoryAvailable Enumeration"
 title: "EMemoryAvailable Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # EMemoryAvailable Enumeration
+
 Contains values that indicate the amount of free physical memory on the computer. These values logically map to the events for high and low memory returned from the `CreateMemoryResourceNotification` function in the Windows API.  
   
 ## Syntax  
@@ -37,9 +39,11 @@ typedef enum {
 |`eMemoryAvailableNeutral`|The available physical memory is neutral.|  
   
 ## Remarks  
+
  This value is passed by the host to the common language runtime (CLR) by using a call to the [ICLRMemoryNotificationCallback::OnMemoryNotification](iclrmemorynotificationcallback-onmemorynotification-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

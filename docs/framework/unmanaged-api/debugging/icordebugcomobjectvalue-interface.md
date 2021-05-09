@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugComObjectValue Interface"
 title: "ICorDebugComObjectValue Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugComObjectValue Interface
+
 Provides methods to retrieve information associated with a runtime callable wrapper (RCW).  
   
 ## Methods  
@@ -26,9 +28,11 @@ Provides methods to retrieve information associated with a runtime callable wrap
 |[GetCachedInterfaceTypes Method](icordebugcomobjectvalue-getcachedinterfacetypes-method.md)|Provides an enumerator for the interface types that the current object has been cased to or used as.|  
   
 ## Remarks  
+
  To check whether an instance of an "ICorDebugValue" interface represents an RCW, a debugger calls `QueryInterface` on "ICorDebugValue" with `IID_ICorDebugComObjectValue`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

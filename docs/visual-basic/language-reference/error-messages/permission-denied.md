@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Permission denied (Visual Basic)"
 title: "Permission denied"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 71f46756-f522-4814-aab4-492bf9924245
 ---
 # Permission denied (Visual Basic)
+
 An attempt was made to write to a write-protected disk or to access a locked file.  
   
 ## To correct this error  

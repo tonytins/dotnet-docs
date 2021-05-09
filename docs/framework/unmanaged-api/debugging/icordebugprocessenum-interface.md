@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcessEnum Interface"
 title: "ICorDebugProcessEnum Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcessEnum Interface
+
 Implements ICorDebugEnum methods and enumerates ICorDebugProcess arrays.  
   
 ## Methods  
@@ -30,6 +32,7 @@ Implements ICorDebugEnum methods and enumerates ICorDebugProcess arrays.
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

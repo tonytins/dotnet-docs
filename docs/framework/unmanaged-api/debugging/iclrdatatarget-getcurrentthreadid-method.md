@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataTarget::GetCurrentThreadID Method"
 title: "ICLRDataTarget::GetCurrentThreadID Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataTarget::GetCurrentThreadID Method
+
 Gets the operating system identifier for the current thread.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetCurrentThreadID (
 ```  
   
 ## Parameters  
+
  `threadID`  
  [out] A pointer to the operating system identifier of the current thread for the target process.  
   
 ## Remarks  
+
  If there is no current thread for the target process, the `GetCurrentThreadID` method may fail.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo::GetThreadContext Method"
 title: "ICorProfilerInfo::GetThreadContext Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo::GetThreadContext Method
+
 Gets the context identity currently associated with the specified thread.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT GetThreadContext(
 ```  
   
 ## Parameters  
+
  `threadId`  
  [in] The ID of the thread.  
   
@@ -35,6 +38,7 @@ HRESULT GetThreadContext(
  [out] A pointer to the context ID currently associated with the specified thread. If the thread has no context currently associated with it, this function will return CORPROF_E_DATAINCOMPLETE.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

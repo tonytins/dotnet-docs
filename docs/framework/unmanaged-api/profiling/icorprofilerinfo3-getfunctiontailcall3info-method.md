@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo3::GetFunctionTailcall3Info Method"
 title: "ICorProfilerInfo3::GetFunctionTailcall3Info Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo3::GetFunctionTailcall3Info Method
+
 Provides the stack frame of the function that is being reported to the profiler by the [FunctionTailcall3WithInfo](functiontailcall3withinfo-function.md) function. This method can be called only during the `FunctionTailcall3WithInfo` callback.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetFunctionTailcall3Info(
 ```  
   
 ## Parameters  
+
  `functionId`  
  [in] The `FunctionID` of the function that is returning.  
   
@@ -41,6 +44,7 @@ HRESULT GetFunctionTailcall3Info(
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using WorkflowIdentity and Versioning"
 title: "Using WorkflowIdentity and Versioning"
 ms.date: "03/30/2017"
 ms.assetid: b8451735-8046-478f-912b-40870a6c0c3a
@@ -152,7 +153,7 @@ The SqlWorkflowInstanceStore has a database version of '4.0.0.0'. InstancePersis
 
 1. Open SQL Server Management Studio and connect to the persistence database server, for example **.\SQLEXPRESS**.
 
-2. Choose **Open**, **File** from the **File** menu. Browse to the following folder: `C:\Windows\Microsoft.NET\Framework\4.0.30319\sql\en`
+2. Choose **Open**, **File** from the **File** menu. Browse to the following folder: `C:\Windows\Microsoft.NET\Framework\v4.0.30319\sql\en`
 
 3. Select **SqlWorkflowInstanceStoreSchemaUpgrade.sql** and click **Open**.
 

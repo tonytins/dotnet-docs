@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration-Based Activation in IIS and WAS"
 title: "Configuration-Based Activation in IIS and WAS"
 ms.date: "03/30/2017"
 ms.assetid: 6a927e1f-b905-4ee5-ad0f-78265da38238
@@ -40,4 +41,4 @@ Configuration-based activation takes the metadata that used to be placed in the 
 - [Hosting Services](../hosting-services.md)
 - [Hosting Workflow Services Overview](hosting-workflow-services-overview.md)
 - [\<serviceHostingEnvironment>](../../configure-apps/file-schema/wcf/servicehostingenvironment.md)
-- [Windows Server App Fabric Hosting Features](https://docs.microsoft.com/previous-versions/appfabric/ee677189(v=azure.10))
+- [Windows Server App Fabric Hosting Features](/previous-versions/appfabric/ee677189(v=azure.10))

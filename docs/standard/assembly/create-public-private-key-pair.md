@@ -5,17 +5,17 @@ ms.date: "08/20/2019"
 helpviewer_keywords:
   - "key pairs for strong-named assemblies"
   - "signing assemblies"
-  - "assemblies [.NET Framework], signing"
+  - "assemblies [.NET], signing"
   - "cryptographic key pairs"
   - "snk files (key pair files)"
   - "public-private key pairs"
   - ".snk files"
   - "strong-named assemblies, key pairs"
-ms.assetid: 05026813-f3bd-4d7c-9e0b-fc588eb3d114
 dev_langs:
   - "csharp"
   - "vb"
   - "cpp"
+ms.topic: how-to
 ---
 # How to: Create a public-private key pair
 

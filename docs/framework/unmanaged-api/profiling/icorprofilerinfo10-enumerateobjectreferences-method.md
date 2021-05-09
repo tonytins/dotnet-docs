@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo10::EnumerateObjectReferences Method"
 title: "ICorProfilerInfo10::EnumerateObjectReferences"
 ms.date: "08/06/2019"
 dev_langs:
@@ -26,17 +27,14 @@ HRESULT EnumerateObjectReferences( [in] ObjectID objectId,
 
 ## Parameters
 
-- `objectId`
+`objectId`
+[in] The object to enumerate references on.
 
-  \[in] The object to enumerate references on.
+`callback`
+[in] The function that will be called with the references for the object.
 
-- `callback`
-
-  \[in] The function that will be called with the references for the object.
-
-- `clientData`
-
-  \[in] Profiler-provided data to pass to the `callback` function.
+`clientData`
+[in] Profiler-provided data to pass to the `callback` function.
 
 ## Remarks
 
@@ -44,13 +42,13 @@ The `EnumerateObjectReferences` method is similar to [ObjectReferences](icorprof
 
 ## Requirements
 
-**Platforms:** See [.NET Core supported operating systems](../../../core/install/dependencies.md?pivots=os-windows).
+**Platforms:** See [.NET Core supported operating systems](../../../core/install/windows.md?pivots=os-windows).
 
 **Header:** CorProf.idl, CorProf.h
 
 **Library:** CorGuids.lib
 
-**.NET Versions:** [!INCLUDE[net_core_22](../../../../includes/net-core-30-md.md)]
+**.NET Versions:** [!INCLUDE[net_core_30](../../../../includes/net-core-30-md.md)]
 
 ## See also
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorRuntimeHost::CurrentDomain Method"
 title: "ICorRuntimeHost::CurrentDomain Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorRuntimeHost::CurrentDomain Method
+
 Gets an interface pointer of type <xref:System.AppDomain?displayProperty=nameWithType> that represents the domain loaded on the current thread.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT CurrentDomain (
 ```  
   
 ## Parameters  
+
  `pAppDomain`  
  [out] A pointer of type <xref:System.AppDomain?displayProperty=nameWithType> that represents the thread's current application domain. This pointer is typed `IUnknown`, so callers should generally call `QueryInterface` to obtain a pointer of type <xref:System._AppDomain>.  
   
@@ -41,6 +44,7 @@ HRESULT CurrentDomain (
 |HOST_E_CLRNOTAVAILABLE|The CLR has not been loaded into a process, or the CLR is in a state in which it cannot run managed code or process the call successfully.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

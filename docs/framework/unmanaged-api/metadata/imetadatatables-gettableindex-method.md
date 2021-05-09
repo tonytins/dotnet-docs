@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataTables::GetTableIndex Method"
 title: "IMetaDataTables::GetTableIndex Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataTables::GetTableIndex Method
+
 Gets the index for the table referenced by the specified token.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetTableIndex (
 ```  
   
 ## Parameters  
+
  `token`  
  [in] The token that references the table.  
   
@@ -36,9 +39,11 @@ HRESULT GetTableIndex (
  [out] A pointer to the returned index for the referenced table.  
   
 ## Remarks  
+
  We do not recommend the use of this method, because it does not return consistent results. For information about the GUID table, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics". The documentation is available online; see [ECMA C# and Common Language Infrastructure Standards](../../../standard/components.md#applicable-standards) and [Standard ECMA-335 - Common Language Infrastructure (CLI)](http://www.ecma-international.org/publications/standards/Ecma-335.htm).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

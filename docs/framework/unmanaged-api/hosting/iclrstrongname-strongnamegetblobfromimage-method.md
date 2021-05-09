@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName::StrongNameGetBlobFromImage Method"
 title: "ICLRStrongName::StrongNameGetBlobFromImage Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName::StrongNameGetBlobFromImage Method
+
 Gets a binary representation of the assembly image at the specified memory address.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT StrongNameGetBlobFromImage (
 ```  
   
 ## Parameters  
+
  `pbBase`  
  [in] The memory address of the mapped assembly manifest.  
   
@@ -44,9 +47,11 @@ HRESULT StrongNameGetBlobFromImage (
  [in, out] The requested maximum size, in bytes, of `pbBlob`. Upon return, the actual size, in bytes, of `pbBlob`.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

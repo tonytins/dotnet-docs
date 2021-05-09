@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StrongNameHashSize Function"
 title: "StrongNameHashSize Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # StrongNameHashSize Function
+
 Gets the buffer size required for a hash, using the specified hash algorithm.  
   
  This function has been deprecated. Use the [ICLRStrongName::StrongNameHashSize](../hosting/iclrstrongname-strongnamehashsize-method.md) method instead.  
@@ -30,6 +32,7 @@ BOOLEAN StrongNameHashSize (
 ```  
   
 ## Parameters  
+
  `ulHashAlg`  
  [in] The hash algorithm used to compute the buffer size.  
   
@@ -37,12 +40,15 @@ BOOLEAN StrongNameHashSize (
  [out] The returned buffer size, in bytes.  
   
 ## Return Value  
+
  `true` on successful completion; otherwise, `false`.  
   
 ## Remarks  
+
  If the `StrongNameHashSize` function does not complete successfully, call the [StrongNameErrorInfo](strongnameerrorinfo-function.md) function to retrieve the last generated error.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** StrongName.h  

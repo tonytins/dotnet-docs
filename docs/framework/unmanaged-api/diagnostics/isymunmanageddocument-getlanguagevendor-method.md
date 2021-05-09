@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedDocument::GetLanguageVendor Method"
 title: "ISymUnmanagedDocument::GetLanguageVendor Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedDocument::GetLanguageVendor Method
+
 Gets the language vendor of this document.  
   
 ## Syntax  
@@ -27,10 +29,12 @@ HRESULT GetLanguageVendor(
 ```  
   
 ## Parameters  
+
  `pRetVal`  
  [out] A pointer to a variable that receives the language vendor.  
   
 ## Return Value  
+
  S_OK if the method succeeds.  
   
 ## See also

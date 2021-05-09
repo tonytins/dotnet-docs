@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::SetFieldMarshal Method"
 title: "IMetaDataEmit::SetFieldMarshal Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::SetFieldMarshal Method
+
 Sets the PInvoke marshaling information for the field, method return, or method parameter referenced by the specified token.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT SetFieldMarshal (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] The token for target data item. This is either a `mdFieldDef` or a `mdParamDef` token.  
   
@@ -40,6 +43,7 @@ HRESULT SetFieldMarshal (
  [in] The count of bytes in `pvNativeType`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -4,11 +4,9 @@ description: An introduction to Blazor and writing full-stack web apps with .NET
 author: danroth27
 ms.author: daroth
 no-loc: [Blazor, WebAssembly]
-ms.date: 09/11/2019
+ms.date: 11/20/2020
 ---
 # An introduction to Blazor for ASP.NET Web Forms developers
-
-[!INCLUDE [book-preview](../../../includes/book-preview.md)]
 
 The ASP.NET Web Forms framework has been a staple of .NET web development since the .NET Framework first shipped in 2002. Back when the Web was still largely in its infancy, ASP.NET Web Forms made building web apps simple and productive by adopting many of the patterns that were used for desktop development. In ASP.NET Web Forms, web pages can be quickly composed from reusable UI controls. User interactions are handled naturally as events. There's a rich ecosystem of Web Forms UI controls provided by Microsoft and control vendors. The controls ease the efforts of connecting to data sources and displaying rich data visualizations. For the visually inclined, the Web Forms designer provides a simple drag-and-drop interface for managing controls.
 
@@ -27,7 +25,7 @@ When .NET and ASP.NET Web Forms first shipped, the platform ecosystem looked muc
 
 Most modern web frameworks are now also open-source, which has a number of benefits. Users aren't beheld to a single project owner to fix bugs and add features. Open-source projects provide improved transparency on development progress and upcoming changes. Open-source projects enjoy contributions from an entire community, and they foster a supportive open-source ecosystem. Despite the risks of open-source, many consumers and contributors have found suitable mitigations that enable them to enjoy the benefits of an open-source ecosystem in a safe and reasonable way. Examples of such mitigations include contributor license agreements, friendly licenses, pedigree scans, and supporting foundations.
 
-The .NET community has embraced both cross-platform support and open-source. .NET Core is an open-source and cross-platform implementation of .NET that runs on a plethora of platforms, including Windows, macOS, and various Linux distributions. Xamarin provides Mono, an open-source version of .NET. Mono runs on Android, iOS, and a variety of other form factors, including watches and smart TVs. Microsoft has announced that [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5/) will reconcile .NET Core and Mono into "a single .NET runtime and framework that can be used everywhere and that has uniform runtime behaviors and developer experiences."
+The .NET community has embraced both cross-platform support and open-source. .NET Core is an open-source and cross-platform implementation of .NET that runs on a plethora of platforms, including Windows, macOS, and various Linux distributions. Xamarin provides Mono, an open-source version of .NET. Mono runs on Android, iOS, and a variety of other form factors, including watches and smart TVs. Microsoft has released [.NET 5](https://devblogs.microsoft.com/dotnet/announcing-net-5-0/) that reconciled .NET Core and Mono into "a single .NET runtime and framework that can be used everywhere and that has uniform runtime behaviors and developer experiences."
 
 Will ASP.NET Web Forms benefit from the move to open-source and cross-platform support? The answer, unfortunately, is no, or at least not to the same extent as the rest of the platform. The .NET team [recently made it clear](https://devblogs.microsoft.com/dotnet/net-core-is-the-future-of-net/) that ASP.NET Web Forms won't be ported to .NET Core or .NET 5. Why is that?
 
@@ -41,7 +39,7 @@ But there's another trend worth considering, and that's the shift to the client.
 
 All of the .NET-based web frameworks, including ASP.NET Web Forms, have historically had one thing in common: they're *server-rendered*. In server-rendered web apps, the browser makes a request to the server, which executes some code (.NET code in ASP.NET apps) to produce a response. That response is sent back to the browser to handle. In this model, the browser is used as a thin rendering engine. The hard work of producing the UI, running the business logic, and managing state occurs on the server.
 
-However, browsers have become versatile platforms. They implement an ever-increasing number of open web standards that grant access to the capabilities of the user's machine. Why not take advantage of the compute power, storage, memory, and other resources of the client device? UI interactions in particular can benefit from a richer and more interactive feel when handled at least partially or completely client-side. Logic and data that should be handled on the server can still be handled server-side. Web API calls or even over real-time protocols, like WebSockets, can be used. These benefits are available to web developers for free if they're willing to write JavaScript. Client-side UI frameworks, such as Angular, React, and Vue, simplify client-side web development and have grown in popularity. ASP.NET Web Forms developers can also benefit from leveraging the client, and even have some out-of-the-box support with integrated JavaScript frameworks like ASP.NET AJAX.
+However, browsers have become versatile platforms. They implement an ever-increasing number of open web standards that grant access to the capabilities of the user's machine. Why not take advantage of the compute power, storage, memory, and other resources of the client device? UI interactions in particular can benefit from a richer and more interactive feel when handled at least partially or completely client-side. Logic and data that should be handled on the server can still be handled server-side. Web API calls or even real-time protocols, like WebSockets, can be used. These benefits are available to web developers for free if they're willing to write JavaScript. Client-side UI frameworks, such as Angular, React, and Vue, simplify client-side web development and have grown in popularity. ASP.NET Web Forms developers can also benefit from leveraging the client, and even have some out-of-the-box support with integrated JavaScript frameworks like ASP.NET AJAX.
 
 But bridging two different platforms and ecosystems (.NET and JavaScript) comes with a cost. Expertise is required in two parallel worlds with different languages, frameworks, and tools. Code and logic can't be easily shared between client and server, resulting in duplication and engineering overhead. It can also be difficult to keep up with the JavaScript ecosystem, which has a history of evolving at breakneck speed. Front-end framework and build tool preferences change quickly. The industry has observed the progression from Grunt to Gulp to Webpack, and so on. The same restless churn has occurred with front-end frameworks such as jQuery, Knockout, Angular, React, and Vue. But given JavaScript's browser monopoly, there was little choice in the matter. That is, until the web community got together and caused a *miracle* to happen!
 
@@ -49,11 +47,11 @@ But bridging two different platforms and ecosystems (.NET and JavaScript) comes 
 
 In 2015, the major browser vendors joined forces in a W3C Community Group to create a new open web standard called WebAssembly. WebAssembly is a byte code for the Web. If you can compile your code to WebAssembly, it can then run on any browser on any platform at near native speed. Initial efforts focused on C/C++. The result was a dramatic demonstration of running native 3D graphics engines directly in the browser without plugins. WebAssembly has since been standardized and implemented by all major browsers.
 
-Work on running .NET on WebAssembly was announced in late 2017 and is expected to ship in 2020, including support from .NET 5. The ability to run .NET code directly in the browser enables full-stack web development with .NET.
+Work on running .NET on WebAssembly was announced in late 2017 and released in 2020, including support from .NET 5. The ability to run .NET code directly in the browser enables full-stack web development with .NET.
 
 ## Blazor: full-stack web development with .NET
 
-On its own, the ability to run .NET code in a browser doesn't provide an end-to-end experience for creating client-side web apps. That's where Blazor comes in. Blazor is a client-side web UI framework based on C# instead of JavaScript. Blazor can run directly in the browser via WebAssembly. No browser plugins are required. Alternatively, Blazor apps can run server-side on .NET Core and handle all user interactions over a real-time connection with the browser.
+On its own, the ability to run .NET code in a browser doesn't provide an end-to-end experience for creating client-side web apps. That's where Blazor comes in. Blazor is a client-side web UI framework based on C# instead of JavaScript. Blazor can run directly in the browser via WebAssembly. No browser plugins are required. Alternatively, Blazor apps can run server-side on .NET and handle all user interactions over a real-time connection with the browser.
 
 Blazor has great tooling support in Visual Studio and Visual Studio Code. The framework also includes a full UI component model and has built-in facilities for:
 
@@ -70,12 +68,12 @@ This book provides an introduction to Blazor that is catered specifically to ASP
 
 - How to build Blazor apps.
 - How Blazor works.
-- How Blazor relates to .NET Core.
+- How Blazor relates to .NET.
 - Reasonable strategies for migrating existing ASP.NET Web Forms apps to Blazor where appropriate.
 
 ## Get started with Blazor
 
-Getting started with Blazor is easy. Go to <https://blazor.net> and follow the links to install the appropriate .NET Core SDK and Blazor project templates. You'll also find instructions for setting up the Blazor tooling in Visual Studio or Visual Studio Code.
+Getting started with Blazor is easy. Go to <https://blazor.net> and follow the links to install the appropriate .NET SDK and Blazor project templates. You'll also find instructions for setting up the Blazor tooling in Visual Studio or Visual Studio Code.
 
 >[!div class="step-by-step"]
 >[Previous](index.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEnum::Skip Method"
 title: "ICorDebugEnum::Skip Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEnum::Skip Method
+
 Moves the cursor forward in the enumeration by the specified number of items.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT Skip (
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of items by which to move the cursor forward.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Reorder the Fields of a Delimited File (LINQ) (Visual Basic)"
 title: "How to: Reorder the Fields of a Delimited File (LINQ)"
 ms.date: 07/20/2015
 ms.assetid: c451c7db-663b-4daf-b8ba-a2093095d672
@@ -73,4 +74,4 @@ End Class
 
 - [LINQ and Strings (Visual Basic)](linq-and-strings.md)
 - [LINQ and File Directories (Visual Basic)](linq-and-file-directories.md)
-- [How to: Generate XML from CSV Files](how-to-generate-xml-from-csv-files.md)
+- [How to: Generate XML from CSV Files](../../../../standard/linq/generate-xml-csv-files.md)

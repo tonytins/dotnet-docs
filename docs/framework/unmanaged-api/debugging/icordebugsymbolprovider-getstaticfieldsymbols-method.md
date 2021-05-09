@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: ICorDebugSymbolProvider::GetStaticFieldSymbols Method"
 title: "ICorDebugSymbolProvider::GetStaticFieldSymbols Method"
 ms.date: "03/30/2017"
 ms.assetid: b178367f-a6e4-413c-b06f-daf3804b456b
 ---
 # ICorDebugSymbolProvider::GetStaticFieldSymbols Method
+
 Gets the static field symbols that correspond to a typespec signature.  
   
 ## Syntax  
@@ -19,6 +21,7 @@ HRESULT GetStaticFieldSymbols(
 ```  
   
 ## Parameters  
+
  `cbSignature`  
  [in] The number of bytes in the `typeSig` array.  
   
@@ -40,6 +43,7 @@ HRESULT GetStaticFieldSymbols(
 > This method is available with .NET Native only.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

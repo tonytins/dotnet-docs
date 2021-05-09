@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback8::DynamicMethodJITCompilationStarted Method"
 title: "ICorProfilerCallback8::DynamicMethodJITCompilationStarted Method"
 ms.date: "04/10/2018"
 api_name: 
@@ -10,6 +11,7 @@ api_type:
   - "COM"
 ---
 # ICorProfilerCallback8::DynamicMethodJITCompilationStarted Method
+
 [Supported in the .NET Framework 4.7 and later versions]  
   
 Notifies the profiler whenever JIT compilation of a dynamic method has started.  
@@ -26,17 +28,18 @@ HRESULT DynamicMethodJITCompilationStarted(
 ```  
   
 ## Parameters  
-[in] `functionId`  
-The identifier of the in-memory function for which JIT compilation is started.
 
-[in] `fIsSafeToBlock`
-`true` to indicate that blocking may cause the runtime to wait for the calling thread to return from this callback; `false` to indicate that blocking will not affect the operation of the runtime.  
+`functionId`  
+[in] The identifier of the in-memory function for which JIT compilation is started.
 
-[in] `pILHeader`
-A pointer to the first byte of the method's IL header.
+`fIsSafeToBlock`
+[in] `true` to indicate that blocking may cause the runtime to wait for the calling thread to return from this callback; `false` to indicate that blocking will not affect the operation of the runtime.  
 
-[in] `cbILHeader`
-The number of bytes in the IL header.
+`pILHeader`
+[in] A pointer to the first byte of the method's IL header.
+
+`cbILHeader`
+[in] The number of bytes in the IL header.
 
 ## Remarks  
 
@@ -48,6 +51,7 @@ This callback is triggered whenever a dynamic method is JIT-compiled. This inclu
 The `pILHeader` pointer is only valid during the callback.
 
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateHistoryReader Function"
 title: "CreateHistoryReader Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CreateHistoryReader Function
+
 Creates a history reader for the specified file.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT CreateHistoryReader (
 ```  
   
 ## Parameters  
+
  `wzFilePath`  
  [in] The file path.  
   
@@ -35,6 +38,7 @@ HRESULT CreateHistoryReader (
  [out] On successful completion, contains a pointer to the history reader.  
   
 ## Return Value  
+
  This method returns standard COM error codes as defined in WinError.h, in addition to the values described in the following table.  
   
 |Return code|Description|  
@@ -43,6 +47,7 @@ HRESULT CreateHistoryReader (
 |E_INVALIDARG|Indicates that `wzFilePath` or `ppHistoryReader` are set to a null reference.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Library:** Fusion.dll  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::ModuleLoadStarted Method"
 title: "ICorProfilerCallback::ModuleLoadStarted Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::ModuleLoadStarted Method
+
 Notifies the profiler that a module is being loaded.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT ModuleLoadStarted(
 ```  
   
 ## Parameters  
+
  `moduleId`  
  [in] The ID of the module that is being loaded.  
   
 ## Remarks  
+
  The value of `moduleId` is not valid for an information request until the [ICorProfilerCallback::ModuleLoadFinished](icorprofilercallback-moduleloadfinished-method.md) method is called.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

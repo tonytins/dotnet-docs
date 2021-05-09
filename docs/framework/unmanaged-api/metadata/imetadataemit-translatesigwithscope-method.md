@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::TranslateSigWithScope Method"
 title: "IMetaDataEmit::TranslateSigWithScope Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::TranslateSigWithScope Method
+
 Imports an assembly into the current scope and gets a new metadata signature for the merged scope.  
   
 ## Syntax  
@@ -38,6 +40,7 @@ HRESULT TranslateSigWithScope (
 ```  
   
 ## Parameters  
+
  `pAssemImport`  
  [in] The interface for import assembly (where the signature is defined).  
   
@@ -72,6 +75,7 @@ HRESULT TranslateSigWithScope (
  [out] The number of actual bytes in the translated signature.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader::GetSymbolStoreFileName Method"
 title: "ISymUnmanagedReader::GetSymbolStoreFileName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader::GetSymbolStoreFileName Method
+
 Provides the on-disk file name of the symbol store.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetSymbolStoreFileName (
 ```  
   
 ## Parameters  
+
  `cchName`  
  [in] The size of the `szName` buffer.  
   
@@ -40,9 +43,11 @@ HRESULT GetSymbolStoreFileName (
  [out] A pointer to the variable that receives the file name of the symbol store.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRMetaHost::GetVersionFromFile Method"
 title: "ICLRMetaHost::GetVersionFromFile Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRMetaHost::GetVersionFromFile Method
+
 Gets an assembly's original .NET Framework compilation version (stored in the metadata), given its file path. This method supersedes the [GetFileVersion](getfileversion-function.md) function.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetVersionFromFile (
 ```  
   
 ## Parameters  
+
  `pwzFilePath`  
  [in] The complete assembly file path.  
   
@@ -45,6 +48,7 @@ HRESULT GetVersionFromFile (
  [in, out] The size of `pwzbuffer` to avoid buffer overruns.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -54,6 +58,7 @@ HRESULT GetVersionFromFile (
 |HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)|The buffer is too small.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

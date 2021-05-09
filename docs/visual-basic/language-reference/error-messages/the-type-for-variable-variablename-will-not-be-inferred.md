@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BC42110: The type for variable '<variablename>' will not be inferred because it is bound to a field in an enclosing scope"
 title: "The type for variable '<variablename>' will not be inferred because it is bound to a field in an enclosing scope"
 ms.date: 07/20/2015
 f1_keywords:
@@ -8,7 +9,7 @@ helpviewer_keywords:
   - "BC42110"
 ms.assetid: ef4442eb-08d1-434f-a03b-4aa2ed4e4414
 ---
-# The type for variable '\<variablename>' will not be inferred because it is bound to a field in an enclosing scope
+# BC42110: The type for variable '\<variablename>' will not be inferred because it is bound to a field in an enclosing scope
 
 The type for variable '\<variablename>' will not be inferred because it is bound to a field in an enclosing scope. Either change the name of '\<variablename>', or use the fully qualified name (for example, 'Me.variablename' or 'MyBase.variablename').
 
@@ -37,7 +38,7 @@ By default, this message is a warning. For information about how to hide warning
 
 **Error ID:** BC42110
 
-### To address this warning
+## To address this warning
 
 - Make the loop control variable local by changing its name to an identifier that is not also the name of a field of the class.
 
@@ -58,6 +59,7 @@ By default, this message is a warning. For information about how to hide warning
   ```
 
 ## Example
+
  The following code shows the earlier example with the first correction in place.
 
 ```vb

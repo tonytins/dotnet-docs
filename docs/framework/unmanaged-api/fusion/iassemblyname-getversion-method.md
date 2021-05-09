@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyName::GetVersion Method"
 title: "IAssemblyName::GetVersion Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyName::GetVersion Method
+
 Gets the version information for the assembly referenced by this [IAssemblyName](iassemblyname-interface.md) object.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetVersion (
 ```  
   
 ## Parameters  
+
  `pdwVersionHi`  
  [out] The high 32 bits of the version.  
   
@@ -36,6 +39,7 @@ HRESULT GetVersion (
  [out] The low 32 bits of the version.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <Crst_DisableSpinWait> element"
 title: "<Crst_DisableSpinWait> element"
 ms.date: "04/18/2019"
 f1_keywords: 
@@ -38,6 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 |0|Do not disable spin-waiting when a critical section cannot be acquired. This is the default value.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  

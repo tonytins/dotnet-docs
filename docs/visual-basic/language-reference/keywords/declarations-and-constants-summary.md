@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Declarations and Constants Summary (Visual Basic)"
 title: "Declarations and Constants Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 79d64f3e-941d-4d39-bc5b-79f225d5be6e
 ---
 # Declarations and Constants Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

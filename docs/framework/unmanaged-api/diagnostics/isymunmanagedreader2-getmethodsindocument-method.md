@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader2::GetMethodsInDocument Method"
 title: "ISymUnmanagedReader2::GetMethodsInDocument Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader2::GetMethodsInDocument Method
+
 Gets every method that has line information in the provided document.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetMethodsInDocument(
 ```  
   
 ## Parameters  
+
  `document`  
  [in] A pointer to the document.  
   
@@ -44,9 +47,11 @@ HRESULT GetMethodsInDocument(
  [out] A pointer to the buffer that receives the methods.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

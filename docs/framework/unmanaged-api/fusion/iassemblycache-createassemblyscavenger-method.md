@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyCache::CreateAssemblyScavenger Method"
 title: "IAssemblyCache::CreateAssemblyScavenger Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyCache::CreateAssemblyScavenger Method
+
 Reserved for internal use by the fusion technology.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT CreateAssemblyScavenger (
 ```  
   
 ## Parameters  
+
  `ppUnkReserved`  
  [out] The returned `IUnknown` pointer.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

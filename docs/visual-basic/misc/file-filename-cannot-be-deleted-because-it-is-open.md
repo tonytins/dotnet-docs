@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File '<filename>' cannot be deleted because it is open"
 title: "File '<filename>' cannot be deleted because it is open"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: e1cbc46a-1db0-412d-8109-31342ec9d327
 ---
 # File '\<filename>' cannot be deleted because it is open
+
 A deletion is being attempted on an open file.  
   
 ## To correct this error  

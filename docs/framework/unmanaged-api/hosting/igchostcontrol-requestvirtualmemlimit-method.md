@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCHostControl::RequestVirtualMemLimit Method"
 title: "IGCHostControl::RequestVirtualMemLimit Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IGCHostControl::RequestVirtualMemLimit Method
+
 Requests the host to change the limits of virtual memory.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT RequestVirtualMemLimit (
 ```  
   
 ## Parameters  
+
  `sztMaxVirtualMemMB`  
  [in] The requested size of memory to be allocated.  
   
@@ -36,6 +39,7 @@ HRESULT RequestVirtualMemLimit (
  [in, out] A pointer to the actual size of memory allocated.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

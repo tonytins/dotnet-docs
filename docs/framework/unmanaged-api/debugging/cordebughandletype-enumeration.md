@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugHandleType Enumeration"
 title: "CorDebugHandleType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugHandleType Enumeration
+
 Indicates the handle type.  
   
 ## Syntax  
@@ -35,6 +37,7 @@ typedef enum CorDebugHandleType {
 |`HANDLE_WEAK_TRACK_RESURRECTION`|The handle is weak, which does not prevent an object from being reclaimed by garbage collection.<br /><br /> The handle becomes invalid when the object is collected.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

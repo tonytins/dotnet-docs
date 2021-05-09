@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Diagnostics Symbol Store Interfaces"
 title: "Diagnostics Symbol Store Interfaces"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -11,9 +12,11 @@ helpviewer_keywords:
 ms.assetid: f96987d5-e6a5-478b-ac5e-302e16545cce
 ---
 # Diagnostics Symbol Store Interfaces
+
 This topic describes the unmanaged interfaces that enable a compiler to generate symbol information for use by a debugger.  
   
 ## In This Section  
+
  [IBindingDisplay Interface](ibindingdisplay-interface.md)  
  Provides methods that display current binding information about the running application.  
   
@@ -108,6 +111,7 @@ This topic describes the unmanaged interfaces that enable a compiler to generate
  ISymUnmanagedWriter5 interface.  
   
 ## Related Sections  
+
  [Diagnostics Symbol Store Enumerations](diagnostics-symbol-store-enumerations.md)  
   
  [Diagnostics Symbol Store Structures](diagnostics-symbol-store-structures.md)  

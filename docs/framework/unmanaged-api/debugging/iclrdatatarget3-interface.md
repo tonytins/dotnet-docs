@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataTarget3 Interface"
 title: "ICLRDataTarget3 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -12,6 +13,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataTarget3 Interface
+
 A subclass of [ICLRDataTarget2](iclrdatatarget2-interface.md) that provides access to exception information.  
   
 ## Methods  
@@ -23,9 +25,11 @@ A subclass of [ICLRDataTarget2](iclrdatatarget2-interface.md) that provides acce
 |[GetExceptionThreadID Method](iclrdatatarget3-getexceptionthreadid-method.md)|Called by the CLR data access services to get the ID of the thread that threw the exception.|  
   
 ## Remarks  
+
  The API client (that is, the debugger) must implement this interface as appropriate for the particular target process. For example, a live process would have an implementation different from that of a memory dump. The target may not support modification of its memory regions.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

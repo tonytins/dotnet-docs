@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugType::GetClass Method"
 title: "ICorDebugType::GetClass Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugType::GetClass Method
+
 Gets an interface pointer to an ICorDebugClass that represents the uninstantiated generic type.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetClass (
 ```  
   
 ## Parameters  
+
  `ppClass`  
  [out] A pointer to the address of an `ICorDebugClass` interface that represents the uninstantiated generic type.  
   
 ## Remarks  
+
  `GetClass` can be called only under certain conditions. Call [ICorDebugType::GetType](icordebugtype-gettype-method.md) before calling `GetClass`. If `ICorDebugType::GetType` returns a CorElementType value that is ELEMENT_TYPE_CLASS or ELEMENT_TYPE_VALUETYPE, `GetClass` can be called to get the uninstantiated type for a generic type.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

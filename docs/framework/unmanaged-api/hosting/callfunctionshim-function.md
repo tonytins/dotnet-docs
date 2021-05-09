@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CallFunctionShim Function"
 title: "CallFunctionShim Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CallFunctionShim Function
+
 Makes a call to the function that has the specified name and parameters in the specified library.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -34,6 +36,7 @@ HRESULT CallFunctionShim (
 ```  
   
 ## Parameters  
+
  `szDllName`  
  [in] The name of the library containing the function.  
   
@@ -53,6 +56,7 @@ HRESULT CallFunctionShim (
  [in] Reserved for future use. Pass zero in this parameter.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

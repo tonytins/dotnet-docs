@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRPolicyManager::SetDefaultAction Method"
 title: "ICLRPolicyManager::SetDefaultAction Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRPolicyManager::SetDefaultAction Method
+
 Specifies the policy action the common language runtime (CLR) should take when the specified operation occurs.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SetDefaultAction (
 ```  
   
 ## Parameters  
+
  `operation`  
  [in] One of the [EClrOperation](eclroperation-enumeration.md) values, indicating the action for which CLR behavior should be customized.  
   
@@ -48,6 +51,7 @@ HRESULT SetDefaultAction (
 |E_INVALIDARG|An invalid `action` was specified for the `operation`, or an invalid value was supplied for `operation`.|  
   
 ## Remarks  
+
  Not all policy action values can be specified as the default behavior for CLR operations. `SetDefaultAction` can typically be used only to escalate behavior. For example, a host can specify that thread aborts be turned into rude thread aborts, but cannot specify the opposite. The table below describes the valid `action` values for each possible `operation` value.  
   
 |Value for `operation`|Valid values for `action`|  
@@ -60,6 +64,7 @@ HRESULT SetDefaultAction (
 |OPR_FinalizerRun|-   eNoAction<br />-   eAbortThread<br />-   eRudeAbortThread<br />-   eUnloadAppDomain<br />-   eRudeUnloadAppDomain<br />-   eExitProcess<br />-   eFastExitProcess<br />-   eRudeExitProcess<br />-   eDisableRuntime|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

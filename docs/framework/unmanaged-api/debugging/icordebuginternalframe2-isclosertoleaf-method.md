@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugInternalFrame2::IsCloserToLeaf Method"
 title: "ICorDebugInternalFrame2::IsCloserToLeaf Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugInternalFrame2::IsCloserToLeaf Method
+
 Checks whether the `this` internal frame is closer to the leaf than the specified ICorDebugFrame object.  
   
 ## Syntax  
@@ -27,6 +29,7 @@ HRESULT IsCloserToLeaf([in] ICorDebugFrame * pFrameToCompare,
 ```  
   
 ## Parameters  
+
  `pFrameToCompare`  
  [in] A pointer to the comparison `ICorDebugFrame` object.  
   
@@ -34,6 +37,7 @@ HRESULT IsCloserToLeaf([in] ICorDebugFrame * pFrameToCompare,
  [out] `true` if the `this` internal frame is closer to the leaf than the frame specified by `pFrameToCompare`; otherwise, `false`.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -43,9 +47,11 @@ HRESULT IsCloserToLeaf([in] ICorDebugFrame * pFrameToCompare,
 |E_INVALIDARG|`pFrameToCompare` or `pIsCloser` is null.|  
   
 ## Remarks  
+
  `IsCloserToLeaf` can be used to implement a policy for interleaving internal frames with other frames on the stack.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

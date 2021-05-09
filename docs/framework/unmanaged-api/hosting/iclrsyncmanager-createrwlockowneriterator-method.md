@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRSyncManager::CreateRWLockOwnerIterator Method"
 title: "ICLRSyncManager::CreateRWLockOwnerIterator Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRSyncManager::CreateRWLockOwnerIterator Method
+
 Requests that the common language runtime (CLR) create an iterator for the host to use to determine the set of tasks waiting on a reader-writer lock.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CreateRWLockOwnerIterator (
 ```  
   
 ## Parameters  
+
  `cookie`  
  [in] The cookie associated with the desired reader-writer lock.  
   
@@ -48,6 +51,7 @@ HRESULT CreateRWLockOwnerIterator (
 |HOST_E_INVALIDOPERATION|`CreateRWLockOwnerIterator` was called on a thread that is currently running managed code.|  
   
 ## Remarks  
+
  Hosts typically call the `CreateRWLockOwnerIterator`, `DeleteRWLockOwnerIterator`, and `GetRWLockOwnerNext` methods during deadlock detection. The host is responsible for ensuring that the reader-writer lock is still valid, because the CLR makes no attempt to keep the reader-writer lock alive. Several strategies are available for the host to ensure the validity of the lock:  
   
 - The host can block release calls on the reader-writer lock (for example, [IHostSemaphore::ReleaseSemaphore](ihostsemaphore-releasesemaphore-method.md)) while ensuring that this block does not cause deadlock.  
@@ -58,6 +62,7 @@ HRESULT CreateRWLockOwnerIterator (
 > `CreateRWLockOwnerIterator` must be called only on threads that are currently executing unmanaged code.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

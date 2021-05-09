@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublishProcess Interface"
 title: "ICorPublishProcess Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublishProcess Interface
+
 Provides methods that access information to be displayed about a process.  
   
 ## Methods  
@@ -28,6 +30,7 @@ Provides methods that access information to be displayed about a process.
 |[IsManaged Method](icorpublishprocess-ismanaged-method.md)|Gets a value that indicates whether the process referenced by this `ICorPublishProcess` is known to be running managed code.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

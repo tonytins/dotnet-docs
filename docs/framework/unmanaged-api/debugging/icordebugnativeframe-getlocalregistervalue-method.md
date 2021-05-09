@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugNativeFrame::GetLocalRegisterValue Method"
 title: "ICorDebugNativeFrame::GetLocalRegisterValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugNativeFrame::GetLocalRegisterValue Method
+
 Gets the value of an argument or local variable that is stored in the specified register for this native frame.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetLocalRegisterValue (
 ```  
   
 ## Parameters  
+
  `reg`  
  [in] A value of the "CorDebugRegister" enumeration that specifies the register containing the value.  
   
@@ -44,9 +47,11 @@ HRESULT GetLocalRegisterValue (
  [out] A pointer to the address of an "ICorDebugValue" object representing the retrieved value that is stored in the specified register.  
   
 ## Remarks  
+
  The `GetLocalRegisterValue` method can be used either in a native frame or a just-in-time (JIT)-compiled frame.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

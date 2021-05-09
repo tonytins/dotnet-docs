@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: WHERE (Entity SQL)"
 title: "WHERE (Entity SQL)"
 ms.date: "03/30/2017"
 ms.assetid: a8e1061e-0028-4a6f-8f19-b9f48e96c4b8
 ---
 # WHERE (Entity SQL)
+
 The WHERE clause is applied directly after the [FROM](from-entity-sql.md) clause.  
   
 ## Syntax  
@@ -13,10 +15,12 @@ The WHERE clause is applied directly after the [FROM](from-entity-sql.md) clause
 ```  
   
 ## Arguments  
+
  `expression`  
  A Boolean type.  
   
 ## Remarks  
+
  The WHERE clause has the same semantics as described for Transact-SQL. It restricts the objects produced by the query expression by limiting the elements of the source collections to those that pass the condition.  
   
 ```sql  

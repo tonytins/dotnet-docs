@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorRuntimeHost::LocksHeldByLogicalThread Method"
 title: "ICorRuntimeHost::LocksHeldByLogicalThread Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorRuntimeHost::LocksHeldByLogicalThread Method
+
 Retrieves the number of locks that current thread holds.  
   
  This method supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
@@ -30,10 +32,12 @@ HRESULT LocksHeldByLogicalThread(
 ```  
   
 ## Parameters  
+
  `pCount`  
  [out] A pointer to the number of locks that the current thread holds.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

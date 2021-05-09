@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::ExceptionUnwindFunctionEnter Method"
 title: "ICorProfilerCallback::ExceptionUnwindFunctionEnter Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::ExceptionUnwindFunctionEnter Method
+
 Notifies the profiler that the unwind phase of exception handling has begun to unwind a function.  
   
 ## Syntax  
@@ -28,16 +30,17 @@ HRESULT ExceptionUnwindFunctionEnter(
   
 ## Parameters
 
-- `functionId`
-
-  \[in] The ID of the function that is being unwound.
+`functionId`
+[in] The ID of the function that is being unwound.
 
 ## Remarks  
+
  The profiler should not block in its implementation of this method because the stack may not be in a state that allows garbage collection, and therefore preemptive garbage collection cannot be enabled. If the profiler blocks here and garbage collection is attempted, the runtime will block until this callback returns.  
   
  The profiler's implementation of this method should not call into managed code or in any way cause a managed-memory allocation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

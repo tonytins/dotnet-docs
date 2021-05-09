@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader::GetNamespaces Method"
 title: "ISymUnmanagedReader::GetNamespaces Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader::GetNamespaces Method
+
 Gets the namespaces defined at global scope within this symbol store.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetNamespaces (
 ```  
   
 ## Parameters  
+
  `cNameSpaces`  
  [in] The size of the namespaces array.  
   
@@ -41,9 +44,11 @@ HRESULT GetNamespaces (
  [out] A pointer to a variable that receives the namespace list.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

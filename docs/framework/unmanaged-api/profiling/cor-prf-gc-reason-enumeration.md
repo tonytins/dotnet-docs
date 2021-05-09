@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_PRF_GC_REASON Enumeration"
 title: "COR_PRF_GC_REASON Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_PRF_GC_REASON Enumeration
+
 Indicates the reason that garbage collection is occurring.  
   
 ## Syntax  
@@ -35,6 +37,7 @@ typedef enum {
 |`COR_PRF_GC_OTHER`|The reason is unspecified.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

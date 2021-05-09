@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDebugging::OpenVirtualProcess Method"
 title: "ICLRDebugging::OpenVirtualProcess Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDebugging::OpenVirtualProcess Method
+
 Gets the ICorDebugProcess interface that corresponds to a common language runtime (CLR) module loaded in the process.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT OpenVirtualProcess(
 ```  
   
 ## Parameters  
+
  `moduleBaseAddress`  
  [in] The base address of a module in the target process. COR_E_NOT_CLR will be returned if the specified module is not a CLR module.  
   
@@ -61,6 +64,7 @@ HRESULT OpenVirtualProcess(
  [out] Informational flags about the specified runtime. See the [CLR_DEBUGGING_PROCESS_FLAGS](clr-debugging-process-flags-enumeration.md) topic for a description of the flags.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -80,6 +84,7 @@ HRESULT OpenVirtualProcess(
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

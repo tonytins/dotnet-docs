@@ -14,7 +14,7 @@ Additional comments are contained in source and project files.
 
 ## Prerequisites
 
-* .NET Core 3.0 (at least Preview 7) - [https://dot.net](https://github.com/dotnet/core-sdk#installers-and-binaries)
+* [.NET Core 3.0 SDK](https://dotnet.microsoft.com/download) or a later version
 
 * C++ compiler
   * Windows: `cl.exe`
@@ -40,7 +40,7 @@ Additional comments are contained in source and project files.
 
 The expected output will come from the `DotNetLib` class library and include the arguments passed to the managed library from the host:
 
-```
+```output
 Hello, world! from Lib [count: 1]
 -- message: from host!
 -- number: 0

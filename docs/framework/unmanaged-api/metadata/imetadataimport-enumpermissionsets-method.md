@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::EnumPermissionSets Method"
 title: "IMetaDataImport::EnumPermissionSets Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::EnumPermissionSets Method
+
 Enumerates permissions for the objects in a specified metadata scope.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT EnumPermissionSets
 ```  
   
 ## Parameters  
+
  `phEnum`  
  [in, out] A pointer to the enumerator. This must be NULL for the first call of this method.  
   
@@ -59,6 +62,7 @@ HRESULT EnumPermissionSets
 |`S_FALSE`|There are no tokens to enumerate. In that case, `pcTokens` is zero.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo2::GetRVAStaticAddress Method"
 title: "ICorProfilerInfo2::GetRVAStaticAddress Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo2::GetRVAStaticAddress Method
+
 Gets the address of the specified relative virtual address (RVA) static field.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetRVAStaticAddress(
 ```  
   
 ## Parameters  
+
  `classId`  
  [in] The ID of the class that contains the requested RVA-static field.  
   
@@ -39,6 +42,7 @@ HRESULT GetRVAStaticAddress(
  [out] A pointer to the address of the RVA-static field.  
   
 ## Remarks  
+
  The `GetRVAStaticAddress` method may return one of the following:  
   
 - A CORPROF_E_DATAINCOMPLETE HRESULT if the given static field has not been assigned an address in the specified context.  
@@ -48,6 +52,7 @@ HRESULT GetRVAStaticAddress(
  Before a class’s class constructor is completed, `GetRVAStaticAddress` will return CORPROF_E_DATAINCOMPLETE for all its static fields, although some of the static fields may already be initialized and may be rooting garbage collection objects.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

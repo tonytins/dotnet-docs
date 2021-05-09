@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::AssemblyUnloadStarted Method"
 title: "ICorProfilerCallback::AssemblyUnloadStarted Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::AssemblyUnloadStarted Method
+
 Notifies the profiler that an assembly is being unloaded.  
   
 ## Syntax  
@@ -28,14 +30,15 @@ HRESULT AssemblyUnloadStarted(
   
 ## Parameters
 
-- `assemblyId`
-
-  \[in] Identifies the assembly that is being unloaded.
+`assemblyId`
+[in] Identifies the assembly that is being unloaded.
 
 ## Remarks  
+
  The value of `assemblyId` is not valid for an information request after the `AssemblyUnloadStarted` method returns — this is the profiler's last chance to get information about this assembly.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

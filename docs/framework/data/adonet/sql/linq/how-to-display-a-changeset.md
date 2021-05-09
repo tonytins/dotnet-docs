@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Display a ChangeSet"
 title: "How to: Display a ChangeSet"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -7,9 +8,11 @@ dev_langs:
 ms.assetid: 126e7245-c5a0-4ebf-800d-cc1fcf9cd0ab
 ---
 # How to: Display a ChangeSet
+
 You can view changes tracked by a <xref:System.Data.Linq.DataContext> by using <xref:System.Data.Linq.DataContext.GetChangeSet%2A>.  
   
 ## Example  
+
  The following example retrieves customers whose city is London, changes the city to Paris, and submits the changes back to the database.  
   
  [!code-csharp[DLinqDebuggingSupport#2](../../../../../../samples/snippets/csharp/VS_Snippets_Data/DLinqDebuggingSupport/cs/Program.cs#2)]

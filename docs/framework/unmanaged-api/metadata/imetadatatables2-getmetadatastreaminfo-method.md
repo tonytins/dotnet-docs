@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataTables2::GetMetaDataStreamInfo Method"
 title: "IMetaDataTables2::GetMetaDataStreamInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataTables2::GetMetaDataStreamInfo Method
+
 Gets the name, size, and contents of the metadata stream at the specified index.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetMetaDataStreamInfo (
 ```  
   
 ## Parameters  
+
  `ix`  
  [in] The index of the requested metadata stream.  
   
@@ -44,6 +47,7 @@ HRESULT GetMetaDataStreamInfo (
  [out] The size, in bytes, of `ppv`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

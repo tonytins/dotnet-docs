@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName::GetHashFromBlob Method"
 title: "ICLRStrongName::GetHashFromBlob Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName::GetHashFromBlob Method
+
 Gets a hash of the assembly at the specified memory address, using the specified hash algorithm.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT GetHashFromBlob (
 ```  
   
 ## Parameters  
+
  `pbBlob`  
  [in] A pointer to the address of the memory block to be hashed.  
   
@@ -52,9 +55,11 @@ HRESULT GetHashFromBlob (
  [out] The size, in bytes, of the returned `pbHash`.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

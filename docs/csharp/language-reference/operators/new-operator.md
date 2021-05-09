@@ -1,6 +1,9 @@
 ---
 title: "new operator - C# reference"
-ms.date: 06/25/2019
+description: "Learn about the C# new operator that is used to create a new instance of a type."
+ms.date: 10/02/2020
+f1_keywords:
+ - new_CSharpKeyword
 helpviewer_keywords: 
   - "new operator keyword [C#]"
 ms.assetid: a212b697-a79b-4105-9923-1f7b108036e8
@@ -15,21 +18,29 @@ You can also use the `new` keyword as a [member declaration modifier](../keyword
 
 To create a new instance of a type, you typically invoke one of the [constructors](../../programming-guide/classes-and-structs/constructors.md) of that type using the `new` operator:
 
-[!code-csharp-interactive[invoke constructor](snippets/NewOperator.cs#Constructor)]
+[!code-csharp-interactive[invoke constructor](snippets/shared/NewOperator.cs#Constructor)]
 
 You can use an [object or collection initializer](../../programming-guide/classes-and-structs/object-and-collection-initializers.md) with the `new` operator to instantiate and initialize an object in one statement, as the following example shows:
 
-[!code-csharp-interactive[constructor with initializer](snippets/NewOperator.cs#ConstructorWithInitializer)]
+[!code-csharp-interactive[constructor with initializer](snippets/shared/NewOperator.cs#ConstructorWithInitializer)]
+
+Beginning with C# 9.0, constructor invocation expressions are target-typed. That is, if a target type of an expression is known, you can omit a type name, as the following example shows:
+
+:::code language="csharp" source="snippets/shared/NewOperator.cs" id="SnippetTargetTyped":::
+
+As the preceding example shows, you always use parentheses in a target-typed `new` expression.
+
+If a target type of a `new` expression is unknown (for example, when you use the [`var`](../keywords/var.md) keyword), you must specify a type name.
 
 ## Array creation
 
 You also use the `new` operator to create an array instance, as the following example shows:
 
-[!code-csharp-interactive[create array](snippets/NewOperator.cs#Array)]
+[!code-csharp-interactive[create array](snippets/shared/NewOperator.cs#Array)]
 
 Use array initialization syntax to create an array instance and populate it with elements in one statement. The following example shows various ways how you can do that:
 
-[!code-csharp-interactive[initialize array](snippets/NewOperator.cs#ArrayInitialization)]
+[!code-csharp-interactive[initialize array](snippets/shared/NewOperator.cs#ArrayInitialization)]
 
 For more information about arrays, see [Arrays](../../programming-guide/arrays/index.md).
 
@@ -37,7 +48,7 @@ For more information about arrays, see [Arrays](../../programming-guide/arrays/i
 
 To create an instance of an [anonymous type](../../programming-guide/classes-and-structs/anonymous-types.md), use the `new` operator and object initializer syntax:
 
-[!code-csharp-interactive[anonymous type](snippets/NewOperator.cs#AnonymousType)]
+[!code-csharp-interactive[anonymous type](snippets/shared/NewOperator.cs#AnonymousType)]
 
 ## Destruction of type instances
 
@@ -53,8 +64,10 @@ A user-defined type cannot overload the `new` operator.
 
 For more information, see [The new operator](~/_csharplang/spec/expressions.md#the-new-operator) section of the [C# language specification](~/_csharplang/spec/introduction.md).
 
+For more information about a target-typed `new` expression, see the [feature proposal note](~/_csharplang/proposals/csharp-9.0/target-typed-new.md).
+
 ## See also
 
 - [C# reference](../index.md)
-- [C# operators](index.md)
+- [C# operators and expressions](index.md)
 - [Object and collection initializers](../../programming-guide/classes-and-structs/object-and-collection-initializers.md)

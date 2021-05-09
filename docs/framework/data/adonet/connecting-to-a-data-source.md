@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting to a Data Source in ADO.NET"
 title: "Connecting to a Data Source"
 deescription: Learn about Connection objects, used to connect to data sources in ADO.NET. The Connection object you choose depends on the type of data source.
 ms.date: "03/30/2017"
@@ -11,6 +12,7 @@ In ADO.NET, you use a **Connection** object to connect to a specific data source
  Each .NET Framework data provider included with the .NET Framework has a <xref:System.Data.Common.DbConnection> object: the .NET Framework Data Provider for OLE DB includes an <xref:System.Data.OleDb.OleDbConnection> object, the .NET Framework Data Provider for SQL Server includes a <xref:System.Data.SqlClient.SqlConnection> object, the .NET Framework Data Provider for ODBC includes an <xref:System.Data.Odbc.OdbcConnection> object, and the .NET Framework Data Provider for Oracle includes an <xref:System.Data.OracleClient.OracleConnection> object.  
   
 ## In This Section  
+
  [Establishing the Connection](establishing-the-connection.md)\
  Describes how to use a **Connection** object to establish a connection to a data source.  
   

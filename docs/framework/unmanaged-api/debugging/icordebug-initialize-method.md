@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebug::Initialize Method"
 title: "ICorDebug::Initialize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebug::Initialize Method
+
 Initializes the `ICorDebug` object.  
   
 ## Syntax  
@@ -26,9 +28,11 @@ HRESULT Initialize ();
 ```  
   
 ## Remarks  
+
  The debugger must call `Initialize` at creation time to initialize the debugging services. This method must be called before any other method on `ICorDebug` is called.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

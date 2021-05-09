@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CloseAssembly Method"
 title: "CloseAssembly Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # CloseAssembly Method
+
 Finalizes assembly operations. Call this method before beginning a new assembly or unbound module.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT CloseAssembly(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h.  
   
 ## See also

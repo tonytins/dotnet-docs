@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Object Lifetime: How Objects Are Created and Destroyed (Visual Basic)"
 title: "Object Lifetime: How Objects Are Created and Destroyed"
 ms.date: 07/20/2015
 f1_keywords:
@@ -152,7 +153,7 @@ Another difference between the garbage-collection systems involves the use of `N
 ## See also
 
 - <xref:System.IDisposable.Dispose%2A>
-- [Initialization and Termination of Components](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2013/ws9dc6t6(v=vs.120))
+- [Initialization and Termination of Components](/previous-versions/visualstudio/visual-studio-2013/ws9dc6t6(v=vs.120))
 - [New Operator](../../../language-reference/operators/new-operator.md)
 - [Cleaning Up Unmanaged Resources](../../../../standard/garbage-collection/unmanaged.md)
 - [Nothing](../../../language-reference/nothing.md)

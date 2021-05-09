@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cannot create ActiveX Component"
 title: "Cannot create ActiveX Component"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 7fc5a271-8195-40a2-89f9-e05fd71bb8e0
 ---
 # Cannot create ActiveX Component
+
 You tried to place an ActiveX control on a form at design time or add a form to a project with an ActiveX control on it, but the associated information in the registry could not be found.  
   
 ## To correct this error  
@@ -15,4 +17,4 @@ You tried to place an ActiveX control on a form at design time or add a form to 
 ## See also
 
 - [Error Types](../../programming-guide/language-features/error-types.md)
-- [Talk to Us](/visualstudio/ide/feedback-options)
+- [Visual Studio feedback options](/visualstudio/ide/feedback-options)

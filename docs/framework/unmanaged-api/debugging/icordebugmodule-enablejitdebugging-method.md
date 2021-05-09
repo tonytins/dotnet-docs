@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule::EnableJITDebugging Method"
 title: "ICorDebugModule::EnableJITDebugging Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule::EnableJITDebugging Method
+
 Controls whether the just-in-time (JIT) compiler preserves debugging information for methods within this module.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT EnableJITDebugging(
 ```  
   
 ## Parameters  
+
  `bTrackJITInfo`  
  [in] Set this value to `true` to enable the JIT compiler to preserve mapping information between the Microsoft intermediate language (MSIL) version and the JIT-compiled version of each method in this module.  
   
@@ -36,9 +39,11 @@ HRESULT EnableJITDebugging(
  [in] Set this value to `true` to enable the JIT compiler to generate code with certain JIT-specific optimizations for debugging.  
   
 ## Remarks  
+
  JIT debugging is enabled by default for all modules that are loaded when the debugger is active. Programmatically enabling or disabling the settings overrides global settings.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

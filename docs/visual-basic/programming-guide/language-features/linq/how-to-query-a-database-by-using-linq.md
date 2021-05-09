@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Query a Database by Using LINQ (Visual Basic)"
 title: "How to: Query a Database by Using LINQ"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: bcf5e9c3-a236-4399-9a7f-3991eca7cf56
 ---
 # How to: Query a Database by Using LINQ (Visual Basic)
+
 Language-Integrated Query (LINQ) makes it easy to access database information and execute queries.  
   
  The following example shows how to create a new application that performs queries against a SQL Server database.  

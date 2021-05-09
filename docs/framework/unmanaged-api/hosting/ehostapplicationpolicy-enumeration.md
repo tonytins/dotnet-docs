@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EHostApplicationPolicy Enumeration"
 title: "EHostApplicationPolicy Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # EHostApplicationPolicy Enumeration
+
 Indicates how to modify an [IHostAssemblyManager](ihostassemblymanager-interface.md) interface object. This enumeration has been deprecated.  
   
 ## Syntax  
@@ -27,6 +29,7 @@ typedef enum _HostApplicationPolicy {
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostFilter Interface"
 title: "IHostFilter Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostFilter Interface
+
 Provides a method to indicate that a specified token will be processed.  
   
 > [!NOTE]
@@ -28,6 +30,7 @@ Provides a method to indicate that a specified token will be processed.
 |[MarkToken Method](ihostfilter-marktoken-method.md)|Indicates that the specified metadata token will be processed.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

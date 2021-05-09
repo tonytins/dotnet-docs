@@ -1,5 +1,6 @@
 ---
 title: "Find and Highlight Text Using UI Automation"
+description: Find and highlight text using UI Automation. An example sequentially searches for and highlights each occurrence of a string within the text control content.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -11,15 +12,17 @@ helpviewer_keywords:
   - "UI automation, highlighting text"
   - "UI automation, finding text"
   - "highlighting text"
-ms.assetid: b77693f5-87bb-4b29-a297-05ff882e2044
+ms.topic: how-to
 ---
 # Find and Highlight Text Using UI Automation
+
 > [!NOTE]
 > This documentation is intended for .NET Framework developers who want to use the managed [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)] classes defined in the <xref:System.Windows.Automation> namespace. For the latest information about [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)], see [Windows Automation API: UI Automation](/windows/win32/winauto/entry-uiauto-win32).  
   
  This topic demonstrates how to sequentially search for and highlight each occurrence of a string within the content of a text control using [!INCLUDE[TLA#tla_uiautomation](../../../includes/tlasharptla-uiautomation-md.md)].  
   
 ## Example  
+
  The following example obtains a <xref:System.Windows.Automation.TextPattern> object from a text control. A <xref:System.Windows.Automation.Text.TextPatternRange> object, representing the textual content of the entire document, is then created using the <xref:System.Windows.Automation.TextPattern.DocumentRange%2A> property of this <xref:System.Windows.Automation.TextPattern>. Two additional <xref:System.Windows.Automation.Text.TextPatternRange> objects are then created for the sequential search and highlight functionality.  
   
 [!code-csharp[FindText#StartApp](../../../samples/snippets/csharp/VS_Snippets_Wpf/FindText/CSharp/SearchWindow.cs#startapp)]

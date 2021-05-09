@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WithEvents (Visual Basic)"
 title: "WithEvents"
 ms.date: 07/20/2015
 f1_keywords:
@@ -9,6 +10,7 @@ helpviewer_keywords:
 ms.assetid: 19d461f5-d72f-4de9-8c1d-0a6650316990
 ---
 # WithEvents (Visual Basic)
+
 Specifies that one or more declared member variables refer to an instance of a class that can raise events.
 
 ## Remarks

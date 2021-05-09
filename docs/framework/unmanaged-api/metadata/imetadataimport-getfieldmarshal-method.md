@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetFieldMarshal Method"
 title: "IMetaDataImport::GetFieldMarshal Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetFieldMarshal Method
+
 Gets a pointer to the native, unmanaged type of the field represented by the specified field metadata token.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetFieldMarshal (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] The metadata token that represents the field to get interop marshaling information for.  
   
@@ -40,6 +43,7 @@ HRESULT GetFieldMarshal (
  [out] The size in bytes of `ppvNativeType`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

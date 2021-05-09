@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IEnumIDENTITY_ATTRIBUTE Interface"
 title: "IEnumIDENTITY_ATTRIBUTE Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IEnumIDENTITY_ATTRIBUTE Interface
+
 Serves as an enumerator for the attributes of the code object in the current scope.  
   
 ## Methods  
@@ -29,6 +31,7 @@ Serves as an enumerator for the attributes of the code object in the current sco
 |`IEnumIDENTITY_ATTRIBUTE::Skip`|Moves the instruction pointer forward by the specified number of elements, starting at the current position.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Isolation.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <msmqIntegrationBinding>"
 title: "<msmqIntegrationBinding>"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -6,6 +7,7 @@ helpviewer_keywords:
 ms.assetid: edf277f3-e3bf-4ed8-9f55-83b5788430a7
 ---
 # \<msmqIntegrationBinding>
+
 Defines a binding that provides queuing support by routing messages through MSMQ.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -43,6 +45,7 @@ Defines a binding that provides queuing support by routing messages through MSMQ
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements  
   
 ### Attributes  
@@ -92,6 +95,7 @@ Defines a binding that provides queuing support by routing messages through MSMQ
 |[\<bindings>](bindings.md)|This element holds a collection of standard and custom bindings.|  
   
 ## Remarks  
+
  This binding element can be used to enable Windows Communication Foundation (WCF) applications to send messages to and receive messages from existing MSMQ applications that use either COM, MSMQ native APIs, or the types defined in the <xref:System.Messaging?displayProperty=nameWithType> namespace You can use this configuration element to specify ways to address the queue, transfer assurances, whether messages must be durably stored, and how messages should be protected and authenticated. For more information, see [How to: Exchange Messages with WCF Endpoints and Message Queuing Applications](../../../wcf/feature-details/how-to-exchange-messages-with-wcf-endpoints-and-message-queuing-applications.md).  
   
 ## Example  

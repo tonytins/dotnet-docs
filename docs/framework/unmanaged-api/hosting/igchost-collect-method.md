@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCHost::Collect Method"
 title: "IGCHost::Collect Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IGCHost::Collect Method
+
 Forces a collection to occur for the given generation, regardless of the state of the current garbage collection.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT Collect (
 ```  
   
 ## Parameters  
+
  `Generation`  
  [in] The generation on which to perform the garbage collection. A value of -1 indicates that all generations will undergo a garbage collection.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** GCHost.idl, GCHost.h  

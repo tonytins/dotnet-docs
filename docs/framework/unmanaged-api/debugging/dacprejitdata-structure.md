@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DacpReJitData Structure"
 title: "DacpReJitData Structure"
 ms.date: "02/01/2019"
 api.name:
@@ -54,6 +55,7 @@ struct MSLAYOUT DacpReJitData
 This structure lives inside the runtime and is not exposed through any headers or library files. To use it, define the structure as specified above. The structure must also be defined using `ms_struct` packing if not using the Microsoft compilers.
 
 ## Requirements
+
 **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
 **Header:** None  
 **Library:** None  

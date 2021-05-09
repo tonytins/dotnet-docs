@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <transport> of <netPeerTcpBinding>"
 title: "<transport> of <netPeerTcpBinding>"
 ms.date: "03/30/2017"
 ms.assetid: c44d86d2-1160-44d7-9c7a-297b12eccc7f
 ---
 # \<transport> of \<netPeerTcpBinding>
+
 Specifies settings for transport level security when using the [\<netPeerTcpBinding>](netpeertcpbinding.md).  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -27,6 +29,7 @@ Specifies settings for transport level security when using the [\<netPeerTcpBind
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements  
   
 ### Attributes  
@@ -43,6 +46,7 @@ Specifies settings for transport level security when using the [\<netPeerTcpBind
 |Password|Authentication of the peer channel transport requires a correct password.|  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess5::GetTypeForTypeID Method"
 title: "ICorDebugProcess5::GetTypeForTypeID Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess5::GetTypeForTypeID Method
+
 Converts a type identifier to an ICorDebugType value.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetTypeForTypeID(
 ```  
   
 ## Parameters  
+
  `id`  
  [in] The type identifier.  
   
@@ -36,9 +39,11 @@ HRESULT GetTypeForTypeID(
  [out] A pointer to the address of an ICorDebugType object.  
   
 ## Remarks  
+
  In some cases, methods that return a type identifier may return a null `COR_TYPEID` value. If this value is passed as the `id` argument, the `GetTypeForTypeID` method will fail and return `E_FAIL`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

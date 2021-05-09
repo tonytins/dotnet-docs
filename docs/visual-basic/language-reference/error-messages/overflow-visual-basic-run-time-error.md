@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Overflow (Visual Basic Run-Time Error)"
 title: "Overflow (Visual Basic Run-Time Error)"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: c6a23279-3086-412a-bcff-ff8ed2cb8c6f
 ---
 # Overflow (Visual Basic Run-Time Error)
+
 An overflow results when you attempt an assignment that exceeds the limits of the assignment's target.  
   
 ## To correct this error  

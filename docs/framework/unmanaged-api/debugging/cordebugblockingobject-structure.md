@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugBlockingObject Structure"
 title: "CorDebugBlockingObject Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugBlockingObject Structure
+
 Defines an object that is blocking a thread and the specific reason that the thread is blocked.  
   
 ## Syntax  
@@ -40,6 +42,7 @@ CorDebugBlockingReason blockingReason;
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl  

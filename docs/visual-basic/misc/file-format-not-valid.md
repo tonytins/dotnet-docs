@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File format not valid"
 title: "File format not valid"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: d41e6286-6e4a-463b-87fa-e140723e5c7e
 ---
 # File format not valid
+
 Either you tried to load a file into a component, but the format of the data in the file was incompatible with the component, or you tried to save component data to a file, but the format of the data was incompatible with the format of the file.  
   
 ## To correct this error  

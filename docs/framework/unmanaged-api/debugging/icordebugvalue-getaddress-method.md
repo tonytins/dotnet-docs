@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugValue::GetAddress Method"
 title: "ICorDebugValue::GetAddress Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugValue::GetAddress Method
+
 Gets the address of this "ICorDebugValue" object, which is in the process of being debugged.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetAddress (
 ```  
   
 ## Parameters  
+
  `pAddress`  
  [out] Pointer to a `CORDB_ADDRESS` object that specifies the address of this value object.  
   
 ## Remarks  
+
  If the value is unavailable, 0 (zero) is returned. This could happen if the value is at least partly in registers or stored in a garbage collector handle (`GCHandle`).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

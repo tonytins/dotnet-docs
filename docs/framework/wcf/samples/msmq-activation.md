@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MSMQ Activation"
 title: "MSMQ Activation"
 ms.date: "03/30/2017"
 ms.assetid: e3834149-7b8c-4a54-806b-b4296720f31d
@@ -343,4 +344,4 @@ By default with the `netMsmqBinding` binding transport, security is enabled. Two
 
 ## See also
 
-- [AppFabric Hosting and Persistence Samples](https://docs.microsoft.com/previous-versions/appfabric/ff383418(v=azure.10))
+- [AppFabric Hosting and Persistence Samples](/previous-versions/appfabric/ff383418(v=azure.10))

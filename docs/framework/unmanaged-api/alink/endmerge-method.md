@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EndMerge Method"
 title: "EndMerge Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # EndMerge Method
+
 Indicates that all custom attributes have been merged into the emit scope.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT EndMerge(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

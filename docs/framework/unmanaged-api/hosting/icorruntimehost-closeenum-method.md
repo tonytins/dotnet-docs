@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorRuntimeHost::CloseEnum Method"
 title: "ICorRuntimeHost::CloseEnum Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorRuntimeHost::CloseEnum Method
+
 Resets a domain enumerator back to the beginning of the domain list.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT CloseEnum (
 ```  
   
 ## Parameters  
+
  `hEnum`  
  [in] The enumerator to reset.  
   
@@ -41,6 +44,7 @@ HRESULT CloseEnum (
 |HOST_E_CLRNOTAVAILABLE|The CLR has not been loaded into a process, or the CLR is in a state in which it cannot run managed code or process the call successfully.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::DeletePinvokeMap Method"
 title: "IMetaDataEmit::DeletePinvokeMap Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::DeletePinvokeMap Method
+
 Destroys the PInvoke mapping metadata for the object referenced by the specified token.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT DeletePinvokeMap (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] An `mdFieldDef` or `mdMethodDef` token that represents the object for which to delete the PInvoke mapping metadata.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

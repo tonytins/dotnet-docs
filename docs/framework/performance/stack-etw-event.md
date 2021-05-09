@@ -5,9 +5,10 @@ ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "stack event [.NET Framework]"
   - "ETW, stack event (CLR)"
-ms.assetid: f612fa5b-4b62-4593-a19e-85c9b1018dce
+ms.topic: reference
 ---
 # Stack ETW Event
+
 The stack event should be used in conjunction with other events to generate stack traces after an event is raised. It is logged when the runtime provider is enabled. This is a very high frequency event, because it is raised whenever another runtime event is raised. For this reason, we recommend that you use this event with caution.  
   
  The following table shows the keyword and level. (For more information, see [CLR ETW Keywords and Levels](clr-etw-keywords-and-levels.md).)  

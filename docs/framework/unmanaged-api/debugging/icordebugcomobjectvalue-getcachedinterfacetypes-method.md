@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugComObjectValue::GetCachedInterfaceTypes Method"
 title: "ICorDebugComObjectValue::GetCachedInterfaceTypes Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -15,6 +16,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugComObjectValue::GetCachedInterfaceTypes Method
+
 Provides an enumerator for the interface types that the current object has been cast to or used as.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT GetCachedInterfaceTypes(
 ```  
   
 ## Parameters  
+
  `bIInspectableOnly`  
  [in] A value that indicates whether the method returns only Windows Runtime interfaces (`IInspectable` interfaces) or all COM interfaces cached by the runtime callable wrapper (RCW).  
   
@@ -35,6 +38,7 @@ HRESULT GetCachedInterfaceTypes(
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

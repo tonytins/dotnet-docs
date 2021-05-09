@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEnum::Reset Method"
 title: "ICorDebugEnum::Reset Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEnum::Reset Method
+
 Moves the cursor to the beginning of the enumeration.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT Reset ();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

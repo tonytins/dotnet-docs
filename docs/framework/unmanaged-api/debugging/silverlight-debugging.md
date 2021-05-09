@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Silverlight Debugging"
 title: "Silverlight Debugging"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -7,9 +8,11 @@ helpviewer_keywords:
 ms.assetid: 5e903e04-17d0-4014-ac9a-a43330ec8b1c
 ---
 # Silverlight Debugging
+
 The topics in this section describe the environment and interfaces that the common language runtime (CLR) provides to support debugging Silverlight-based applications that are running on the Windows operating system, or on the Macintosh platform.  
   
 ## In This Section  
+
  [EnumerateCLRs Function](enumerateclrs-function.md)  
  Provides a mechanism for enumerating the CLRs in a process.  
   

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetClassLayout Method"
 title: "IMetaDataImport::GetClassLayout Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetClassLayout Method
+
 Gets layout information for the class referenced by the specified TypeDef token.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT GetClassLayout  (
 ```  
   
 ## Parameters  
+
  `td`  
  [in] The TypeDef token for the class with the layout to return.  
   
@@ -52,6 +55,7 @@ HRESULT GetClassLayout  (
  [out] The size in bytes of the class represented by `td`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

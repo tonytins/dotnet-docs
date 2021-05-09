@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Disk not ready"
 title: "Disk not ready"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 5e2528f5-81b3-4e5e-a294-a43cc738a42e
 ---
 # Disk not ready
+
 For the specified drive, either there is no disk or the drive door is open.  
   
 ## To correct this error  

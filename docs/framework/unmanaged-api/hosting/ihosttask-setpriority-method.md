@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTask::SetPriority Method"
 title: "IHostTask::SetPriority Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTask::SetPriority Method
+
 Requests that the host adjust the thread priority level for the task represented by the current [IHostTask](ihosttask-interface.md) instance.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT SetPriority (
 ```  
   
 ## Parameters  
+
  `newPriority`  
  [in] An integer that represents the requested thread priority value for the task represented by the current `IHostTask` instance.  
   
@@ -43,6 +46,7 @@ HRESULT SetPriority (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  Threads are granted processing time using a round-robin system that is partly based on a thread's priority level. `SetPriority` allows the CLR to set that thread priority level for the current task. The following `newPriority` values are supported.  
   
 - THREAD_PRIORITY_ABOVE_NORMAL  
@@ -67,6 +71,7 @@ HRESULT SetPriority (
  Thread priority level values are defined by the Win32 `SetThreadPriority` function. For more information about thread priority, see the Windows Platform documentation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

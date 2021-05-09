@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataTarget::GetPointerSize Method"
 title: "ICLRDataTarget::GetPointerSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataTarget::GetPointerSize Method
+
 Gets the size, in bytes, of the pointer type that the target process uses. This method is called by the common language runtime data access services.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetPointerSize (
 ```  
   
 ## Parameters  
+
  `pointerSize`  
  [out] A pointer to an integer value that specifies the size, in bytes, of a pointer on the target process.  
   
 ## Remarks  
+
  This method is implemented by the writer of the debugging application.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

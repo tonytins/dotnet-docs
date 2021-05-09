@@ -1,5 +1,6 @@
 ---
 title: "UI Automation Threading Issues"
+description: Read about issues with UI Automation threading. For example, conflicts may occur if a client application tries to interact with its own UI on the UI thread.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "UI Automation, threading issues"
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 0ab8d42c-5b8b-481b-b788-2caecc2f0191
 ---
 # UI Automation Threading Issues
+
 > [!NOTE]
 > This documentation is intended for .NET Framework developers who want to use the managed [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)] classes defined in the <xref:System.Windows.Automation> namespace. For the latest information about [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)], see [Windows Automation API: UI Automation](/windows/win32/winauto/entry-uiauto-win32).  
   

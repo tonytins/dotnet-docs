@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Metadata Interfaces"
 title: "Metadata Interfaces"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: f5cdac93-a28c-48ef-8a19-5773376e9e7c
 ---
 # Metadata Interfaces
+
 This section describes the unmanaged interfaces that provide access to the metadata exposed by the .NET Framework types, methods, fields, and so on.  
   
 ## In This Section  
+
  [ICeeGen Interface](iceegen-interface.md)  
  Provides methods for dynamic code compilation.  
   
@@ -66,6 +69,7 @@ This section describes the unmanaged interfaces that provide access to the metad
  Provides methods to use for validation of metadata signatures.  
   
 ## Related Sections  
+
  [Metadata Global Static Functions](metadata-global-static-functions.md)  
   
  [Metadata Enumerations](metadata-enumerations.md)  

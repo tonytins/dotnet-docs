@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICeeGen::GenerateCeeMemoryImage Method"
 title: "ICeeGen::GenerateCeeMemoryImage Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICeeGen::GenerateCeeMemoryImage Method
+
 Generates an image in memory for the code base.  
   
  This method is obsolete and should not be used.  
@@ -30,10 +32,12 @@ HRESULT GenerateCeeMemoryImage (
 ```  
   
 ## Parameters  
+
  `ppImage`  
  [out] A pointer to the generated image.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

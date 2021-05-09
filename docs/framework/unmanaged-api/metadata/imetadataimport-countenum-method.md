@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::CountEnum Method"
 title: "IMetaDataImport::CountEnum Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::CountEnum Method
+
 Gets the number of elements in the enumeration that was retrieved by the specified enumerator.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CountEnum (
 ```  
   
 ## Parameters  
+
  `hEnum`  
  [in] The handle for the enumerator.  
   
@@ -36,9 +39,11 @@ HRESULT CountEnum (
  [out] The number of elements enumerated.  
   
 ## Remarks  
+
  The handle specified by `hEnum` is obtained from a previous `Enum`*Name* call (for example, [IMetaDataImport::EnumTypeDefs](imetadataimport-enumtypedefs-method.md)).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

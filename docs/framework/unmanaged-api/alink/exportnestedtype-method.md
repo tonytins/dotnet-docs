@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ExportNestedType Method"
 title: "ExportNestedType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ExportNestedType Method
+
 Specifies nested types as exportable. The [ExportType Method](exporttype-method.md) can also export nested types, but this method is faster.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT ExportNestedType(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of assembly to export from.  
   
@@ -56,9 +59,11 @@ HRESULT ExportNestedType(
  Receives token for exported type.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

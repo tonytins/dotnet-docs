@@ -12,9 +12,10 @@ helpviewer_keywords:
   - "requesting data from Internet, proxy instances"
   - "Internet, proxy instances"
   - "Network Resources"
-ms.assetid: cbf46f63-ce28-486d-b827-ec0f1a9d8319
+ms.topic: how-to
 ---
 # Accessing the Internet Through a Proxy
+
 If your site uses a proxy to provide access to the Internet, you must configure a proxy instance to enable your application to communicate with the Web proxy.  
   
  This section includes the following topics:  

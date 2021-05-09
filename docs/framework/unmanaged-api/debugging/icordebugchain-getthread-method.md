@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugChain::GetThread Method"
 title: "ICorDebugChain::GetThread Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugChain::GetThread Method
+
 Gets the physical thread this call chain is part of.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetThread (
 ```  
   
 ## Parameters  
+
  `ppThread`  
  [out] A pointer to an ICorDebugThread object that represents the physical thread this call chain is part of.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

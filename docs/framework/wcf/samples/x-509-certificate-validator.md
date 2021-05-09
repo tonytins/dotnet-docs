@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: X.509 Certificate Validator"
 title: "X.509 Certificate Validator"
 ms.date: "03/30/2017"
 ms.assetid: 3b042379-02c4-4395-b927-e57c842fd3e0
@@ -314,7 +315,7 @@ The following provides a brief overview of the different sections of the batch f
 
 3. Launch Client.exe from \client\bin. Client activity is displayed on the client console application.
 
-4. If the client and service are not able to communicate, see [Troubleshooting Tips for WCF Samples](https://docs.microsoft.com/previous-versions/dotnet/netframework-3.5/ms751511(v=vs.90)).
+4. If the client and service are not able to communicate, see [Troubleshooting Tips for WCF Samples](/previous-versions/dotnet/netframework-3.5/ms751511(v=vs.90)).
 
 #### To run the sample across computers
 
@@ -344,7 +345,7 @@ The following provides a brief overview of the different sections of the batch f
 
 13. On the server computer, launch Service.exe from the command prompt window.
 
-14. On the client computer, launch Client.exe from a command prompt window. If the client and service are not able to communicate, see [Troubleshooting Tips for WCF Samples](https://docs.microsoft.com/previous-versions/dotnet/netframework-3.5/ms751511(v=vs.90)).
+14. On the client computer, launch Client.exe from a command prompt window. If the client and service are not able to communicate, see [Troubleshooting Tips for WCF Samples](/previous-versions/dotnet/netframework-3.5/ms751511(v=vs.90)).
 
 #### To clean up after the sample
 

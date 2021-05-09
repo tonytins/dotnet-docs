@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport2 Interface"
 title: "IMetaDataImport2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport2 Interface
+
 Extends the [IMetaDataImport](imetadataimport-interface.md) interface to provide the capability of working with generic types.  
   
 ## Methods  
@@ -32,6 +34,7 @@ Extends the [IMetaDataImport](imetadataimport-interface.md) interface to provide
 |[GetVersionString Method](imetadataimport2-getversionstring-method.md)|Gets the version number of the runtime that was used to build the assembly.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

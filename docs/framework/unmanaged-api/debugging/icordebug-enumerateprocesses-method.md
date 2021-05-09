@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebug::EnumerateProcesses Method"
 title: "ICorDebug::EnumerateProcesses Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebug::EnumerateProcesses Method
+
 Gets an enumerator for the processes that are being debugged.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT EnumerateProcesses (
 ```  
   
 ## Parameters  
+
  `ppProcess`  
  A pointer to the address of an ICorDebugProcessEnum object that is the enumerator for the processes being debugged.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

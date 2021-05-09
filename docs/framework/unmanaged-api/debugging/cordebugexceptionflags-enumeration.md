@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugExceptionFlags Enumeration"
 title: "CorDebugExceptionFlags Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugExceptionFlags Enumeration
+
 Provides additional information about an exception.  
   
 ## Syntax  
@@ -35,9 +37,11 @@ typedef enum CorDebugExceptionFlags {
 |`DEBUG_EXCEPTION_CAN_BE_INTERCEPTED`|The exception is interceptable.<br /><br /> The timing of the exception may still be such that the debugger cannot intercept it. For example, if there is no managed code below the current callback or the exception event resulted from a just-in-time (JIT) attachment, the exception cannot be intercepted.|  
   
 ## Remarks  
+
  New values may be added to this enumeration in later versions, so you should prepare code that uses `CorDebugExceptionFlags` for unexpected values.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

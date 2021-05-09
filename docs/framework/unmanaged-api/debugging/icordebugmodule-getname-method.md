@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule::GetName Method"
 title: "ICorDebugModule::GetName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule::GetName Method
+
 Gets the file name of the module.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetName(
 ```  
   
 ## Parameters  
+
  `cchname`  
  [in] The size of the `szName` array.  
   
@@ -40,9 +43,11 @@ HRESULT GetName(
  [out] An array that stores the returned name.  
   
 ## Remarks  
+
  The `GetName` method returns an S_OK HRESULT if the module's file name matches the name on disk. `GetName` returns an S_FALSE HRESULT if the name is fabricated, such as for a dynamic or in-memory module.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,5 +1,6 @@
 ---
 title: "C# walkthroughs"
+description: See step-by-step instructions for common scenarios. These C# walkthroughs are a good place to start learning about a product or particular feature area.
 ms.date: 07/20/2015
 helpviewer_keywords:
   - "walkthroughs [C#]"
@@ -15,7 +16,7 @@ Walkthroughs give step-by-step instructions for common scenarios, which makes th
 
 ## In this section
 
-- [Accessing the Web by Using Async and Await](./programming-guide/concepts/async/walkthrough-accessing-the-web-by-using-async-and-await.md)\
+- [Process asynchronous tasks as they complete](./programming-guide/concepts/async/start-multiple-async-tasks-and-process-them-as-they-complete.md)\
   Shows how to create an asynchronous solution by using [async](./language-reference/keywords/async.md) and [await](./language-reference/operators/await.md).
 
 - [Creating a Windows Runtime Component in C# or Visual Basic and Calling it from JavaScript](/windows/uwp/winrt-components/walkthrough-creating-a-simple-windows-runtime-component-and-calling-it-from-javascript)\
@@ -27,19 +28,19 @@ Walkthroughs give step-by-step instructions for common scenarios, which makes th
 - [Creating and Using Dynamic Objects (C# and Visual Basic)](./programming-guide/types/walkthrough-creating-and-using-dynamic-objects.md)\
   Shows how to create a custom object that dynamically exposes the contents of a text file, and how to create a project that uses the `IronPython` library.
 
-- [Authoring a Composite Control with Visual C#](../framework/winforms/controls/walkthrough-authoring-a-composite-control-with-visual-csharp.md)\
+- [Authoring a Composite Control with Visual C#](/dotnet/desktop/winforms/controls/walkthrough-authoring-a-composite-control-with-visual-csharp)\
   Demonstrates creating a simple composite control and extending its functionality through inheritance.
 
-- [Creating a Windows Forms Control that Takes Advantage of Visual Studio Design-Time Features](../framework/winforms/controls/creating-a-wf-control-design-time-features.md)\
+- [Creating a Windows Forms Control that Takes Advantage of Visual Studio Design-Time Features](/dotnet/desktop/winforms/controls/creating-a-wf-control-design-time-features)\
   Illustrates how to create a custom designer for a custom control.
 
-- [Inheriting from a Windows Forms Control with Visual C#](../framework/winforms/controls/walkthrough-inheriting-from-a-windows-forms-control-with-visual-csharp.md)\
+- [Inheriting from a Windows Forms Control with Visual C#](/dotnet/desktop/winforms/controls/walkthrough-inheriting-from-a-windows-forms-control-with-visual-csharp)\
   Demonstrates creating a simple inherited button control. This button inherits functionality from the standard Windows Forms button and exposes a custom member.
 
-- [Debugging Custom Windows Forms Controls at Design Time](../framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time.md)\
+- [Debugging Custom Windows Forms Controls at Design Time](/dotnet/desktop/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)\
   Describes how to debug the design-time behavior of your custom control.
 
-- [Walkthrough: Perform common tasks using designer actions](../framework/winforms/controls/perform-common-tasks-design-actions.md)\
+- [Walkthrough: Perform common tasks using designer actions](/dotnet/desktop/winforms/controls/perform-common-tasks-design-actions)\
   Demonstrates some of the commonly performed tasks such as adding or removing a tab on a `TabControl`, docking a control to its parent, and changing the orientation of a `SplitContainer` control.
 
 - [Writing Queries in C# (LINQ)](./programming-guide/concepts/linq/walkthrough-writing-queries-linq.md)\

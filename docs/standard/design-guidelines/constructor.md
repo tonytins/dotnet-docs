@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: Constructor Design"
 title: "Constructor Design"
 ms.date: "10/22/2008"
-ms.technology: dotnet-standard
 helpviewer_keywords:
   - "member design guidelines, constructors"
   - "constructors, design guidelines"

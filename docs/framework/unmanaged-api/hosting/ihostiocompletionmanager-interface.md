@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostIoCompletionManager Interface"
 title: "IHostIoCompletionManager Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostIoCompletionManager Interface
+
 Provides methods that allow the common language runtime (CLR) to interact with I/O completion ports provided by the host.  
   
 ## Methods  
@@ -35,9 +37,11 @@ Provides methods that allow the common language runtime (CLR) to interact with I
 |[SetMinThreads Method](ihostiocompletionmanager-setminthreads-method.md)|Sets the minimum number of threads that the host should allot to I/O completion.|  
   
 ## Remarks  
+
  `IHostIoCompletionManager` corresponds to the `ICLRIoCompletionManager` interface implemented by the CLR. The CLR calls the methods of `IHostIoCompletionManager` to bind handles to the ports that the host provides, and the host calls the methods of `ICLRIoCompletionManager` to report the completion of I/O requests.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

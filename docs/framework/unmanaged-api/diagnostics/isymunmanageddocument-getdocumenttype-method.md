@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedDocument::GetDocumentType Method"
 title: "ISymUnmanagedDocument::GetDocumentType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedDocument::GetDocumentType Method
+
 Gets the document type of this document.  
   
 ## Syntax  
@@ -27,10 +29,12 @@ HRESULT GetDocumentType(
 ```  
   
 ## Parameters  
+
  `pRetVal`  
  [out] Pointer to a variable that receives the document type.  
   
 ## Return Value  
+
  S_OK if the method succeeds.  
   
 ## See also

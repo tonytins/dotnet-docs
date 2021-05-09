@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <webSocketSettings>"
 title: "<webSocketSettings>"
 ms.date: "03/30/2017"
 ms.assetid: bbf97e02-8dd1-4922-acac-3cd33397b249
 ---
 # \<webSocketSettings>
+
 A configuration element used to specify Web Socket settings.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -31,6 +33,7 @@ A configuration element used to specify Web Socket settings.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -55,6 +58,7 @@ A configuration element used to specify Web Socket settings.
 |Never|Never use the Web Socket protocol.|  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  
@@ -64,6 +68,7 @@ A configuration element used to specify Web Socket settings.
 |\<netHttpBinding>|Specifies the NetHttpBinding|  
   
 ## Example  
+
  The following example shows how to use the \<webSocketSettings> element.  
   
 ```xml  

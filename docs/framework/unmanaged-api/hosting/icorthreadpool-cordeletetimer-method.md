@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorThreadpool::CorDeleteTimer Method"
 title: "ICorThreadpool::CorDeleteTimer Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorThreadpool::CorDeleteTimer Method
+
 This method supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT CorDeleteTimer (
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

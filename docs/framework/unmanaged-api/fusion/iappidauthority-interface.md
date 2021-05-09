@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAppIdAuthority Interface"
 title: "IAppIdAuthority Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IAppIdAuthority Interface
+
 Provides methods that generate and compare keys for application identities and references.  
   
 ## Methods  
@@ -40,6 +42,7 @@ Provides methods that generate and compare keys for application identities and r
 |`IAppIdAuthority::TextToReference`|Gets an interface pointer to an `IReferenceAppId` instance that represents the assembly referenced by the specified string key.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Isolation.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugChain::GetNext Method"
 title: "ICorDebugChain::GetNext Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugChain::GetNext Method
+
 Gets the next chain of frames for the thread.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetNext (
 ```  
   
 ## Parameters  
+
  `ppChain`  
  [out] A pointer to the address of an ICorDebugChain object that represents the next chain of frames for the thread. If this chain is the last chain, `ppChain` is null.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

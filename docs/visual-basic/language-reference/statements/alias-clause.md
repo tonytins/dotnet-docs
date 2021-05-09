@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Alias Clause (Visual Basic)"
 title: "Alias Clause"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: 58c06b11-465d-4d87-906a-73200a3d7f19
 ---
 # Alias Clause (Visual Basic)
+
 Indicates that an external procedure has another name in its DLL.  
   
 ## Remarks  
+
  The `Alias` keyword can be used in this context:  
   
  [Declare Statement](declare-statement.md)  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRAssemblyIdentityManager::GetBindingIdentityFromFile Method"
 title: "ICLRAssemblyIdentityManager::GetBindingIdentityFromFile Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRAssemblyIdentityManager::GetBindingIdentityFromFile Method
+
 Gets the assembly identity binding data for the assembly at the specified file path.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetBindingIdentityFromFile(
 ```  
   
 ## Parameters  
+
  `pwzFilePath`  
  [in] The path to the file to be evaluated.  
   
@@ -57,9 +60,11 @@ HRESULT GetBindingIdentityFromFile(
 |E_FAIL|An unknown catastrophic failure occurred. If a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  `GetBindingIdentityFromFile` is typically called twice. The first call supplies a null value for `pwzBuffer`, and the method returns the appropriate size in `pcchBufferSize`. The second call supplies an appropriately allocated buffer, and the method returns with the actual buffer data upon completion.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyEnum::GetNextAssembly Method"
 title: "IAssemblyEnum::GetNextAssembly Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyEnum::GetNextAssembly Method
+
 Gets a pointer to the next [IAssemblyName](iassemblyname-interface.md) contained in this [IAssemblyEnum](iassemblyenum-interface.md) object.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetNextAssembly (
 ```  
   
 ## Parameters  
+
  `pvReserved`  
  [in] Reserved for future extensibility. `pvReserved` must be a null reference.  
   
@@ -40,6 +43,7 @@ HRESULT GetNextAssembly (
  [in] Reserved for future extensibility. `dwFlags` must be 0 (zero).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

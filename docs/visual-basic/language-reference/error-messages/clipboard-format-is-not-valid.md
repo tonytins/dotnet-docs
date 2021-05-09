@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Clipboard format is not valid"
 title: "Clipboard format is not valid"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 71a4a045-65bb-417d-b3bd-99a9fa3c53f6
 ---
 # Clipboard format is not valid
+
 The specified Clipboard format is incompatible with the method being executed. Among the possible causes for this error are:  
   
 - Using the Clipboard's `GetText` or `SetText` method with a Clipboard format other than `vbCFText` or `vbCFLink`.  

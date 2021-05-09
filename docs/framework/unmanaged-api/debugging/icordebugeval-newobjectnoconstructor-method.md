@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEval::NewObjectNoConstructor Method"
 title: "ICorDebugEval::NewObjectNoConstructor Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEval::NewObjectNoConstructor Method
+
 Allocates a new object instance of the specified type, without attempting to call a constructor method.  
   
  This method is obsolete in the .NET Framework version 2.0. Use [ICorDebugEval2::NewParameterizedObjectNoConstructor](icordebugeval2-newparameterizedobjectnoconstructor-method.md) instead.  
@@ -30,10 +32,12 @@ HRESULT NewObjectNoConstructor (
 ```  
   
 ## Parameters  
+
  `pClass`  
  [in] Pointer to an ICorDebugClass object that represents the type of object to be instantiated.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

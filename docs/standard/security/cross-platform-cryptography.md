@@ -145,7 +145,7 @@ ECDSA key curves are defined by the OS libraries and are subject to their limita
 
 <sup>1</sup> Linux distributions don't all have support for the same named curves.
 
-<sup>2</sup> Support for named curves was added to Windows CNG in Windows 10. For more information, see [CNG Named Elliptic Curves](https://msdn.microsoft.com/library/windows/desktop/mt632245(v=vs.85).aspx). Named curves are not available in earlier versions of Windows, except for three curves in Windows 7.
+<sup>2</sup> Support for named curves was added to Windows CNG in Windows 10. For more information, see [CNG Named Elliptic Curves](/windows/win32/seccng/cng-named-elliptic-curves). Named curves are not available in earlier versions of Windows, except for three curves in Windows 7.
 
 <sup>3</sup> Exporting with explicit curve parameters requires OS library support, which is not available on macOS or earlier versions of Windows.
 
@@ -188,7 +188,7 @@ ECDH key curves are defined by the OS libraries and are subject to their limitat
 
 <sup>1</sup> Linux distributions don't all have support for the same named curves.
 
-<sup>2</sup> Support for named curves was added to Windows CNG in Windows 10. For more information, see [CNG Named Elliptic Curves](https://msdn.microsoft.com/library/windows/desktop/mt632245(v=vs.85).aspx). Named curves are not available in earlier versions of Windows, except for three curves in Windows 7.
+<sup>2</sup> Support for named curves was added to Windows CNG in Windows 10. For more information, see [CNG Named Elliptic Curves](/windows/win32/seccng/cng-named-elliptic-curves). Named curves are not available in earlier versions of Windows, except for three curves in Windows 7.
 
 <sup>3</sup> Exporting with explicit curve parameters requires OS library support, which is not available on macOS or earlier versions of Windows.
 
@@ -363,3 +363,5 @@ macOS doesn't support a user-initiated timeout on CRL (Certificate Revocation Li
 
 * [.NET Cryptography Model](cryptography-model.md)
 * [.NET Cryptographic Services](cryptographic-services.md)
+* [Timing vulnerabilities with CBC-mode symmetric decryption using padding](vulnerabilities-cbc-mode.md)
+* [ASP.NET Core Data Protection](/aspnet/core/security/data-protection/introduction)

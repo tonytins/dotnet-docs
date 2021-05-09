@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RunDll32ShimW Function"
 title: "RunDll32ShimW Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # RunDll32ShimW Function
+
 Executes the specified command.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -32,6 +34,7 @@ HRESULT RunDll32ShimW (
 ```  
   
 ## Parameters  
+
  `hwnd`  
  [in] A handle to a window in which the command output will be displayed.  
   
@@ -45,6 +48,7 @@ HRESULT RunDll32ShimW (
  [in] An integer that specifies the display mode for the output window.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataTables::GetGuidHeapSize Method"
 title: "IMetaDataTables::GetGuidHeapSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataTables::GetGuidHeapSize Method
+
 Gets the size, in bytes, of the GUID heap.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetGuidHeapSize (
 ```  
   
 ## Parameters  
+
  `pcbGuids`  
  [out] A pointer to the size, in bytes, of the GUID heap.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

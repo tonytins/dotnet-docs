@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorLocalRefPreservation Enumeration"
 title: "CorLocalRefPreservation Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorLocalRefPreservation Enumeration
+
 Contains flag values for the treatment of local references.  
   
 ## Syntax  
@@ -38,6 +40,7 @@ typedef enum CorLocalRefPreservation
 |`MDPreserveLocalMemberRef`|Preserve local member references.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

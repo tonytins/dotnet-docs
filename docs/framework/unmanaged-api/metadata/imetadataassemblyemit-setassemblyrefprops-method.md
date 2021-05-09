@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataAssemblyEmit::SetAssemblyRefProps Method"
 title: "IMetaDataAssemblyEmit::SetAssemblyRefProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataAssemblyEmit::SetAssemblyRefProps Method
+
 Modifies the specified `AssemblyRef` metadata structure.  
   
 ## Syntax  
@@ -35,6 +37,7 @@ HRESULT SetAssemblyRefProps (
 ```  
   
 ## Parameters  
+
  `ar`  
  [in] The metadata token that specifies the `AssemblyRef` metadata structure to be modified.  
   
@@ -60,9 +63,11 @@ HRESULT SetAssemblyRefProps (
  [in] A bitwise combination of [AssemblyRefFlags](assemblyrefflags-enumeration.md) values that specify attributes of the referenced assembly.  
   
 ## Remarks  
+
  To create an `AssemblyRef` metadata structure, use the [IMetaDataAssemblyEmit::DefineAssemblyRef](imetadataassemblyemit-defineassemblyref-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

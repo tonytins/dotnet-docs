@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EClrFailure Enumeration"
 title: "EClrFailure Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # EClrFailure Enumeration
+
 Describes the set of failures for which a host can set policy actions.  
   
 ## Syntax  
@@ -45,9 +47,11 @@ typedef enum {
 |`FAIL_CodeContract`|A code contract failure occurred. See [Code Contracts](../../debug-trace-profile/code-contracts.md).|  
   
 ## Remarks  
+
  See the [ICLRPolicyManager::SetActionOnFailure](iclrpolicymanager-setactiononfailure-method.md) method for a list of [EPolicyAction](epolicyaction-enumeration.md) values the host can use to specify the policy actions for failure conditions. For more information about critical and non-critical regions of code, see [EClrOperation](eclroperation-enumeration.md).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

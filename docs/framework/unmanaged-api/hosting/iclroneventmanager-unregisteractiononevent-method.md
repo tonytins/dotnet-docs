@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLROnEventManager::UnregisterActionOnEvent Method"
 title: "ICLROnEventManager::UnregisterActionOnEvent Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLROnEventManager::UnregisterActionOnEvent Method
+
 Unregisters a previously registered callback pointer for the specified event.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT UnregisterActionOnEvent (
 ```  
   
 ## Parameters  
+
  `event`  
  [in] One of the [EClrEvent](eclrevent-enumeration.md) values, indicating the event for which to unregister the callback pointer described by `pAction`.  
   
@@ -47,6 +50,7 @@ HRESULT UnregisterActionOnEvent (
 |E_FAIL|An unknown catastrophic failure occurred. After a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

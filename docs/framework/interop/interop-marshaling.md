@@ -63,7 +63,7 @@ The author of the component sets the thread affinity of a COM server. The follow
 
 When a managed client and unmanaged server are in the same apartment, the interop marshaling service handles all data marshaling. However, when client and server are initialized in different apartments, COM marshaling is also required. The following illustration shows the elements of a cross-apartment call:
 
-![COM marshaling](./media/interop-marshaling/single-process-across-multi-apartment.gif "Cross-apartment call between a .NET client and COM object")
+![Cross-apartment call between a .NET client and COM object](./media/interop-marshaling/single-process-across-multi-apartment.gif)
 
 For cross-apartment marshaling, you can do the following:
 
@@ -73,7 +73,7 @@ For cross-apartment marshaling, you can do the following:
     > [!NOTE]
     > Once the thread of a C# client is set to STA, calls to MTA COM components will require cross-apartment marshaling.
 
-For instructions on explicitly selecting an apartment model, see [Managed and Unmanaged Threading](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/5s8ee185(v=vs.100)).
+For instructions on explicitly selecting an apartment model, see [Managed and Unmanaged Threading](/previous-versions/dotnet/netframework-4.0/5s8ee185(v=vs.100)).
 
 ## Marshaling Remote Calls
 
@@ -84,7 +84,7 @@ As with cross-apartment marshaling, COM marshaling is involved in each call betw
 
 The following illustration shows how interop marshaling and COM marshaling provide communications channels across process and host boundaries:
 
-![COM marshaling](./media/interop-marshaling/interop-and-com-marshaling.gif "Cross-process marshaling")
+![Cross-process marshaling](./media/interop-marshaling/interop-and-com-marshaling.gif)
 
 ### Preserving Identity
 
@@ -120,10 +120,10 @@ Some unmanaged calls can be channeled through SOAP, such as the calls between se
 |[Marshaling Data with COM Interop](marshaling-data-with-com-interop.md)|Describes how to customize COM wrappers to alter marshaling behavior.|
 |[How to: Migrate Managed-Code DCOM to WCF](how-to-migrate-managed-code-dcom-to-wcf.md)|Describes how to migrate from DCOM to WCF.|
 |[How to: Map HRESULTs and Exceptions](how-to-map-hresults-and-exceptions.md)|Describes how to map custom exceptions to HRESULTs and provides the complete mapping from each HRESULT to its comparable exception class in the .NET Framework.|
-|[Interoperating Using Generic Types](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/ms229590(v=vs.100))|Describes which actions are supported when using generic types for COM interoperability.|
+|[Interoperating Using Generic Types](/previous-versions/dotnet/netframework-4.0/ms229590(v=vs.100))|Describes which actions are supported when using generic types for COM interoperability.|
 |[Interoperating with Unmanaged Code](index.md)|Describes interoperability services provided by the common language runtime.|
-|[Advanced COM Interoperability](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/bd9cdfyx(v=vs.100))|Provides links to more information about incorporating COM components into your .NET Framework application.|
-|[Design Considerations for Interoperation](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/61aax4kh(v=vs.100))|Provides tips for writing integrated COM components.|
+|[Advanced COM Interoperability](/previous-versions/dotnet/netframework-4.0/bd9cdfyx(v=vs.100))|Provides links to more information about incorporating COM components into your .NET Framework application.|
+|[Design Considerations for Interoperation](/previous-versions/dotnet/netframework-4.0/61aax4kh(v=vs.100))|Provides tips for writing integrated COM components.|
 
 ## Reference
 

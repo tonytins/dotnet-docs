@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorTokenType Enumeration"
 title: "CorTokenType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorTokenType Enumeration
+
 Indicates the type of a metadata token.  
   
 ## Syntax  
@@ -85,9 +87,11 @@ typedef enum CorTokenType {
 |`mdtBaseType`|Not used.|  
   
 ## Remarks  
+
  Each value is equal to the value of the top byte in the corresponding metadata token.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

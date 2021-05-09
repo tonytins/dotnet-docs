@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter Interface"
 title: "ISymUnmanagedWriter Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter Interface
+
 Represents a symbol writer, and provides methods to define documents, sequence points, lexical scopes, and variables.  
   
 ## Methods  
@@ -48,6 +50,7 @@ Represents a symbol writer, and provides methods to define documents, sequence p
 |[UsingNamespace Method](isymunmanagedwriter-usingnamespace-method.md)|Specifies that the given fully qualified namespace name is being used within the currently open lexical scope.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

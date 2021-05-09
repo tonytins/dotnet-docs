@@ -2,14 +2,14 @@
 title: Understanding Authentication in the Azure libraries for .NET
 description: Explains the different ways of authenticating with the Azure SDK for .NET.
 ms.date: 06/19/2020
-ms.custom: azure-sdk-dotnet
+ms.custom: devx-track-dotnet
 ---
 
 # Authenticate with the Azure SDK for .NET
 
 ## Recommended: Azure.Identity
 
-The latest packages in the Azure SDK for .NET use a common authentication package to authenticate, `Azure.Identity`. Using `Azure.Identity` is recommended over other authentication mechanisms described later in this document. Packages supporting the credentials provided by `Azure.Identity` have package identifiers starting with *Azure.* [For more information, see the latest releases in the Azure SDK for .NET](https://azure.github.io/azure-sdk/releases/latest/index.html#net).
+The latest packages in the Azure SDK for .NET use a common authentication package to authenticate, `Azure.Identity`. Using `Azure.Identity` is recommended over other authentication mechanisms described later in this document. Packages supporting the credentials provided by `Azure.Identity` are built on top of `Azure.Core` and have package identifiers starting with *Azure*. [See the package list](packages.md) for an inventory of packages that use `Azure.Core`.
 
 For complete instructions on using `Azure.Identity` in your project, see the documentation for [Azure Identity client for .NET](/dotnet/api/overview/azure/identity-readme).
 
@@ -20,7 +20,7 @@ To authenticate with libraries that don't support Azure.Identity, see the rest o
 
 ## Access Azure resources
 
-To interact with Azure resources, such as retrieving a secret from Key Vault or storing a blob in Storage, many Azure service libraries require a connection string or keys for authentication. For example, SQL Database uses a [standard SQL connection string](https://docs.microsoft.com/azure/azure-sql/database/connect-query-dotnet-core). Service connection strings are used in other Azure services like [CosmosDB](/azure/cosmos-db/), [Azure Cache for Redis](/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache), and [Service Bus](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues). You can get those strings using the Azure portal, CLI, or PowerShell. You can also use the Azure management libraries for .NET to query resources to build connection strings in your code.
+To interact with Azure resources, such as retrieving a secret from Key Vault or storing a blob in Storage, many Azure service libraries require a connection string or keys for authentication. For example, SQL Database uses a [standard SQL connection string](/azure/azure-sql/database/connect-query-dotnet-core). Service connection strings are used in other Azure services like [CosmosDB](/azure/cosmos-db/), [Azure Cache for Redis](/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache), and [Service Bus](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues). You can get those strings using the Azure portal, CLI, or PowerShell. You can also use the Azure management libraries for .NET to query resources to build connection strings in your code.
 
 The methods for using a connection string vary by product. [Refer to the documentation for your Azure product](/azure/?product=featured).
 
@@ -58,6 +58,15 @@ var azure = Microsoft.Azure.Management.Fluent.Azure
     .Configure()
     .Authenticate(credentials)
     .WithDefaultSubscription();
+```
+
+It is recommended that you explicitly provide the *subscriptionId* from the JSON output to the `Azure` object:
+
+```csharp
+var azure = Microsoft.Azure.Management.Fluent.Azure
+    .Configure()
+    .Authenticate(credentials)
+    .WithSubscription(subscriptionId);
 ```
 
 ### <a name="mgmt-file"></a>File-based authentication

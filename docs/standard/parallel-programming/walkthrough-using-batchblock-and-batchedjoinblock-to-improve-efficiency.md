@@ -1,14 +1,14 @@
 ---
+description: "Learn more about: Walkthrough: Using BatchBlock and BatchedJoinBlock to Improve Efficiency"
 title: "Walkthrough: Using BatchBlock and BatchedJoinBlock to Improve Efficiency"
 ms.date: "03/30/2017"
-ms.technology: dotnet-standard
 dev_langs:
   - "csharp"
   - "vb"
 helpviewer_keywords:
   - "Task Parallel Library, dataflows"
   - "TPL dataflow library, improving efficiency"
-ms.assetid: 5beb4983-80c2-4f60-8c51-a07f9fd94cb3
+ms.topic: tutorial
 ---
 # Walkthrough: Using BatchBlock and BatchedJoinBlock to Improve Efficiency
 

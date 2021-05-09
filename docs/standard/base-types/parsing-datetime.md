@@ -2,7 +2,6 @@
 title: Convert strings to DateTime
 description: "Learn techniques to parse strings that represent dates and times to create a DateTime from the date and time string."
 ms.date: 02/15/2018
-ms.technology: dotnet-standard
 dev_langs:
   - "csharp"
   - "vb"
@@ -10,7 +9,7 @@ helpviewer_keywords:
   - "parsing strings, date and time strings"
   - "date and time strings"
   - "ParseExact method"
-  - "enumerations [.NET Framework], parsing strings"
+  - "enumerations [.NET], parsing strings"
   - "base types, parsing strings"
   - "DateTime object"
   - "time strings"
@@ -50,7 +49,7 @@ The following example illustrates the use of the <xref:System.DateTime.Parse%2A?
 > All the C# samples in this article run in your browser. Press the **Run** button to see the output. You can also edit them to experiment yourself.
 
 > [!NOTE]
-> These examples are available in the GitHub docs repo for both [C#](https://github.com/dotnet/docs/tree/master/samples/snippets/csharp/how-to/conversions) and [Visual Basic](https://github.com/dotnet/docs/tree/master/samples/snippets/visualbasic/how-to/conversions).
+> These examples are available in the GitHub docs repo for both [C#](https://github.com/dotnet/docs/tree/main/samples/snippets/csharp/how-to/conversions) and [Visual Basic](https://github.com/dotnet/docs/tree/main/samples/snippets/visualbasic/how-to/conversions).
 
 [!code-csharp-interactive[Parsing.DateAndTime#1](../../../samples/snippets/csharp/how-to/conversions/StringToDateTime.cs#1)]
 [!code-vb[Parsing.DateAndTime#1](../../../samples/snippets/visualbasic/how-to/conversions/Program.vb#1)]

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess5::GetTypeID Method"
 title: "ICorDebugProcess5::GetTypeID Method"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -19,6 +20,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess5::GetTypeID Method
+
 Converts an object address to a [COR_TYPEID](cor-typeid-structure.md) identifier.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetTypeID(
 ```  
   
 ## Parameters  
+
  `obj`  
  [in] The object address.  
   
@@ -40,6 +43,7 @@ HRESULT GetTypeID(
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

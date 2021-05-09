@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCThreadControl::ThreadIsBlockingForSuspension Method"
 title: "IGCThreadControl::ThreadIsBlockingForSuspension Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IGCThreadControl::ThreadIsBlockingForSuspension Method
+
 Notifies the host that the thread that is making the call is about to block, perhaps for a garbage collection or other suspension.  
   
 ## Syntax  
@@ -26,9 +28,11 @@ HRESULT ThreadIsBlockingForSuspension ( );
 ```  
   
 ## Remarks  
+
  The host may choose within the `ThreadIsBlockingForSuspension` callback whether to reschedule a thread.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

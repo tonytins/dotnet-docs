@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess2 Interface"
 title: "ICorDebugProcess2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess2 Interface
+
 A logical extension of the ICorDebugProcess interface, which represents a process running managed code.  
   
 ## Methods  
@@ -36,6 +38,7 @@ A logical extension of the ICorDebugProcess interface, which represents a proces
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

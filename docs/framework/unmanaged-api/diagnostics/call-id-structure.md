@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CALL_ID Structure"
 title: "CALL_ID Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CALL_ID Structure
+
 Provides information to a debugger about a function that is being called. See the [INotifySink2](inotifysink2-interface.md) interface for more information.  
   
 ## Syntax  
@@ -44,6 +46,7 @@ typedef struct tagCALL_ID
 |`szDestinationMachine`|Identifies the machine that will execute the call.|  
   
 ## Requirements  
+
  **Header:** ProtocolNotify2.idl  
   
 ## See also

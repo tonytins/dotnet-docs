@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IValidator Interface"
 title: "IValidator Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IValidator Interface
+
 Provides methods for validating portable executable (PE) images and reporting validation errors.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Provides methods for validating portable executable (PE) images and reporting va
 |FormatEventInfo|Gets the error message corresponding to the specified validation error.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** IValidator.idl, IValidator.h  

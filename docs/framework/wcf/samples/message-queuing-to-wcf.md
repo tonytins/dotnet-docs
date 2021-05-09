@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Queuing to Windows Communication Foundation"
 title: "Message Queuing to Windows Communication Foundation"
 ms.date: "03/30/2017"
 ms.assetid: 6d718eb0-9f61-4653-8a75-d2dac8fb3520
@@ -152,4 +153,4 @@ Console.ReadLine();
 
 - [Queues in WCF](../feature-details/queues-in-wcf.md)
 - [How to: Exchange Messages with WCF Endpoints and Message Queuing Applications](../feature-details/how-to-exchange-messages-with-wcf-endpoints-and-message-queuing-applications.md)
-- [Message Queuing](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85))
+- [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85))

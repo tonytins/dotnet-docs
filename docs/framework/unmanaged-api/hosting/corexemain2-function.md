@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: _CorExeMain2 Function"
 title: "_CorExeMain2 Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # _CorExeMain2 Function
+
 Executes the entry point in the specified memory-mapped code. This function is called by the operating system loader.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ __int32 STDMETHODCALLTYPE _CorExeMain2 (
 ```  
   
 ## Parameters  
+
  `pUnmappedPE`  
  [in] A pointer to the memory-mapped code.  
   
@@ -47,6 +50,7 @@ __int32 STDMETHODCALLTYPE _CorExeMain2 (
  [in] Command-line parameters, if any.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

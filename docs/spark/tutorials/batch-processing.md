@@ -3,7 +3,7 @@ title: Batch processing with .NET for Apache Spark tutorial
 description: Learn how to do batch processing using .NET for Apache Spark.
 author: mamccrea
 ms.author: mamccrea
-ms.date: 06/25/2020
+ms.date: 10/09/2020
 ms.topic: tutorial
 ---
 
@@ -21,15 +21,13 @@ In this tutorial, you learn how to:
 > * Read data into a DataFrame and prepare it for analysis
 > * Process the data using Spark SQL
 
-[!INCLUDE [spark-preview-note](../../../includes/spark-preview-note.md)]
-
 ## Prerequisites
 
 If this is your first time using .NET for Apache Spark, check out the [Get started with .NET for Apache Spark](get-started.md) tutorial to learn how to prepare your environment and run your first .NET for Apache Spark application.
 
 ## Download the sample data
 
-[GHTorrent](http://ghtorrent.org/) monitors all public GitHub events, such as info about projects, commits, and watchers, and stores the events and their structure in databases. Data collected over different time periods is available as downloadable archives. Because the dump files are very large, this guide uses a [truncated version of the dump file](https://github.com/dotnet/spark/tree/master/examples/Microsoft.Spark.CSharp.Examples/Sql/Batch/projects_smaller.csv) that can be downloaded from GitHub.
+[GHTorrent](http://ghtorrent.org/) monitors all public GitHub events, such as info about projects, commits, and watchers, and stores the events and their structure in databases. Data collected over different time periods is available as downloadable archives. Because the dump files are very large, this guide uses a [truncated version of the dump file](https://github.com/dotnet/spark/tree/main/examples/Microsoft.Spark.CSharp.Examples/Sql/Batch/projects_smaller.csv) that can be downloaded from GitHub.
 
 > [!NOTE]
 > The GHTorrent dataset is distributed under a dual licensing scheme ([Creative Commons +](https://wiki.creativecommons.org/wiki/CCPlus)). For non-commercial uses (including, but not limited to, educational, research or personal uses), the dataset is distributed under the [CC-BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
@@ -155,12 +153,12 @@ The goal of this app is to gain some insights about the GitHub projects data. Ad
 1. Run your app with `spark-submit`. Be sure to update the following command with the actual paths to your Microsoft Spark jar file.
 
    ```console
-   spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local /<path>/to/microsoft-spark-<version>.jar dotnet /<path>/to/netcoreapp<version>/GitHubProjects.dll
+   spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local /<path>/to/microsoft-spark-<spark_majorversion-spark_minorversion>_<scala_majorversion.scala_minorversion>-<spark_dotnet_version>.jar dotnet /<path>/to/netcoreapp<version>/mySparkBatchApp.dll
    ```
 
 ## Get the code
 
-You can see the [full solution](https://github.com/dotnet/spark/blob/master/examples/Microsoft.Spark.CSharp.Examples/Sql/Batch/GitHubProjects.cs) on GitHub.
+You can see the [full solution](https://github.com/dotnet/spark/blob/main/examples/Microsoft.Spark.CSharp.Examples/Sql/Batch/GitHubProjects.cs) on GitHub.
 
 ## Next steps
 

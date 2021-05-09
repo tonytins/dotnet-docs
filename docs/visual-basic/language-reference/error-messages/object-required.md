@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Object required (Visual Basic)"
 title: "Object required"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: afdc660b-81a5-4c92-ac7e-9c3a3105fc16
 ---
 # Object required (Visual Basic)
+
 References to properties and methods often require an explicit object qualifier. This is such a case.  
   
 ## To correct this error  

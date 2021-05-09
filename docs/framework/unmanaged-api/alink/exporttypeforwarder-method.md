@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ExportTypeForwarder Method"
 title: "ExportTypeForwarder Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ExportTypeForwarder Method
+
 Adds a type forwarder to the type table of the given assembly.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT ExportTypeForwarder(
 ```  
   
 ## Parameters  
+
  `tkAssemblyRef`  
  Reference to the assembly to which the type forwarder refers.  
   
@@ -43,9 +46,11 @@ HRESULT ExportTypeForwarder(
  Receives the token of the exported type. This is necessary only for emitting nested types.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

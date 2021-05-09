@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule Interface"
 title: "ICorDebugModule Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -47,6 +48,7 @@ Represents a common language runtime (CLR) module, which is either an executable
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

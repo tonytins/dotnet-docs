@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataAssemblyImport::CloseEnum Method"
 title: "IMetaDataAssemblyImport::CloseEnum Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataAssemblyImport::CloseEnum Method
+
 Releases a reference to the specified enumeration instance.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ void CloseEnum (
 ```  
   
 ## Parameters  
+
  `hEnum`  
  [in] The enumeration instance to be closed.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMethodMalloc::Alloc Method"
 title: "IMethodMalloc::Alloc Method"
 ms.date: "03/30/2017"
 api_name:
@@ -41,6 +42,7 @@ PVOID Alloc (
  The `Alloc` method should be used in conjunction with the [ICorProfilerInfo::SetILFunctionBody](icorprofilerinfo-setilfunctionbody-method.md) method.
 
 ## Requirements
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).
 
  **Header:** CorProf.idl, CorProf.h

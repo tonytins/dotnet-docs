@@ -2,7 +2,7 @@
 title: "How to: Determine if a file is an assembly"
 description: This article shows you how determine whether a file is a .NET assembly, both manually and programmatically.
 ms.date: 08/19/2019
-ms.assetid: ea5186bb-5bff-4dcb-bde9-d6ba4e2edd00
+ms.topic: how-to
 dev_langs: 
   - "csharp"
   - "vb"
@@ -26,6 +26,7 @@ A file is an assembly if and only if it is managed, and contains an assembly ent
 2. If a <xref:System.BadImageFormatException> exception is thrown, the file is not an assembly.  
   
 ## Example  
+
 This example tests a DLL to see if it is an assembly.  
 
 ```csharp

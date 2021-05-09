@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo3::EnumModules Method"
 title: "ICorProfilerInfo3::EnumModules Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo3::EnumModules Method
+
 Returns an enumerator that provides methods to sequentially iterate through a collection of managed modules that are loaded into the application.  
   
 ## Syntax  
@@ -26,12 +28,14 @@ HRESULT EnumModules([out] ICorProfilerModuleEnum** ppEnum);
 ```  
   
 ## Parameters  
+
  `ppEnum`  
  [out] A pointer to an [ICorProfilerModuleEnum](icorprofilermoduleenum-interface.md) interface.  
   
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: NumberOfChars must be greater than zero"
 title: "NumberOfChars must be greater than zero"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 3eea4bbf-cd49-4d19-adfb-0e2adf087065
 ---
 # NumberOfChars must be greater than zero
+
 When using the `PeekChars` method of the `TextFieldParser` object, you must supply a `NumberOfChars` value that is greater than `0`.  
   
 ## To correct this error  

@@ -1,15 +1,15 @@
 ---
-title: Test a .NET Standard class library with .NET Core using Visual Studio Code
-description: Create a unit test project for a .NET Core class library. Verify that a .NET Core class library works correctly with unit tests.
-ms.date: 06/08/2020
+title: Test a .NET class library using Visual Studio Code
+description: Learn how to use Visual Studio Code and the .NET CLI to create and run a unit test project for a .NET class library.
+ms.date: 11/17/2020
 ---
-# Tutorial: Test a .NET Standard class library with .NET Core using Visual Studio Code
+# Tutorial: Test a .NET class library using Visual Studio Code
 
 This tutorial shows how to automate unit testing by adding a test project to a solution.
 
 ## Prerequisites
 
-- This tutorial works with the solution that you create in [Create a .NET Standard library in Visual Studio Code](library-with-visual-studio-code.md).
+- This tutorial works with the solution that you create in [Create a .NET class library using Visual Studio Code](library-with-visual-studio-code.md).
 
 ## Create a unit test project
 
@@ -17,7 +17,7 @@ Unit tests provide automated software testing during your development and publis
 
 1. Start Visual Studio Code.
 
-1. Open the `ClassLibraryProjects` solution you created in [Create a .NET Standard library in Visual Studio](library-with-visual-studio.md).
+1. Open the `ClassLibraryProjects` solution you created in [Create a .NET class library using Visual Studio Code](library-with-visual-studio-code.md).
 
 1. Create a unit test project named "StringLibraryTest".
 
@@ -84,7 +84,7 @@ You can also use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.T
 
 In testing the `StringLibrary.StartsWithUpper` method, you want to provide a number of strings that begin with an uppercase character. You expect the method to return `true` in these cases, so you can call the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue%2A?displayProperty=nameWithType> method. Similarly, you want to provide a number of strings that begin with something other than an uppercase character. You expect the method to return `false` in these cases, so you can call the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsFalse%2A?displayProperty=nameWithType> method.
 
-Since your library method handles strings, you also want to make sure that it successfully handles an [empty string (`String.Empty`)](xref:System.String.Empty) and a and a `null` string. An empty string is one that has no characters and whose <xref:System.String.Length> is 0. A `null` string is one that hasn't been initialized. You can call `StartsWithUpper` directly as a static method and pass a single <xref:System.String> argument. Or you can call `StartsWithUpper` as an extension method on a `string` variable assigned to `null`.
+Since your library method handles strings, you also want to make sure that it successfully handles an [empty string (`String.Empty`)](xref:System.String.Empty) and a `null` string. An empty string is one that has no characters and whose <xref:System.String.Length> is 0. A `null` string is one that hasn't been initialized. You can call `StartsWithUpper` directly as a static method and pass a single <xref:System.String> argument. Or you can call `StartsWithUpper` as an extension method on a `string` variable assigned to `null`.
 
 You'll define three methods, each of which calls an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method for each element in a string array. You'll call a method overload that lets you specify an error message to be displayed in case of test failure. The message identifies the string that caused the failure.
 
@@ -106,15 +106,11 @@ To create the test methods:
 
    The terminal output shows that all tests passed.
 
-   ```
+   ```output
    Starting test execution, please wait...
-
    A total of 1 test files matched the specified pattern.
 
-   Test Run Successful.
-   Total tests: 3
-        Passed: 3
-   Total time: 5.1116 Seconds
+   Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 3 ms - StringLibraryTest.dll (net5.0)
    ```
 
 ## Handle test failures
@@ -136,22 +132,16 @@ If you're doing test-driven development (TDD), you write tests first and they fa
 
    The terminal output shows that one test fails, and it provides an error message for the failed test: "Assert.IsFalse failed. Expected for 'Error': false; actual: True". Because of the failure, no strings in the array after "Error" were tested.
 
-   ```
+   ```output
    Starting test execution, please wait...
-
    A total of 1 test files matched the specified pattern.
-     X TestDoesNotStartWithUpper [283ms]
+     Failed TestDoesNotStartWithUpper [28 ms]
      Error Message:
       Assert.IsFalse failed. Expected for 'Error': false; Actual: True
      Stack Trace:
-     at StringLibraryTest.UnitTest1.TestDoesNotStartWithUpper()
-       in C:\Projects\ClassLibraryProjects\StringLibraryTest\UnitTest1.cs:line 33
+        at StringLibraryTest.UnitTest1.TestDoesNotStartWithUpper() in C:\ClassLibraryProjects\StringLibraryTest\UnitTest1.cs:line 33
 
-   Test Run Failed.
-   Total tests: 3
-        Passed: 2
-        Failed: 1
-   Total time: 1.7825 Seconds
+   Failed!  - Failed:     1, Passed:     2, Skipped:     0, Total:     3, Duration: 31 ms - StringLibraryTest.dll (net5.0)
    ```
 
 1. Remove the string "Error" that you added in step 1. Rerun the test and the tests pass.
@@ -168,9 +158,15 @@ Now that the tests have all passed when running the Debug build of the library, 
 
    The tests pass.
 
+## Debug tests
+
+If you're using Visual Studio Code as your IDE, you can use the same process shown in [Debug a .NET console application using Visual Studio Code](debugging-with-visual-studio-code.md) to debug code using your unit test project. Instead of starting the *ShowCase* app project, open *StringLibraryTest/UnitTest1.cs*, and select **Run All Tests** between lines 7 and 8. If you're unable to find it, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> to open the command palette and enter **Reload Window**.
+
+Visual Studio Code starts the test project with the debugger attached. Execution will stop at any breakpoint you've added to the test project or the underlying library code.
+
 ## Additional resources
 
-* [Unit testing in .NET Core and .NET Standard](../testing/index.md)
+* [Unit testing in .NET](../testing/index.md)
 
 ## Next steps
 
@@ -187,4 +183,4 @@ If you publish a library as a NuGet package, others can install and use it. To l
 A library doesn't have to be distributed as a package. It can be bundled with a console app that uses it. To learn how to publish a console app, see the earlier tutorial in this series:
 
 > [!div class="nextstepaction"]
-> [Publish a .NET Core console application with Visual Studio Code](publishing-with-visual-studio-code.md)
+> [Publish a .NET console application using Visual Studio Code](publishing-with-visual-studio-code.md)

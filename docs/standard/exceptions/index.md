@@ -2,7 +2,6 @@
 title: "Handling and throwing exceptions in .NET"
 description: Learn how to handle and throw exceptions in .NET. Exceptions are how .NET operations indicate failure to applications.
 ms.date: "06/19/2018"
-ms.technology: dotnet-standard
 helpviewer_keywords: 
   - "exceptions [.NET], handling"
   - "runtime, exceptions"
@@ -62,4 +61,4 @@ The following table lists some common exceptions with examples of what can cause
 - [How to: Use Finally Blocks](how-to-use-finally-blocks.md)
 - [Handling COM Interop Exceptions](handling-com-interop-exceptions.md)
 - [Best Practices for Exceptions](best-practices-for-exceptions.md)
-- [What Every Dev needs to Know About Exceptions in the Runtime](https://github.com/dotnet/runtime/blob/master/docs/design/coreclr/botr/exceptions.md)
+- [What Every Dev needs to Know About Exceptions in the Runtime](https://github.com/dotnet/runtime/blob/main/docs/design/coreclr/botr/exceptions.md)

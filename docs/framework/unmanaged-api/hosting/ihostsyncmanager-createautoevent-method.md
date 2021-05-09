@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostSyncManager::CreateAutoEvent Method"
 title: "IHostSyncManager::CreateAutoEvent Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostSyncManager::CreateAutoEvent Method
+
 Creates an auto-reset event object.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT CreateAutoEvent (
 ```  
   
 ## Parameters  
+
  `ppEvent`  
  [out] A pointer to the address of an [IHostAutoEvent](ihostautoevent-interface.md) instance implemented by the host, or null if the event object could not be created.  
   
@@ -44,9 +47,11 @@ HRESULT CreateAutoEvent (
 |E_OUTOFMEMORY|Not enough memory was available to create the requested event object.|  
   
 ## Remarks  
+
  `CreateAutoEvent` creates an auto-event object whose state is automatically changed to non-signaled after the waiting thread has been released. This method mirrors the Win32 `CreateEvent` function with a value of `false` specified for the `bManualReset` parameter  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

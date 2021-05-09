@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugMDA::GetOSThreadId Method"
 title: "ICorDebugMDA::GetOSThreadId Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugMDA::GetOSThreadId Method
+
 Gets the operating system (OS) thread identifier upon which the managed debugging assistant (MDA) represented by [ICorDebugMDA](icordebugmda-interface.md) is executing.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetOSThreadId (
 ```  
   
 ## Parameters  
+
  `pOsTid`  
  [out] A pointer to the OS thread identifier.  
   
 ## Remarks  
+
  The OS thread is used instead of an ICorDebugThread to allow for situations in which an MDA is fired either on a native thread or on a managed thread that has not yet entered managed code.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

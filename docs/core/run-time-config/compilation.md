@@ -13,7 +13,7 @@ ms.topic: reference
   - The second tier generates optimized code in the background ("optimizing JIT").
 - In .NET Core 3.0 and later, tiered compilation is enabled by default.
 - In .NET Core 2.1 and 2.2, tiered compilation is disabled by default.
-- For more information, see the [Tiered compilation guide](https://github.com/dotnet/runtime/blob/master/docs/design/features/tiered-compilation.md).
+- For more information, see the [Tiered compilation guide](https://github.com/dotnet/runtime/blob/main/docs/design/features/tiered-compilation.md).
 
 | | Setting name | Values |
 | - | - | - |
@@ -129,7 +129,7 @@ Project file:
 ## ReadyToRun
 
 - Configures whether the .NET Core runtime uses pre-compiled code for images with available ReadyToRun data. Disabling this option forces the runtime to JIT-compile framework code.
-- For more information, see [ReadyToRun](../whats-new/dotnet-core-3-0.md#readytorun-images).
+- For more information, see [Ready to Run](../deploying/ready-to-run.md).
 - If you omit this setting, .NET uses ReadyToRun data when it's available. This is equivalent to setting the value to `1`.
 
 | | Setting name | Values |

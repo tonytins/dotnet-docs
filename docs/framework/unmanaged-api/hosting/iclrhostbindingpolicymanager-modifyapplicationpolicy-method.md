@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRHostBindingPolicyManager::ModifyApplicationPolicy Method"
 title: "ICLRHostBindingPolicyManager::ModifyApplicationPolicy Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRHostBindingPolicyManager::ModifyApplicationPolicy Method
+
 Modifies the binding policy for the specified assembly, and creates a new version of the policy.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT  ModifyApplicationPolicy (
 ```  
   
 ## Parameters  
+
  `pwzSourceAssemblyIdentity`  
  [in] The identity of the assembly to modify.  
   
@@ -69,9 +72,11 @@ HRESULT  ModifyApplicationPolicy (
 |E_FAIL|An unknown catastrophic failure occurred. After a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  The `ModifyApplicationPolicy` method can be called twice. The first call should supply a null value for the `pbNewApplicationPolicy` parameter. This call will return with the necessary value for `pcbNewAppPolicySize`. The second call should supply this value for `pcbNewAppPolicySize`, and point to a buffer of that size for `pbNewApplicationPolicy`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

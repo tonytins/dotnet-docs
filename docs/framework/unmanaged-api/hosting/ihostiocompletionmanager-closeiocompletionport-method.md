@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostIoCompletionManager::CloseIoCompletionPort Method"
 title: "IHostIoCompletionManager::CloseIoCompletionPort Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostIoCompletionManager::CloseIoCompletionPort Method
+
 Requests that the host close a port that was opened through an earlier call to [CreateIoCompletionPort](ihostiocompletionmanager-createiocompletionport-method.md).  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT CloseIoCompletionPort (
 ```  
   
 ## Parameters  
+
  `hPort`  
  [in] The handle of the port to close.  
   
@@ -44,9 +47,11 @@ HRESULT CloseIoCompletionPort (
 |E_INVALIDARG|An invalid port handle was passed.|  
   
 ## Remarks  
+
  `hPort` must be a handle to a port that was created by an earlier call to `CreateIoCompletionPort`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRSyncManager::GetMonitorOwner Method"
 title: "ICLRSyncManager::GetMonitorOwner Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRSyncManager::GetMonitorOwner Method
+
 Gets the [IHostTask](ihosttask-interface.md) instance that owns the monitor identified by the specified cookie.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetMonitorOwner (
 ```  
   
 ## Parameters  
+
  `cookie`  
  [in] The cookie associated with the monitor.  
   
@@ -47,6 +50,7 @@ HRESULT GetMonitorOwner (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  The host typically calls `GetMonitorOwner` as part of a deadlock-detection mechanism. The cookie is associated with a monitor when it is created by using a call to [IHostSyncManager::CreateMonitorEvent](ihostsyncmanager-createmonitorevent-method.md).  
   
 > [!NOTE]
@@ -55,6 +59,7 @@ HRESULT GetMonitorOwner (
  `GetMonitorOwner` always returns immediately and can be called any time after a call to `CreateMonitorEvent`. The host does not need to wait until a task is waiting on the event.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyCache::CreateAssemblyCacheItem Method"
 title: "IAssemblyCache::CreateAssemblyCacheItem Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyCache::CreateAssemblyCacheItem Method
+
 Gets a reference to a new [IAssemblyCacheItem](iassemblycacheitem-interface.md) object.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT CreateAssemblyCacheItem (
 ```  
   
 ## Parameters  
+
  `dwFlags`  
  [in] Flags defined in Fusion.idl. The following values are supported:  
   
@@ -48,6 +51,7 @@ HRESULT CreateAssemblyCacheItem (
  [in, optional] Uncanonicalized, comma-separated `name=value` pairs.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

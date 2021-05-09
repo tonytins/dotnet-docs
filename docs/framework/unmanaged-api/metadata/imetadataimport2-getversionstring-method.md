@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport2::GetVersionString Method"
 title: "IMetaDataImport2::GetVersionString Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport2::GetVersionString Method
+
 Gets the version number of the runtime that was used to build the assembly.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetVersionString (
 ```  
   
 ## Parameters  
+
  `pwzBuf`  
  [out] An array to store the string that specifies the version.  
   
@@ -40,9 +43,11 @@ HRESULT GetVersionString (
  [out] The number of wide characters, including a null terminator, returned in the `pwzBuf` array.  
   
 ## Remarks  
+
  The `GetVersionString` method gets the built-for version of the current metadata scope. If the scope has never been saved, it will not have a built-for version, and an empty string will be returned.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

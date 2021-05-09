@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ChildViews and Relations"
 title: "ChildViews and Relations"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -7,6 +8,7 @@ dev_langs:
 ms.assetid: d475d356-6abb-4701-8fd1-2906fb93dfba
 ---
 # ChildViews and Relations
+
 If a relationship exists between tables in a <xref:System.Data.DataSet>, you can create a <xref:System.Data.DataView> containing rows from the related child table by using the <xref:System.Data.DataRowView.CreateChildView%2A> method of the <xref:System.Data.DataRowView> for the rows in the parent table. For example, the following code displays **Categories** and their related **Products** in alphabetical order sorted by **CategoryName** and **ProductName**.  
   
 ```vb  

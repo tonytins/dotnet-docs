@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::SetModuleProps Method"
 title: "IMetaDataEmit::SetModuleProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::SetModuleProps Method
+
 Updates references to a module defined by a prior call to [IMetaDataEmit::DefineModuleRef](imetadataemit-definemoduleref-method.md).  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT SetModuleProps (
 ```  
   
 ## Parameters  
+
  `szName`  
  [in] The module name in Unicode. This is the file name only and not the full path name.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

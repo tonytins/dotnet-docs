@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Procedure call or argument is not valid (Visual Basic)"
 title: "Procedure call or argument is not valid"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 9b07d280-66c6-4ea5-a8ed-5ddb0036f877
 ---
 # Procedure call or argument is not valid (Visual Basic)
+
 Some part of the call cannot be completed.  
   
 ## To correct this error  

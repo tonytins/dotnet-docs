@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugILFrame3 Interface"
 title: "ICorDebugILFrame3 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -12,6 +13,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugILFrame3 Interface
+
 Provides a method that encapsulates the return value of a function. `ICorDebugILFrame3` is a logical extension of the ICorDebugILFrame and ICorDebugILFrame2 interfaces.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Provides a method that encapsulates the return value of a function. `ICorDebugIL
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

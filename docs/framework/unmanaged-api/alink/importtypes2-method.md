@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ImportTypes2 Method"
 title: "ImportTypes2 Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ImportTypes2 Method
+
 Initiates the import of types. Call this method to begin importing types from each scope imported via [ImportFile Method](importfile-method.md).  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT ImportTypes2(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of assembly into which to import.  
   
@@ -51,9 +54,11 @@ HRESULT ImportTypes2(
  Optionally receives count of types in the specified scope.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

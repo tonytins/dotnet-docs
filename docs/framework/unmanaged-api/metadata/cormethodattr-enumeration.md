@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorMethodAttr Enumeration"
 title: "CorMethodAttr Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorMethodAttr Enumeration
+
 Contains values that describe the features of a method.  
   
 ## Syntax  
@@ -86,6 +88,7 @@ typedef enum CorMethodAttr {
 |`mdRequireSecObject`|Specifies that the method calls another method containing security code.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

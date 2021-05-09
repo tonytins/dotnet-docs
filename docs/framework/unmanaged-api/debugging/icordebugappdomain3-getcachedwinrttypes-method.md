@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugAppDomain3::GetCachedWinRTTypes Method"
 title: "ICorDebugAppDomain3::GetCachedWinRTTypes Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugAppDomain3::GetCachedWinRTTypes Method
+
 Gets an enumerator for all cached Windows Runtime types.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetCachedWinRTTypes (
 ```  
   
 ## Parameters  
+
  `ppGuidToTypeEnum`  
  [out] A pointer to an [ICorDebugGuidToTypeEnum](icordebugguidtotypeenum-interface.md) interface object that can enumerate the managed representations of Windows Runtime types currently loaded in the application domain.  
   
 ## Requirements  
+
  **Platforms:** Windows Runtime  
   
  **Header:** CorDebug.idl, CorDebug.h  

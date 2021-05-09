@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetAssemblyProps Method"
 title: "SetAssemblyProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # SetAssemblyProps Method
+
 Assigns assembly-level properties.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT SetAssemblyProps(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
@@ -43,9 +46,11 @@ HRESULT SetAssemblyProps(
  New value of the option.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h.  
   
 ## See also

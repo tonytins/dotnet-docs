@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRIoCompletionManager::OnComplete Method"
 title: "ICLRIoCompletionManager::OnComplete Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRIoCompletionManager::OnComplete Method
+
 Notifies the common language runtime (CLR) of the status of an I/O request that was made by using a call to the [IHostIoCompletionManager::Bind](ihostiocompletionmanager-bind-method.md) method.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT OnComplete (
 ```  
   
 ## Parameters  
+
  `dwErrorCode`  
  [in] An HRESULT value that indicates the status of the bind operation.  
   
@@ -57,9 +60,11 @@ HRESULT OnComplete (
 |E_FAIL|An unknown catastrophic failure occurred. After a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  If the host implements an I/O completion abstraction, the CLR makes I/O requests through the host by using methods of [IHostIoCompletionManager](ihostiocompletionmanager-interface.md). The host then calls the `OnComplete` method to notify the runtime of the outcome of such requests.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

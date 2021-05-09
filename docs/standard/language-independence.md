@@ -1,11 +1,10 @@
 ---
 title: Language independence and language-independent components
 description: Learn how you can develop in one of many supported languages in .NET, such as C#, C++/CLI, F#, IronPython, VB, Visual COBOL, and PowerShell.
-ms.date: 07/22/2016
 dev_langs:
   - "csharp"
   - "vb"
-ms.technology: dotnet-standard
+ms.date: 07/22/2016
 ms.assetid: 2dbed1bc-86f5-43cd-9a57-adbb1c5efba4
 ---
 
@@ -16,13 +15,13 @@ ms.assetid: 2dbed1bc-86f5-43cd-9a57-adbb1c5efba4
 > [!NOTE]
 > This first part of this article discusses creating language-independent components, that is, components that can be consumed by apps that are written in any language. You can also create a single component or app from source code written in multiple languages; see [Cross-Language Interoperability](#cross-language-interoperability) in the second part of this article.
 
-To fully interact with other objects written in any language, objects must expose to callers only those features that are common to all languages. This common set of features is defined by the Common Language Specification (CLS), which is a set of rules that apply to generated assemblies. The Common Language Specification is defined in Partition I, Clauses 7 through 11 of the [ECMA-335 Standard: Common Language Infrastructure](https://www.ecma-international.org/publications/standards/Ecma-335.htm).
+To fully interact with other objects written in any language, objects must expose to callers only those features that are common to all languages. This common set of features is defined by the Common Language Specification (CLS), which is a set of rules that apply to generated assemblies. The Common Language Specification is defined in Partition I, Clauses 7 through 11 of the [ECMA-335 Standard: Common Language Infrastructure](https://www.ecma-international.org/publications-and-standards/standards/ecma-335/).
 
 If your component conforms to the Common Language Specification, it is guaranteed to be CLS-compliant and can be accessed from code in assemblies written in any programming language that supports the CLS. You can determine whether your component conforms to the Common Language Specification at compile time by applying the [CLSCompliantAttribute](xref:System.CLSCompliantAttribute) attribute to your source code. For more information, see [The CLSCompliantAttribute attribute](#the-clscompliantattribute-attribute).
 
 ## CLS compliance rules
 
-This section discusses the rules for creating a CLS-compliant component. For a complete list of rules, see Partition I, Clause 11 of the [ECMA-335 Standard: Common Language Infrastructure](https://www.ecma-international.org/publications/standards/Ecma-335.htm).
+This section discusses the rules for creating a CLS-compliant component. For a complete list of rules, see Partition I, Clause 11 of the [ECMA-335 Standard: Common Language Infrastructure](https://www.ecma-international.org/publications-and-standards/standards/ecma-335/).
 
 > [!NOTE]
 > The Common Language Specification discusses each rule for CLS compliance as it applies to consumers (developers who are programmatically accessing a component that is CLS-compliant), frameworks (developers who are using a language compiler to create CLS-compliant libraries), and extenders (developers who are creating a tool such as a language compiler or a code parser that creates CLS-compliant components). This article focuses on the rules as they apply to frameworks. Note, though, that some of the rules that apply to extenders may also apply to assemblies that are created using [Reflection.Emit](xref:System.Reflection.Emit).
@@ -107,7 +106,7 @@ A library's public interface consists of the following:
 
 * Parameters and return types of public methods of public classes, and parameters and return types of methods accessible to derived classes.
 
-The rules for CLS compliance are listed in the following table. The text of the rules is taken verbatim from the [ECMA-335 Standard: Common Language Infrastructure](https://www.ecma-international.org/publications/standards/Ecma-335.htm), which is Copyright 2012 by Ecma International. More detailed information about these rules is found in the following sections.
+The rules for CLS compliance are listed in the following table. The text of the rules is taken verbatim from the [ECMA-335 Standard: Common Language Infrastructure](https://www.ecma-international.org/publications-and-standards/standards/ecma-335/), which is Copyright 2012 by Ecma International. More detailed information about these rules is found in the following sections.
 
 Category | See | Rule | Rule Number
 -------- | --- | ---- | -----------
@@ -179,7 +178,7 @@ Index to subsections:
 
 ### Types and type member signatures
 
-The [System.Object](xref:System.Object) type is CLS-compliant and is the base type of all object types in the .NET Framework type system. Inheritance in the .NET Framework is either implicit (for example, the [String](xref:System.String) class implicitly inherits from the `Object` class) or explicit (for example, the [CultureNotFoundException](xref:System.Globalization.CultureNotFoundException) class explicitly inherits from the [ArgumentException](xref:System.ArgumentException) class, which explicitly inherits from the [Exception](xref:System.Exception) class. For a derived type to be CLS compliant, its base type must also be CLS-compliant.
+The [System.Object](xref:System.Object) type is CLS-compliant and is the base type of all object types in the .NET type system. Inheritance in .NET is either implicit (for example, the [String](xref:System.String) class implicitly inherits from the `Object` class) or explicit (for example, the [CultureNotFoundException](xref:System.Globalization.CultureNotFoundException) class explicitly inherits from the [ArgumentException](xref:System.ArgumentException) class, which explicitly inherits from the [Exception](xref:System.Exception) class. For a derived type to be CLS compliant, its base type must also be CLS-compliant.
 
 The following example shows a derived type whose base type is not CLS-compliant. It defines a base `Counter` class that uses an unsigned 32-bit integer as a counter. Because the class provides counter functionality by wrapping an unsigned integer, the class is marked as non-CLS-compliant. As a result, a derived class, `NonZeroCounter`, is also not CLS-compliant.
 
@@ -296,6 +295,7 @@ CLS-compliant type | Description
 [Int16](xref:System.Int16) | 16-bit signed integer
 [Int32](xref:System.Int32) | 32-bit signed integer
 [Int64](xref:System.Int64) | 64-bit signed integer
+[Half](xref:System.Half) | Half-precision floating-point value
 [Single](xref:System.Single) | Single-precision floating-point value
 [Double](xref:System.Double) | Double-precision floating-point value
 [Boolean](xref:System.Boolean) | true or false value type
@@ -314,31 +314,31 @@ Non-compliant type | Description | CLS-compliant alternative
 [UInt64](xref:System.UInt64) | 64-bit unsigned integer | [Int64](xref:System.Int64) (may overflow), [BigInteger](xref:System.Numerics.BigInteger), or [Double](xref:System.Double)
 [UIntPtr](xref:System.UIntPtr) | Unsigned pointer or handle | [IntPtr](xref:System.IntPtr)
 
-The .NET Framework Class Library or any other class library may include other types that aren't CLS-compliant; for example:
+The .NET Class Library or any other class library may include other types that aren't CLS-compliant; for example:
 
 * Boxed value types. The following C# example creates a class that has a public property of type `int*` named `Value`. Because an `int*` is a boxed value type, the compiler flags it as non-CLS-compliant.
 
-```csharp
-using System;
+  ```csharp
+  using System;
 
-[assembly:CLSCompliant(true)]
+  [assembly:CLSCompliant(true)]
 
-public unsafe class TestClass
-{
-   private int* val;
+  public unsafe class TestClass
+  {
+     private int* val;
 
-   public TestClass(int number)
-   {
-      val = (int*) number;
-   }
+     public TestClass(int number)
+     {
+        val = (int*) number;
+     }
 
-   public int* Value {
-      get { return val; }
-   }
-}
-// The compiler generates the following output when compiling this example:
-//        warning CS3003: Type of 'TestClass.Value' is not CLS-compliant
-```
+     public int* Value {
+        get { return val; }
+     }
+  }
+  // The compiler generates the following output when compiling this example:
+  //        warning CS3003: Type of 'TestClass.Value' is not CLS-compliant
+  ```
 
 * Typed references, which are special constructs that contain a reference to an object and a reference to a type.
 
@@ -1629,7 +1629,7 @@ End Class
 '                                        ~~~~~~~~~
 ```
 
-If a generic type is derived from a generic base type, it must redeclare any constraints so that it can guarantee that constraints on the base type are also satisfied. The following example defines a `Number<T>` that can represent any numeric type. It also defines a `FloatingPoint<T>` class that represents a floating point value. However, the source code fails to compile, because it does not apply the constraint on `Number<T>` (that T must be a value type) to `FloatingPoint<T>`.
+If a generic type is derived from a generic base type, it must redeclare any constraints so that it can guarantee that constraints on the base type are also satisfied. The following example defines a `Number<T>` that can represent any numeric type. It also defines a `FloatingPoint<T>` class that represents a floating-point value. However, the source code fails to compile, because it does not apply the constraint on `Number<T>` (that T must be a value type) to `FloatingPoint<T>`.
 
 ```csharp
 using System;
@@ -1670,7 +1670,8 @@ public class FloatingPoint<T> : Number<T>
 {
    public FloatingPoint(T number) : base(number)
    {
-      if (typeof(float) == number.GetType() ||
+      if (typeof(System.Half) == number.GetType() ||
+          typeof(float) == number.GetType() ||
           typeof(double) == number.GetType() ||
           typeof(decimal) == number.GetType())
          this.number = Convert.ToDouble(number);
@@ -1713,7 +1714,8 @@ End Class
 Public Class FloatingPoint(Of T) : Inherits Number(Of T)
    Public Sub New(number As T)
       MyBase.New(number)
-      If TypeOf number Is Single Or
+      If TypeOf number Is System.Half Or
+               TypeOf number Is Single Or
                TypeOf number Is Double Or
                TypeOf number Is Decimal Then
          Me.number = Convert.ToDouble(number)
@@ -1771,7 +1773,8 @@ public class FloatingPoint<T> : Number<T> where T : struct
 {
    public FloatingPoint(T number) : base(number)
    {
-      if (typeof(float) == number.GetType() ||
+      if (typeof(System.Half) == number.GetType() ||
+          typeof(float) == number.GetType() ||
           typeof(double) == number.GetType() ||
           typeof(decimal) == number.GetType())
          this.number = Convert.ToDouble(number);
@@ -1811,7 +1814,8 @@ End Class
 Public Class FloatingPoint(Of T As Structure) : Inherits Number(Of T)
    Public Sub New(number As T)
       MyBase.New(number)
-      If TypeOf number Is Single Or
+      If TypeOf number Is System.Half Or
+               TypeOf number Is Single Or
                TypeOf number Is Double Or
                TypeOf number Is Decimal Then
          Me.number = Convert.ToDouble(number)
@@ -2474,7 +2478,7 @@ End Module
 
 ### Attributes
 
-In.NET Framework assemblies, custom attributes provide an extensible mechanism for storing custom attributes and retrieving metadata about programming objects, such as assemblies, types, members, and method parameters. Custom attributes must derive from [System.Attribute](xref:System.Attribute) or from a type derived from `System.Attribute`.
+In .NET assemblies, custom attributes provide an extensible mechanism for storing custom attributes and retrieving metadata about programming objects, such as assemblies, types, members, and method parameters. Custom attributes must derive from [System.Attribute](xref:System.Attribute) or from a type derived from `System.Attribute`.
 
 The following example violates this rule. It defines a `NumericAttribute` class that does not derive from `System.Attribute`. A compiler error results only when the non-CLS-compliant attribute is applied, not when the class is defined.
 
@@ -2631,7 +2635,7 @@ At compile time, the compiler detects non-compliant elements that are presumed t
 
 Component developers can use the `CLSCompliantAttribute` attribute in two ways:
 
-* To define the parts of the public interface exposed by a component that are CLS-compliant and the parts that are not CLS-compliant. When the attribute is used to mark particular program elements as CLS-compliant, its use guarantees that those elements are accessible from all languages and tools that target the .NET Framework.
+* To define the parts of the public interface exposed by a component that are CLS-compliant and the parts that are not CLS-compliant. When the attribute is used to mark particular program elements as CLS-compliant, its use guarantees that those elements are accessible from all languages and tools that target .NET.
 
 * To ensure that the component library's public interface exposes only program elements that are CLS-compliant. If elements are not CLS-compliant, compilers will generally issue a warning.
 
@@ -2783,7 +2787,7 @@ If you are developing an app rather than a library (that is, if you aren't expos
 
 ## Cross-language interoperability
 
-Language independence has a number of possible meanings. One meaning involves seamlessly consuming types written in one language from an app written in another language. A second meaning, which is the focus of this article, involves combining code written in multiple languages into a single .NET Framework assembly.
+Language independence has a number of possible meanings. One meaning involves seamlessly consuming types written in one language from an app written in another language. A second meaning, which is the focus of this article, involves combining code written in multiple languages into a single .NET assembly.
 
 The following example illustrates cross-language interoperability by creating a class library named Utilities.dll that includes two classes, `NumericLib` and `StringLib`. The `NumericLib` class is written in C#, and the `StringLib` class is written in Visual Basic. Here's the source code for `StringUtil.vb`, which includes a single member, `ToTitleCase`, in its `StringLib` class.
 

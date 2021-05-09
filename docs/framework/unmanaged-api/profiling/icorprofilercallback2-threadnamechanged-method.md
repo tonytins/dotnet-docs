@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback2::ThreadNameChanged Method"
 title: "ICorProfilerCallback2::ThreadNameChanged Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback2::ThreadNameChanged Method
+
 Notifies the code profiler that the name of a thread has changed.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT ThreadNameChanged(
 ```  
   
 ## Parameters  
+
  `threadId`  
  [in] The ID of the thread.  
   
@@ -39,6 +42,7 @@ HRESULT ThreadNameChanged(
  [in] The new name of the thread. The name is not null-terminated.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

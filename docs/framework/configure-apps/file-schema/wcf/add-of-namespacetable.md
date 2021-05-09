@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <add> of <namespaceTable>"
 title: "<add> of <namespaceTable>"
 ms.date: "03/30/2017"
 ms.assetid: cf7b5b75-63bd-49a6-abac-4bfdab377e36
 ---
 # \<add> of \<namespaceTable>
+
 Represents a configuration element that contains a namespace to prefix mapping that can then be used in XPath filters for routing.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -24,6 +26,7 @@ Represents a configuration element that contains a namespace to prefix mapping t
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -34,6 +37,7 @@ Represents a configuration element that contains a namespace to prefix mapping t
 |prefix|A string containing the prefix for this namespace.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  

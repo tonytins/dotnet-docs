@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedScope::GetMethod Method"
 title: "ISymUnmanagedScope::GetMethod Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedScope::GetMethod Method
+
 Gets the method that contains this scope.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT GetMethod(
 ```  
   
 ## Parameters  
+
  `pRetVal`  
  [out] A pointer to the returned [ISymUnmanagedMethod](isymunmanagedmethod-interface.md) interface.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

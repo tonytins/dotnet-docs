@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IObjectHandle::Unwrap Method"
 title: "IObjectHandle::Unwrap Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IObjectHandle::Unwrap Method
+
 Unwraps a marshal-by-value object from indirection.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT Unwrap (
 ```  
   
 ## Parameters  
+
  `ppv`  
  [out] A pointer to the object to be unwrapped.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

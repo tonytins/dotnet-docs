@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugObjectValue::GetVirtualMethod Method"
 title: "ICorDebugObjectValue::GetVirtualMethod Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugObjectValue::GetVirtualMethod Method
+
 `GetVirtualMethod` is not implemented in this version of the .NET Framework.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetVirtualMethod (
 ```  
   
 ## Requirements  
+
  **Header:** CorDebug.idl, CorDebug.h  
   
 ## See also

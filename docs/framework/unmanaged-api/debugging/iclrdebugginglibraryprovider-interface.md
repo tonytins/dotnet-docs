@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDebuggingLibraryProvider Interface"
 title: "ICLRDebuggingLibraryProvider Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDebuggingLibraryProvider Interface
+
 Includes the [ProvideLibrary Method](iclrdebugginglibraryprovider-providelibrary-method.md) method, which gets a library provider callback interface that allows common language runtime version-specific debugging libraries to be located and loaded on demand.  
   
 ## Methods  
@@ -25,6 +27,7 @@ Includes the [ProvideLibrary Method](iclrdebugginglibraryprovider-providelibrary
 |[ProvideLibrary Method](iclrdebugginglibraryprovider-providelibrary-method.md)|Allows the debugger to provide a handle to a module which can be used to load a debug library.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

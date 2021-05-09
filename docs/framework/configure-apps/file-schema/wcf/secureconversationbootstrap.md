@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <secureConversationBootstrap>"
 title: "<secureConversationBootstrap>"
 ms.date: "03/30/2017"
 ms.assetid: 66b46f95-fa2d-4b5b-b6ce-0572ab0cdd50
 ---
 # \<secureConversationBootstrap>
+
 Specifies the default values used for initiating a secure conversation service.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -33,9 +35,11 @@ Specifies the default values used for initiating a secure conversation service.
 ```  
   
 ## Type  
+
  `Type`  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  

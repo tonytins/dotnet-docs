@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Derived Math Functions (Visual Basic)"
 title: "Derived Math Functions"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -23,6 +24,7 @@ helpviewer_keywords:
 ms.assetid: 63e449d8-9444-44fb-8db1-6d9cf346e2aa
 ---
 # Derived Math Functions (Visual Basic)
+
 The following table shows non-intrinsic math functions that can be derived from the intrinsic math functions of the <xref:System.Math?displayProperty=nameWithType> object. You can access the intrinsic math functions by adding `Imports System.Math` to your file or project.  
   
 |Function|Derived equivalents|  

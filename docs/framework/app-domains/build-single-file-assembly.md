@@ -2,6 +2,7 @@
 title: "How to: Build a .NET Framework single-file assembly"
 description: Explore how to build a single-file assembly in .NET. A single-file assembly can be a library (.dll) that targets .NET, or it can be an executable (.exe) file.
 ms.date: "08/20/2019"
+ms.topic: how-to
 helpviewer_keywords:
   - "assembly manifest, single-file assemblies"
   - "library assemblies"
@@ -61,6 +62,7 @@ vbc -out:myAssembly.exe myCode.vb
 ```
 
 ## Create library assemblies
+
  A library assembly is similar to a class library. It contains types that will be referenced by other assemblies, but it has no entry point to begin execution.
 
 To create a library assembly, at the command prompt, type the following command:

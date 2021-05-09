@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataEnumMemoryRegionsCallback Interface"
 title: "ICLRDataEnumMemoryRegionsCallback Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataEnumMemoryRegionsCallback Interface
+
 Provides a callback method for [ICLRDataEnumMemoryRegions::EnumMemoryRegions](iclrdataenummemoryregions-enummemoryregions-method.md) to report to the debugger the result of an attempt to enumerate a specified region of memory.  
   
 ## Methods  
@@ -25,6 +27,7 @@ Provides a callback method for [ICLRDataEnumMemoryRegions::EnumMemoryRegions](ic
 |[EnumMemoryRegion Method](iclrdataenummemoryregionscallback-enummemoryregion-method.md)|Called by `ICLRDataEnumMemoryRegions::EnumMemoryRegions` to report to the debugger the result of an attempt to enumerate a specified region of memory.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

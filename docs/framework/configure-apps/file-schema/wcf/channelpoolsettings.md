@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <channelPoolSettings>"
 title: "<channelPoolSettings>"
 ms.date: "03/30/2017"
 ms.assetid: 4755f3d3-4213-4c68-ae7f-45b67d744459
 ---
 # \<channelPoolSettings>
+
 Specifies the channel pool settings for a custom binding.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -23,6 +25,7 @@ Specifies the channel pool settings for a custom binding.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -34,6 +37,7 @@ Specifies the channel pool settings for a custom binding.
 |`maxOutboundChannelsPerEndpoint`|A positive integer that specifies the maximum number of channels that can be stored in the pool for each remote endpoint. The default is 10.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -43,6 +47,7 @@ Specifies the channel pool settings for a custom binding.
 |[\<oneWay>](oneway.md)|Enables packet routing for a custom binding.|  
   
 ## Remarks  
+
  Quotas are used as a policy mechanism to prevent the consumption of excessive resources. They prevent Denial of Service (DOS) attacks that are either malicious or unintentional. Use this element when setting channel quotas on a custom channel.  
   
  `ChannelPoolSettings` specifies three quotas:  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDebugging Interface"
 title: "ICLRDebugging Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDebugging Interface
+
 Provides methods that handle loading and unloading modules for debugging.  
   
 ## Methods  
@@ -26,9 +28,11 @@ Provides methods that handle loading and unloading modules for debugging.
 |[CanUnloadNow Method](iclrdebugging-canunloadnow-method.md)|Determines whether a library that was provided by an [ICLRDebuggingLibraryProvider](iclrdebugginglibraryprovider-interface.md) interface is still in use or can be unloaded.|  
   
 ## Remarks  
+
  You can obtain an instance of the `ICLRDebugging` interface by using the [CLRCreateInstance](../hosting/clrcreateinstance-function.md) function.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

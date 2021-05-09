@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostSyncManager::CreateManualEvent Method"
 title: "IHostSyncManager::CreateManualEvent Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostSyncManager::CreateManualEvent Method
+
 Creates a manual-reset event object.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CreateManualEvent (
 ```  
   
 ## Parameters  
+
  `bInitialState`  
  [in] `true`, if the object is signaled; otherwise, `false`.  
   
@@ -48,9 +51,11 @@ HRESULT CreateManualEvent (
 |E_OUTOFMEMORY|Not enough memory was available to create the requested event object.|  
   
 ## Remarks  
+
  `CreateManualEvent` creates an `IHostManualEvent`, a manual-reset event object that requires a call to the [IHostManualEvent::Reset](ihostmanualevent-reset-method.md) method to set it to a non-signaled state. `CreateManualEvent` mirrors the Win32 `CreateEvent` function with a value of `true` specified for the `bManualReset` parameter.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

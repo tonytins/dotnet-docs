@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: String Manipulation Summary (Visual Basic)"
 title: "String Manipulation Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 5d3197eb-fe66-417e-9e2a-20450660c9c6
 ---
 # String Manipulation Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

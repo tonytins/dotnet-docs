@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostControl::GetHostManager Method"
 title: "IHostControl::GetHostManager Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostControl::GetHostManager Method
+
 Gets an interface pointer to the host's implementation of the interface with the specified `IID`.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetHostManager (
 ```  
   
 ## Parameters  
+
  `riid`  
  [in] The `IID` of the interface that the common language runtime (CLR) is querying for.  
   
@@ -49,6 +52,7 @@ HRESULT GetHostManager (
 |E_NOINTERFACE|The requested interface is not supported.|  
   
 ## Remarks  
+
  The CLR queries the host to determine whether it supports one or more of the following interfaces:  
   
 - [IHostMemoryManager](ihostmemorymanager-interface.md)  
@@ -74,6 +78,7 @@ HRESULT GetHostManager (
  The CLR does not call `Release` on host managers, even when you shut it down.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

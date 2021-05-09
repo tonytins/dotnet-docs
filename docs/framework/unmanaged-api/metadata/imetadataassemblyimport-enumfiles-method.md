@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataAssemblyImport::EnumFiles Method"
 title: "IMetaDataAssemblyImport::EnumFiles Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataAssemblyImport::EnumFiles Method
+
 Enumerates the files referenced in the current assembly manifest.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT EnumFiles (
 ```  
   
 ## Parameters  
+
  `phEnum`  
  [in, out] A pointer to the enumerator. This must be a null value for the first call of this method.  
   
@@ -51,6 +54,7 @@ HRESULT EnumFiles (
 |`S_FALSE`|There are no tokens to enumerate. In this case, `pcTokens` is set to zero.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

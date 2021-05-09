@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugNativeFrame2 Interface"
 title: "ICorDebugNativeFrame2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugNativeFrame2 Interface
+
 Provides methods that test for child and parent frame relationships.  
   
 ## Methods  
@@ -27,12 +29,14 @@ Provides methods that test for child and parent frame relationships.
 |[GetStackParameterSize Method](icordebugnativeframe2-getstackparametersize-method.md)|Returns the cumulative size of the parameters on the stack on x86 operating systems.|  
   
 ## Remarks  
+
  This interface logically extends the "ICorDebugNativeFrame" interface.  
   
 > [!NOTE]
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

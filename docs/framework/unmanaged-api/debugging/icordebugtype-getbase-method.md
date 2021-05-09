@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugType::GetBase Method"
 title: "ICorDebugType::GetBase Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugType::GetBase Method
+
 Gets an interface pointer to an ICorDebugType that represents the base type, if one exists, of the type represented by this `ICorDebugType`.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetBase (
 ```  
   
 ## Parameters  
+
  `pBase`  
  [out] A pointer to the address of an `ICorDebugType` object that represents the base type.  
   
 ## Remarks  
+
  Looking up the base type for a type is useful to implement common debugger functionality, such as printing out all the fields of an object or its parent classes.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

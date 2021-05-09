@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TypeOf Operator (Visual Basic)"
 title: "TypeOf Operator"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -14,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: 33f65296-659a-4b9a-9a29-c2a91cff68b2
 ---
 # TypeOf Operator (Visual Basic)
+
 Checks whether the runtime type of an expression's result is type-compatible with the specified type.
   
 ## Syntax  
@@ -27,6 +29,7 @@ result = TypeOf objectexpression IsNot typename
 ```  
   
 ## Parts  
+
  `result`  
  Returned. A `Boolean` value.  
   
@@ -37,6 +40,7 @@ result = TypeOf objectexpression IsNot typename
  Required. Any data type name.  
   
 ## Remarks  
+
  The `TypeOf` operator determines whether the run-time type of `objectexpression` is compatible with `typename`. The compatibility depends on the type category of `typename`. The following table shows how compatibility is determined.  
   
 |Type category of `typename`|Compatibility criterion|  
@@ -50,6 +54,7 @@ result = TypeOf objectexpression IsNot typename
  `TypeOf` is always used with the `Is` keyword to construct a `TypeOf`...`Is` expression, or with the `IsNot` keyword to construct a `TypeOf`...`IsNot` expression.  
   
 ## Example  
+
  The following example uses `TypeOf`...`Is` expressions to test the type compatibility of two object reference variables with various data types.  
   
  [!code-vb[VbVbalrOperators#39](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrOperators/VB/Class1.vb#39)]  

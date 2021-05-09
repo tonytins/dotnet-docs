@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Argument 'Life' cannot be zero"
 title: "Argument 'Life' cannot be zero"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: c402da97-a2b2-4219-a83a-0cebbfdffef2
 ---
 # Argument 'Life' cannot be zero
+
 An argument for `Life`, which must be a `Double` that specifies the length of useful life of the asset, is not valid.  
   
 ## To correct this error  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Financial Summary (Visual Basic)"
 title: "Financial Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 474f973e-7103-42b7-aa4d-367c935e07e1
 ---
 # Financial Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

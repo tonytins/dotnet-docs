@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EmitAssembly Method"
 title: "EmitAssembly Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # EmitAssembly Method
+
 Creates the assembly. Call this method after all other files are closed except for the assembly file. Do not call this method when producing unbound modules.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT EmitAssembly(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

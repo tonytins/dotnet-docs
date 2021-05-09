@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Device unavailable"
 title: "Device unavailable"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 9a89beda-140e-4b32-8d0a-2dc598ef279a
 ---
 # Device unavailable
+
 Either you have lost your network connection, or the device that you are trying to access is offline or does not exist.  
   
 ## To correct this error  

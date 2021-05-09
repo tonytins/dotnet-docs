@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <policyImporter>"
 title: "<policyImporter>"
 ms.date: "03/30/2017"
 ms.assetid: b0d03456-546f-44bb-ab12-1b2ce7f98fca
 ---
 # \<policyImporter>
+
 Specifies a policy importer that controls the import of custom policy assertions about bindings.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -24,6 +26,7 @@ Specifies a policy importer that controls the import of custom policy assertions
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -33,6 +36,7 @@ Specifies a policy importer that controls the import of custom policy assertions
 |`type`|The type of this element.|  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  
@@ -42,6 +46,7 @@ Specifies a policy importer that controls the import of custom policy assertions
 |[\<policyImporters>](policyimporters.md)|Specifies all the policy importers that control the import of custom policy assertions about bindings.|  
   
 ## Remarks  
+
  A policy importer is used to search custom policy assertions about binding features, as well as attach a custom binding element that implements the features the assertion requires.  
   
 ## See also

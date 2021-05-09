@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: This single-instance application could not connect to the original instance"
 title: "This single-instance application could not connect to the original instance"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 7c2c0cee-02a1-4157-be03-39d18e18408f
 ---
 # This single-instance application could not connect to the original instance
+
 This single-instance application could not connect to the original instance. Some of the possible causes for this problem are as follows:  
   
 - The original instance stopped responding.  

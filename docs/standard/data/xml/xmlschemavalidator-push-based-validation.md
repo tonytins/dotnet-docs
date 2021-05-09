@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: XmlSchemaValidator Push-Based Validation"
 title: "XmlSchemaValidator Push-Based Validation"
 ms.date: "03/30/2017"
-ms.technology: dotnet-standard
 dev_langs:
   - "csharp"
   - "vb"

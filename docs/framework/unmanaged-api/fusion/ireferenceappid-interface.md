@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IReferenceAppId Interface"
 title: "IReferenceAppId Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IReferenceAppId Interface
+
 Represents a reference to the unique identifier for the application in the current scope.  
   
 ## Methods  
@@ -29,6 +31,7 @@ Represents a reference to the unique identifier for the application in the curre
 |`IReferenceAppId::put_SubscriptionId`|Sets the token identifier for a subscription to this `IReferenceAppId` to the specified string value.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Isolation.h  

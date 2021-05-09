@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName::StrongNameTokenFromPublicKey Method"
 title: "ICLRStrongName::StrongNameTokenFromPublicKey Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName::StrongNameTokenFromPublicKey Method
+
 Gets a token that represents a public key. A strong name token is the shortened form of a public key.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT StrongNameTokenFromPublicKey (
 ```  
   
 ## Parameters  
+
  `pbPublicKeyBlob`  
  [in] A structure of type [PublicKeyBlob](../strong-naming/publickeyblob-structure.md) that contains the public portion of the key pair used to generate the strong name signature.  
   
@@ -44,12 +47,15 @@ HRESULT StrongNameTokenFromPublicKey (
  [out] The size, in bytes, of the returned strong name token.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Remarks  
+
  A strong name token is the shortened form of a public key that is used to save space when storing key information in metadata. Specifically, strong name tokens are used in assembly references to refer to the dependent assembly.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

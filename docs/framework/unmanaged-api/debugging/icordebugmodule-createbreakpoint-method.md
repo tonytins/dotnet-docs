@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule::CreateBreakpoint Method"
 title: "ICorDebugModule::CreateBreakpoint Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule::CreateBreakpoint Method
+
 This method has not been implemented in the current version of the .NET Framework.  
   
 ## Syntax  
@@ -28,4 +30,5 @@ HRESULT CreateBreakpoint(
 ```  
   
 ## Requirements  
+
  **Header:** CorDebug.idl, CorDebug.h

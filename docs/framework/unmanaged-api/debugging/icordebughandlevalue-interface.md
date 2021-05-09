@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugHandleValue Interface"
 title: "ICorDebugHandleValue Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -27,12 +28,14 @@ A subclass of ICorDebugReferenceValue that represents a reference value to which
 |[GetHandleType Method](icordebughandlevalue-gethandletype-method.md)|Gets a CorDebugHandleType value that describes the kind of handle referenced by this `ICorDebugHandleValue`.|  
   
 ## Remarks  
+
  An `ICorDebugReferenceValue` object is invalidated by a break in the execution of debugged code. An `ICorDebugHandleValue` maintains its reference through breaks and continuations, until it is explicitly released.  
   
 > [!NOTE]
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

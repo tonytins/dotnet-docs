@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetRequestedRuntimeVersion Function"
 title: "GetRequestedRuntimeVersion Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # GetRequestedRuntimeVersion Function
+
 Gets the version number of the common language runtime (CLR) requested by the specified application. If that version is not installed, gets the most recent version that is installed before the requested version.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -33,6 +35,7 @@ HRESULT GetRequestedRuntimeVersion (
 ```  
   
 ## Parameters  
+
  `pExe`  
  [in] The name of the application.  
   
@@ -46,6 +49,7 @@ HRESULT GetRequestedRuntimeVersion (
  [out] A pointer to the length of the version number string.  
   
 ## Return Value  
+
  This method returns standard Component Object Model (COM) error codes, as defined in WinError.h, in addition to the following values.  
   
 |Return code|Description|  
@@ -55,6 +59,7 @@ HRESULT GetRequestedRuntimeVersion (
 |E_POINTER|`pdwLength` is null.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

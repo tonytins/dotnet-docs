@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wrong number of arguments or property assignment not valid"
 title: "Wrong number of arguments or property assignment not valid"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 61700dd4-ebd0-4088-b439-2cd1ef9fc8f4
 ---
 # Wrong number of arguments or property assignment not valid
+
 An assignment has been attempted that is not valid.  
   
 ## To correct this error  

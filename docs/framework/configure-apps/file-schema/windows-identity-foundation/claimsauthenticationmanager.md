@@ -1,10 +1,12 @@
 ---
+description: "Learn more about: <claimsAuthenticationManager>"
 title: "<claimsAuthenticationManager>"
 ms.date: "03/30/2017"
 ms.assetid: 6d30a450-6d13-4671-81a8-77e0204500c5
 author: "BrucePerlerMS"
 ---
 # \<claimsAuthenticationManager>
+
 Registers a claims authentication manager for the incoming claims.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -25,6 +27,7 @@ Registers a claims authentication manager for the incoming claims.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -34,6 +37,7 @@ Registers a claims authentication manager for the incoming claims.
 |type|Specifies a custom type that derives from the <xref:System.Security.Claims.ClaimsAuthenticationManager> class. For more information about how to specify the `type` attribute, see [Custom Type References].|  
   
 ### Child Elements  
+
  If there is no `type` attribute, or if the `type` attribute references the <xref:System.Security.Claims.ClaimsAuthenticationManager> class, the `<claimsAuthenticationManager>` element does not take child elements; however, classes derived from <xref:System.Security.Claims.ClaimsAuthenticationManager> can define child configuration elements.  
   
 ### Parent Elements  
@@ -43,6 +47,7 @@ Registers a claims authentication manager for the incoming claims.
 |[\<identityConfiguration>](identityconfiguration.md)|Specifies service-level identity settings.|  
   
 ## Remarks  
+
  The default behavior provided through the <xref:System.Security.Claims.ClaimsAuthenticationManager> class echoes the incoming claims. If no `type` attribute is specified or if the `type` attribute specifies the <xref:System.Security.Claims.ClaimsAuthenticationManager> class, the `<claimsAuthenticationManager>` element does not take child elements. You can specify the `type` attribute to register a type derived from the <xref:System.Security.Claims.ClaimsAuthenticationManager> class to implement custom behavior. Derived classes can support configuration through child elements of the `<claimsAuthenticationManager>` element by overriding the <xref:System.Security.Claims.ClaimsAuthenticationManager.LoadCustomConfiguration%2A> method to handle these elements. The schema defined for the child elements is up to the designer of the class.  
   
  The `<claimsAuthenticationManager>` element sets the <xref:System.IdentityModel.Configuration.IdentityConfiguration.ClaimsAuthenticationManager%2A?displayProperty=nameWithType> property.  

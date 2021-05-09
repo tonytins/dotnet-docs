@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEditAndContinueErrorInfo::GetErrorCode Method"
 title: "ICorDebugEditAndContinueErrorInfo::GetErrorCode Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEditAndContinueErrorInfo::GetErrorCode Method
+
 `GetErrorCode` is obsolete. Do not call this method.  
   
 ## See also

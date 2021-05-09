@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit2::SaveDeltaToStream Method"
 title: "IMetaDataEmit2::SaveDeltaToStream Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit2::SaveDeltaToStream Method
+
 Saves changes from the current edit-and-continue session to the specified stream.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SaveDeltaToStream (
 ```  
   
 ## Parameters  
+
  `pIStream`  
  [in] An interface pointer to the writable stream to which to save changes.  
   
@@ -36,6 +39,7 @@ HRESULT SaveDeltaToStream (
  [in] Reserved. This value must be zero.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

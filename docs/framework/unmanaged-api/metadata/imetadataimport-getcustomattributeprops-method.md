@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetCustomAttributeProps Method"
 title: "IMetaDataImport::GetCustomAttributeProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetCustomAttributeProps Method
+
 Gets the value of the custom attribute, given its metadata token.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT GetCustomAttributeProps (
 ```  
   
 ## Parameters  
+
  `cv`  
  [in] A metadata token that represents the custom attribute to be retrieved.  
   
@@ -48,9 +51,11 @@ HRESULT GetCustomAttributeProps (
  [out, optional] The size in bytes of the data returned in *`ppBlob`.  
   
 ## Remarks  
+
  A custom attribute is stored as an array of data, the format which is understood by the metadata engine.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

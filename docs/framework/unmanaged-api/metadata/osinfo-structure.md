@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OSINFO Structure"
 title: "OSINFO Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # OSINFO Structure
+
 Contains details about the operating system for an assembly or module.  
   
 ## Syntax  
@@ -37,9 +39,11 @@ typedef struct {
 |`dwOSMinorVersion`|The operating system minor version, or a NULL value to indicate any version.|  
   
 ## Remarks  
+
  `OSINFO` is based on the `OSVERSIONINFOEX` structure that is used in calls to the Microsoft Windows platform function `GetVersionEx`. This structure is used by the ASSEMBLYMETADATA structure to indicate its operating system support.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

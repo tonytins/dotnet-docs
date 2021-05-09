@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataTarget::GetThreadContext Method"
 title: "ICLRDataTarget::GetThreadContext Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataTarget::GetThreadContext Method
+
 Gets the current execution context for the given thread in the target process. This method is called by the common language runtime data access services.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT GetThreadContext (
 ```  
   
 ## Parameters  
+
  `threadID`  
  [in] The operating system identifier of a thread in the target process.  
   
@@ -47,9 +50,11 @@ HRESULT GetThreadContext (
  The data in the `context` buffer must be in the format of the Win32 `CONTEXT` structure. The context specifies processor-specific register data, so the definition of the Win32 `CONTEXT` structure depends on the processor's architecture. Refer to the WinNT.h header file for the definition of the Win32 `CONTEXT` structure.  
   
 ## Remarks  
+
  This method is implemented by the writer of the debugging application.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

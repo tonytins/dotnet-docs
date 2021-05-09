@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCHost::SetVirtualMemLimit Method"
 title: "IGCHost::SetVirtualMemLimit Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IGCHost::SetVirtualMemLimit Method
+
 Sets the maximum size of the runtime's virtual memory.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT SetVirtualMemLimit (
 ```  
   
 ## Parameters  
+
  `sztMaxVirtualMemMB`  
  [in] The maximum size, in megabytes, of the runtime's virtual memory.  
   
 ## Remarks  
+
  The maximum size of the runtime's virtual memory can be changed dynamically.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** GCHost.idl, GCHost.h  

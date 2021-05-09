@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo::IsArrayClass Method"
 title: "ICorProfilerInfo::IsArrayClass Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo::IsArrayClass Method
+
 Determines whether the specified class is an array class.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT IsArrayClass(
 ```  
   
 ## Parameters  
+
  `classId`  
  [in] The ID of the class to be examined.  
   
@@ -43,9 +46,11 @@ HRESULT IsArrayClass(
  [out] A pointer to an integer that indicates the rank (that is, number of dimensions) of the array.  
   
 ## Remarks  
+
  If the specified class is an array class, the `IsArrayClass` method returns an S_OK HRESULT and values for any non-null output parameters. Otherwise, it returns S_FALSE.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

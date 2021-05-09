@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTaskManager Interface"
 title: "IHostTaskManager Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTaskManager Interface
+
 Provides methods that allow the common language runtime (CLR) to work with tasks through the host instead of using the standard operating system threading or fiber functions.  
   
 ## Methods  
@@ -42,9 +44,11 @@ Provides methods that allow the common language runtime (CLR) to work with tasks
 |[SwitchToTask Method](ihosttaskmanager-switchtotask-method.md)|Notifies the host that it should switch out the current task.|  
   
 ## Remarks  
+
  `IHostTaskManager` allows the CLR to create and manage tasks, to provide hooks for the host to take action when control transfers from managed to unmanaged code and vice versa, and to specify certain actions the host can and cannot take during code execution.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CORPROF_E_UNSUPPORTED_CALL_SEQUENCE HRESULT"
 title: "CORPROF_E_UNSUPPORTED_CALL_SEQUENCE HRESULT"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -63,9 +64,10 @@ These two scenarios are discussed in the following sections.
   
 - [DoStackSnapshot](icorprofilerinfo2-dostacksnapshot-method.md)  
   
- For more information, see the entry [Why we have CORPROF_E_UNSUPPORTED_CALL_SEQUENCE](https://docs.microsoft.com/archive/blogs/davbr/why-we-have-corprof_e_unsupported_call_sequence) in the CLR Profiling API blog.  
+ For more information, see the entry [Why we have CORPROF_E_UNSUPPORTED_CALL_SEQUENCE](/archive/blogs/davbr/why-we-have-corprof_e_unsupported_call_sequence) in the CLR Profiling API blog.  
   
 ## Triggering Garbage Collections  
+
  This scenario involves a profiler that is running inside a callback method (for example, one of the `ICorProfilerCallback` methods) that forbids garbage collection. If the profiler tries to call an informational method (for example, a method on the `ICorProfilerInfo` interface) that might trigger a garbage collection, the informational method fails with a CORPROF_E_UNSUPPORTED_CALL_SEQUENCE HRESULT.  
   
  The following table displays the callback methods that forbid garbage collections, and informational methods that may trigger garbage collections. If the profiler executes inside one of the listed callback methods and calls one of the listed informational methods, that informational method fails with a CORPROF_E_UNSUPPORTED_CALL_SEQUENCE HRESULT.  

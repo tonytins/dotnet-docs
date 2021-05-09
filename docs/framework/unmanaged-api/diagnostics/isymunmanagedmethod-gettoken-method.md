@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedMethod::GetToken Method"
 title: "ISymUnmanagedMethod::GetToken Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedMethod::GetToken Method
+
 Returns the metadata token for this method.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT GetToken(
 ```  
   
 ## Parameters  
+
  `pToken`  
  [out] A pointer to a `mdMethodDef` that receives the size, in characters, of the buffer required to contain the metadata.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

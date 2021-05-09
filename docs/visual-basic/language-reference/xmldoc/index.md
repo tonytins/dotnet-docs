@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Recommended XML Tags for Documentation Comments (Visual Basic)"
 title: "Recommended XML Tags for Documentation Comments"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 294e0736-ff1e-498e-af83-6db71ed41a72
 ---
 # Recommended XML Tags for Documentation Comments (Visual Basic)
+
 The Visual Basic compiler can process documentation comments in your code to an XML file. You can use additional tools to process the XML file into documentation.  
   
  XML comments are allowed on code constructs such as types and type members. For partial types, only one part of the type can have XML comments, although there is no restriction on commenting its members.  

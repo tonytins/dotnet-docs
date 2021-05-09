@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRControl::SetAppDomainManagerType Method"
 title: "ICLRControl::SetAppDomainManagerType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRControl::SetAppDomainManagerType Method
+
 Sets a type derived from <xref:System.AppDomainManager> as the type for application domain managers.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SetAppDomainManagerType (
 ```  
   
 ## Parameters  
+
  `pwzAppDomainManagerAssembly`  
  [in] The name of the assembly in which the requested type derived from <xref:System.AppDomainManager> is implemented.  
   
@@ -47,6 +50,7 @@ HRESULT SetAppDomainManagerType (
 |E_FAIL|An unknown catastrophic failure occurred. After a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

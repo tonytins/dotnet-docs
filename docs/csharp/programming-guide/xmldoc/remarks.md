@@ -1,5 +1,6 @@
 ---
 title: "<remarks> - C# programming guide"
+description: Learn about the XML <remarks> tag. This tag is used to add information about a type, supplementing the information specified with <summary>.
 ms.date: 07/20/2015
 f1_keywords:
   - "remarks"
@@ -27,7 +28,7 @@ ms.assetid: f8641391-31f3-4735-af7a-c502a5b6a251
 
 The `<remarks>` tag is used to add information about a type, supplementing the information specified with [\<summary>](./summary.md). This information is displayed in the Object Browser window.
 
-Compile with [-doc](../../language-reference/compiler-options/doc-compiler-option.md) to process documentation comments to a file.
+Compile with [**DocumentationFile**](../../language-reference/compiler-options/output.md#documentationfile) to process documentation comments to a file.
 
 ## Example
 

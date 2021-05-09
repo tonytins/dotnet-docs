@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ClearDownloadCache Function"
 title: "ClearDownloadCache Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # ClearDownloadCache Function
+
 Clears the global assembly cache of downloaded assemblies.  
   
 ## Syntax  
@@ -27,6 +29,7 @@ HRESULT ClearDownloadCache ();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

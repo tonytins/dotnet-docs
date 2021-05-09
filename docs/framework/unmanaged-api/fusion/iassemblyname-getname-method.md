@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyName::GetName Method"
 title: "IAssemblyName::GetName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyName::GetName Method
+
 Gets the simple, unencrypted name of the assembly referenced by this [IAssemblyName](iassemblyname-interface.md) object.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetName (
 ```  
   
 ## Parameters  
+
  `lpcwBuffer`  
  [in, out] The size of `pwzName` in wide characters, including the null terminator character.  
   
@@ -36,6 +39,7 @@ HRESULT GetName (
  [out] A buffer to hold the name of the referenced assembly.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

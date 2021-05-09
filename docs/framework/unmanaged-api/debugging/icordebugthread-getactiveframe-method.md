@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugThread::GetActiveFrame Method"
 title: "ICorDebugThread::GetActiveFrame Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugThread::GetActiveFrame Method
+
 Gets an interface pointer to the active (most recent) frame on this ICorDebugThread object.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetActiveFrame (
 ```  
   
 ## Parameters  
+
  `ppFrame`  
  [out] A pointer to the address of an ICorDebugFrame interface object that represents a frame.  
   
 ## Remarks  
+
  The `ppFrame` parameter is null if no frame is currently active.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IDebuggerThreadControl::StartBlockingForDebugger Method"
 title: "IDebuggerThreadControl::StartBlockingForDebugger Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IDebuggerThreadControl::StartBlockingForDebugger Method
+
 Notifies the host that the debugging services are about to start blocking all threads.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT StartBlockingForDebugger (
 ```  
   
 ## Parameters  
+
  `dwUnused`  
  [in] Reserved for future use.  
   
 ## Remarks  
+
  The `StartBlockingForDebugger` method could be called on a runtime thread.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

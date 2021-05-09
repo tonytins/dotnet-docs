@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ExportNestedTypeForwarder Method"
 title: "ExportNestedTypeForwarder Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ExportNestedTypeForwarder Method
+
 Adds a type forwarder for a nested type to the type table of the given assembly.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT ExportNestedTypeForwarder(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly to export from.  
   
@@ -55,9 +58,11 @@ HRESULT ExportNestedTypeForwarder(
  Receives token of export type. This is necessary only for emitting nested types.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

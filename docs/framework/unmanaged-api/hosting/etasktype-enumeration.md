@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ETaskType Enumeration"
 title: "ETaskType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ETaskType Enumeration
+
 Contains values that indicate the type of task that is represented by either an [ICLRTask](iclrtask-interface.md) or an [IHostTask](ihosttask-interface.md) interface.  
   
 ## Syntax  
@@ -53,6 +55,7 @@ typedef enum ETaskType {
 |`TT_USER`|The interface represents a user task.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

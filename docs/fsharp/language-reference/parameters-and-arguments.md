@@ -1,7 +1,7 @@
 ---
 title: Parameters and Arguments
 description: Learn about F# language support for defining parameters and passing arguments to functions, methods, and properties.
-ms.date: 12/04/2019
+ms.date: 08/15/2020
 ---
 # Parameters and Arguments
 
@@ -99,7 +99,7 @@ In a call to a class constructor, you can set the values of properties of the cl
 
 [!code-fsharp[Main](~/samples/snippets/fsharp/lang-ref-2/snippet3506.fs)]
 
-For more information, see [Constructors (F#)](https://msdn.microsoft.com/library/2cd0ed07-d214-4125-8317-4f288af99f05).
+For more information, see [Constructors (F#)](members/constructors.md).
 
 ## Optional Parameters
 
@@ -131,7 +131,7 @@ open System
 open System.Runtime.InteropServices
 type C =
     static member Foo([<Optional; DefaultParameterValue("Hello world")>] message) =
-        printfn "%s" message
+        printfn $"{message}"
 ```
 
 You can also specify a new object as a default parameter value. For example, the `Foo` member could have an optional `CancellationToken` as input instead:
@@ -141,7 +141,7 @@ open System.Threading
 open System.Runtime.InteropServices
 type C =
     static member Foo([<Optional; DefaultParameterValue(CancellationToken())>] ct: CancellationToken) =
-        printfn "%A" ct
+        printfn $"{ct}"
 ```
 
 The value given as argument to `DefaultParameterValue` must match the type of the parameter. For example, the following is not allowed:
@@ -162,12 +162,12 @@ Passing an F# value by reference involves [byrefs](byrefs.md), which are managed
 - Use `byref<'T>` if you need to both read from and write to the pointer.
 
 ```fsharp
-let example1 (x: inref<int>) = printfn "It's %d" x
+let example1 (x: inref<int>) = printfn $"It's %d{x}"
 
 let example2 (x: outref<int>) = x <- x + 1
 
 let example3 (x: byref<int>) =
-    printfn "It'd %d" x
+    printfn $"It's %d{x}"
     x <- x + 1
 
 let test () =

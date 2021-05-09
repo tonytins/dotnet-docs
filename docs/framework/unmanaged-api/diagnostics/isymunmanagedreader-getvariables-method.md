@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader::GetVariables Method"
 title: "ISymUnmanagedReader::GetVariables Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader::GetVariables Method
+
 Returns a non-local variable, given its parent and name.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetVariables (
 ```  
   
 ## Parameters  
+
  `parent`  
  [in] The parent of the variable.  
   
@@ -44,9 +47,11 @@ HRESULT GetVariables (
  [out] A pointer to the variable that receives the variables.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

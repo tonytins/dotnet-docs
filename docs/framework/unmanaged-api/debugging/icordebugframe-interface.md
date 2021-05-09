@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFrame Interface"
 title: "ICorDebugFrame Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -38,6 +39,7 @@ Represents a frame on the current stack.
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

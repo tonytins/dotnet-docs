@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorConfiguration Interface"
 title: "ICorConfiguration Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorConfiguration Interface
+
 Provides methods for configuring the common language runtime (CLR).  
   
 ## Methods  
@@ -28,6 +30,7 @@ Provides methods for configuring the common language runtime (CLR).
 |[SetGCThreadControl Method](icorconfiguration-setgcthreadcontrol-method.md)|Sets the callback interface for scheduling threads for non-runtime tasks that would otherwise be blocked for a garbage collection.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

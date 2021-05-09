@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule2::SetJITCompilerFlags Method"
 title: "ICorDebugModule2::SetJITCompilerFlags Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule2::SetJITCompilerFlags Method
+
 Sets the flags that control the just-in-time (JIT) compilation of this ICorDebugModule2.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT SetJITCompilerFlags (
 ```  
   
 ## Parameters  
+
  `dwFlags`  
  [in] A bitwise combination of the [CorDebugJITCompilerFlags](cordebugjitcompilerflags-enumeration.md) enumeration values.  
   
 ## Remarks  
+
  If the `dwFlags` value is invalid, the `SetJITCompilerFlags` method will fail.  
   
  The `SetJITCompilerFlags` method can be called only from within the [ICorDebugManagedCallback::LoadModule](icordebugmanagedcallback-loadmodule-method.md) callback for this module. Attempts to call it after the `ICorDebugManagedCallback::LoadModule` callback has been delivered will fail.  
@@ -39,6 +43,7 @@ HRESULT SetJITCompilerFlags (
  Edit and Continue is not supported on 64-bit or Win9x platforms. Therefore, if you call the `SetJITCompilerFlags` method on either of these two platforms with the CORDEBUG_JIT_ENABLE_ENC flag set in `dwFlags`, the `SetJITCompilerFlags` method and all methods specific to Edit and Continue, such as [ICorDebugModule2::ApplyChanges](icordebugmodule2-applychanges-method.md), will fail.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

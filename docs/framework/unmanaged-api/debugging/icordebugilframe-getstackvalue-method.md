@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugILFrame::GetStackValue Method"
 title: "ICorDebugILFrame::GetStackValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugILFrame::GetStackValue Method
+
 This method has not been implemented.  
   
 ## Syntax  
@@ -29,4 +31,5 @@ HRESULT GetStackValue (
 ```  
   
 ## Requirements  
+
  **Header:** CorDebug.idl, CorDebug.h

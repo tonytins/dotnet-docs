@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CoreClrDebugProcInfo Structure"
 title: "CoreClrDebugProcInfo Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # CoreClrDebugProcInfo Structure
+
 Represents a process that is running on a remote machine.  
   
 ## Syntax  
@@ -39,6 +41,7 @@ struct  CoreClrDebugProcInfo {
 |`m_wszName`|Command-line of the process. This member may be truncated.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CoreClrRemoteDebuggingInterfaces.h  

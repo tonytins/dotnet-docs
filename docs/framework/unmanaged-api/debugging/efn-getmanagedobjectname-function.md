@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: _EFN_GetManagedObjectName Function"
 title: "_EFN_GetManagedObjectName Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # \_EFN\_GetManagedObjectName Function
+
 Gets the name of a type using the provided managed object pointer.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT _EFN_GetManagedObjectName(
 ```  
   
 ## Parameters  
+
  `Client`  
  [in] A pointer to the debug client.  
   
@@ -43,9 +46,11 @@ HRESULT _EFN_GetManagedObjectName(
  [out] The number of characters available in the string buffer.  
   
 ## Remarks  
+
  If there is no managed code on the thread currently in context, the function returns HRESULT SOS_E_NOMANAGEDCODE with a facility value of 0xa0 and an error code of 0x1000.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** SOS_Stacktrace.h  

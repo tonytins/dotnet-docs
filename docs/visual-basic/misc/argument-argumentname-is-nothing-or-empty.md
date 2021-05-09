@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Argument '<argumentname>' is Nothing or empty"
 title: "Argument '<argumentname>' is Nothing or empty"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 4a742518-30ce-4054-b1bb-df6978f15c06
 ---
 # Argument '\<argumentname>' is Nothing or empty
+
 An argument name is not valid because it is initialized to `Nothing` or is empty. An argument must have a specific data type and a valid name.  
   
 ## To correct this error  

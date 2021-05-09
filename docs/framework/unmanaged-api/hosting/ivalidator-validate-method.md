@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IValidator::Validate Method"
 title: "IValidator::Validate Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IValidator::Validate Method
+
 Validates the specified portable executable (PE) or Microsoft intermediate language (MSIL) file.  
   
 ## Syntax  
@@ -35,6 +37,7 @@ HRESULT Validate (
 ```  
   
 ## Parameters  
+
  `veh`  
  [in] A pointer to an `IVEHandler` instance that handles validation errors.  
   
@@ -60,6 +63,7 @@ HRESULT Validate (
  [in] The size, in bytes, of the file to be validated.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** IValidator.idl, IValidator.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Constants (Unmanaged API Reference)"
 title: "Constants (Unmanaged API Reference)"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: 77526f65-b71c-4483-9d19-3a3751fd8a45
 ---
 # Constants (Unmanaged API Reference)
+
 This topic describes the language type, language vendor, and document type constants that are defined in CorSym.idl.  
   
 ## Language Type Constants  
+
  The following table shows language type constants, which represent GUIDs that identify programming languages.  
   
 |Symbol|Description|  
@@ -28,6 +31,7 @@ This topic describes the language type, language vendor, and document type const
 |CorSym_LanguageType_MCPlusPlus|Indicates the C++ language enabled for the .NET Framework.|  
   
 ## Language Vendor Constants  
+
  The following table shows language vendor constants, which represent GUIDs that identify programming language vendors.  
   
 |Symbol|Description|  
@@ -35,6 +39,7 @@ This topic describes the language type, language vendor, and document type const
 |CorSym_LanguageVendor_Microsoft|Indicates Microsoft.|  
   
 ## Document Type Constants  
+
  The following table shows document type constants, which represent GUIDs that identify document types.  
   
 |Symbol|Description|  

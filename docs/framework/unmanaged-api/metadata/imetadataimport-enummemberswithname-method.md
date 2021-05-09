@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::EnumMembersWithName Method"
 title: "IMetaDataImport::EnumMembersWithName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::EnumMembersWithName Method
+
 Enumerates MemberDef tokens representing members of the specified type with the specified name.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT EnumMembersWithName (
 ```  
   
 ## Parameters  
+
  `phEnum`  
  [in, out] A pointer to the enumerator.  
   
@@ -52,6 +55,7 @@ HRESULT EnumMembersWithName (
  [out] The actual number of MemberDef tokens returned in `rMembers`.  
   
 ## Remarks  
+
  This method enumerates fields and methods, but not properties or events. Unlike [IMetaDataImport::EnumMembers](imetadataimport-enummembers-method.md), `EnumMembersWithName` discards all field and member tokens that do not have the specified name.  
   
 ## Return Value  
@@ -62,6 +66,7 @@ HRESULT EnumMembersWithName (
 |`S_FALSE`|There are no MemberDef tokens to enumerate. In that case, `pcTokens` is zero.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

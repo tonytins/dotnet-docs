@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTask Interface"
 title: "IHostTask Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTask Interface
+
 Provides methods that allow the common language runtime (CLR) to communicate with the host to manage tasks.  
   
 ## Methods  
@@ -30,9 +32,11 @@ Provides methods that allow the common language runtime (CLR) to communicate wit
 |[Start Method](ihosttask-start-method.md)|Requests that the host move the task represented by the current `IHostTask` instance from a suspended state to a live state, in which code can be executed.|  
   
 ## Remarks  
+
  The CLR calls methods defined by `IHostTask` to start a task, set its thread priority level, and so on.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

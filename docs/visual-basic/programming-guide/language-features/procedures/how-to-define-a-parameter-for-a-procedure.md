@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Define a Parameter for a Procedure (Visual Basic)"
 title: "How to: Define a Parameter for a Procedure"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7962808d-407e-4e84-984e-43e9857c53c9
 ---
 # How to: Define a Parameter for a Procedure (Visual Basic)
+
 A *parameter* allows the calling code to pass a value to the procedure when it calls it. You declare each parameter for a procedure the same way you declare a variable, specifying its name and data type. You also specify the passing mechanism, and whether the parameter is optional.  
   
  For more information, see [Procedure Parameters and Arguments](./procedure-parameters-and-arguments.md).  

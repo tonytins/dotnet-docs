@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugAppDomain2 Interface"
 title: "ICorDebugAppDomain2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -32,6 +33,7 @@ Provides methods to work with arrays, pointers, function pointers, and reference
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

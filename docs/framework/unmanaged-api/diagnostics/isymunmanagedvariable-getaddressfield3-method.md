@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedVariable::GetAddressField3 Method"
 title: "ISymUnmanagedVariable::GetAddressField3 Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedVariable::GetAddressField3 Method
+
 Gets the third address field for this variable. Its meaning depends on the kind of address.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT GetAddressField3(
 ```  
   
 ## Parameters  
+
  `pRetVal`  
  [out] A pointer to a `ULONG32` that receives the third address field.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

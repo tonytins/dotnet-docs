@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: My Reference (Visual Basic)"
 title: "My Reference"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 6f803bd7-21ff-4569-b1fe-b00a6678b1e3
 ---
 # My Reference (Visual Basic)
+
 The `My` feature makes programming faster and easier by giving you intuitive access to commonly used methods, properties, and events. This table lists the objects contained in `My`, and the actions that can be performed with each.  
   
 |**Action**|**Object**|  

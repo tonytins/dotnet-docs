@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorSerializationType Enumeration"
 title: "CorSerializationType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorSerializationType Enumeration
+
 Specifies how an object is serialized by the common language runtime.  
   
 ## Syntax  
@@ -73,6 +75,7 @@ typedef enum CorSerializationType {
 |`SERIALIZATION_TYPE_ENUM`|Object is serialized as an enumeration.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

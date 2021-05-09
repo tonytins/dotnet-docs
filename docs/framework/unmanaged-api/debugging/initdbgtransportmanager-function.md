@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InitDbgTransportManager Function"
 title: "InitDbgTransportManager Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # InitDbgTransportManager Function
+
 Initializes the transport manager to connect to a remote target for process and runtime enumeration.  
   
 ## Syntax  
@@ -27,6 +29,7 @@ HRESULT InitDbgTransportManager ();
 ```  
   
 ## Return Value  
+
  S_OK  
  Success.  
   
@@ -37,6 +40,7 @@ HRESULT InitDbgTransportManager ();
  Other failures.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CoreClrRemoteDebuggingInterfaces.h  

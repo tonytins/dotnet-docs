@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ASP.NET Compatibility"
 title: "ASP.NET Compatibility"
 ms.date: "03/30/2017"
 ms.assetid: c8b51f1e-c096-4c42-ad99-0519887bbbc5
@@ -124,4 +125,4 @@ Press <ENTER> to terminate client.
 
 ## See also
 
-- [AppFabric Hosting and Persistence Samples](https://docs.microsoft.com/previous-versions/appfabric/ff383418(v=azure.10))
+- [AppFabric Hosting and Persistence Samples](/previous-versions/appfabric/ff383418(v=azure.10))

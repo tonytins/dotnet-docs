@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTaskManager::BeginDelayAbort Method"
 title: "IHostTaskManager::BeginDelayAbort Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTaskManager::BeginDelayAbort Method
+
 Notifies the host that managed code is entering a period in which the current task must not be aborted.  
   
 ## Syntax  
@@ -38,9 +40,11 @@ HRESULT BeginDelayAbort ();
 |E_UNEXPECTED|`BeginDelayAbort` has already been called, but the corresponding call to [EndDelayAbort](ihosttaskmanager-enddelayabort-method.md) has not yet been received.|  
   
 ## Remarks  
+
  The host must not abort the current task until `EndDelayAbort` is called. If another call to `BeginDelayAbort` is made without an intervening call to `EndDelayAbort`, the host should return E_UNEXPECTED from `BeginDelayAbort`, and should take no action.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

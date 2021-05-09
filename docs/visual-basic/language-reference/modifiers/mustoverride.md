@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MustOverride (Visual Basic)"
 title: "MustOverride"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -17,9 +18,11 @@ helpviewer_keywords:
 ms.assetid: 6e9d9ad6-bb64-433f-b32b-3ef84293bf96
 ---
 # MustOverride (Visual Basic)
+
 Specifies that a property or procedure is not implemented in this class and must be overridden in a derived class before it can be used.  
   
 ## Remarks  
+
  You can use `MustOverride` only in a property or procedure declaration statement. The property or procedure that specifies `MustOverride` must be a member of a class, and the class must be marked [MustInherit](mustinherit.md).  
   
 ## Rules  

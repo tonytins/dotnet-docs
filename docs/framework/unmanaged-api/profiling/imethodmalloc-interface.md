@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMethodMalloc Interface"
 title: "IMethodMalloc Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IMethodMalloc Interface
+
 Provides a method to allocate memory for a new Microsoft intermediate language (MSIL) function body.  
   
 > [!NOTE]
@@ -28,9 +30,11 @@ Provides a method to allocate memory for a new Microsoft intermediate language (
 |[Alloc Method](imethodmalloc-alloc-method.md)|Attempts to allocate a specified amount of memory for a new MSIL function body.|  
   
 ## Remarks  
+
  Each allocator is module-specific and ensures that the function body will be at a positive offset from the base of the module. Memory above the base of a module can be precious, so the allocator should be used to allocate memory only for a function body.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugArrayValue::GetElementType Method"
 title: "ICorDebugArrayValue::GetElementType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugArrayValue::GetElementType Method
+
 Gets a value that indicates the simple type of the elements in the array.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetElementType (
 ```  
   
 ## Parameters  
+
  `pType`  
  [out] A pointer to a value of the CorElementType enumeration that indicates the type.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

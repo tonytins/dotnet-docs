@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_GC_STAT_TYPES Enumeration"
 title: "COR_GC_STAT_TYPES Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_GC_STAT_TYPES Enumeration
+
 Specifies the statistics to be recorded for a garbage collection.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ typedef enum {
 ```  
   
 ## Remarks  
+
  This enumeration specifies which statistics in the [COR_GC_STATS](cor-gc-stats-structure.md) structure are to be set by [ICLRGCManager::GetStats](iclrgcmanager-getstats-method.md) method.  
   
 ## Members  
@@ -38,6 +41,7 @@ typedef enum {
 |`COR_GC_MEMORYUSAGE`|Records memory usage and garbage collection size statistics.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** GCHost.idl, GCHost.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Profiling Structures"
 title: "Profiling Structures"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: 750385f2-f365-41b1-939f-ca2f2ff9b466
 ---
 # Profiling Structures
+
 This section describes the unmanaged structures that the profiling API uses.  
   
 ## In This Section  
+
  [COR_PRF_ASSEMBLY_REFERENCE_INFO Structure](cor-prf-assembly-reference-info-structure.md)  
  Provides the common language runtime with information about a reference assembly that it should consider when performing an assembly reference closure walk.  
   
@@ -31,8 +34,18 @@ This section describes the unmanaged structures that the profiling API uses.
   
  [COR_PRF_GC_GENERATION_RANGE Structure](cor-prf-gc-generation-range-structure.md)  
  Describes a range (that is, block) of memory that is undergoing garbage collection.  
+
+ [COR_PRF_EVENTPIPE_PROVIDER_CONFIG Structure](cor-prf-eventpipe-provider-config-structure.md)
+ Describes the fields necessary to configure an EventPipe provider.
+
+ [COR_PRF_EVENTPIPE_PARAM_DESC Structure](cor-prf-eventpipe-param-desc-structure.md)
+ Describes the parameter name and type for an EventPipe event.
+
+ [COR_PRF_EVENT_DATA Structure](cor-prf-event-data-structure.md)
+ Describes the event data for an EventPipe event being written.
   
 ## Related Sections  
+
  COR_DEBUG_IL_TO_NATIVE_MAP  
   
  COR_IL_MAP  

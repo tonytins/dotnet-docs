@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: Validating an XML Document in the DOM"
 title: "Validating an XML Document in the DOM"
 ms.date: "03/30/2017"
-ms.technology: dotnet-standard
 dev_langs:
   - "csharp"
   - "vb"

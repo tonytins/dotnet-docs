@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostAutoEvent::Wait Method"
 title: "IHostAutoEvent::Wait Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostAutoEvent::Wait Method
+
 Causes the current [IHostAutoEvent](ihostautoevent-interface.md) instance to wait until it is owned or a specified amount of time elapses.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT Wait (
 ```  
   
 ## Parameters  
+
  `dwMilliseconds`  
  [in] The number of milliseconds the current `IHostAutoEvent` instance should wait before returning, if no thread or fiber takes ownership.  
   
@@ -48,6 +51,7 @@ HRESULT Wait (
 |HOST_E_DEADLOCK|The host detected a deadlock during the wait interval, and chose the event represented by the current `IHostAutoEvent` instance as the deadlock victim.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugRegisterSet::SetRegisters Method"
 title: "ICorDebugRegisterSet::SetRegisters Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugRegisterSet::SetRegisters Method
+
 `SetRegisters` is not implemented in the .NET Framework version 2.0. Do not call this method.  
   
 > [!NOTE]
@@ -33,6 +35,7 @@ HRESULT SetRegisters (
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

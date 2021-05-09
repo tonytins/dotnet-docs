@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tracking Events into Event Tracing in Windows"
 title: "Tracking Events into Event Tracing in Windows"
 ms.date: "03/30/2017"
 ms.assetid: f812659b-0943-45ff-9430-4defa733182b
@@ -147,4 +148,4 @@ The health monitoring tracking profile emits workflow instance records and activ
 
 ## See also
 
-- [AppFabric Monitoring Samples](https://docs.microsoft.com/previous-versions/appfabric/ff383407(v=azure.10))
+- [AppFabric Monitoring Samples](/previous-versions/appfabric/ff383407(v=azure.10))

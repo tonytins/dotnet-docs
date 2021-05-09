@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugHandleValue::GetHandleType Method"
 title: "ICorDebugHandleValue::GetHandleType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugHandleValue::GetHandleType Method
+
 Gets a value that indicates the kind of handle referenced by this ICorDebugHandleValue object.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetHandleType (
 ```  
   
 ## Parameters  
+
  `pType`  
  [out] A pointer to a value of the CorDebugHandleType enumeration that indicates the type of this handle.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

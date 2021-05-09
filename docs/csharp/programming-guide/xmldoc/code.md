@@ -1,5 +1,6 @@
 ---
 title: "<code> - C# programming guide"
+description: Learn about the XML <code> tag. This tag is used to indicate multiple lines of code, while <c> marks single-line text in a description as code.
 ms.date: 07/20/2015
 f1_keywords:
   - "code"
@@ -27,7 +28,7 @@ ms.assetid: f235e3bc-a709-43cf-8a9f-bd57cabdf6da
 
 The `<code>` tag is used to indicate multiple lines of code. Use [\<c>](./code-inline.md) to indicate that single-line text within a description should be marked as code.
 
-Compile with [-doc](../../language-reference/compiler-options/doc-compiler-option.md) to process documentation comments to a file.
+Compile with [**DocumentationFile**](../../language-reference/compiler-options/output.md#documentationfile) to process documentation comments to a file.
 
 ## Example
 

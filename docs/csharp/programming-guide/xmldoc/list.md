@@ -1,5 +1,6 @@
 ---
 title: "<list> - C# programming guide"
+description: Learn about the XML <list> tag. This tag is used to create tables and definition, bulleted, or numbered lists by using 'item' blocks.
 ms.date: 07/20/2015
 f1_keywords:
   - "list"
@@ -48,7 +49,7 @@ Each item in the list is specified with an `<item>` block. When creating a defin
 
 A list or table can have as many `<item>` blocks as needed.
 
-Compile with [-doc](../../language-reference/compiler-options/doc-compiler-option.md) to process documentation comments to a file.
+Compile with [**DocumentationFile**](../../language-reference/compiler-options/output.md#documentationfile) to process documentation comments to a file.
 
 ## Example
 

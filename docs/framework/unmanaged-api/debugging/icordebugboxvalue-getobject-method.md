@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugBoxValue::GetObject Method"
 title: "ICorDebugBoxValue::GetObject Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugBoxValue::GetObject Method
+
 Gets the boxed value.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetObject (
 ```  
   
 ## Parameters  
+
  `ppObject`  
  [out] A pointer to the address of an ICorDebugObjectValue object that represents the boxed value.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

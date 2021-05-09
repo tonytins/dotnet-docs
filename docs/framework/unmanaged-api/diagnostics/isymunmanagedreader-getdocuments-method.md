@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader::GetDocuments Method"
 title: "ISymUnmanagedReader::GetDocuments Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader::GetDocuments Method
+
 Returns an array of all the documents defined in the symbol store.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetDocuments (
 ```  
   
 ## Parameters  
+
  `cDocs`  
  [in] The size of the `pDocs` array.  
   
@@ -40,9 +43,11 @@ HRESULT GetDocuments (
  [out] A pointer to a variable that receives the document array.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

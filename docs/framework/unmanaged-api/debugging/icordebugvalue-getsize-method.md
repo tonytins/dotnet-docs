@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugValue::GetSize Method"
 title: "ICorDebugValue::GetSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugValue::GetSize Method
+
 Gets the size, in bytes, of this "ICorDebugValue" object.  
   
 ## Syntax  
@@ -28,15 +30,18 @@ HRESULT GetSize (
 ```  
   
 ## Parameters  
+
  `pSize`  
  [out] The size, in bytes, of this value object.  
   
 ## Remarks  
+
  If the value's type is a reference type, this method returns the size of the pointer rather than the size of the object.  
   
  The `ICorDebugValue::GetSize` method returns `COR_E_OVERFLOW` for objects that are larger than 4 GB on 64-bit platforms. Use the [ICorDebugValue3::GetSize64](icordebugvalue3-getsize64-method.md) method instead for objects that are larger than 4 GB.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

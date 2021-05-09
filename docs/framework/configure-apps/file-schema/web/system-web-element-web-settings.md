@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <system.web> Element (Web Settings)"
 title: "<system.web> Element (Web Settings)"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 24c4cf4f-ad32-42b2-b040-8e4549e2855e
 ---
 # \<system.web> Element (Web Settings)
+
 Contains information about how the ASP.NET hosting layer manages process-wide behavior.  
   
 [**\<configuration>**](../configuration-element.md)  

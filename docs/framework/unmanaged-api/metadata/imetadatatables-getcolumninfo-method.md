@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataTables::GetColumnInfo Method"
 title: "IMetaDataTables::GetColumnInfo Method"
 ms.date: "10/10/2019"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataTables::GetColumnInfo Method
+
 Gets data about the specified column in the specified table.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT GetColumnInfo (
 ```  
   
 ## Parameters
+
 =======
 
  `ixTbl`  
@@ -80,6 +83,7 @@ Values that are stored in the *heap* (that is, `IsHeapType == true`) can be read
 > To use the constants defined in the table above, include the directive `#define _DEFINE_META_DATA_META_CONSTANTS` provided by the *cor.h* header file.
 
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

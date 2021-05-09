@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo9 Interface"
 title: "ICorProfilerInfo9 Interface"
 ms.date: "08/06/2019"
 author: "davmason"
@@ -17,9 +18,10 @@ A subclass of [ICorProfilerInfo8](icorprofilerinfo8-interface.md) that provides 
 |[GetCodeInfo4 Method](icorprofilerinfo9-getcodeinfo4-method.md)| Given the native code start address, returns the blocks of virtual memory that store this code. |
 
 ## Requirements  
-**Platforms:** See [.NET Core supported operating systems](../../../core/install/dependencies.md?pivots=os-windows).  
+
+**Platforms:** See [.NET Core supported operating systems](../../../core/install/windows.md?pivots=os-windows).  
 **Header:** CorProf.idl, CorProf.h  
-**.NET Versions:** [!INCLUDE[net_core](../../../../includes/net-core-22-md.md)]  
+**.NET Versions:** [!INCLUDE[net_core](../../../../includes/net-core-21-md.md)]  
 
 ## See also
 

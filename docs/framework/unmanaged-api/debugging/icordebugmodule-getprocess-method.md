@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule::GetProcess Method"
 title: "ICorDebugModule::GetProcess Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule::GetProcess Method
+
 Gets the containing process of this module.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetProcess (
 ```  
   
 ## Parameters  
+
  `ppProcess`  
  [out] A pointer to the address of an ICorDebugProcess object that represents the process containing this module.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

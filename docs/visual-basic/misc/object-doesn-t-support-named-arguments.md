@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Object doesn't support named arguments"
 title: "Object doesn't support named arguments"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: f4812db8-e85d-4d5b-b7c9-d54a1f850034
 ---
 # Object doesn't support named arguments
+
 You tried to access an object whose methods don't support named arguments.  
   
 ## To correct this error  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cryptography Settings Schema"
 title: "Cryptography Settings Schema"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: 1f55050a-b2a3-4868-a3c0-da20826150f3
 ---
 # Cryptography Settings Schema
+
 The cryptography settings schema contains elements that specify how to map friendly algorithm names to classes that implement cryptography algorithms.  
   
 [**\<configuration>**](../configuration-element.md)\

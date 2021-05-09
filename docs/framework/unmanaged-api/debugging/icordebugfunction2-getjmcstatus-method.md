@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFunction2::GetJMCStatus Method"
 title: "ICorDebugFunction2::GetJMCStatus Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFunction2::GetJMCStatus Method
+
 Gets a value that indicates whether the function that is represented by this ICorDebugFunction2 object is marked as user code.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetJMCStatus (
 ```  
   
 ## Parameters  
+
  `pbIsJustMyCode`  
  [out] A pointer to a Boolean value that is `true`, if this function is marked as user code; otherwise, the value is `false`.  
   
 ## Remarks  
+
  If the function represented by this `ICorDebugFunction2` cannot be debugged, `pbIsJustMyCode` will always be `false`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

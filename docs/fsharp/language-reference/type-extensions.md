@@ -28,7 +28,7 @@ open System.Runtime.CompilerServices
 [<Extension>]
 type Extensions() =
     [<Extension>]
-    static member self-identifier.extension-name (ty: typename, [args]) =
+    static member extension-name (ty: typename, [args]) =
         body
     ...
 ```
@@ -128,6 +128,7 @@ Extension methods are useful for when you wish to define extensions on a generic
 ```fsharp
 namespace Extensions
 
+open System.Collections.Generic
 open System.Runtime.CompilerServices
 
 [<Extension>]

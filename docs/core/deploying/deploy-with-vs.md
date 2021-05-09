@@ -18,7 +18,7 @@ The following sections show how to use Microsoft Visual Studio to create the fol
 - Self-contained deployment
 - Self-contained deployment with third-party dependencies
 
-For information on using Visual Studio to develop .NET Core applications, see [.NET Core dependencies and requirements](../install/dependencies.md?pivots=os-windows).
+For information on using Visual Studio to develop .NET Core applications, see [.NET Core dependencies and requirements](../install/windows.md).
 
 ## Framework-dependent deployment
 
@@ -88,7 +88,7 @@ Deploying a self-contained deployment with no third-party dependencies involves 
 
 1. Determine whether you want to use globalization invariant mode.
 
-   Particularly if your app targets Linux, you can reduce the total size of your deployment by taking advantage of [globalization invariant mode](https://github.com/dotnet/runtime/blob/master/docs/design/features/globalization-invariant-mode.md). Globalization invariant mode is useful for applications that are not globally aware and that can use the formatting conventions, casing conventions, and string comparison and sort order of the [invariant culture](xref:System.Globalization.CultureInfo.InvariantCulture).
+   Particularly if your app targets Linux, you can reduce the total size of your deployment by taking advantage of [globalization invariant mode](https://github.com/dotnet/runtime/blob/main/docs/design/features/globalization-invariant-mode.md). Globalization invariant mode is useful for applications that are not globally aware and that can use the formatting conventions, casing conventions, and string comparison and sort order of the [invariant culture](xref:System.Globalization.CultureInfo.InvariantCulture).
 
    To enable invariant mode, right-click on your project (not the solution) in **Solution Explorer**, and select **Edit SCD.csproj** or **Edit SCD.vbproj**. Then add the following highlighted lines to the file:
 
@@ -114,7 +114,7 @@ To publish your app from Visual Studio, do the following:
 
    1. Right-click on your project (not the solution) in **Solution Explorer** and select **Edit SCD.csproj**.
 
-   1. Create a `<RuntimeIdentifiers>` tag in the `<PropertyGroup>` section of your *csproj* file that defines the platforms your app targets, and specify the runtime identifier (RID) of each platform that you target. You also need to add a semicolon to separate the RIDs. See [Runtime IDentifier catalog](../rid-catalog.md) for a list of runtime identifiers.
+   1. Create a `<RuntimeIdentifiers>` tag in the `<PropertyGroup>` section of your *csproj* file that defines the platforms your app targets, and specify the runtime identifier (RID) of each platform that you target. You also need to add a semicolon to separate the RIDs. See [Runtime identifier catalog](../rid-catalog.md) for a list of runtime identifiers.
 
    For example, the following example indicates that the app runs on 64-bit Windows 10 operating systems and the 64-bit OS X Version 10.11 operating system.
 
@@ -306,4 +306,4 @@ You can only deploy a self-contained deployment with a third-party library to pl
 ## See also
 
 - [.NET Core Application Deployment](index.md)
-- [.NET Core Runtime IDentifier (RID) catalog](../rid-catalog.md)
+- [.NET Core Runtime Identifier (RID) catalog](../rid-catalog.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter2::DefineConstant2 Method"
 title: "ISymUnmanagedWriter2::DefineConstant2 Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter2::DefineConstant2 Method
+
 Defines a name for a constant value.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT DefineConstant2(
 ```  
   
 ## Parameters  
+
  `name`  
  [in] The constant name.  
   
@@ -39,9 +42,11 @@ HRESULT DefineConstant2(
  [in] The metadata token of the constant.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

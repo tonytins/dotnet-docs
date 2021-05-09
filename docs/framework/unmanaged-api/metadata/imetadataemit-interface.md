@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit Interface"
 title: "IMetaDataEmit Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit Interface
+
 Provides methods to create, modify, and save metadata about the assembly in the currently defined scope. The metadata can be stored in memory or saved to disk.  
   
 ## Methods  
@@ -73,6 +75,7 @@ Provides methods to create, modify, and save metadata about the assembly in the 
 |[TranslateSigWithScope Method](imetadataemit-translatesigwithscope-method.md)|Imports an assembly into the current scope and gets a new metadata signature for the merged scope.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

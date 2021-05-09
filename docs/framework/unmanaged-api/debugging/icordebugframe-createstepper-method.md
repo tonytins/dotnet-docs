@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFrame::CreateStepper Method"
 title: "ICorDebugFrame::CreateStepper Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFrame::CreateStepper Method
+
 Gets a stepper that allows the debugger to perform stepping operations relative to this ICorDebugFrame.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT CreateStepper (
 ```  
   
 ## Parameters  
+
  `ppStepper`  
  [out] A pointer to the address of an ICorDebugStepper object that allows the debugger to perform stepping operations relative to the current frame.  
   
 ## Remarks  
+
  If the frame is not active, the stepper object will typically have to return to the frame before the step is completed.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

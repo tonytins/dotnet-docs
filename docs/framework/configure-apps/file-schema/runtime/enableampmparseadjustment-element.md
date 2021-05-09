@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <EnableAmPmParseAdjustment> Element"
 title: "<EnableAmPmParseAdjustment> Element"
 ms.date: "03/30/2017"
 ms.assetid: fda998a5-f538-4f8b-a18c-ee7f35e16938
 ---
 # \<EnableAmPmParseAdjustment> Element
+
 Determines whether date and time parsing methods use an adjusted set of rules to parse date strings that contain a day, month, hour, and AM/PM designator.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -17,6 +19,7 @@ Determines whether date and time parsing methods use an adjusted set of rules to
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -33,6 +36,7 @@ Determines whether date and time parsing methods use an adjusted set of rules to
 |1|Date and time parsing methods use adjusted rules for parsing date strings that contain only a day, month, hour, and AM/PM designator.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -43,6 +47,7 @@ Determines whether date and time parsing methods use an adjusted set of rules to
 |`runtime`|Contains information about runtime initialization options.|  
   
 ## Remarks  
+
  The `<EnableAmPmParseAdjustment>` element controls how the following methods parse a date string that contains a numeric day and month followed by an hour and an AM/PM designator (such as "4/10 6 AM"):  
   
 - <xref:System.DateTime.Parse%2A?displayProperty=nameWithType>  

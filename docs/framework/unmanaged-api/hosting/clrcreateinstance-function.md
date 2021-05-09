@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CLRCreateInstance Function"
 title: "CLRCreateInstance Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # CLRCreateInstance Function
+
 Provides one of three interfaces: [ICLRMetaHost](iclrmetahost-interface.md), [ICLRMetaHostPolicy](iclrmetahostpolicy-interface.md), or [ICLRDebugging](../debugging/iclrdebugging-interface.md).  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT CLRCreateInstance(
 ```  
   
 ## Parameters  
+
  `clsid`  
  [in] One of three class identifiers: CLSID_CLRMetaHost, CLSID_CLRMetaHostPolicy, or CLSID_CLRDebugging.  
   
@@ -40,6 +43,7 @@ HRESULT CLRCreateInstance(
  [out] One of three interfaces: [ICLRMetaHost](iclrmetahost-interface.md), [ICLRMetaHostPolicy](iclrmetahostpolicy-interface.md), or [ICLRDebugging](../debugging/iclrdebugging-interface.md).  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -48,6 +52,7 @@ HRESULT CLRCreateInstance(
 |E_POINTER|`ppInterface` is null.|  
   
 ## Remarks  
+
  The following table shows the supported combinations for `clsid` and `riid`.  
   
 |`clsid`|`riid`|  
@@ -73,8 +78,20 @@ hr = CLRCreateInstance (CLSID_CLRMetaHostPolicy, IID_ICLRMetaHostPolicy,
 hr = CLRCreateInstance (CLSID_CLRDebugging, IID_ICLRDebugging,  
                     (LPVOID*)&pCLRDebugging);  
 ```  
+
+The `CreateInterface` function is aliased to `CLRCreateInstance`.  Both `CLRCreateInstance` and `CreateInterface` functions can be used interchangeably. For example:
+
+```cpp
+HMODULE hModule = LoadLibrary(L"mscoree.dll");
+CreateInterfaceFnPtr createInterface = (CreateInterfaceFnPtr)GetProcAddress(hModule, "CreateInterface");
+HRESULT hr;
+hr = createInterface(CLSID_CLRMetaHost, IID_ICLRMetaHost, (LPVOID*)&pMetaHost);
+hr = createInterface (CLSID_CLRMetaHostPolicy, IID_ICLRMetaHostPolicy,  (LPVOID*)&pMetaHostPolicy);  
+hr = createInterface (CLSID_CLRDebugging, IID_ICLRDebugging,  (LPVOID*)&pCLRDebugging);
+```
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

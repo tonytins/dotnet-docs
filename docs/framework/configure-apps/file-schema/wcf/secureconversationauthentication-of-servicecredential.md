@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <secureConversationAuthentication> of <serviceCredential>"
 title: "<secureConversationAuthentication> of <serviceCredential>"
 ms.date: "03/30/2017"
 ms.assetid: 0bd3fac7-befd-4a45-ba51-c200b33be0fd
 ---
 # \<secureConversationAuthentication> of \<serviceCredential>
+
 Specifies the settings for a secure conversation service.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -21,6 +23,7 @@ Specifies the settings for a secure conversation service.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -30,6 +33,7 @@ Specifies the settings for a secure conversation service.
 |`securityStateEncoderType`|A string that specifies the type of <xref:System.ServiceModel.Security.SecurityStateEncoder> to be used.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -39,6 +43,7 @@ Specifies the settings for a secure conversation service.
 |[\<serviceCredentials>](servicecredentials.md)|Specifies the credential to be used in authenticating the service, and the client credential validation-related settings.|  
   
 ## Remarks  
+
  Use this configuration element to specify a list of known claim types for the Security Context Token (SCT) cookies serialization, as well as an encoder to encode and secure cookies information. For more information on SCT, see <xref:System.ServiceModel.Security.SecureConversationServiceCredential>.  
   
 ## See also

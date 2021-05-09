@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateApplicationContext Function"
 title: "CreateApplicationContext Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CreateApplicationContext Function
+
 This function supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT CreateApplicationContext (
 ```  
   
 ## Parameters  
+
  `pName`  
  [in] A pointer to a friendly name.  
   
@@ -35,6 +38,7 @@ HRESULT CreateApplicationContext (
  [out] A pointer to an application context.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

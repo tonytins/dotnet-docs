@@ -1,5 +1,6 @@
 ---
 title: "Aximp.exe (Windows Forms ActiveX Control Importer)"
+description: Understand Aximp.exe, the Windows Forms ActiveX Control Importer. This tool converts type definitions in a COM type library for ActiveX into Windows Forms.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "ActiveX controls, hosting in Windows Forms"
@@ -10,13 +11,14 @@ helpviewer_keywords:
 ms.assetid: 482c0d83-7144-4497-b626-87d2351b78d0
 ---
 # Aximp.exe (Windows Forms ActiveX Control Importer)
+
 The ActiveX Control Importer converts type definitions in a COM type library for an ActiveX control into a Windows Forms control.  
   
  Windows Forms can only host Windows Forms controls — that is, classes that are derived from <xref:System.Windows.Forms.Control>. Aximp.exe generates a wrapper class for an ActiveX control that can be hosted on a Windows Form. This allows you to use the same design-time support and programming methodology applicable to other Windows Forms controls.  
   
  To host the ActiveX control, you must generate a wrapper control that derives from <xref:System.Windows.Forms.AxHost>. This wrapper control contains an instance of the underlying ActiveX control. It knows how to communicate with the ActiveX control, but it appears as a Windows Forms control. This generated control hosts the ActiveX control and exposes its properties, methods, and events as those of the generated control.  
   
- This tool is automatically installed with Visual Studio. To run the tool, use the Developer Command Prompt for Visual Studio (or the Visual Studio Command Prompt in Windows 7). For more information, see [Command Prompts](developer-command-prompt-for-vs.md).  
+ This tool is automatically installed with Visual Studio. To run the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell).
   
  At the command prompt, type the following:  
   
@@ -65,6 +67,7 @@ aximp [options]{file.dll | file.ocx}
  Using Aximp.exe with shdocvw.dll to create a .NET assembly for use in application development can also cause problems. In this case, your application will load both the system version of shdocvw.dll and the generated version, and may give the system version priority. In this case, when you attempt to load a Web page inside the WebBrowser ActiveX control, users may be prompted with an Open/Save dialog box. When the user clicks **Open**, the Web page will be opened in Internet Explorer. This occurs only with computers that are running Internet Explorer version 6 or earlier. To prevent this problem, use the managed <xref:System.Windows.Forms.WebBrowser> control or use Visual Studio to generate the managed shdocvw.dll as described in [How to: Add References to Type Libraries](../interop/how-to-add-references-to-type-libraries.md).  
   
 ## Example  
+
  The following command generates MediaPlayer.dll and AxMediaPlayer.dll for the Media Player control `msdxm.ocx`.  
   
 ```console

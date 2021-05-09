@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostControl Interface"
 title: "IHostControl Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostControl Interface
+
 Provides methods for configuring the loading of assemblies, and for determining which hosting interfaces the host supports.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Provides methods for configuring the loading of assemblies, and for determining 
 |[SetAppDomainManager Method](ihostcontrol-setappdomainmanager-method.md)|Notifies the host that an application domain has been created.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

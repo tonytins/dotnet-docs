@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugIlToNativeMappingTypes Enumeration"
 title: "CorDebugIlToNativeMappingTypes Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugIlToNativeMappingTypes Enumeration
+
 Indicates whether a particular range of native instructions, represented by an instance of the COR_DEBUG_IL_TO_NATIVE_MAP structure, corresponds to a special code region.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ typedef enum CorDebugIlToNativeMappingTypes {
 |`EPILOG`|The range of native instructions corresponds to the epilog.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

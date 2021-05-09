@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operators Summary (Visual Basic)"
 title: "Operators Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: cb44c210-686f-4417-a13f-51c0d60161f8
 ---
 # Operators Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

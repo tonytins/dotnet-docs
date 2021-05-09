@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Named arguments cannot match ParamArray parameters"
 title: "Named arguments cannot match ParamArray parameters"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: ba35fb86-329a-4ceb-864b-045c07661482
 ---
 # Named arguments cannot match ParamArray parameters
+
 Parameter arrays must be passed by value.  
   
 ## To correct this error  

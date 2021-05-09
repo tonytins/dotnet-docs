@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostMAlloc::DebugAlloc Method"
 title: "IHostMAlloc::DebugAlloc Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostMAlloc::DebugAlloc Method
+
 Requests that the host allocate the specified amount of memory from the heap, and additionally track where the memory was allocated.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT DebugAlloc (
 ```  
   
 ## Parameters  
+
  `cbSize`  
  [in] The size, in bytes, of the current memory allocation request.  
   
@@ -60,9 +63,11 @@ HRESULT DebugAlloc (
 |E_OUTOFMEMORY|Not enough memory was available to complete the allocation request.|  
   
 ## Remarks  
+
  The CLR gets an interface pointer to an [IHostMalloc](ihostmalloc-interface.md) instance by calling the [IHostMemoryManager::CreateMalloc](ihostmemorymanager-createmalloc-method.md) method. `DebugAlloc` allows the runtime to get code file information for use during debugging.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <etwEnable> Element"
 title: "<etwEnable> Element"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 29dde982-6d8b-4099-8867-ad0d7733f6dc
 ---
 # \<etwEnable> Element
+
 Specifies whether to enable event tracing for Windows (ETW) for common language runtime events.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -20,6 +22,7 @@ Specifies whether to enable event tracing for Windows (ETW) for common language 
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -36,6 +39,7 @@ Specifies whether to enable event tracing for Windows (ETW) for common language 
 |false|Disable ETW. This is the default for earlier versions of Windows.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -46,12 +50,14 @@ Specifies whether to enable event tracing for Windows (ETW) for common language 
 |`runtime`|Contains information about assembly binding and garbage collection.|  
   
 ## Remarks  
+
  Beginning with Windows Vista, ETW is enabled by default. Use this element to disable ETW for an application. In earlier versions of Windows, use this element to enable ETW for an application.  
   
 > [!NOTE]
 > ETW can be enabled or disabled globally on a server by using a registry setting. See [Controlling .NET Framework Logging](../../../performance/controlling-logging.md).  
   
 ## Example  
+
  The following example shows how to enable ETW tracing for an application.  
   
 ```xml  

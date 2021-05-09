@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyCacheItem::Commit Method"
 title: "IAssemblyCacheItem::Commit Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyCacheItem::Commit Method
+
 Commits the cached assembly reference to memory.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT Commit (
 ```  
   
 ## Parameters  
+
  `dwFlags`  
  [in] Flags defined in Fusion.idl.  
   
@@ -36,6 +39,7 @@ HRESULT Commit (
  [out, optional] A value that indicates the result of the operation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

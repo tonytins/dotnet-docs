@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FunctionTailcall2 Function"
 title: "FunctionTailcall2 Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # FunctionTailcall2 Function
+
 Notifies the profiler that the currently executing function is about to perform a tail call to another function and provides information about the stack frame.  
   
 ## Syntax  
@@ -30,21 +32,19 @@ void __stdcall FunctionTailcall2 (
   
 ## Parameters
 
-- `funcId`
+`funcId`
+[in] The identifier of the currently executing function that is about to make a tail call.
 
-  \[in] The identifier of the currently executing function that is about to make a tail call.
-
-- `clientData`
-
-  \[in] The remapped function identifier, which the profiler previously specified via [FunctionIDMapper](functionidmapper-function.md), of the currently executing function that is about to make a tail call.
+`clientData`
+[in] The remapped function identifier, which the profiler previously specified via [FunctionIDMapper](functionidmapper-function.md), of the currently executing function that is about to make a tail call.
   
-- `func`
+`func`
+[in] A `COR_PRF_FRAME_INFO` value that points to information about the stack frame.
 
-  \[in] A `COR_PRF_FRAME_INFO` value that points to information about the stack frame.
-
-  The profiler should treat this as an opaque handle that can be passed back to the execution engine in the [ICorProfilerInfo2::GetFunctionInfo2](icorprofilerinfo2-getfunctioninfo2-method.md) method.
+The profiler should treat this as an opaque handle that can be passed back to the execution engine in the [ICorProfilerInfo2::GetFunctionInfo2](icorprofilerinfo2-getfunctioninfo2-method.md) method.
 
 ## Remarks  
+
  The target function of the tail call will use the current stack frame, and will return directly to the caller of the function that made the tail call. This means that a [FunctionLeave2](functionleave2-function.md) callback will not be issued for a function that is the target of a tail call.  
   
  The value of the `func` parameter is not valid after the `FunctionTailcall2` function returns because the value may change or be destroyed.  
@@ -62,6 +62,7 @@ void __stdcall FunctionTailcall2 (
  Also, the `FunctionTailcall2` function must not call into managed code or in any way cause a managed memory allocation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl  

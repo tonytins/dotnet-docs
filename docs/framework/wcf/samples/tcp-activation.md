@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TCP Activation"
 title: "TCP Activation"
 ms.date: "03/30/2017"
 ms.assetid: bf8c215c-0228-4f4f-85c2-e33794ec09a7
@@ -203,4 +204,4 @@ Press <ENTER> to terminate client.
 
 ## See also
 
-- [AppFabric Hosting and Persistence Samples](https://docs.microsoft.com/previous-versions/appfabric/ff383418(v=azure.10))
+- [AppFabric Hosting and Persistence Samples](/previous-versions/appfabric/ff383418(v=azure.10))

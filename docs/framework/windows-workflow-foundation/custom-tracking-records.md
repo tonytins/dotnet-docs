@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom Tracking Records"
 title: "Custom Tracking Records"
 ms.date: "03/30/2017"
 ms.assetid: 24284565-c68b-40bf-b7f1-e148d151a6fc
@@ -26,5 +27,5 @@ A <xref:System.Activities.Tracking.CustomTrackingRecord> is emitted in a code ac
 
 ## See also
 
-- [Windows Server App Fabric Monitoring](https://docs.microsoft.com/previous-versions/appfabric/ee677251(v=azure.10))
-- [Monitoring Applications with App Fabric](https://docs.microsoft.com/previous-versions/appfabric/ee677276(v=azure.10))
+- [Windows Server App Fabric Monitoring](/previous-versions/appfabric/ee677251(v=azure.10))
+- [Monitoring Applications with App Fabric](/previous-versions/appfabric/ee677276(v=azure.10))

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorRuntimeHost Coclass"
 title: "CorRuntimeHost Coclass"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorRuntimeHost Coclass
+
 Provides interfaces for managing applications that are being executed by the common language runtime.  
   
 ## Syntax  
@@ -41,6 +43,7 @@ coclass CorRuntimeHost {
 |"IValidator"|Provides methods for validation of portable executable images and detailed reporting of validation errors.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.idl  

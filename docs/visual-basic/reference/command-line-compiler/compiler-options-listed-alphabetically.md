@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Visual Basic compiler options listed alphabetically"
 title: "Compiler Options Listed Alphabetically"
 ms.date: 04/12/2018
 helpviewer_keywords: 
@@ -6,6 +7,7 @@ helpviewer_keywords:
 ms.assetid: e67febba-bacf-4e1f-a143-c141e063f90e
 ---
 # Visual Basic compiler options listed alphabetically
+
 The Visual Basic command-line compiler is provided as an alternative to compiling programs from the Visual Studio integrated development environment (IDE). The following is a list of the Visual Basic command-line compiler options sorted alphabetically.  
 
 [!INCLUDE[compiler-options](~/includes/compiler-options.md)]

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Errors Summary (Visual Basic)"
 title: "Errors Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -6,6 +7,7 @@ helpviewer_keywords:
 ms.assetid: 2557da60-c6dc-4e99-8128-fceb6f8a0736
 ---
 # Errors Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

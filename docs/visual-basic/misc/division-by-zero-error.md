@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Division by zero (Visual Basic Error)"
 title: "Division by zero (Visual Basic Error)"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 7dc22e29-8baa-4d82-a1a6-2de64ba9b25d
 ---
 # Division by zero (Visual Basic Error)
+
 The value of an expression used as a divisor is zero.  
   
 ## To correct this error  

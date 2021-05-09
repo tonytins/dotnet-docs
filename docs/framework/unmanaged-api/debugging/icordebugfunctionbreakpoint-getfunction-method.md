@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFunctionBreakpoint::GetFunction Method"
 title: "ICorDebugFunctionBreakpoint::GetFunction Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFunctionBreakpoint::GetFunction Method
+
 Gets an interface pointer to an ICorDebugFunction that references the function in which the breakpoint is set.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetFunction (
 ```  
   
 ## Parameters  
+
  `ppFunction`  
  [out] A pointer to the address of the function in which the breakpoint is set.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

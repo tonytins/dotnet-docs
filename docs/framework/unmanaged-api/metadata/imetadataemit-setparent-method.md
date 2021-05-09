@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::SetParent Method"
 title: "IMetaDataEmit::SetParent Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::SetParent Method
+
 Establishes that the specified member, as defined by a prior call to [IMetaDataEmit::DefineMemberRef](imetadataemit-definememberref-method.md), is a member of the specified type, as defined by a prior call to [IMetaDataEmit::DefineTypeDef](imetadataemit-definetypedef-method.md).  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SetParent (
 ```  
   
 ## Parameters  
+
  `mr`  
  [in] The `mdMemberRef` token to receive a new parent.  
   
@@ -36,6 +39,7 @@ HRESULT SetParent (
  [in] The `mdToken` for the new parent.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

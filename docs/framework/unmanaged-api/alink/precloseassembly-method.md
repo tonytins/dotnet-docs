@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PreCloseAssembly Method"
 title: "PreCloseAssembly Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # PreCloseAssembly Method
+
 Closes the assembly file. Call this method after closing all other files, but before closing the assembly file. Do not call this method for unbound modules.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT PreCloseAssembly(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h.  
   
 ## See also

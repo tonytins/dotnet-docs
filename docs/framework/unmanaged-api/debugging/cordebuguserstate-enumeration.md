@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugUserState Enumeration"
 title: "CorDebugUserState Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugUserState Enumeration
+
 Indicates the user state of a thread.  
   
 ## Syntax  
@@ -49,11 +51,13 @@ typedef enum CorDebugUserState {
 |`USER_THREADPOOL`|The thread is from the thread pool.|  
   
 ## Remarks  
+
  The user state of a thread is the state that the thread has when the debugger examines it. A thread may have a combination of user states.  
   
  Use the [ICorDebugThread::GetUserState](icordebugthread-getuserstate-method.md) method to retrieve a thread's user state.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

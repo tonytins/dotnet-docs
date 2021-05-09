@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::AssemblyLoadStarted Method"
 title: "ICorProfilerCallback::AssemblyLoadStarted Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::AssemblyLoadStarted Method
+
 Notifies the profiler that an assembly is being loaded.  
   
 ## Syntax  
@@ -28,14 +30,15 @@ HRESULT AssemblyLoadStarted(
   
 ## Parameters
 
-- `assemblyId`
-
-  \[in] Identifies the assembly that is being loaded.
+`assemblyId`
+[in] Identifies the assembly that is being loaded.
 
 ## Remarks  
+
  The value of `assemblyId` is not valid for an information request until the [ICorProfilerCallback::AssemblyLoadFinished](icorprofilercallback-assemblyloadfinished-method.md) method is called.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

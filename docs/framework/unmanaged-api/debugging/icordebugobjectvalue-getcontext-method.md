@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugObjectValue::GetContext Method"
 title: "ICorDebugObjectValue::GetContext Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugObjectValue::GetContext Method
+
 `GetContext` is not implemented in this version of the .NET Framework.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT GetContext (
 ```  
   
 ## Requirements  
+
  **Header:** CorDebug.idl, CorDebug.h  
   
 ## See also

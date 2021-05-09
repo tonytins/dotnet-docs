@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::SetRVA Method"
 title: "IMetaDataEmit::SetRVA Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::SetRVA Method
+
 Sets the relative virtual address of the specified method.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SetRVA (
 ```  
   
 ## Parameters  
+
  `md`  
  [in] The token for the target method or method implementation.  
   
@@ -36,6 +39,7 @@ HRESULT SetRVA (
  [in] The address of the code or data area.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

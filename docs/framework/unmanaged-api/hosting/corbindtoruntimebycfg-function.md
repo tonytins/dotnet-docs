@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorBindToRuntimeByCfg Function"
 title: "CorBindToRuntimeByCfg Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorBindToRuntimeByCfg Function
+
 Loads the common language runtime (CLR) into a process by using version information that is read from an XML file.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -34,6 +36,7 @@ HRESULT CorBindToRuntimeByCfg (
 ```  
   
 ## Parameters  
+
  `pCfgStream`  
  [in] A pointer to an `IStream` object that reads the XML file.  
   
@@ -53,9 +56,11 @@ HRESULT CorBindToRuntimeByCfg (
  [out] A pointer to the address of the returned interface.  
   
 ## Remarks  
+
  The format of the XML file is modeled after the standard application configuration file. For more information about XML files, see [Configuration File Schema](../../configure-apps/file-schema/index.md).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetAssemblyRefHash Method"
 title: "GetAssemblyRefHash Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # GetAssemblyRefHash Method
+
 Retrieves a hash blob for a given assembly.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetAssemblyRefHash(
 ```  
   
 ## Parameters  
+
  `FileToken`  
  ID of assembly to which the hash will refer.  
   
@@ -39,9 +42,11 @@ HRESULT GetAssemblyRefHash(
  Receives size, in bytes, of hash blob.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

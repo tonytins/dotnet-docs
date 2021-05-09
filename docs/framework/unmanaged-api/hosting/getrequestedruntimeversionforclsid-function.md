@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetRequestedRuntimeVersionForCLSID Function"
 title: "GetRequestedRuntimeVersionForCLSID Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # GetRequestedRuntimeVersionForCLSID Function
+
 Gets the appropriate common language runtime (CLR) version information for the class with the specified `CLSID`.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -33,6 +35,7 @@ HRESULT GetRequestedRuntimeVersionForCLSID (
 ```  
   
 ## Parameters  
+
  `rclsid`  
  [in]  The `CLSID` of the component.  
   
@@ -63,6 +66,7 @@ HRESULT GetRequestedRuntimeVersionForCLSID (
 |E_POINTER|`dwLength` is null, or `cchBuffer` is large enough to hold the version string, but `pVersion` is null.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

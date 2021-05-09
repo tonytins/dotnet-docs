@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyEnum Interface"
 title: "IAssemblyEnum Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyEnum Interface
+
 Represents an enumerator for an array of `IAssemblyName` objects.  
   
 ## Methods  
@@ -27,6 +29,7 @@ Represents an enumerator for an array of `IAssemblyName` objects.
 |[Reset Method](iassemblyenum-reset-method.md)|Resets this `IAssemblyEnum` object to its starting position.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

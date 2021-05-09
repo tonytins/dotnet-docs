@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Into Clause (Visual Basic)"
 title: "Into Clause"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -6,9 +7,11 @@ helpviewer_keywords:
 ms.assetid: e1534550-8f4b-4978-b043-fad7b8fd79ac
 ---
 # Into Clause (Visual Basic)
+
 Identifies aggregate functions or groupings to apply to a collection.  
   
 ## Remarks  
+
  The `Each` keyword is used in the following contexts:  
   
  [Aggregate Clause](../queries/aggregate-clause.md)  

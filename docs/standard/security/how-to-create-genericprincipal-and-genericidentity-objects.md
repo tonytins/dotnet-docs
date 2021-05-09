@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: How to: Create GenericPrincipal and GenericIdentity Objects"
 title: "How to: Create GenericPrincipal and GenericIdentity Objects"
-ms.date: "03/30/2017"
-ms.technology: dotnet-standard
+ms.date: 07/15/2020
 dev_langs:
   - "csharp"
   - "vb"
@@ -14,6 +14,11 @@ ms.assetid: 465694cf-258b-4747-9dae-35b01a5bcdbb
 ---
 
 # How to: Create GenericPrincipal and GenericIdentity Objects
+
+> [!NOTE]
+> This article applies to Windows.
+>
+> For information about ASP.NET Core, see [Overview of ASP.NET Core Security](/aspnet/core/security/).
 
 You can use the <xref:System.Security.Principal.GenericIdentity> class in conjunction with the <xref:System.Security.Principal.GenericPrincipal> class to create an authorization scheme that exists independent of a Windows domain.
 

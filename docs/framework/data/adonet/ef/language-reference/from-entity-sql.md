@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: FROM (Entity SQL)"
 title: "FROM (Entity SQL)"
 ms.date: "03/30/2017"
 ms.assetid: ff3e3048-0d5d-4502-ae5c-9187fcbd0514
 ---
 # FROM (Entity SQL)
+
 Specifies the collection used in [SELECT](select-entity-sql.md) statements.
 
 ## Syntax
@@ -119,6 +121,7 @@ The previous example is logically equivalent to the following example:
 `FROM (C AS c JOIN D AS d) CROSS APPLY c.Names AS e`
 
 ## Left Correlation
+
  Items in the `FROM` clause can refer to items specified in earlier clauses. In the following example, `C` and `D` are independent collections, but `c.Names` is dependent on `C`:
 
 ```sql

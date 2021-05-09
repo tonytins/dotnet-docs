@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_PRF_GC_ROOT_KIND Enumeration"
 title: "COR_PRF_GC_ROOT_KIND Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_PRF_GC_ROOT_KIND Enumeration
+
 Indicates the kind of garbage collection root that is exposed by the [ICorProfilerCallback2::RootReferences2](icorprofilercallback2-rootreferences2-method.md) callback.  
   
 ## Syntax  
@@ -39,6 +41,7 @@ typedef enum {
 |`COR_PRF_GC_ROOT_OTHER`|The kind of root is unspecified.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

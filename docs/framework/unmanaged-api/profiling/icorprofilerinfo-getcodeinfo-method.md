@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo::GetCodeInfo Method"
 title: "ICorProfilerInfo::GetCodeInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo::GetCodeInfo Method
+
 Gets the extent of native code associated with the specified function ID.  
   
  This method is obsolete. Use the [ICorProfilerInfo2::GetCodeInfo2](icorprofilerinfo2-getcodeinfo2-method.md) method instead.  
@@ -31,6 +33,7 @@ HRESULT GetCodeInfo(
 ```  
   
 ## Parameters  
+
  `functionId`  
  [in] The ID of the function with which the native code is associated.  
   
@@ -41,11 +44,13 @@ HRESULT GetCodeInfo(
  [out] A pointer to an integer that specifies the size, in bytes, of the native code.  
   
 ## Remarks  
+
  To optimize performance, the runtime in the .NET Framework version 2.0 splits the precompiled, native code of a function into multiple regions. Consequently, the `GetCodeInfo` method is obsolete in the .NET Framework 2.0 because it is unable to handle the extent of a function's native code. Profilers should switch to using the more general `ICorProfilerInfo2::GetCodeInfo2` method instead.  
   
  This function uses caller-allocated buffers.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

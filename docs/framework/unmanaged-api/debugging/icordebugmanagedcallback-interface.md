@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugManagedCallback Interface"
 title: "ICorDebugManagedCallback Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugManagedCallback Interface
+
 Provides methods to process debugger callbacks.  
   
 ## Methods  
@@ -50,6 +52,7 @@ Provides methods to process debugger callbacks.
 |[UpdateModuleSymbols Method](icordebugmanagedcallback-updatemodulesymbols-method.md)|Notifies the debugger that the symbols for a CLR module have changed.|  
   
 ## Remarks  
+
  All callbacks are serialized, called in the same thread, and called with the process in the synchronized state.  
   
  Each callback implementation must call [ICorDebugController::Continue](icordebugcontroller-continue-method.md) to resume execution. If `ICorDebugController::Continue` is not called before the callback returns, the process will remain stopped and no more event callbacks will occur until `ICorDebugController::Continue` is called.  
@@ -60,6 +63,7 @@ Provides methods to process debugger callbacks.
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

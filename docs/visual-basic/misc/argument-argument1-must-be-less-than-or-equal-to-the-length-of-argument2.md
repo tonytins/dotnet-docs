@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Argument '<argument1>' must be less than or equal to the length of argument '<argument2>'"
 title: "Argument '<argument1>' must be less than or equal to the length of argument '<argument2>'"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 10765f81-79c5-44c2-89c5-888253105b78
 ---
 # Argument '\<argument1>' must be less than or equal to the length of argument '\<argument2>'
+
 An argument's length exceeds the allowable limit, which is determined by the second argument's length.  
   
 ## To correct this error  

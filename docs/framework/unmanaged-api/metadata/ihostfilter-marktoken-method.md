@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostFilter::MarkToken Method"
 title: "IHostFilter::MarkToken Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostFilter::MarkToken Method
+
 Indicates that the specified metadata token will be processed.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT MarkToken (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] The metadata token to be processed.  
   
 ## Remarks  
+
  Typically, you want a token to be processed if it is in the metadata scope. The `MarkToken` method is passed to the metadata engine via the [IMetaDataEmit::SetHandler](imetadataemit-sethandler-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

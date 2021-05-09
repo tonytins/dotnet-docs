@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter2::DefineGlobalVariable2 Method"
 title: "ISymUnmanagedWriter2::DefineGlobalVariable2 Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter2::DefineGlobalVariable2 Method
+
 Defines a single global variable.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT DefineGlobalVariable2(
 ```  
   
 ## Parameters  
+
  `name`  
  [in] The global variable name.  
   
@@ -55,9 +58,11 @@ HRESULT DefineGlobalVariable2(
  [in] The third address for the parameter specification.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl  
   
 ## See also

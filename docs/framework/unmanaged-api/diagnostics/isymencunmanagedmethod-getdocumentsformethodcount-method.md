@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymENCUnmanagedMethod::GetDocumentsForMethodCount Method"
 title: "ISymENCUnmanagedMethod::GetDocumentsForMethodCount Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymENCUnmanagedMethod::GetDocumentsForMethodCount Method
+
 Gets the number of documents that this method has lines in.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT GetDocumentsForMethodCount(
 ```  
   
 ## Parameters  
+
  `pRetVal`  
  [out] A pointer to a `ULONG32` that receives the size of the buffer required to contain the documents.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCHost::GetStats Method"
 title: "IGCHost::GetStats Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IGCHost::GetStats Method
+
 Gets the statistics for the current state of the garbage collection system.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetStats (
 ```  
   
 ## Parameters  
+
  `pStats`  
  [in, out] A pointer to a [COR_GC_STATS](cor-gc-stats-structure.md) structure that contains the statistics for the current state of the garbage collection system.  
   
 ## Remarks  
+
  The statistics can be used by a smart allocation system to help the garbage collection system operate. For example, the allocation system may determine, after reviewing the statistics, that it needs to add more memory or force a collection.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** GCHost.idl, GCHost.h  

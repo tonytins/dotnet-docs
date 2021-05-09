@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Argument '<argumentname>' must be greater than zero"
 title: "Argument '<argumentname>' must be greater than zero"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: f9939fbd-6c4f-4871-9452-9ea0267e948e
 ---
 # Argument '\<argumentname>' must be greater than zero
+
 An argument is not valid because it is less than or equal to zero.  
   
 ## To correct this error  

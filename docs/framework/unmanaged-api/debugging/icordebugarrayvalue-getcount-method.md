@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugArrayValue::GetCount Method"
 title: "ICorDebugArrayValue::GetCount Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugArrayValue::GetCount Method
+
 Gets the total number of elements in the array.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetCount (
 ```  
   
 ## Parameters  
+
  `pnCount`  
  [out] A pointer to the total number of elements in the array.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedBinder3 Interface"
 title: "ISymUnmanagedBinder3 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedBinder3 Interface
+
 Extends the symbol binder interface. Obtain this interface by calling `QueryInterface` on an object that implements the `ISymUnmanagedBinder` interface.  
   
 > [!IMPORTANT]
@@ -28,6 +30,7 @@ Extends the symbol binder interface. Obtain this interface by calling `QueryInte
 |[GetReaderFromCallback Method](isymunmanagedbinder3-getreaderfromcallback-method.md)|Allows the user to implement or supply via callback either an `IID_IDiaReadExeAtRVACallback` or `IID_IDiaReadExeAtOffsetCallback` to obtain the Debug directory information from memory|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

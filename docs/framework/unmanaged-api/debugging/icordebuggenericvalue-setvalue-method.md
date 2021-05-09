@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugGenericValue::SetValue Method"
 title: "ICorDebugGenericValue::SetValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugGenericValue::SetValue Method
+
 Copies a new value from the specified buffer.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT SetValue (
 ```  
   
 ## Parameters  
+
  `pFrom`  
  [in] A pointer to the buffer from which to copy the value.  
   
 ## Remarks  
+
  For reference types, the value is the reference, not the content.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter2::DefineLocalVariable2 Method"
 title: "ISymUnmanagedWriter2::DefineLocalVariable2 Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter2::DefineLocalVariable2 Method
+
 Defines a single variable in the current lexical scope. This method can be called multiple times for a variable of the same name that has multiple homes throughout a scope. In this case, however, the values of the `startOffset` and `endOffset` parameters must not overlap.  
   
 ## Syntax  
@@ -35,6 +37,7 @@ HRESULT DefineLocalVariable2(
 ```  
   
 ## Parameters  
+
  `name`  
  [in] The local variable name.  
   
@@ -63,9 +66,11 @@ HRESULT DefineLocalVariable2(
  [in] The end offset for the variable. This parameter is optional. If it is 0, this parameter is ignored and the variable is defined throughout the entire scope. If it is a nonzero value, the variable falls within the offsets of the current scope.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl  
   
 ## See also

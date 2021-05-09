@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: Work with calendars"
 title: "Working with calendars"
 ms.date: "04/01/2019"
-ms.technology: dotnet-standard
 dev_langs:
   - "csharp"
   - "vb"

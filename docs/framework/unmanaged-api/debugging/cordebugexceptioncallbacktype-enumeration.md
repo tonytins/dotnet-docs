@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugExceptionCallbackType Enumeration"
 title: "CorDebugExceptionCallbackType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugExceptionCallbackType Enumeration
+
 Indicates the type of callback that is made from an [ICorDebugManagedCallback2::Exception](icordebugmanagedcallback2-exception-method.md) event.  
   
 ## Syntax  
@@ -39,6 +41,7 @@ typedef enum CorDebugExceptionCallbackType {
 |`DEBUG_EXCEPTION_UNHANDLED`|The exception was not handled.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

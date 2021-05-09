@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetIdentityAuthority Function"
 title: "GetIdentityAuthority Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # GetIdentityAuthority Function
+
 Gets a pointer to an [IIdentityAuthority](iidentityauthority-interface.md) instance that manages keys for code objects.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetIdentityAuthority (
 ```  
   
 ## Parameters  
+
  `ppIIdentityAuthority`  
  [out] The returned `IIdentityAuthority` pointer.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Isolation.h  

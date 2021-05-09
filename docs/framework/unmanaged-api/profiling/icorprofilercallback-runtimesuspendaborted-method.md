@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::RuntimeSuspendAborted Method"
 title: "ICorProfilerCallback::RuntimeSuspendAborted Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::RuntimeSuspendAborted Method
+
 Notifies the profiler that the runtime has aborted the runtime suspension that was occurring.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT RuntimeSuspendAborted();
 ```  
   
 ## Remarks  
+
  The run-time suspension might be aborted if two threads simultaneously attempt to suspend the runtime.  
   
  Either the [ICorProfilerCallback::RuntimeSuspendFinished](icorprofilercallback-runtimesuspendfinished-method.md) callback or the `RuntimeSuspendAborted` callback will occur on a single thread following a [ICorProfilerCallback::RuntimeSuspendStarted](icorprofilercallback-runtimesuspendstarted-method.md) callback.  
@@ -33,6 +36,7 @@ HRESULT RuntimeSuspendAborted();
  The `RuntimeSuspendAborted` callback is guaranteed to occur on the same thread as the `RuntimeSuspendStarted` callback.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

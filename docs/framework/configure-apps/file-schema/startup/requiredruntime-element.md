@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <requiredRuntime> element"
 title: "<requiredRuntime> element"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -56,6 +57,7 @@ None.
 |`startup`|Contains the `<requiredRuntime>` element.|
 
 ## Remarks
+
  Applications built to support only version 1.0 of the runtime must use the `<requiredRuntime>` element. Applications built using version 1.1 or later of the runtime must use the `<supportedRuntime>` element.
 
 > [!NOTE]

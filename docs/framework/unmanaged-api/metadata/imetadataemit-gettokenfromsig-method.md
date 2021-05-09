@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::GetTokenFromSig Method"
 title: "IMetaDataEmit::GetTokenFromSig Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::GetTokenFromSig Method
+
 Gets a token for the specified metadata signature.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetTokenFromSig (
 ```  
   
 ## Parameters  
+
  `pvSig`  
  [in] The signature to be persisted and stored.  
   
@@ -40,6 +43,7 @@ HRESULT GetTokenFromSig (
  [out] The `mdSignature` token assigned.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

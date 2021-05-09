@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorRegFlags Enumeration"
 title: "CorRegFlags Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorRegFlags Enumeration
+
 Provides flag values used for registration when installing a module or composite image.  
   
 ## Syntax  
@@ -38,6 +40,7 @@ typedef enum
 |`regHasRefs`|Specifies that the module or composite has class references.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

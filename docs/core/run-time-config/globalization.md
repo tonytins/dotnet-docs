@@ -10,7 +10,7 @@ ms.topic: reference
 
 - Determines whether a .NET Core app runs in globalization-invariant mode without access to culture-specific data and behavior.
 - If you omit this setting, the app runs with access to cultural data. This is equivalent to setting the value to `false`.
-- For more information, see [.NET Core globalization invariant mode](https://github.com/dotnet/runtime/blob/master/docs/design/features/globalization-invariant-mode.md).
+- For more information, see [.NET Core globalization invariant mode](https://github.com/dotnet/runtime/blob/main/docs/design/features/globalization-invariant-mode.md).
 
 | | Setting name | Values |
 | - | - | - |
@@ -81,7 +81,7 @@ Project file:
 
 - Determines whether .NET uses National Language Support (NLS) or International Components for Unicode (ICU) globalization APIs for Windows apps. .NET 5.0 and later versions use ICU globalization APIs by default on Windows 10 May 2019 Update and later versions.
 - If you omit this setting, .NET uses ICU globalization APIs by default. This is equivalent to setting the value to `false`.
-- For more information, see [Globalization APIs use ICU libraries on Windows](../compatibility/3.1-5.0.md#globalization-apis-use-icu-libraries-on-windows).
+- For more information, see [Globalization APIs use ICU libraries on Windows](../compatibility/globalization/5.0/icu-globalization-api.md).
 
 | | Setting name | Values | Introduced |
 | - | - | - | - |

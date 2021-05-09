@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ESymbolReadingPolicy Enumeration"
 title: "ESymbolReadingPolicy Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ESymbolReadingPolicy Enumeration
+
 Contains values that set the policy for reading program database (PDB) files.  
   
 ## Syntax  
@@ -37,9 +39,11 @@ typedef enum {
 |`eSymbolReadingNever`|Specifies that the debugger should never read PDB files.|  
   
 ## Remarks  
+
  The `ESymbolReadingPolicy` enumeration is used with the [ICLRDebugManager::SetSymbolReadingPolicy](iclrdebugmanager-setsymbolreadingpolicy-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

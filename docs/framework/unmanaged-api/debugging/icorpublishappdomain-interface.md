@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublishAppDomain Interface"
 title: "ICorPublishAppDomain Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublishAppDomain Interface
+
 Represents and provides information about an application domain.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Represents and provides information about an application domain.
 |[GetName Method](icorpublishappdomain-getname-method.md)|Gets the name of the application domain referenced by this `ICorPublishAppDomain`.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

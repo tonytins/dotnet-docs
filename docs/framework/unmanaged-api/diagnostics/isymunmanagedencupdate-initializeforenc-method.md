@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedENCUpdate::InitializeForEnc Method"
 title: "ISymUnmanagedENCUpdate::InitializeForEnc Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedENCUpdate::InitializeForEnc Method
+
 Allows method boundaries to be computed before the first call to the [ISymUnmanagedENCUpdate::UpdateSymbolStore2](isymunmanagedencupdate-updatesymbolstore2-method.md) method.  
   
 ## Syntax  
@@ -26,9 +28,11 @@ HRESULT InitializeForEnc();
 ```  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

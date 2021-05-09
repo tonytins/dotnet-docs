@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IDefinitionIdentity Interface"
 title: "IDefinitionIdentity Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IDefinitionIdentity Interface
+
 Represents the unique signature of the code that defines the application in the current scope.  
   
 ## Methods  
@@ -28,6 +30,7 @@ Represents the unique signature of the code that defines the application in the 
 |`IDefinitionIdentity::SetAttribute`|Sets the attribute that has the specified name in the specified namespace to the specified value.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Isolation.h  

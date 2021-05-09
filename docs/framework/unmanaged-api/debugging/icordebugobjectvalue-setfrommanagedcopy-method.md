@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugObjectValue::SetFromManagedCopy Method"
 title: "ICorDebugObjectValue::SetFromManagedCopy Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugObjectValue::SetFromManagedCopy Method
+
 `SetFromManagedCopy` is obsolete. Do not call this method.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT SetFromManagedCopy (
 ```  
   
 ## Requirements  
+
  **Header:** CorDebug.idl, CorDebug.h  
   
 ## See also

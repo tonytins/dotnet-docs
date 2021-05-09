@@ -1,4 +1,5 @@
 ---
+description: "Accessibility Levels - C# Reference"
 title: "Accessibility Levels - C# Reference"
 ms.date: 12/06/2017
 helpviewer_keywords: 
@@ -33,12 +34,15 @@ Use the access modifiers, `public`, `protected`, `internal`, or `private`, to sp
 |----------------|----------------------------------|--------------------------------------------------|  
 |`enum`|`public`|None|  
 |`class`|`private`|`public`<br /><br /> `protected`<br /><br /> `internal`<br /><br /> `private`<br /><br /> `protected internal` <br /><br />`private protected`|  
-|`interface`|`public`|None|  
+|`interface`|`public`|`public`<br /><br /> `protected`<br /><br /> `internal`<br /><br /> `private`\*<br /><br /> `protected internal` <br /><br />`private protected`|  
 |`struct`|`private`|`public`<br /><br /> `internal`<br /><br /> `private`|  
-  
- The accessibility of a nested type depends on its [accessibility domain](./accessibility-domain.md), which is determined by both the declared accessibility of the member and the accessibility domain of the immediately containing type. However, the accessibility domain of a nested type cannot exceed that of the containing type.  
+
+\* An `interface` member with `private` accessibility must have a default implementation.
+
+The accessibility of a nested type depends on its [accessibility domain](./accessibility-domain.md), which is determined by both the declared accessibility of the member and the accessibility domain of the immediately containing type. However, the accessibility domain of a nested type cannot exceed that of the containing type.  
   
 ## C# Language Specification  
+
  [!INCLUDE[CSharplangspec](~/includes/csharplangspec-md.md)]  
   
 ## See also

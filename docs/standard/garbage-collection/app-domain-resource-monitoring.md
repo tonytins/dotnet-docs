@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: Application Domain Resource Monitoring"
 title: "Application Domain Resource Monitoring"
 ms.date: "03/30/2017"
-ms.technology: dotnet-standard
 helpviewer_keywords:
   - "monitoring managed memory use by application domain"
   - "application domains, memory use"

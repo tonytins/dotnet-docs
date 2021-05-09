@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedMethod::GetSourceStartEnd Method"
 title: "ISymUnmanagedMethod::GetSourceStartEnd Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedMethod::GetSourceStartEnd Method
+
 Gets the start and end document positions for the source of this method. The first array position is the start, and the second array position is the end.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetSourceStartEnd(
 ```  
   
 ## Parameters  
+
  `docs`  
  [in] The starting and ending source documents.  
   
@@ -43,9 +46,11 @@ HRESULT GetSourceStartEnd(
  [out] `true` if positions were defined; otherwise, `false`.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

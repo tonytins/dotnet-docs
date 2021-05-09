@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEval2::CreateValueForType Method"
 title: "ICorDebugEval2::CreateValueForType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEval2::CreateValueForType Method
+
 Gets a pointer to a new ICorDebugValue of the specified type, with an initial value of zero or null.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CreateValueForType (
 ```  
   
 ## Parameters  
+
  `pType`  
  [in] Pointer to an ICorDebugType object that represents the type.  
   
@@ -36,11 +39,13 @@ HRESULT CreateValueForType (
  [out] Pointer to the address of an `ICorDebugValue` object that represents the value.  
   
 ## Remarks  
+
  `CreateValueForType` generalizes [ICorDebugEval::CreateValue](icordebugeval-createvalue-method.md) by allowing you to specify an arbitrary object type, including constructed types such as `List<int>`. The only purpose of this method is to generate a value that can be passed to a function evaluation.  
   
  The type must be a class or a value type. You cannot use this method to create array values or string values.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

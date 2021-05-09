@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFunction2 Interface"
 title: "ICorDebugFunction2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -34,6 +35,7 @@ Logically extends the ICorDebugFunction interface to provide support for Just My
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

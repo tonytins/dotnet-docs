@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::ObjectReferences Method"
 title: "ICorProfilerCallback::ObjectReferences Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::ObjectReferences Method
+
 Notifies the profiler about objects in memory that are being referenced by the specified object.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT ObjectReferences(
 ```  
   
 ## Parameters  
+
  `objectId`  
  [in] The ID of the object that is referencing objects.  
   
@@ -43,6 +46,7 @@ HRESULT ObjectReferences(
  [in] An array of IDs of objects that are being referenced by `objectId`.  
   
 ## Remarks  
+
  The `ObjectReferences` method is called for each object remaining in the heap after a garbage collection has completed. If the profiler returns an error from this callback, the profiling services will discontinue invoking this callback until the next garbage collection.  
   
  The `ObjectReferences` callback can be used in conjunction with the [ICorProfilerCallback::RootReferences](icorprofilercallback-rootreferences-method.md) callback to create a complete object reference graph for the runtime. The common language runtime (CLR) ensures that each object reference is reported only once by the `ObjectReferences` method.  
@@ -52,6 +56,7 @@ HRESULT ObjectReferences(
  A null `ClassId` indicates that `objectId` has a type that is unloading.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,5 +1,6 @@
 ---
 title: "Traverse Text Using UI Automation"
+description: See an example of how to traverse the text content of a document using Microsoft UI Automation, in TextUnit increments.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -8,15 +9,17 @@ helpviewer_keywords:
   - "UI Automation, traversing text"
   - "text, traversing"
   - "traversing text"
-ms.assetid: 3ddb3b7b-1d6b-4dba-8678-5a68e868aadb
+ms.topic: how-to
 ---
 # Traverse Text Using UI Automation
+
 > [!NOTE]
 > This documentation is intended for .NET Framework developers who want to use the managed [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)] classes defined in the <xref:System.Windows.Automation> namespace. For the latest information about [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)], see [Windows Automation API: UI Automation](/windows/win32/winauto/entry-uiauto-win32).  
   
  This topic shows how to use [!INCLUDE[TLA#tla_uiautomation](../../../includes/tlasharptla-uiautomation-md.md)] to traverse the textual content of a document by <xref:System.Windows.Automation.Text.TextUnit> increments.  
   
 ## Example  
+
  The following code example demonstrates how to traverse the content of a UI Automation text provider. The <xref:System.Windows.Automation.Text.TextPatternRange.Move%2A> method moves the <xref:System.Windows.Automation.Text.TextPatternRangeEndpoint.Start> and <xref:System.Windows.Automation.Text.TextPatternRangeEndpoint.End> endpoints of a <xref:System.Windows.Automation.Text.TextPatternRange>. This text range is typically a degenerate range representing the text insertion point.  
   
 > [!NOTE]

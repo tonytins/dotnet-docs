@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICeeGen::AllocateMethodBuffer Method"
 title: "ICeeGen::AllocateMethodBuffer Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICeeGen::AllocateMethodBuffer Method
+
 Creates a buffer of the specified size for a method, and gets the relative virtual address of the method.  
   
  This method is obsolete and should not be used.  
@@ -32,6 +34,7 @@ HRESULT AllocateMethodBuffer (
 ```  
   
 ## Parameters  
+
  `cchBuffer`  
  [in] The length of the buffer to create.  
   
@@ -42,6 +45,7 @@ HRESULT AllocateMethodBuffer (
  [out] The relative virtual address of the method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

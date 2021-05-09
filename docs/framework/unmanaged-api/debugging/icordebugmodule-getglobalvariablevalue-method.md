@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule::GetGlobalVariableValue Method"
 title: "ICorDebugModule::GetGlobalVariableValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule::GetGlobalVariableValue Method
+
 Gets the value of the specified global variable.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetGlobalVariableValue(
 ```  
   
 ## Parameters  
+
  `fieldDef`  
  [in] An `mdFieldDef` token that references the metadata describing the global variable.  
   
@@ -36,6 +39,7 @@ HRESULT GetGlobalVariableValue(
  [out] A pointer to the address of an ICorDebugValue object that represents the value of the specified global variable.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

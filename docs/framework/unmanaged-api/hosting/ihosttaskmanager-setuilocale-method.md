@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTaskManager::SetUILocale Method"
 title: "IHostTaskManager::SetUILocale Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTaskManager::SetUILocale Method
+
 Notifies the host that the common language runtime (CLR) has changed the user interface (UI) locale, or culture, on the currently executing task.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT SetUILocale (
 ```  
   
 ## Parameters  
+
  `lcid`  
  [in] The locale identifier value that maps to the newly assigned geographical culture and language.  
   
@@ -44,9 +47,11 @@ HRESULT SetUILocale (
 |E_NOTIMPL|The host does not allow managed user code to change the UI culture.|  
   
 ## Remarks  
+
  The runtime calls `SetUILocale` when the value of the <xref:System.Threading.Thread.CurrentUICulture%2A?displayProperty=nameWithType> property is changed by managed code. This method provides an opportunity for the host to execute any mechanisms it might have for synchronization of locales. If a host does not allow the UI locale to be changed from managed code, or does not implement a mechanism to synchronize locales, it should return E_NOTIMPL from this method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

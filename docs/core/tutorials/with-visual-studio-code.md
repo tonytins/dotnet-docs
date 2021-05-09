@@ -1,20 +1,20 @@
 ---
-title: Create a .NET Core console application using Visual Studio Code
-description: Learn how to create a .NET Core console application using Visual Studio Code and the .NET Core CLI.
-ms.date: 05/22/2020
+title: Create a .NET console application using Visual Studio Code
+description: Learn how to create a .NET console application using Visual Studio Code and the .NET CLI.
+ms.date: 11/17/2020
 ---
-# Tutorial: Create a .NET Core console application using Visual Studio Code
+# Tutorial: Create a .NET console application using Visual Studio Code
 
-This tutorial shows how to create and run a .NET Core console application by using Visual Studio Code and the .NET Core CLI. Project tasks, such as creating, compiling, and running a project are done by using the .NET Core CLI. You can follow this tutorial with a different code editor and run commands in a terminal if you prefer.
+This tutorial shows how to create and run a .NET console application by using Visual Studio Code and the .NET CLI. Project tasks, such as creating, compiling, and running a project are done by using the .NET CLI. You can follow this tutorial with a different code editor and run commands in a terminal if you prefer.
 
 ## Prerequisites
 
 1. [Visual Studio Code](https://code.visualstudio.com/) with the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) installed. For information about how to install extensions on Visual Studio Code, see [VS Code Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery).
-2. The [.NET Core 3.1 SDK or later](https://dotnet.microsoft.com/download)
+2. The [.NET 5.0 SDK or later](https://dotnet.microsoft.com/download)
 
 ## Create the app
 
-Create a .NET Core console app project named "HelloWorld".
+Create a .NET console app project named "HelloWorld".
 
 1. Start Visual Studio Code.
 
@@ -34,7 +34,7 @@ Create a .NET Core console app project named "HelloWorld".
    dotnet new console
    ```
 
-The template creates a simple "Hello World" application. It calls the <xref:System.Console.WriteLine(System.String)?displayProperty=nameWithType> method to display "Hello World!" in the console window.
+The template creates a simple "Hello World" application. It calls the <xref:System.Console.WriteLine(System.String)?displayProperty=nameWithType> method to display ":::no-loc text="Hello World!":::" in the console window.
 
 The template code defines a class, `Program`, with a single method, `Main`, that takes a <xref:System.String> array as an argument:
 
@@ -85,9 +85,9 @@ Enhance the application to prompt the user for their name and display it along w
 
    :::code language="csharp" source="./snippets/with-visual-studio/csharp/Program.cs" id="MainMethod":::
 
-   This code displays "What is your name?" in the console window and waits until the user enters a string followed by the <kbd>Enter</kbd> key. It stores this string in a variable named `name`. It also retrieves the value of the <xref:System.DateTime.Now?displayProperty=nameWithType> property, which contains the current local time, and assigns it to a variable named `date`. Finally, it displays these values in the console window.
+   This code displays a prompt in the console window and waits until the user enters a string followed by the <kbd>Enter</kbd> key. It stores this string in a variable named `name`. It also retrieves the value of the <xref:System.DateTime.Now?displayProperty=nameWithType> property, which contains the current local time, and assigns it to a variable named `date`. And it displays these values in the console window. Finally, it displays a prompt in the console window and calls the <xref:System.Console.ReadKey(System.Boolean)?displayProperty=nameWithType> method to wait for user input.
 
-   The `\n` represents a newline character.
+   <xref:System.Environment.NewLine> is a platform-independent and language-independent way to represent a line break. Alternatives are `\n` in C# and `vbCrLf` in Visual Basic.
 
    The dollar sign (`$`) in front of a string lets you put expressions such as variable names in curly braces in the string. The expression value is inserted into the string in place of the expression. This syntax is referred to as [interpolated strings](../../csharp/language-reference/tokens/interpolated.md).
 
@@ -114,7 +114,7 @@ Enhance the application to prompt the user for their name and display it along w
 
 ## Next steps
 
-In this tutorial, you created a .NET Core console application. In the next tutorial, you debug the app.
+In this tutorial, you created a .NET console application. In the next tutorial, you debug the app.
 
 > [!div class="nextstepaction"]
-> [Debug a .NET Core console application using Visual Studio Code](debugging-with-visual-studio-code.md)
+> [Debug a .NET console application using Visual Studio Code](debugging-with-visual-studio-code.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTaskManager::SetStackGuarantee Method"
 title: "IHostTaskManager::SetStackGuarantee Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTaskManager::SetStackGuarantee Method
+
 Reserved for internal use only.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT SetStackGuarantee(
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

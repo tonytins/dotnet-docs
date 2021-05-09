@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Information and Interaction Summary (Visual Basic)"
 title: "Information and Interaction Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 6e698461-e944-4c0f-ae48-87429f1fe740
 ---
 # Information and Interaction Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICoreClrDebugTarget Interface"
 title: "ICoreClrDebugTarget Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # ICoreClrDebugTarget Interface
+
 Provides methods that control reference counts, enumerate processes, and free the memory associated with a debugger that is attached to a remote Macintosh Silverlight target.  
   
 ## Syntax  
@@ -50,9 +52,11 @@ class ICoreClrDebugTarget {
 |[ICoreClrDebugTarget::FreeMemory Method](icoreclrdebugtarget-freememory-method.md)|Frees the memory that is allocated by the enumeration methods in this class.|  
   
 ## Remarks  
+
  Currently, this functionality is supported only for debugging a Silverlight-based application target that is running on a remote Macintosh computer.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CoreClrRemoteDebuggingInterfaces.h  

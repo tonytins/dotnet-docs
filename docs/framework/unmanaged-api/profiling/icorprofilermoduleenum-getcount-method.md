@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerModuleEnum::GetCount Method"
 title: "ICorProfilerModuleEnum::GetCount Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerModuleEnum::GetCount Method
+
 Gets the number of managed modules that were loaded into the application.  
   
 ## Syntax  
@@ -26,10 +28,12 @@ HRESULT GetCount([out] ULONG * pcelt);
 ```  
   
 ## Parameters  
+
  `celt`  
  [out] The number of runtime modules in the collection.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

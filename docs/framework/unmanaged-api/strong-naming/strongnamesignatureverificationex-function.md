@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StrongNameSignatureVerificationEx Function"
 title: "StrongNameSignatureVerificationEx Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # StrongNameSignatureVerificationEx Function
+
 Gets a value indicating whether the assembly manifest at the supplied path contains a strong name signature.  
   
  This function has been deprecated. Use the [ICLRStrongName::StrongNameSignatureVerificationEx](../hosting/iclrstrongname-strongnamesignatureverificationex-method.md) method instead.  
@@ -32,6 +34,7 @@ BOOLEAN StrongNameSignatureVerificationEx (
 ```  
   
 ## Parameters  
+
  `wszFilePath`  
  [in] The path to the portable executable (.exe or .dll) file for the assembly to be verified.  
   
@@ -42,12 +45,15 @@ BOOLEAN StrongNameSignatureVerificationEx (
  [out] `true` if the strong name signature was verified; otherwise, `false`. `pfWasVerified` is also set to `false` if the verification was successful due to registry settings.  
   
 ## Return Value  
+
  `true` if the verification was successful; otherwise, `false`.  
   
 ## Remarks  
+
  `StrongNameSignatureVerificationEx` provides a capability similar to the [StrongNameSignatureVerification](strongnamesignatureverification-function.md) function. However, the second input parameter and the output parameter for `StrongNameSignatureVerificationEx` are of type `BOOLEAN` instead of `DWORD`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** StrongName.h  

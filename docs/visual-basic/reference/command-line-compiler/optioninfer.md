@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: -optioninfer"
 title: "-optioninfer"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: f6c09db1-0553-464a-abe3-d4510c61d6ed
 ---
 # -optioninfer
+
 Enables the use of local type inference in variable declarations.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ Enables the use of local type inference in variable declarations.
 > You can use the `-noconfig` option to retain the compiler's internal defaults instead of those specified in vbc.rsp. The compiler default for this option is `-optioninfer-`.  
   
 ## Remarks  
+
  If the source code file contains an [Option Infer Statement](../../language-reference/statements/option-infer-statement.md), the statement overrides the `-optioninfer` command-line compiler setting.  
   
 ### To set -optioninfer in the Visual Studio IDE  
@@ -37,6 +40,7 @@ Enables the use of local type inference in variable declarations.
 2. On the **Compile** tab, modify the value in the **Option infer** box.  
   
 ## Example  
+
  The following code compiles `test.vb` with local type inference enabled.  
   
 ```console

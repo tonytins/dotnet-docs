@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo2::GetThreadAppDomain Method"
 title: "ICorProfilerInfo2::GetThreadAppDomain Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo2::GetThreadAppDomain Method
+
 Gets the ID of the application domain in which the specified thread is currently executing code.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT GetThreadAppDomain(
 ```  
   
 ## Parameters  
+
  `threadId`  
  [in] The ID specifying the thread.  
   
@@ -35,6 +38,7 @@ HRESULT GetThreadAppDomain(
  [out] A pointer to the ID of the application domain.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

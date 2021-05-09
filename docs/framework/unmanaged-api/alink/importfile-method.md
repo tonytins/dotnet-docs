@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ImportFile Method"
 title: "ImportFile Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ImportFile Method
+
 Imports assemblies and unbound modules.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT ImportFile(
 ```  
   
 ## Parameters  
+
  `pszFilename`  
  Fully qualified name of file to be imported.  
   
@@ -51,9 +54,11 @@ HRESULT ImportFile(
  Pointer to the count of files and/or scopes that have been imported.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

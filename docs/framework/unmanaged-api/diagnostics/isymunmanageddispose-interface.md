@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedDispose Interface"
 title: "ISymUnmanagedDispose Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedDispose Interface
+
 Disposes of unmanaged resources.  
   
 ## Methods  
@@ -25,6 +27,7 @@ Disposes of unmanaged resources.
 |[Destroy Method](isymunmanageddispose-destroy-method.md)|Causes the underlying object to release all internal references and return failure on any subsequent method calls.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

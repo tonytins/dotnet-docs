@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorParamAttr Enumeration"
 title: "CorParamAttr Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorParamAttr Enumeration
+
 Contains values that describe the metadata of a method parameter.  
   
 ## Syntax  
@@ -49,6 +51,7 @@ typedef enum CorParamAttr {
 |`pdUnused`|Unused.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

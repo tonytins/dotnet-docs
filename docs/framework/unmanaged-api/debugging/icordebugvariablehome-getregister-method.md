@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugVariableHome::GetRegister Method"
 title: "ICorDebugVariableHome::GetRegister Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugVariableHome::GetRegister Method
+
 Gets the register that contains a variable with a location type of `VLT_REGISTER`, and the base register for a variable with a location type of `VLT_REGISTER_RELATIVE`.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetRegister(
 ```  
   
 ## Parameters  
+
  `pRegister`  
  [out] A CorDebugRegister enumeration value  that indicates the register for a variable with a location type of `VLT_REGISTER`, and the base register for a variable with a location type of `VLT_REGISTER_RELATIVE`.  
   
 ## Return Value  
+
  The method returns the following values:  
   
 |Value|Description|  
@@ -40,6 +44,7 @@ HRESULT GetRegister(
 |`E_FAIL`|The variable is not in a register or a register-relative location.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

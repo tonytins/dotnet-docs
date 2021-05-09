@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugCode::GetCode Method"
 title: "ICorDebugCode::GetCode Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugCode::GetCode Method
+
 Gets all the code for the specified function, formatted for disassembly. This method has been deprecated in the .NET Framework version 2.0. Use [ICorDebugCode2::GetCodeChunks](icordebugcode2-getcodechunks-method.md) instead.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT GetCode (
 ```  
   
 ## Parameters  
+
  `startOffset`  
  [in] The offset of the beginning of the function.  
   
@@ -49,9 +52,11 @@ HRESULT GetCode (
  [out] The number of bytes returned.  
   
 ## Remarks  
+
  If the function's code has been divided into multiple chunks, they are concatenated in order of increasing native offset. Instruction boundaries are not checked.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedBinder::GetReaderFromStream Method"
 title: "ISymUnmanagedBinder::GetReaderFromStream Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedBinder::GetReaderFromStream Method
+
 Given a metadata interface and a stream that contains the symbol store, returns the correct [ISymUnmanagedReader](isymunmanagedreader-interface.md) structure that will read the debugging symbols from the given symbol store.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetReaderFromStream(
 ```  
   
 ## Parameters  
+
  `importer`  
  [in] A pointer to the metadata import interface.  
   
@@ -39,9 +42,11 @@ HRESULT GetReaderFromStream(
  [out] A pointer that is set to the returned [ISymUnmanagedReader](isymunmanagedreader-interface.md) interface.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

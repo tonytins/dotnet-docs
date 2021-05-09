@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetModuleFromScope Method"
 title: "IMetaDataImport::GetModuleFromScope Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetModuleFromScope Method
+
 Gets a metadata token for the module referenced in the current metadata scope.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetModuleFromScope (
 ```  
   
 ## Parameters  
+
  `pmd`  
  [out] A pointer to the token representing the module referenced in the current metadata scope.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,7 +1,6 @@
 ---
 title: ".NET Framework system requirements"
 description: "Find out what are the hardware, operating system and software requirements to install .NET Framework 4.5 and later versions."
-ms.custom: "updateeachrelease"
 ms.date: "04/18/2019"
 helpviewer_keywords: 
   - "software requirements"
@@ -48,6 +47,8 @@ For information on the support lifecycle of .NET Framework versions, see [Micros
 
 | Operating system | Supported editions | Preinstalled with the OS | Installable separately |
 | ---------------- | ------------------ | ------------------------ | ---------------------- |
+| Windows 10 May 2020 Update<br/> (version 2004) | 32-bit and 64-bit | .NET Framework 4.8 | -- |
+| Windows 10 November 2019 Update<br/> (version 1909) | 32-bit and 64-bit | .NET Framework 4.8 | -- |
 | Windows 10 May 2019 Update<br/> (version 1903) | 32-bit and 64-bit | .NET Framework 4.8 | -- |
 | Windows 10 October 2018 Update<br/> (version 1809) | 32-bit and 64-bit | .NET Framework 4.7.2 | .NET Framework 4.8 |
 | Windows 10 April 2018 Update<br/> (version 1803) | 32-bit and 64-bit | .NET Framework 4.7.2 |.NET Framework 4.8|
@@ -92,7 +93,7 @@ For information on the support lifecycle of .NET Framework versions, see [Micros
 
 - Windows Server 2012 includes .NET Framework 4.5, so you don't have to install it separately. Similarly, Windows Server 2012 R2 includes .NET Framework 4.5.1.
 
-- .NET Framework has limited support for the Server Core Role with Windows Server 2008 R2 SP1 or later. See [Server Core .NET Functionality](https://docs.microsoft.com/previous-versions//dd745015(v=vs.85)) for a list of unsupported APIs.
+- .NET Framework has limited support for the Server Core Role with Windows Server 2008 R2 SP1 or later. See [Server Core .NET Functionality](/previous-versions//dd745015(v=vs.85)) for a list of unsupported APIs.
 
 - .NET Framework isn't supported on Windows Server 2008 R2 for Itanium-Based Systems.
 

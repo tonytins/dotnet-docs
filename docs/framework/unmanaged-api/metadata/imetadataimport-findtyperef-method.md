@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::FindTypeRef Method"
 title: "IMetaDataImport::FindTypeRef Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::FindTypeRef Method
+
 Gets a pointer to the TypeRef token for the <xref:System.Type> reference that is in the specified scope and that has the specified name.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT FindTypeRef (
 ```  
   
 ## Parameters  
+
  `tkResolutionScope`  
  [in] A ModuleRef, AssemblyRef, or TypeRef token that specifies the module, assembly, or type, respectively, in which the type reference is defined.  
   
@@ -40,6 +43,7 @@ HRESULT FindTypeRef (
  [out] A pointer to the matching TypeRef token.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

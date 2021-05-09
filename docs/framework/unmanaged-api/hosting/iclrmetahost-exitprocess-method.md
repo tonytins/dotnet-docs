@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRMetaHost::ExitProcess Method"
 title: "ICLRMetaHost::ExitProcess Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRMetaHost::ExitProcess Method
+
 Attempts to shut down all loaded runtimes gracefully and then terminates the process. Supersedes the [CorExitProcess](corexitprocess-function.md) function.  
   
 ## Syntax  
@@ -27,15 +29,18 @@ HRESULT ExitProcess (
 ```  
   
 ## Parameters  
+
  `iExitCode`  
  [in] The exit code for the process.  
   
 ## Return Value  
+
  This method never returns, so its return value is undefined.  
   
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

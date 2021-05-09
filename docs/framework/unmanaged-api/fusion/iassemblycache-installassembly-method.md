@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyCache::InstallAssembly Method"
 title: "IAssemblyCache::InstallAssembly Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyCache::InstallAssembly Method
+
 Installs the specified assembly in the global assembly cache.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT InstallAssembly (
 ```  
   
 ## Parameters  
+
  `dwFlags`  
  [in] Flags defined in Fusion.idl. The following values are supported:  
   
@@ -44,6 +47,7 @@ HRESULT InstallAssembly (
  [in] A [FUSION_INSTALL_REFERENCE](fusion-install-reference-structure.md) structure that contains data for the installation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo::GetFunctionInfo Method"
 title: "ICorProfilerInfo::GetFunctionInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo::GetFunctionInfo Method
+
 Gets the parent class and metadata token for the specified function.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetFunctionInfo(
 ```  
   
 ## Parameters  
+
  `functionId`  
  [in] The ID of the function for which to get the parent class and metadata token.  
   
@@ -43,11 +46,13 @@ HRESULT GetFunctionInfo(
  [out] A pointer to the metadata token for the function.  
   
 ## Remarks  
+
  The profiler code can call [ICorProfilerInfo::GetModuleMetaData](icorprofilerinfo-getmodulemetadata-method.md) to obtain a metadata interface for a given module. The metadata token that is returned to the location referenced by `pToken` can then be used to access the metadata for the function.  
   
  The `ClassID` of a function on a generic class might not be obtainable without more contextual information about the use of the function. In this case, `pClassId` will be 0. Profiler code should use [ICorProfilerInfo2::GetFunctionInfo2](icorprofilerinfo2-getfunctioninfo2-method.md) with a COR_PRF_FRAME_INFO value to provide more context.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

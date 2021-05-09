@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerModuleEnum::Skip Method"
 title: "ICorProfilerModuleEnum::Skip Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerModuleEnum::Skip Method
+
 Advances the enumerator's cursor from its current position so that the specified number of elements are skipped.  
   
 ## Syntax  
@@ -26,10 +28,12 @@ HRESULT Skip([in] ULONG celt);
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of elements to be skipped.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -38,9 +42,11 @@ HRESULT Skip([in] ULONG celt);
 |S_FALSE|Fewer than `celt` elements were skipped, which indicates that there are no more elements.|  
   
 ## Remarks  
+
  The new position of this enumerator's cursor is (current position) + `celt`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

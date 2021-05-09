@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: App Settings schema"
 title: "App Settings schema"
 ms.date: "05/01/2017"
 helpviewer_keywords: 
@@ -64,5 +65,5 @@ The following example shows an application configuration file that consumes the 
 
 ## See also
 
-- [Application Settings Overview](../../../winforms/advanced/application-settings-overview.md)
-- [Application Settings Architecture](../../../winforms/advanced/application-settings-architecture.md)
+- [Application Settings Overview](/dotnet/desktop/winforms/advanced/application-settings-overview)
+- [Application Settings Architecture](/dotnet/desktop/winforms/advanced/application-settings-architecture)

@@ -1,12 +1,15 @@
 ---
+description: "Learn more about: Conceptual Model Canonical to SQL Server Functions Mapping"
 title: "Conceptual Model Canonical to SQL Server Functions Mapping"
 ms.date: "03/30/2017"
 ms.assetid: 1a2631bc-a426-4c0a-ba8d-26d9c80d39e2
 ---
 # Conceptual Model Canonical to SQL Server Functions Mapping
+
 This topic describes how conceptual model canonical functions map to the corresponding SQL Server functions.  
   
 ## Date and Time Functions  
+
  The following table describes the date and time functions mapping:  
   
 |Canonical functions|SQL Server functions|  
@@ -46,6 +49,7 @@ This topic describes how conceptual model canonical functions map to the corresp
 |[Year(expression)](./language-reference/date-and-time-canonical-functions.md)|`DatePart(YEAR, expression)`|  
   
 ## Aggregate Functions  
+
  The following table describes the aggregate functions mapping:  
   
 |Canonical functions|SQL Server functions|  
@@ -62,6 +66,7 @@ This topic describes how conceptual model canonical functions map to the corresp
 |[VarP(expression)](./language-reference/aggregate-canonical-functions.md)|`VARP(expression)`|  
   
 ## Math functions  
+
  The following table describes the math functions mapping:  
   
 |Canonical functions|SQL Server functions|  
@@ -74,6 +79,7 @@ This topic describes how conceptual model canonical functions map to the corresp
 |[Truncate](./language-reference/math-canonical-functions.md)|`ROUND(value , digits, 1)`|  
   
 ## String Functions  
+
  The following table describes the string functions mapping:  
   
 |Canonical functions|SQL Server functions|  
@@ -96,6 +102,7 @@ This topic describes how conceptual model canonical functions map to the corresp
 |[ToUpper(string)](./language-reference/string-canonical-functions.md)|`UPPER(string)`|  
   
 ## Bitwise Functions  
+
  The following table describes the bitwise functions mapping:  
   
 |Canonical functions|SQL Server functions|  

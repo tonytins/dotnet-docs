@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::DefineModuleRef Method"
 title: "IMetaDataEmit::DefineModuleRef Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::DefineModuleRef Method
+
 Creates the metadata signature for a module with the specified name.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT DefineModuleRef (
 ```  
   
 ## Parameters  
+
  `szName`  
  [in] The name of the other metadata file, typically a DLL. This is the file name only. Do not use a full path name.  
   
@@ -36,6 +39,7 @@ HRESULT DefineModuleRef (
  [out] The assigned `mdModuleRef` token.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

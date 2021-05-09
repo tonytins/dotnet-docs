@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: -removeintchecks"
 title: "-removeintchecks"
 ms.date: 03/13/2018
 f1_keywords: 
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: c1835bd5-1e38-4fba-bd2f-6984774765d4
 ---
 # -removeintchecks
+
 Turns overflow-error checking for integer operations on or off.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ Turns overflow-error checking for integer operations on or off.
 |1.  Have a project selected in **Solution Explorer**. On the **Project** menu, click **Properties**. <br />2.  Click the **Compile** tab.<br />3.  Click the **Advanced** button.<br />4.  Modify the value of the **Remove integer overflow checks** box.|  
   
 ## Example  
+
  The following code compiles `Test.vb` and turns off integer overflow-error checking.  
   
 ```console

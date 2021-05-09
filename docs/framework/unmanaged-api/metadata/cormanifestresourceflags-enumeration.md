@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorManifestResourceFlags Enumeration"
 title: "CorManifestResourceFlags Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorManifestResourceFlags Enumeration
+
 Indicates the visibility of resources encoded in an assembly manifest.  
   
 ## Syntax  
@@ -39,6 +41,7 @@ typedef enum CorManifestResourceFlags {
 |`mrPrivate`|The resources are private.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

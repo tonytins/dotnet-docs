@@ -1,5 +1,6 @@
 ---
 title: "Certmgr.exe (Certificate Manager Tool)"
+description: Explore Certmgr.exe, the Certificate Manager tool. This tool manages certificates, certificate trust lists (CTLs), and certificate revocation lists (CRLs).
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -15,14 +16,13 @@ helpviewer_keywords:
 ms.assetid: 7e953b43-1374-4bbc-814f-53ca1b6b52bb
 ---
 # Certmgr.exe (Certificate Manager Tool)
+
 The Certificate Manager tool (Certmgr.exe) manages certificates, certificate trust lists (CTLs), and certificate revocation lists (CRLs).  
   
- The Certificate Manager is automatically installed with Visual Studio. To start the tool, use the [Command Prompts](developer-command-prompt-for-vs.md).  
+ The Certificate Manager is automatically installed with Visual Studio. To start the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell).  
   
 > [!NOTE]
-> The Certificate Manager tool (Certmgr.exe) is a command-line utility, whereas Certificates (Certmgr.msc) is a Microsoft Management Console (MMC) snap-in. Because Certmgr.msc is usually found in the Windows System directory, entering `certmgr` at the command line may load the Certificates MMC snap-in even if you have opened the Developer Command Prompt for Visual Studio. This occurs because the path to the snap-in precedes the path to the Certificate Manager tool in the PATH environment variable. If you encounter this problem, you can execute Certmgr.exe commands by specifying the path to the executable.  
-  
- This tool is automatically installed with Visual Studio. To run the tool, use the Developer Command Prompt for Visual Studio (or the Visual Studio Command Prompt in Windows 7). For more information, see [Command Prompts](developer-command-prompt-for-vs.md).  
+> The Certificate Manager tool (Certmgr.exe) is a command-line utility, whereas Certificates (Certmgr.msc) is a Microsoft Management Console (MMC) snap-in. Because Certmgr.msc is usually found in the Windows System directory, entering `certmgr` at the command line may load the Certificates MMC snap-in even if you have opened the Developer Command Prompt for Visual Studio. This occurs because the path to the snap-in precedes the path to the Certificate Manager tool in the PATH environment variable. If you encounter this problem, you can execute Certmgr.exe commands by specifying the path to the executable.
   
  For an overview of X.509 certificates, see [Working with Certificates](../wcf/feature-details/working-with-certificates.md).  
   
@@ -65,6 +65,7 @@ The Certificate Manager tool (Certmgr.exe) manages certificates, certificate tru
 |**/?**|Displays command syntax and options for the tool.|  
   
 ## Remarks  
+
  Certmgr.exe performs the following basic functions:  
   
 - Displays certificates, CTLs, and CRLs to the console.  
@@ -87,6 +88,7 @@ The Certificate Manager tool (Certmgr.exe) manages certificates, certificate tru
  For more information about certificates, see [Working with Certificates](../wcf/feature-details/working-with-certificates.md).  
   
 ## Examples  
+
  The following command displays a default system store called `my` with verbose output.  
   
 ```console  
@@ -133,4 +135,4 @@ certmgr /put /c /s my newFile
 
 - [Tools](index.md)
 - [Makecert.exe (Certificate Creation Tool)](/windows/desktop/SecCrypto/makecert)
-- [Command Prompts](developer-command-prompt-for-vs.md)
+- [Developer command-line shells](/visualstudio/ide/reference/command-prompt-powershell)

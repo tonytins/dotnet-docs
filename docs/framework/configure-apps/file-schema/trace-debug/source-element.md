@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <source> Element"
 title: "<source> Element"
 ms.date: "09/29/2017"
 f1_keywords: 
@@ -9,6 +10,7 @@ helpviewer_keywords:
   - "source element"
 ---
 # \<source> Element
+
 Specifies a trace source that initiates tracing messages.  
 
 [**\<configuration>**](../configuration-element.md)\
@@ -25,6 +27,7 @@ Specifies a trace source that initiates tracing messages.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -51,9 +54,11 @@ Specifies a trace source that initiates tracing messages.
 |`sources`|Contains trace sources that initiate tracing messages.|  
   
 ## Remarks  
+
  This element can be used in the machine configuration file (Machine.config) and the application configuration file.  
   
 ## Example  
+
  The following example shows how to use the `<source>` element to add the trace source `mySource` and to set the level for the source switch named `sourceSwitch`. A console trace listener is added that writes trace information to the console.  
   
 ```xml  

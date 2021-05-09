@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataValidate::ValidatorInit Method"
 title: "IMetaDataValidate::ValidatorInit Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataValidate::ValidatorInit Method
+
 Sets a flag that specifies the type of the module in the current metadata scope, and registers the specified callback method for validation errors.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT ValidatorInit (
 ```  
   
 ## Parameters  
+
  `dwModule`  
  [in] A value of the [CorValidatorModuleType](corvalidatormoduletype-enumeration.md) enumeration that specifies the type of the module in the current metadata scope.  
   
@@ -36,6 +39,7 @@ HRESULT ValidatorInit (
  [in] A pointer to an [IUnknown](/cpp/atl/iunknown) instance that serves as a function callback for validation errors.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,4 +1,5 @@
 ---
+description: "try-catch-finally - C# Reference"
 title: "try-catch-finally - C# Reference"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -17,7 +18,7 @@ A common usage of `catch` and `finally` together is to obtain and use resources 
 
 ## Example
 
-[!code-csharp[csrefKeywordsExceptions#1](~/samples/snippets/csharp/VS_Snippets_VBCSharp/csrefKeywordsExceptions/CS/csrefKeywordsExceptions.cs#1)]  
+:::code language="csharp" source="./snippets/RefKeywordsExceptions.cs" id="Snippet1":::  
 
 ## C# language specification
 

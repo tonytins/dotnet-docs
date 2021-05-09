@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo::GetClassFromObject Method"
 title: "ICorProfilerInfo::GetClassFromObject Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo::GetClassFromObject Method
+
 Gets the `ClassID` of an object, given its `ObjectID`.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT GetClassFromObject(
 ```  
   
 ## Parameters  
+
  `objectId`  
  [in] The ID of the object for which to get the `ClassID`.  
   
@@ -35,9 +38,11 @@ HRESULT GetClassFromObject(
  [out] A pointer to the returned `ClassID`.  
   
 ## Remarks  
+
  A null `pClassId` indicates that `objectId` has a type that is unloading.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

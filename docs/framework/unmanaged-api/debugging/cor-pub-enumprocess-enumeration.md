@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_PUB_ENUMPROCESS Enumeration"
 title: "COR_PUB_ENUMPROCESS Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_PUB_ENUMPROCESS Enumeration
+
 Identifies the type of process to be enumerated.  
   
 ## Syntax  
@@ -33,9 +35,11 @@ typedef enum {
 |`COR_PUB_MANAGEDONLY`|A managed process.|  
   
 ## Remarks  
+
  The current version of the unmanaged debugging API enumerates only managed processes.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

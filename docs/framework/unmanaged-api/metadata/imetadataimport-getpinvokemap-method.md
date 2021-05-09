@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetPinvokeMap Method"
 title: "IMetaDataImport::GetPinvokeMap Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetPinvokeMap Method
+
 Gets a ModuleRef token to represent the target assembly of a PInvoke call.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT GetPinvokeMap (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] A FieldDef or MethodDef token to get the PInvoke mapping metadata for.  
   
@@ -52,6 +55,7 @@ HRESULT GetPinvokeMap (
  [out] A pointer to a ModuleRef token that represents the unmanaged target object library.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

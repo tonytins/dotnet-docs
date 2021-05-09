@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReaderSymbolSearchInfo Interface"
 title: "ISymUnmanagedReaderSymbolSearchInfo Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReaderSymbolSearchInfo Interface
+
 Provides methods that get symbol search information. Obtain this interface by calling `QueryInterface` on an object that implements the [ISymUnmanagedReader](isymunmanagedreader-interface.md) interface.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Provides methods that get symbol search information. Obtain this interface by ca
 |[GetSymbolSearchInfoCount Method](isymunmanagedreadersymbolsearchinfo-getsymbolsearchinfocount-method.md)|Gets a count of symbol search information.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublish::GetProcess Method"
 title: "ICorPublish::GetProcess Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublish::GetProcess Method
+
 Gets an [ICorPublishProcess](icorpublishprocess-interface.md) instance that represents the process with the specified identifier.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetProcess(
 ```  
   
 ## Parameters  
+
  `pid`  
  [in] The identifier of the process.  
   
@@ -36,9 +39,11 @@ HRESULT GetProcess(
  [out] A pointer to the address of an `ICorPublishProcess` instance that represents the process.  
   
 ## Remarks  
+
  `GetProcess` fails if the process doesn't exist, or isn't a managed process that can be debugged by the current user.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

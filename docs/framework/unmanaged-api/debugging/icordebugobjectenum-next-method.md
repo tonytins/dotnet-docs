@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugObjectEnum::Next Method"
 title: "ICorDebugObjectEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugObjectEnum::Next Method
+
 Gets the relative virtual addresses (RVAs) of the specified number of objects from the enumeration, starting at the current position.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT Next (
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of objects to be retrieved.  
   
@@ -41,6 +44,7 @@ HRESULT Next (
  [out] Pointer to the number of objects actually returned. This value may be null if `celt` is one.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

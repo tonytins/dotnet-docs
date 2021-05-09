@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Map Inheritance Hierarchies"
 title: "How to: Map Inheritance Hierarchies"
 ms.date: "03/30/2017"
 ms.assetid: b27c779b-9355-4dc7-b95f-7dfd504b6e48
@@ -7,6 +8,7 @@ dev_langs:
   - "vb"
 ---
 # How to: Map Inheritance Hierarchies
+
 To implement inheritance mapping in LINQ, you must specify the attributes and attribute properties on the root class of the inheritance hierarchy as described in the following steps. Developers using Visual Studio can use the Object Relational Designer to map inheritance hierarchies. See [How to: Configure inheritance by using the O/R Designer](/visualstudio/data-tools/how-to-configure-inheritance-by-using-the-o-r-designer).  
   
 > [!NOTE]

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostIoCompletionManager::InitializeHostOverlapped Method"
 title: "IHostIoCompletionManager::InitializeHostOverlapped Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostIoCompletionManager::InitializeHostOverlapped Method
+
 Provides the host with an opportunity to initialize any custom data to append to a Win32 `OVERLAPPED` structure that is used for asynchronous I/O requests.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT InitializeHostOverlapped (
 ```  
   
 ## Parameters  
+
  `pvOverlapped`  
  [in] A pointer to the Win32 `OVERLAPPED` structure to be included with the I/O request.  
   
@@ -44,6 +47,7 @@ HRESULT InitializeHostOverlapped (
 |E_OUTOFMEMORY|Not enough memory was available to allocate the requested resource.|  
   
 ## Remarks  
+
  The Windows Platform functions use the `OVERLAPPED` structure to store state for asynchronous I/O requests. The CLR calls the `InitializeHostOverlapped` method to give the host the opportunity to append custom data to an `OVERLAPPED` instance.  
   
 > [!IMPORTANT]
@@ -52,6 +56,7 @@ HRESULT InitializeHostOverlapped (
  A return value of E_OUTOFMEMORY indicates that the host has failed to initialize its custom data. In this case, the CLR reports an error and fails the call.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

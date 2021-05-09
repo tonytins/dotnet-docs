@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CloseEnum Method"
 title: "CloseEnum Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # CloseEnum Method
+
 Closes the indicated enumeration and frees associated resources.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT CloseEnum(
 ```  
   
 ## Parameters  
+
  `hEnum`  
  Handle of enumeration to be closed.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

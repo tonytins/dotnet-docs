@@ -1,5 +1,7 @@
 ---
 title: "Publish events that conform to .NET Guidelines - C# Programming Guide"
+description: Learn how to publish events that conform to .NET guidelines. All events in the .NET class library are based on the EventHandler delegate.
+ms.topic: how-to
 ms.date: 05/26/2020
 helpviewer_keywords:
   - "events [C#], implementation guidelines"
@@ -8,7 +10,7 @@ ms.assetid: 9310ae16-8627-44a2-b08c-05e5976202b1
 
 # How to publish events that conform to .NET Guidelines (C# Programming Guide)
 
-The following procedure demonstrates how to add events that follow the standard .NET pattern to your classes and structs. All events in the .NET Framework class library are based on the <xref:System.EventHandler> delegate, which is defined as follows:
+The following procedure demonstrates how to add events that follow the standard .NET pattern to your classes and structs. All events in the .NET class library are based on the <xref:System.EventHandler> delegate, which is defined as follows:
 
 ```csharp
 public delegate void EventHandler(object sender, EventArgs e);

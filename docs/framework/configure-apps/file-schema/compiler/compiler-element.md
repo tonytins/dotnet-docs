@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <compiler> Element"
 title: "<compiler> Element"
 ms.date: 08/14/2018
 f1_keywords:
@@ -101,4 +102,4 @@ The following example illustrates a typical compiler configuration element:
 - [Configuration File Schema](../index.md)
 - [\<compilers> Element](compilers-element.md)
 - [Specifying Fully Qualified Type Names](../../../reflection-and-codedom/specifying-fully-qualified-type-names.md)
-- [compiler Element for compilers for compilation (ASP.NET Settings Schema)](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/a15ebt6c(v=vs.100))
+- [compiler Element for compilers for compilation (ASP.NET Settings Schema)](/previous-versions/dotnet/netframework-4.0/a15ebt6c(v=vs.100))

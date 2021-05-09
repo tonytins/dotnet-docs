@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Method '<methodname>' has no parameter named '<parametername>'"
 title: "Method '<methodname>' has no parameter named '<parametername>'"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: b4346b6a-87da-4e65-a2de-ee5239c671f8
 ---
 # Method '\<methodname>' has no parameter named '\<parametername>'
+
 A supplied named argument does not match any of the arguments of the target method.  
   
 ## To correct this error  

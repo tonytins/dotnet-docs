@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerObjectEnum::GetCount Method"
 title: "ICorProfilerObjectEnum::GetCount Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerObjectEnum::GetCount Method
+
 Gets the total number of frozen objects in the collection.  
   
 ## Syntax  
@@ -28,12 +30,14 @@ HRESULT GetCount (
 ```  
   
 ## Parameters  
+
  `pcelt`  
  [out] A pointer to the number of frozen objects in the collection.  
   
  This method will always return zero in the .NET Framework version 3.5 Service Pack 1 (SP1) and later versions.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

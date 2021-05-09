@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <endpoint> element"
 title: "<endpoint> element"
 ms.date: "03/30/2017"
 ms.assetid: 2fc8fedc-78d0-4e87-8142-fbfd26c15a4e
 ---
 # \<endpoint> element
+
 Specifies binding, contract, and address properties for a service endpoint, which is used to expose services.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -31,6 +33,7 @@ Specifies binding, contract, and address properties for a service endpoint, whic
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -65,6 +68,7 @@ Specifies binding, contract, and address properties for a service endpoint, whic
 |[\<service>](service.md)|A configuration section that defines a list of endpoints that a client can connect to.|  
   
 ## Example  
+
  This is an example of a service endpoint configuration.  
   
 ```xml  

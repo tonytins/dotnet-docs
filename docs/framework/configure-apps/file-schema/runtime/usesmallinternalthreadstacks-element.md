@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <UseSmallInternalThreadStacks> Element"
 title: "<UseSmallInternalThreadStacks> Element"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 1e3f6ec0-1cac-4e1c-9c81-17d948ae5874
 ---
 # \<UseSmallInternalThreadStacks> Element
+
 Requests that the common language runtime (CLR) reduce memory use by specifying explicit stack sizes when it creates certain threads that it uses internally, instead of using the default stack size for those threads.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -20,6 +22,7 @@ Requests that the common language runtime (CLR) reduce memory use by specifying 
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -36,6 +39,7 @@ Requests that the common language runtime (CLR) reduce memory use by specifying 
 |false|Use the default stack size. This is the default for the .NET Framework 4.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -46,6 +50,7 @@ Requests that the common language runtime (CLR) reduce memory use by specifying 
 |`runtime`|Contains information about assembly binding and garbage collection.|  
   
 ## Remarks  
+
  This configuration element is used to request reduced virtual memory use in a process, because the explicit thread sizes that the CLR uses for its internal threads, if the request is honored, are smaller than the default size.  
   
 > [!IMPORTANT]
@@ -54,6 +59,7 @@ Requests that the common language runtime (CLR) reduce memory use by specifying 
  Specifying this configuration element trades reliability for smaller virtual memory use if the CLR honors the request, because smaller stack sizes could potentially make stack overflows more likely.  
   
 ## Example  
+
  The following example shows how to request that the CLR use explicit stack sizes for certain threads that it uses internally.  
   
 ```xml  

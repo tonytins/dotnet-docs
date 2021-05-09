@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugClass2 Interface"
 title: "ICorDebugClass2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -32,6 +33,7 @@ Represents a generic class or a class with a method parameter of type <xref:Syst
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

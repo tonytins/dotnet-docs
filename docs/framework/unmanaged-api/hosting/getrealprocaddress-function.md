@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetRealProcAddress Function"
 title: "GetRealProcAddress Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # GetRealProcAddress Function
+
 Gets the address of the specified function that is exported from the latest installed version of the common language runtime (CLR).  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -30,6 +32,7 @@ HRESULT GetRealProcAddress (
 ```  
   
 ## Parameters  
+
  `pwszProcName`  
  [in] The name of the function.  
   
@@ -37,6 +40,7 @@ HRESULT GetRealProcAddress (
  [out] The location that receives a pointer to the address of the function.  
   
 ## Return Value  
+
  This method returns standard Component Object Model (COM) error codes, as defined in WinError.h, in addition to the following values defined in CorError.h.  
   
 |Return code|Description|  
@@ -46,6 +50,7 @@ HRESULT GetRealProcAddress (
 |CLR_E_SHIM_RUNTIMEEXPORT|The function is not exported from the runtime.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

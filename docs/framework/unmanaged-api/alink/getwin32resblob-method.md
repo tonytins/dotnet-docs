@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetWin32ResBlob Method"
 title: "GetWin32ResBlob Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # GetWin32ResBlob Method
+
 Retrieves Win32 resource blob. Call this method after setting assembly options.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT GetWin32ResBlob(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
@@ -51,9 +54,11 @@ HRESULT GetWin32ResBlob(
  Receives the size of the blob.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

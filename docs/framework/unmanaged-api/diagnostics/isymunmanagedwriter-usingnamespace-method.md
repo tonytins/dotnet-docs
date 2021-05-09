@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter::UsingNamespace Method"
 title: "ISymUnmanagedWriter::UsingNamespace Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter::UsingNamespace Method
+
 Specifies that the given fully qualified namespace name is being used within the currently open lexical scope. The namespace will be used within all scopes that inherit from the currently open scope. Closing the current scope will also stop the use of the namespace.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT UsingNamespace(
 ```  
   
 ## Parameters  
+
  `fullName`  
  [in] A pointer to the fully qualified name of the namespace.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataDispenserEx::SetOption Method"
 title: "IMetaDataDispenserEx::SetOption Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataDispenserEx::SetOption Method
+
 Sets the specified option to a given value for the current metadata scope. The option controls how calls to the current metadata scope are handled.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SetOption (
 ```  
   
 ## Parameters  
+
  `optionId`  
  [in] A pointer to a GUID that specifies the option to be set.  
   
@@ -36,6 +39,7 @@ HRESULT SetOption (
  [in] The value to use to set the option. The type of this value must be a variant of the specified option's type.  
   
 ## Remarks  
+
  The following table lists the available GUIDs that the `optionId` parameter can point to and the corresponding valid values for the `pValue` parameter.  
   
 |GUID|Description|`pValue` Parameter|  
@@ -55,6 +59,7 @@ HRESULT SetOption (
 |MetaDataPreserveLocalRefs|Disables optimizing local references into definitions.|Must contain a combination of the values of the [CorLocalRefPreservation](corlocalrefpreservation-enumeration.md) enumeration.|  
   
 ## Requirements  
+
  **Platform:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

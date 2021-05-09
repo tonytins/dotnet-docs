@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostAutoEvent::Set Method"
 title: "IHostAutoEvent::Set Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostAutoEvent::Set Method
+
 Sets the current [IHostAutoEvent](ihostautoevent-interface.md) instance to a signaled state.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ HRESULT Set ();
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

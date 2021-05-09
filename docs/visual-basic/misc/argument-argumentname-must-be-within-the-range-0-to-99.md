@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Argument '<argumentname>' must be within the range 0 to 99"
 title: "Argument '<argumentname>' must be within the range 0 to 99"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: d9d9a15e-c5ee-4104-9504-b48a4a191415
 ---
 # Argument '\<argumentname>' must be within the range 0 to 99
+
 An argument is not valid because it falls outside of the range 0 to 99.  
   
 ## To correct this error  

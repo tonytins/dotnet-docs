@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Metadata Structures"
 title: "Metadata Structures"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: 3eeaec36-5e1a-4a62-9de3-ea3942f67d04
 ---
 # Metadata Structures
+
 This section describes the unmanaged structures that the metadata API uses.  
   
 ## In This Section  
+
  ASSEMBLYMETADATA  
  Stores assembly metadata for later use.  
   
@@ -27,6 +30,7 @@ This section describes the unmanaged structures that the metadata API uses.
  Contains information about the operating system.  
   
 ## Related Sections  
+
  [Metadata Interfaces](metadata-interfaces.md)  
   
  [Metadata Global Static Functions](metadata-global-static-functions.md)  

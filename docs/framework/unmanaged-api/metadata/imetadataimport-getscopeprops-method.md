@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetScopeProps Method"
 title: "IMetaDataImport::GetScopeProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetScopeProps Method
+
 Gets the name and optionally the version identifier of the assembly or module in the current metadata scope.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetScopeProps (
 ```  
   
 ## Parameters  
+
  `szName`  
  [out] A buffer for the assembly or module name.  
   
@@ -44,9 +47,11 @@ HRESULT GetScopeProps (
  [out, optional] A pointer to a GUID that uniquely identifies the version of the assembly or module.  
   
 ## Remarks  
+
  The [IMetaDataEmit::SetModuleProps](imetadataemit-setmoduleprops-method.md) method is used to set these properties.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

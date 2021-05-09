@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IInstallReferenceEnum::GetNextInstallReferenceItem Method"
 title: "IInstallReferenceEnum::GetNextInstallReferenceItem Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IInstallReferenceEnum::GetNextInstallReferenceItem Method
+
 Gets a pointer to the next [IInstallReferenceItem](iinstallreferenceitem-interface.md) object contained in this [IInstallReferenceEnum](iinstallreferenceenum-interface.md) object.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetNextInstallReferenceItem (
 ```  
   
 ## Parameters  
+
  `ppRefItem`  
  [out] The returned `IInstallReferenceItem` pointer.  
   
@@ -40,6 +43,7 @@ HRESULT GetNextInstallReferenceItem (
  [in] Reserved for future extensibility. `pvReserved` must be a null reference.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

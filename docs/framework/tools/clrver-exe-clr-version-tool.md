@@ -1,5 +1,6 @@
 ---
 title: "Clrver.exe (CLR Version Tool)"
+description: Review Clrver.exe, the CLR Version tool. This tool reports all installed versions of the common language runtime (CLR) on the computer.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "Clrver.exe"
@@ -7,11 +8,12 @@ helpviewer_keywords:
 ms.assetid: cbc2ee86-bdc8-4a65-a8f1-ba23bce3a699
 ---
 # Clrver.exe (CLR Version Tool)
+
 The CLR Version tool (Clrver.exe) reports all the installed versions of the common language runtime (CLR) on the computer.  
   
- This tool is automatically installed with Visual Studio. To run the tool, use the Developer Command Prompt for Visual Studio (or the Visual Studio Command Prompt in Windows 7). For more information, see [Command Prompts](developer-command-prompt-for-vs.md).  
+ This tool is automatically installed with Visual Studio. To run the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell).  
   
- At the command prompt, type the following:  
+ At the command prompt, enter the following command:  
   
 ## Syntax  
   
@@ -28,6 +30,7 @@ clrver [option]
 |`-?`|Displays command syntax and options for the tool.|  
   
 ## Remarks  
+
  If you call Clrver.exe with no options, it displays all installed CLR versions. If you specify a PID for another user, you must have administrative permissions to obtain the version information.  
   
 > [!NOTE]
@@ -36,6 +39,7 @@ clrver [option]
  Attempting to determine the CLR version for SYSTEM, LOCAL SERVICE, and NETWORK SERVICE processes results in a message indicating that the PID doesn't exist.  
   
 ## Examples  
+
  The following command displays all the versions of the CLR installed on the computer.  
   
  `clrver`  
@@ -51,4 +55,4 @@ clrver [option]
 ## See also
 
 - [Tools](index.md)
-- [Command Prompts](developer-command-prompt-for-vs.md)
+- [Developer command-line shells](/visualstudio/ide/reference/command-prompt-powershell)

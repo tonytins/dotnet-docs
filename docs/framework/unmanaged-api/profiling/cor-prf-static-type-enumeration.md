@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_PRF_STATIC_TYPE Enumeration"
 title: "COR_PRF_STATIC_TYPE Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_PRF_STATIC_TYPE Enumeration
+
 Indicates whether a field is static and, if so, the static quality that applies to the field. These values can be combined using the bitwise OR operation to indicate that the field has multiple, different static qualities.  
   
 ## Syntax  
@@ -41,6 +43,7 @@ typedef enum {
 |`COR_PRF_FIELD_RVA_STATIC`|The field is relative virtual address (RVA)-static.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostSecurityManager::ImpersonateLoggedOnUser Method"
 title: "IHostSecurityManager::ImpersonateLoggedOnUser Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostSecurityManager::ImpersonateLoggedOnUser Method
+
 Requests that code be executed using the credentials of the current user identity.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT ImpersonateLoggedOnUser (
 ```  
   
 ## Parameters  
+
  `hToken`  
  [in] A token representing the credentials of the user to be impersonated.  
   
@@ -43,11 +46,13 @@ HRESULT ImpersonateLoggedOnUser (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  Call `LogonUser` or a related Win32 function to get a handle to the credentials of the current user identity.  
   
  The `HANDLE` type is not COM-compliant, that is, its size is specific to an operating system, and it requires custom marshaling. Thus, this token is for use only within the process, between the CLR and the host.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

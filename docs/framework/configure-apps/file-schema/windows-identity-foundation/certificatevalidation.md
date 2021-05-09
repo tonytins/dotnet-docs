@@ -1,10 +1,12 @@
 ---
+description: "Learn more about: <certificateValidation>"
 title: "<certificateValidation>"
 ms.date: "03/30/2017"
 ms.assetid: 6c54c704-b55e-4631-88ff-4d4a5621554c
 author: "BrucePerlerMS"
 ---
 # \<certificateValidation>
+
 Controls the settings that token handlers use to validate certificates. These settings are overridden if a specific handler is configured with its own validator.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -27,6 +29,7 @@ Controls the settings that token handlers use to validate certificates. These se
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -51,6 +54,7 @@ Controls the settings that token handlers use to validate certificates. These se
 |[\<securityTokenHandlerConfiguration>](securitytokenhandlerconfiguration.md)|Provides configuration for a collection of security token handlers.|  
   
 ## Remarks  
+
  A `<certificateValidation>` element can be specified at the service level under the `<identityConfiguration>` element or on the security token handler collection level under the `<securityTokenHandlerConfiguration>` element. Settings on a token handler collection override those specified on the service. Some token handlers allow you to specify certificate validation settings in configuration. Settings on individual token handlers override those specified both at the service level and on the security token handler collection.  
   
 ## Example  

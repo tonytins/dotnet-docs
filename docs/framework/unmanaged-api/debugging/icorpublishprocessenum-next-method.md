@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublishProcessEnum::Next Method"
 title: "ICorPublishProcessEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublishProcessEnum::Next Method
+
 Gets the specified number of processes from the collection, starting at the current cursor position.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT Next (
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of processes to be retrieved.  
   
@@ -41,6 +44,7 @@ HRESULT Next (
  [out] Pointer to the number of processes actually returned. This value may be null if `celt` is one.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

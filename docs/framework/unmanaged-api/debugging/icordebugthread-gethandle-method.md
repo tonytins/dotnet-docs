@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugThread::GetHandle Method"
 title: "ICorDebugThread::GetHandle Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugThread::GetHandle Method
+
 Gets the current handle for the active part of this ICorDebugThread.  
   
 ## Syntax  
@@ -28,15 +30,18 @@ HRESULT GetHandle (
 ```  
   
 ## Parameters  
+
  `phThreadHandle`  
  [out] A pointer to an HTHREAD that is the handle of the active part of this thread.  
   
 ## Remarks  
+
  The handle may change as the process executes, and may be different for different parts of the thread.  
   
  This handle is owned by the debugging API. The debugger should duplicate it before using it.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

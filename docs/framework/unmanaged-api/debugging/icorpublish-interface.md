@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublish Interface"
 title: "ICorPublish Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublish Interface
+
 Serves as the general interface for publishing information about processes and information about the application domains in those processes.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Serves as the general interface for publishing information about processes and i
 |[GetProcess Method](icorpublish-getprocess-method.md)|Gets an [ICorPublishProcess](icorpublishprocess-interface.md) instance that represents the process with the specified identifier.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

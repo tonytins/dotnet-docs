@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTaskManager::Sleep Method"
 title: "IHostTaskManager::Sleep Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTaskManager::Sleep Method
+
 Notifies the host that the current task is going to sleep.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT Sleep (
 ```  
   
 ## Parameters  
+
  `dwMilliseconds`  
  [in] The time interval, in milliseconds, that the thread will sleep.  
   
@@ -47,9 +50,11 @@ HRESULT Sleep (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  The CLR typically calls `IHostTaskManager::Sleep` when <xref:System.Threading.Thread.Sleep%2A?displayProperty=nameWithType> is called from user code.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

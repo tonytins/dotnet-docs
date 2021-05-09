@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IALink Interface"
 title: "IALink Interface"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: 50abd02d-6488-4815-999b-4fb89af4d568
 ---
 # IALink Interface
+
 Helps in constructing .NET Framework assemblies. Among other things, the interface contains methods that assist in writing assembly manifests for multi-module assemblies, signing assemblies with strong names, and creating netmodules.  
   
 ## In This Section  
+
  [AddFile Method](addfile-method.md)  
   
  [AddImport Method](addimport-method.md)  

@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <security> of <wsHttpBinding>"
 title: "<security> of <wsHttpBinding>"
 ms.date: "03/30/2017"
 ms.assetid: 8658b162-2ddf-4162-a869-aa517a42288a
 ---
 # \<security> of \<wsHttpBinding>
+
 Represents the security capabilities of the [\<wsHttpBinding>](wshttpbinding.md).  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -31,6 +33,7 @@ Represents the security capabilities of the [\<wsHttpBinding>](wshttpbinding.md)
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements  
   
 ### Attributes  
@@ -62,6 +65,7 @@ Represents the security capabilities of the [\<wsHttpBinding>](wshttpbinding.md)
 |[\<wsHttpBinding>](wshttpbinding.md)|A secure binding for HTTP transport applications.|  
   
 ## Remarks  
+
  The WSHttpBinding class is designed for interoperation with services that implement WS-* specifications. The transport security for this binding is Secure Sockets Layer (SSL) over HTTP, or HTTPS.  
   
 ## See also

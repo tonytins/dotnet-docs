@@ -1,5 +1,6 @@
 ---
 title: "<param> - C# programming guide"
+description: Learn about the XML <param> tag. This tag is used in the comment for a method declaration to describe one of the parameters for the method.
 ms.date: 07/20/2015
 f1_keywords:
   - "param"
@@ -33,7 +34,7 @@ The `<param>` tag should be used in the comment for a method declaration to desc
 
 The text for the `<param>` tag is displayed in IntelliSense, the Object Browser, and the Code Comment Web Report.
 
-Compile with [-doc](../../language-reference/compiler-options/doc-compiler-option.md) to process documentation comments to a file.
+Compile with [**DocumentationFile**](../../language-reference/compiler-options/output.md#documentationfile) to process documentation comments to a file.
 
 ## Example
 

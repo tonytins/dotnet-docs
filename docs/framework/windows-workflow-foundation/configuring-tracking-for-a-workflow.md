@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Tracking for a Workflow"
 title: "Configuring Tracking for a Workflow"
 ms.date: "03/30/2017"
 ms.assetid: 905adcc9-30a0-4918-acd6-563f86db988a
@@ -245,7 +246,7 @@ If events need to be written to a specific application log, follow these steps t
         <provider name="Microsoft-Windows-Application Server-Applications_Provider1" guid="{2720e974-9fe9-477a-bb60-81fe3bf91eec}" symbol="Microsoft_Windows_ApplicationServer_ApplicationEvents" resourceFileName="<dll directory>\Microsoft.Windows.ApplicationServer.Applications_Provider1.dll" messageFileName="<dll directory>\Microsoft.Windows.ApplicationServer.Applications_Provider1.dll" />
         ```
 
-    7. Use [wevtutil](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732848(v=ws.10)) to register the manifest.
+    7. Use [wevtutil](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732848(v=ws.10)) to register the manifest.
 
         ```console
         wevtutil im Microsoft.Windows.ApplicationServer.Applications_Provider1.man
@@ -253,5 +254,5 @@ If events need to be written to a specific application log, follow these steps t
 
 ## See also
 
-- [Windows Server App Fabric Monitoring](https://docs.microsoft.com/previous-versions/appfabric/ee677251(v=azure.10))
-- [Monitoring Applications with App Fabric](https://docs.microsoft.com/previous-versions/appfabric/ee677276(v=azure.10))
+- [Windows Server App Fabric Monitoring](/previous-versions/appfabric/ee677251(v=azure.10))
+- [Monitoring Applications with App Fabric](/previous-versions/appfabric/ee677276(v=azure.10))

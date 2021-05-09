@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LinkResource Method"
 title: "LinkResource Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # LinkResource Method
+
 Links in a resource.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT LinkResource(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
@@ -47,9 +50,11 @@ HRESULT LinkResource(
  Accessibility flags such as `mrPublic` and `mrPrivate`. This parameter may be passed to [DefineManifestResource Method](../metadata/imetadataassemblyemit-definemanifestresource-method.md).  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h.  
   
 ## See also

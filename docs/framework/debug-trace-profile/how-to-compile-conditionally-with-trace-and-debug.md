@@ -13,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: 56d051c3-012c-42c1-9a58-7270edc624aa
 ---
 # How to: Compile Conditionally with Trace and Debug
+
 While you are debugging an application during development, both your tracing and debugging output go to the Output window in Visual Studio. However, to include tracing features in a deployed application, you must compile your instrumented applications with the **TRACE** compiler directive enabled. This allows tracing code to be compiled into the release version of your application. If you do not enable the **TRACE** directive, all tracing code is ignored during compilation and is not included in the executable code that you will deploy.  
   
  Both the tracing and debugging methods have associated conditional attributes. For example, if the conditional attribute for tracing is **true**, all trace statements are included within an assembly (a compiled .exe file or .dll); if the **Trace** conditional attribute is **false**, the trace statements are not included.  
@@ -60,7 +61,7 @@ While you are debugging an application during development, both your tracing and
     |`-d:`|Defines a conditional compilation symbol|  
   
     > [!NOTE]
-    > You must spell TRACE or DEBUG with uppercase letters. For more information about the conditional compilation commands, enter `vbc /?` (for Visual Basic) or `csc /?` (for C#) at the command prompt. For more information, see [Building from the Command Line](../../csharp/language-reference/compiler-options/how-to-set-environment-variables-for-the-visual-studio-command-line.md) (C#) or [Invoking the Command-Line Compiler](../../visual-basic/reference/command-line-compiler/how-to-invoke-the-command-line-compiler.md) (Visual Basic).  
+    > You must spell TRACE or DEBUG with uppercase letters. For more information about the conditional compilation commands, enter `vbc /?` (for Visual Basic) or `csc /?` (for C#) at the command prompt. For more information, see [Building from the Command Line](../../csharp/language-reference/compiler-options/index.md) (C#) or [Invoking the Command-Line Compiler](../../visual-basic/reference/command-line-compiler/how-to-invoke-the-command-line-compiler.md) (Visual Basic).  
   
 ### To perform conditional compilation using #CONST or #define  
   
@@ -95,5 +96,5 @@ Comment out the compiler directive.
 - [Trace Switches](trace-switches.md)
 - [Trace Listeners](trace-listeners.md)
 - [How to: Add Trace Statements to Application Code](how-to-add-trace-statements-to-application-code.md)
-- [How to set environment variables for the Visual Studio Command Line](../../csharp/language-reference/compiler-options/how-to-set-environment-variables-for-the-visual-studio-command-line.md)
+- [How to set environment variables for the Visual Studio Command Line](../../csharp/language-reference/compiler-options/index.md)
 - [How to: Invoke the Command-Line Compiler](../../visual-basic/reference/command-line-compiler/how-to-invoke-the-command-line-compiler.md)

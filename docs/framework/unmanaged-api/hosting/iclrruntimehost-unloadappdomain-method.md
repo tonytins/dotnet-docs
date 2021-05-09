@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRRuntimeHost::UnloadAppDomain Method"
 title: "ICLRRuntimeHost::UnloadAppDomain Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRRuntimeHost::UnloadAppDomain Method
+
 Unloads the managed <xref:System.AppDomain> that corresponds to the specified numeric identifier.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT UnloadAppDomain(
 ```  
   
 ## Parameters  
+
  `dwAppDomainId`  
  [in] The numeric identifier of the application domain to unload.  
   
@@ -47,9 +50,11 @@ HRESULT UnloadAppDomain(
 |E_FAIL|An unknown catastrophic failure occurred. If a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  You can get the numeric identifier of the application domain in which the current thread is executing by calling [GetCurrentAppDomainId](iclrruntimehost-getcurrentappdomainid-method.md). This identifier corresponds to the <xref:System.AppDomain.Id%2A> property of the managed <xref:System.AppDomain> type.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

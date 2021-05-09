@@ -1,5 +1,6 @@
 ---
 title: "Get Supported UI Automation Control Patterns"
+description: Read an example that shows how to retrieve supported control pattern objects from UI Automation elements.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -8,9 +9,10 @@ helpviewer_keywords:
   - "control patterns, getting"
   - "UI Automation, getting control patterns"
   - "getting, control patterns"
-ms.assetid: 006c54c9-50bf-48d9-a855-9d62eb95603a
+ms.topic: how-to
 ---
 # Get Supported UI Automation Control Patterns
+
 > [!NOTE]
 > This documentation is intended for .NET Framework developers who want to use the managed [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)] classes defined in the <xref:System.Windows.Automation> namespace. For the latest information about [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)], see [Windows Automation API: UI Automation](/windows/win32/winauto/entry-uiauto-win32).  
   
@@ -32,6 +34,7 @@ ms.assetid: 006c54c9-50bf-48d9-a855-9d62eb95603a
 2. Call <xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A> or <xref:System.Windows.Automation.AutomationElement.TryGetCurrentPattern%2A> to query for a specific pattern. These methods are similar, but if the pattern is not found, <xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A> raises an exception, and <xref:System.Windows.Automation.AutomationElement.TryGetCurrentPattern%2A> returns `false`.  
   
 ## Example  
+
  The following example retrieves an <xref:System.Windows.Automation.AutomationElement> for a list item and obtains a <xref:System.Windows.Automation.SelectionItemPattern> from that element.  
   
  [!code-csharp[UIAClient_snip#103](../../../samples/snippets/csharp/VS_Snippets_Wpf/UIAClient_snip/CSharp/ClientForm.cs#103)]

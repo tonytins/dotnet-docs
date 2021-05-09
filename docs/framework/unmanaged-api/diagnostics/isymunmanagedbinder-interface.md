@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedBinder Interface"
 title: "ISymUnmanagedBinder Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedBinder Interface
+
 Represents a symbol binder for unmanaged code.  
   
 > [!IMPORTANT]
@@ -29,6 +31,7 @@ Represents a symbol binder for unmanaged code.
 |[GetReaderFromStream Method](isymunmanagedbinder-getreaderfromstream-method.md)|Given a metadata interface and a stream that contains the symbol store, returns the correct [ISymUnmanagedReader](isymunmanagedreader-interface.md) structure that will read the debugging symbols from the given symbol store.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

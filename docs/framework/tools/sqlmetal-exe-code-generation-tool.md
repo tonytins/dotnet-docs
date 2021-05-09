@@ -1,5 +1,6 @@
 ---
 title: "SqlMetal.exe (Code Generation Tool)"
+description: Understand SqlMetal.exe, the code generation tool. Use the tool to generate code and mapping for the LINQ to SQL component of .NET.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "SQLMetal [LINQ to SQL]"
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: 819e5a96-7646-4fdb-b14b-fe31221b0614
 ---
 # SqlMetal.exe (Code Generation Tool)
+
 The SqlMetal command-line tool generates code and mapping for the [!INCLUDE[vbtecdlinq](../../../includes/vbtecdlinq-md.md)] component of the .NET Framework. By applying options that appear later in this topic, you can instruct SqlMetal to perform several different actions that include the following:  
   
 - From a database, generate source code and mapping attributes or a mapping file.  
@@ -19,20 +21,19 @@ The SqlMetal command-line tool generates code and mapping for the [!INCLUDE[vbte
   
 - From a .dbml file, generate code and mapping attributes or a mapping file.  
   
- This tool is automatically installed with Visual Studio. By default, the file is located at `drive`:\Program Files\Microsoft SDKs\Windows\v`n.nn`\bin. If you do not install Visual Studio, you can also get the SQLMetal file by downloading the [Windows SDK](https://go.microsoft.com/fwlink/?LinkId=142225).  
+This tool is automatically installed with Visual Studio. By default, the file is located at `drive`:\Program Files\Microsoft SDKs\Windows\v`n.nn`\bin. If you do not install Visual Studio, you can also get the SQLMetal file by downloading the [Windows SDK](https://go.microsoft.com/fwlink/?LinkId=142225).  
   
 > [!NOTE]
 > Developers who use Visual Studio can also use the Object Relational Designer to generate entity classes. The command-line approach scales well for large databases. Because SqlMetal is a command-line tool, you can use it in a build process.  
   
- To run the tool, use the Developer Command Prompt for Visual Studio (or the Visual Studio Command Prompt in Windows 7). For more information, see [Command Prompts](developer-command-prompt-for-vs.md).At the command prompt, type the following:  
-  
-## Syntax  
-  
+To run the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell). At the command prompt, enter the following command:
+
 ```console  
 sqlmetal [options] [<input file>]  
 ```  
   
 ## Options  
+
  To view the most current option list, type `sqlmetal /?` at a command prompt from the installed location.  
   
  **Connection Options**  
@@ -80,6 +81,7 @@ sqlmetal [options] [<input file>]
 |**\<input file>**|Specifies a SQL Server Express .mdf file, a SQL Server Compact 3.5 .sdf file, or a .dbml intermediate file.|  
   
 ## Remarks  
+
  SqlMetal functionality actually involves two steps:  
   
 - Extracting the metadata of the database into a .dbml file.  
@@ -103,6 +105,7 @@ sqlmetal [options] [<input file>]
  To specify an input file name, add the name to the command line as the input file. Including the file name in the connection string (using the **/conn** option) is not supported.  
   
 ## Examples  
+
  Generate a .dbml file that includes extracted SQL metadata:  
   
  **sqlmetal /server:myserver /database:northwind /dbml:mymeta.dbml**  

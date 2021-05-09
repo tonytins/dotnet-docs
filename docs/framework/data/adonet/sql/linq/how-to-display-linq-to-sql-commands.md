@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Display LINQ to SQL Commands"
 title: "How to: Display LINQ to SQL Commands"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -7,9 +8,11 @@ dev_langs:
 ms.assetid: 1decb05e-37ad-4ed6-ab2f-071eb4c4f628
 ---
 # How to: Display LINQ to SQL Commands
+
 Use <xref:System.Data.Linq.DataContext.GetCommand%2A> to display SQL commands and other information.  
   
 ## Example  
+
  In the following example, the console window displays the output from the query, followed by the SQL commands that are generated, the type of commands, and the type of connection.  
   
  [!code-csharp[DLinqDebuggingSupport#3](../../../../../../samples/snippets/csharp/VS_Snippets_Data/DLinqDebuggingSupport/cs/Program.cs#3)]

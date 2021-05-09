@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugHeapEnum::Next Method"
 title: "ICorDebugHeapEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugHeapEnum::Next Method
+
 Gets the specified number of [COR_HEAPOBJECT](cor-heapobject-structure.md) instances that contain information about objects on the managed heap.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT Next(
 ```  
   
 ## Parameters  
+
  celt  
  [in] The number of objects to be retrieved.  
   
@@ -39,9 +42,11 @@ HRESULT Next(
  [out] A pointer to the number of [COR_HEAPOBJECT](cor-heapobject-structure.md) objects actually returned in `objects`. This value may be `null` if `celt` is 1.  
   
 ## Remarks  
+
  The `COR_HEAPOBJECT.type` field is the identifier of a nested reference-counted COM interface. This reference must be released by the caller of `ICorDebugHeapEnum::Next`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

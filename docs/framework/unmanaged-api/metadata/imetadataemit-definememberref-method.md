@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::DefineMemberRef Method"
 title: "IMetaDataEmit::DefineMemberRef Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::DefineMemberRef Method
+
 Defines a reference to a member of a module outside the current scope, and gets a token to that reference definition.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT DefineMemberRef (
 ```  
   
 ## Parameters  
+
  `tkImport`  
  [in] Token for the target member's class or interface, if the member is not global; if the member is global, the `mdModuleRef` token for that other file.  
   
@@ -48,6 +51,7 @@ HRESULT DefineMemberRef (
  [out] The `mdMemberRef` token assigned.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

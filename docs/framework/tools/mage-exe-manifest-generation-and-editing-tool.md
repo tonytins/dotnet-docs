@@ -1,5 +1,6 @@
 ---
 title: "Mage.exe (Manifest Generation and Editing Tool)"
+description: Get started with Mage.exe, the Manifest Generation and Editing Tool. This tool supports the creation and editing of application and deployment manifests.
 ms.date: "12/06/2018"
 helpviewer_keywords:
   - "Manifest Generation and Editing tool"
@@ -12,7 +13,7 @@ The Manifest Generation and Editing Tool (*Mage.exe*) is a command-line tool tha
 
 You can also use *MageUI.exe*, a graphical application, instead of *Mage.exe*. For more information, see [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](mageui-exe-manifest-generation-and-editing-tool-graphical-client.md).
 
-This tool is automatically installed with Visual Studio. To run the tool, use Developer Command Prompt for Visual Studio. For more information, see [Command Prompts](developer-command-prompt-for-vs.md).
+This tool is automatically installed with Visual Studio. To run the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell).
 
 Two versions of *Mage.exe* and *MageUI.exe* are included with Visual Studio. To see version information, run *MageUI.exe*, select **Help**, and select **About**. This documentation describes version 4.0.x.x of *Mage.exe* and *MageUI.exe*.
 
@@ -59,7 +60,7 @@ The following table shows the options supported by the `-New` and `-Update` comm
 |**-pu,** **-ProviderURL** `url`||Deployment manifests.|Specifies the URL which ClickOnce will examine for application updates.|
 |**-pub, -Publisher** `publisherName`||Application manifests.<br /><br /> Deployment manifests.|Adds the publisher name to the description element of either the deployment or application manifest. When used on an application manifest, **-UseManifestForTrust** must also be specified with a value of "true" or "t"; otherwise, this parameter will raise an error.|
 |**-s, -SupportURL**  `url`||Application manifests.<br /><br /> Deployment manifests.|Specifies the link that appears in Add or Remove Programs for the ClickOnce application.|
-|**-ti, -TimestampUri** `uri`||Application manifests.<br /><br /> Deployment manifests.|The URL of a digital timestamping service. Timestamping the manifests prevents you from having to re-sign the manifests should your digital certificate expire before you deploy the next version of your application. For more information, see [Windows root certificate program members](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265983(v=ws.11)).|
+|**-ti, -TimestampUri** `uri`||Application manifests.<br /><br /> Deployment manifests.|The URL of a digital timestamping service. Timestamping the manifests prevents you from having to re-sign the manifests should your digital certificate expire before you deploy the next version of your application. For more information, see [Windows root certificate program members](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265983(v=ws.11)).|
 |**-t, -ToFile** `filePath`|-   New:<br />-   Deployment: deploy.application<br />-   Application: application.exe.manifest<br />-   Update:<br />-   The input file.|All file types.|Specifies the output path of the file that has been created or modified.<br /><br /> If **-ToFile** is not supplied when you use **-New**, the output is written to the current working directory. If **-ToFile** is not supplied when you use **-Update**, *Mage.exe* will write the file back to the input file.|
 |**-tr, -TrustLevel** `level`|Based on the zone in which the application URL resides.|Application manifests.|The level of trust to grant the application on client computers. Values include "Internet", "Intranet", and "FullTrust".|
 |**-um, -UseManifestForTrust** `willUseForTrust`|False|Application manifests.|Specifies whether the digital signature of the application manifest will be used for making trust decisions when the application runs on the client. Specifying "true" or "t" indicates that the application manifest will be used for trust decisions. Specifying "false" or "f" indicates that the signature of the deployment manifest will be used.|
@@ -217,4 +218,4 @@ mage -Sign deploy.application -CertFile cert.pfx -KeyContainer keyfile.snk -Cryp
 - [Walkthrough: Manually Deploying a ClickOnce Application](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-application)
 - [Trusted Application Deployment Overview](/visualstudio/deployment/trusted-application-deployment-overview)
 - [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](mageui-exe-manifest-generation-and-editing-tool-graphical-client.md)
-- [Command Prompts](developer-command-prompt-for-vs.md)
+- [Developer command-line shells](/visualstudio/ide/reference/command-prompt-powershell)

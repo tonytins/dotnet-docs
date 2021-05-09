@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: Accessing Attributes in the DOM"
 title: "Accessing Attributes in the DOM"
 ms.date: "03/30/2017"
-ms.technology: dotnet-standard
 dev_langs:
   - "csharp"
   - "vb"

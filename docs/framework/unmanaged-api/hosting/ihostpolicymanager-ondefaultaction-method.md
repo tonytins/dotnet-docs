@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostPolicyManager::OnDefaultAction Method"
 title: "IHostPolicyManager::OnDefaultAction Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostPolicyManager::OnDefaultAction Method
+
 Notifies the host that the common language runtime (CLR) is about to take the default action that was set by a call to the [ICLRPolicyManager::SetDefaultAction](iclrpolicymanager-setdefaultaction-method.md) method in response to a thread abort or <xref:System.AppDomain> unload.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT OnDefaultAction (
 ```  
   
 ## Parameters  
+
  `operation`  
  [in] One of the [EClrOperation](eclroperation-enumeration.md) values, indicating the kind of event to which the CLR is responding.  
   
@@ -47,6 +50,7 @@ HRESULT OnDefaultAction (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,12 +1,12 @@
 ---
 title: Centralized configuration
 description: Centralizing configuration for cloud-native applications using Azure App Configuration and AzureKey Vault.
-ms.date: 05/13/2020
+ms.date: 01/19/2021
 ---
 
 # Centralized configuration
 
-Unlike a monolithic app in which everything runs within a single instance, a cloud-native application consists of independent services distributed across virtual machines, containers, and geographic regions. Managing configuration settings for dozens of interdependent services can be challenging. Duplicate copies of configuration settings across different locations is error prone and difficult to manage. Centralized configuration is a critical requirement for distributed cloud-native applications.
+Unlike a monolithic app in which everything runs within a single instance, a cloud-native application consists of independent services distributed across virtual machines, containers, and geographic regions. Managing configuration settings for dozens of interdependent services can be challenging. Duplicate copies of configuration settings across different locations are error prone and difficult to manage. Centralized configuration is a critical requirement for distributed cloud-native applications.
 
 As discussed in [Chapter 1](introduction.md), the Twelve-Factor App recommendations require strict separation between code and configuration. Configuration must be stored externally from the application and read-in as needed. Storing configuration values as constants or literal values in code is a violation. The same configuration values are often be used by many services in the same application. Additionally, we must support the same values across multiple environments, such as dev, testing, and production. The best practice is store them in a centralized configuration store.
 
@@ -14,7 +14,7 @@ The Azure cloud presents several great options.
 
 ## Azure App Configuration
 
-[Azure App Configuration](https://docs.microsoft.com/azure/azure-app-configuration/overview) is a fully managed Azure service that stores non-secret configuration settings in a secure, centralized location. Stored values can be shared among multiple services and applications.
+[Azure App Configuration](/azure/azure-app-configuration/overview) is a fully managed Azure service that stores non-secret configuration settings in a secure, centralized location. Stored values can be shared among multiple services and applications.
 
 The service is simple to use and provides several benefits:
 
@@ -49,16 +49,16 @@ The eShopOnContainers application includes local application settings files with
 ## References
 
 - [The eShopOnContainers Architecture](https://github.com/dotnet-architecture/eShopOnContainers/wiki/Architecture)
-- [Orchestrating microservices and multi-container applications for high scalability and availability](https://docs.microsoft.com/dotnet/architecture/microservices/architect-microservice-container-applications/scalable-available-multi-container-microservice-applications)
-- [Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-key-concepts)
-- [Azure SQL Database Overview](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview)
+- [Orchestrating microservices and multi-container applications for high scalability and availability](../microservices/architect-microservice-container-applications/scalable-available-multi-container-microservice-applications.md)
+- [Azure API Management](/azure/api-management/api-management-key-concepts)
+- [Azure SQL Database Overview](/azure/sql-database/sql-database-technical-overview)
 - [Azure Cache for Redis](https://azure.microsoft.com/services/cache/)
-- [Azure Cosmos DB's API for MongoDB](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction)
-- [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
-- [Azure Monitor overview](https://docs.microsoft.com/azure/azure-monitor/overview)
+- [Azure Cosmos DB's API for MongoDB](/azure/cosmos-db/mongodb-introduction)
+- [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview)
+- [Azure Monitor overview](/azure/azure-monitor/overview)
 - [eShopOnContainers: Create Kubernetes cluster in AKS](https://github.com/dotnet-architecture/eShopOnContainers/wiki/Deploy-to-Azure-Kubernetes-Service-(AKS)#create-kubernetes-cluster-in-aks)
 - [eShopOnContainers: Azure Dev Spaces](https://github.com/dotnet-architecture/eShopOnContainers/wiki/Azure-Dev-Spaces)
-- [Azure Dev Spaces](https://docs.microsoft.com/azure/dev-spaces/about)
+- [Azure Dev Spaces](/azure/dev-spaces/about)
 
 >[!div class="step-by-step"]
 >[Previous](deploy-eshoponcontainers-azure.md)

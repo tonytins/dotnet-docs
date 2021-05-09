@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FunctionLeave2 Function"
 title: "FunctionLeave2 Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # FunctionLeave2 Function
+
 Notifies the profiler that a function is about to return to the caller and provides information about the stack frame and function return value.  
   
 ## Syntax  
@@ -31,27 +33,24 @@ void __stdcall FunctionLeave2 (
   
 ## Parameters
 
-- `funcId`
+`funcId`
+[in] The identifier of the function that is returning.
 
-  \[in] The identifier of the function that is returning.
+`clientData`
+[in] The remapped function identifier, which the profiler previously specified via the [FunctionIDMapper](functionidmapper-function.md) function.
 
-- `clientData`
+`func`
+[in] A `COR_PRF_FRAME_INFO` value that points to information about the stack frame.
 
-  \[in] The remapped function identifier, which the profiler previously specified via the [FunctionIDMapper](functionidmapper-function.md) function.
-
-- `func`
-
-  \[in] A `COR_PRF_FRAME_INFO` value that points to information about the stack frame.
-
-  The profiler should treat this as an opaque handle that can be passed back to the execution engine in the [ICorProfilerInfo2::GetFunctionInfo2](icorprofilerinfo2-getfunctioninfo2-method.md) method.  
+The profiler should treat this as an opaque handle that can be passed back to the execution engine in the [ICorProfilerInfo2::GetFunctionInfo2](icorprofilerinfo2-getfunctioninfo2-method.md) method.  
   
-- `retvalRange`
+`retvalRange`
+[in] A pointer to a [COR_PRF_FUNCTION_ARGUMENT_RANGE](cor-prf-function-argument-range-structure.md) structure that specifies the memory location of the function's return value.
 
-  \[in] A pointer to a [COR_PRF_FUNCTION_ARGUMENT_RANGE](cor-prf-function-argument-range-structure.md) structure that specifies the memory location of the function's return value.
-
-  In order to access return value information, the `COR_PRF_ENABLE_FUNCTION_RETVAL` flag must be set. The profiler can use the [ICorProfilerInfo::SetEventMask](icorprofilerinfo-seteventmask-method.md) method to set the event flags.
+In order to access return value information, the `COR_PRF_ENABLE_FUNCTION_RETVAL` flag must be set. The profiler can use the [ICorProfilerInfo::SetEventMask](icorprofilerinfo-seteventmask-method.md) method to set the event flags.
 
 ## Remarks  
+
  The values of the `func` and `retvalRange` parameters are not valid after the `FunctionLeave2` function returns because the values may change or be destroyed.  
   
  The `FunctionLeave2` function is a callback; you must implement it. The implementation must use the `__declspec`(`naked`) storage-class attribute.  
@@ -67,6 +66,7 @@ void __stdcall FunctionLeave2 (
  Also, the `FunctionLeave2` function must not call into managed code or in any way cause a managed memory allocation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl  

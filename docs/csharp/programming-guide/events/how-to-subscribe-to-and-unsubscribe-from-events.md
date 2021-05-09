@@ -1,5 +1,7 @@
 ---
 title: "How to subscribe to and unsubscribe from events - C# Programming Guide"
+description: Learn how to subscribe to and unsubscribe from events. Subscribe to events using the Visual Studio IDE, programmatically, or using an anonymous method.
+ms.topic: how-to
 ms.date: 07/20/2015
 helpviewer_keywords: 
   - "event handlers [C#], creating"
@@ -8,6 +10,7 @@ helpviewer_keywords:
 ms.assetid: 6319f39f-282c-4173-8a62-6c4657cf51cd
 ---
 # How to subscribe to and unsubscribe from events (C# Programming Guide)
+
 You subscribe to an event that is published by another class when you want to write custom code that is called when that event is raised. For example, you might subscribe to a button's `click` event in order to make your application do something useful when the user clicks the button.  
   
 ### To subscribe to events by using the Visual Studio IDE  
@@ -51,7 +54,7 @@ You subscribe to an event that is published by another class when you want to wr
     publisher.RaiseCustomEvent += new CustomEventHandler(HandleCustomEvent);  
     ```  
   
-     You can also use a [lambda expression](../statements-expressions-operators/lambda-expressions.md) to specify an event handler:
+     You can also use a [lambda expression](../../language-reference/operators/lambda-expressions.md) to specify an event handler:
   
     ```csharp
     public Form1()  
@@ -79,6 +82,7 @@ You subscribe to an event that is published by another class when you want to wr
      It is important to notice that you cannot easily unsubscribe from an event if you used an anonymous function to subscribe to it. To unsubscribe in this scenario, it is necessary to go back to the code where you subscribe to the event, store the anonymous method in a delegate variable, and then add the delegate to the event. In general, we recommend that you do not use anonymous functions to subscribe to events if you will have to unsubscribe from the event at some later point in your code. For more information about anonymous functions, see [Anonymous Functions](../statements-expressions-operators/anonymous-functions.md).  
   
 ## Unsubscribing  
+
  To prevent your event handler from being invoked when the event is raised, unsubscribe from the event. In order to prevent resource leaks, you should unsubscribe from events before you dispose of a subscriber object. Until you unsubscribe from an event, the multicast delegate that underlies the event in the publishing object has a reference to the delegate that encapsulates the subscriber's event handler. As long as the publishing object holds that reference, garbage collection will not delete your subscriber object.  
   
 #### To unsubscribe from an event  

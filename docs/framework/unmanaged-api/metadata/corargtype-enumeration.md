@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorArgType Enumeration"
 title: "CorArgType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorArgType Enumeration
+
 Contains values that describe the native type of a runtime handle.  
   
 ## Syntax  
@@ -39,6 +41,7 @@ typedef enum CorArgType {
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

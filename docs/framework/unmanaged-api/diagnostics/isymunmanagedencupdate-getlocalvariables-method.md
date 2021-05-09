@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedENCUpdate::GetLocalVariables Method"
 title: "ISymUnmanagedENCUpdate::GetLocalVariables Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedENCUpdate::GetLocalVariables Method
+
 Gets the local variables.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetLocalVariables(
 ```  
   
 ## Parameters  
+
  `mdMethodToken`  
  [in] The metadata token of the method.  
   
@@ -44,9 +47,11 @@ HRESULT GetLocalVariables(
  [out] A pointer to a `ULONG` that receives the size of the `rgLocals` buffer required to contain the locals.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

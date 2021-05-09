@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to write to log file because writing to it would cause it to exceed MaximumSize value"
 title: "Unable to write to log file because writing to it would cause it to exceed MaximumSize value"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 61747a9c-e460-424b-a365-73cdba9dd428
 ---
 # Unable to write to log file because writing to it would cause it to exceed MaximumSize value
+
 The <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener> class could not write to the log file because:  
   
 - The log file size (in bytes) is greater than the value of the <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A> property  

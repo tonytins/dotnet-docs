@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetModuleRefProps Method"
 title: "IMetaDataImport::GetModuleRefProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetModuleRefProps Method
+
 Gets the name of the module referenced by the specified metadata token.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetModuleRefProps (
 ```  
   
 ## Parameters  
+
  `mur`  
  [in] The ModuleRef metadata token that references the module to get metadata information for.  
   
@@ -44,6 +47,7 @@ HRESULT GetModuleRefProps (
  [out] The returned size of `szName` in wide characters.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedScope2::GetConstants Method"
 title: "ISymUnmanagedScope2::GetConstants Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedScope2::GetConstants Method
+
 Gets the local constants defined within this scope.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetConstants(
 ```  
   
 ## Parameters  
+
  `cConstants`  
  [in] The length of the buffer that the `pcConstants` parameter points to.  
   
@@ -41,9 +44,11 @@ HRESULT GetConstants(
  [out] The buffer that stores the constants.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

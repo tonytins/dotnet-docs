@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorImportOptions Enumeration"
 title: "CorImportOptions Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorImportOptions Enumeration
+
 Contains flag values that control the behavior during importation of an assembly outside the current scope.  
   
 ## Syntax  
@@ -51,6 +53,7 @@ typedef enum CorImportOptions {
 |`MDImportOptionAllExportedTypes`|Indicates that all exported types, including deleted ones, should be enumerated.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRRuntimeHost::Start Method"
 title: "ICLRRuntimeHost::Start Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRRuntimeHost::Start Method
+
 Initializes the common language runtime (CLR) into a process.  
   
 ## Syntax  
@@ -37,9 +39,11 @@ HRESULT Start();
 |E_FAIL|An unknown catastrophic failure occurred. If a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  In many scenarios it is not necessary to call `Start`, because the runtime will initialize itself automatically upon the first request to run managed code. You can, however, use `Start` to specify exactly when the runtime should be initialized.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

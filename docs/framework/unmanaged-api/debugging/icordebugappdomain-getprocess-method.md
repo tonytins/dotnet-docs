@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugAppDomain::GetProcess Method"
 title: "ICorDebugAppDomain::GetProcess Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugAppDomain::GetProcess Method
+
 Gets the process containing the application domain.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetProcess (
 ```  
   
 ## Parameters  
+
  `ppProcess`  
  [out] A pointer to the address of an ICorDebugProcess object that represents the process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

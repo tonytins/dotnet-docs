@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetHashFromAssemblyFile Function"
 title: "GetHashFromAssemblyFile Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # GetHashFromAssemblyFile Function
+
 Gets a hash of the specified assembly file, using the specified hash algorithm.  
   
  This function has been deprecated. Use the [ICLRStrongName::GetHashFromAssemblyFile](../hosting/iclrstrongname-gethashfromassemblyfile-method.md) method instead.  
@@ -33,6 +35,7 @@ HRESULT GetHashFromAssemblyFile (
 ```  
   
 ## Parameters  
+
  `szFilePath`  
  [in] The path to the file to be hashed.  
   
@@ -49,6 +52,7 @@ HRESULT GetHashFromAssemblyFile (
  [out] The returned size, in bytes, of `pbHash`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** StrongName.h  

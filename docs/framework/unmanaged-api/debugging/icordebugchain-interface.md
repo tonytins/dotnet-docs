@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugChain Interface"
 title: "ICorDebugChain Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -37,12 +38,14 @@ Represents a segment of a physical or logical call stack.
 |[IsManaged Method](icordebugchain-ismanaged-method.md)|Gets a value that indicates whether this chain is running managed code.|  
   
 ## Remarks  
+
  The stack frames in a chain occupy contiguous stack space and share the same thread and context. A chain may represent either managed or unmanaged code chains. An empty `ICorDebugChain` instance represents an unmanaged code chain.  
   
 > [!NOTE]
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

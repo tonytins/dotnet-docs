@@ -1,5 +1,6 @@
 ---
 title: "Obtain Text Attributes Using UI Automation"
+description: Learn how to obtain text attributes using UI Automation. See a code example that gets text attributes from a text range.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -8,15 +9,17 @@ helpviewer_keywords:
   - "getting, text attributes"
   - "UI Automation, getting text attributes"
   - "text attributes, getting"
-ms.assetid: fdefc6c3-b836-4cfe-8dec-1484bfdc5551
+ms.topic: how-to
 ---
 # Obtain Text Attributes Using UI Automation
+
 > [!NOTE]
 > This documentation is intended for .NET Framework developers who want to use the managed [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)] classes defined in the <xref:System.Windows.Automation> namespace. For the latest information about [!INCLUDE[TLA2#tla_uiautomation](../../../includes/tla2sharptla-uiautomation-md.md)], see [Windows Automation API: UI Automation](/windows/win32/winauto/entry-uiauto-win32).  
   
  This topic shows how to use [!INCLUDE[TLA#tla_uiautomation](../../../includes/tlasharptla-uiautomation-md.md)] to obtain text attributes from a text range. A text range can correspond to the current location of the caret (or degenerate selection) within a document, a contiguous selection of text, a collection of disjoint text selections, or the entire textual content of a document.  
   
 ## Example  
+
  The following code example demonstrates how to obtain the <xref:System.Windows.Automation.TextPattern.FontNameAttribute> from a text range.  
   
  [!code-csharp[UIATextPattern_snip#StartTarget](../../../samples/snippets/csharp/VS_Snippets_Wpf/UIATextPattern_snip/CSharp/SearchWindow.cs#starttarget)]

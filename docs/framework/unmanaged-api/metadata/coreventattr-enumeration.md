@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorEventAttr Enumeration"
 title: "CorEventAttr Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorEventAttr Enumeration
+
 Contains values that describe the metadata of an event.  
   
 ## Syntax  
@@ -40,6 +42,7 @@ typedef enum CorEventAttr {
 |`evRTSpecialName`|Specifies that the common language runtime should check the encoding of the event name.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

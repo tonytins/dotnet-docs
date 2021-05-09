@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedSourceServerModule::GetSourceServerData Method"
 title: "ISymUnmanagedSourceServerModule::GetSourceServerData Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedSourceServerModule::GetSourceServerData Method
+
 Returns the source server data for the module. The caller must free resources by using `CoTaskMemFree`.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT GetSourceServerData(
 ```  
   
 ## Parameters  
+
  `pDataByteCount`  
  [out] A pointer to a `ULONG32` that receives the size, in bytes, of the source server data.  
   
@@ -35,9 +38,11 @@ HRESULT GetSourceServerData(
  [out] A pointer to the returned `pDataByteCount` value.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

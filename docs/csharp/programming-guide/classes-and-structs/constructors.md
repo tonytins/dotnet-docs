@@ -41,6 +41,7 @@ You can also define a static constructor with an expression body definition, as 
 For more information and examples, see [Static Constructors](./static-constructors.md).  
   
 ## In This Section  
+
  [Using Constructors](./using-constructors.md)  
   
  [Instance Constructors](./instance-constructors.md)  
@@ -54,7 +55,7 @@ For more information and examples, see [Static Constructors](./static-constructo
 ## See also
 
 - [C# Programming Guide](../index.md)
-- [Classes and Structs](./index.md)
+- [Classes, structs, and records](./index.md)
 - [Finalizers](./destructors.md)
 - [static](../../language-reference/keywords/static.md)
-- [Why Do Initializers Run In The Opposite Order As Constructors? Part One](https://docs.microsoft.com/archive/blogs/ericlippert/why-do-initializers-run-in-the-opposite-order-as-constructors-part-one)
+- [Why Do Initializers Run In The Opposite Order As Constructors? Part One](/archive/blogs/ericlippert/why-do-initializers-run-in-the-opposite-order-as-constructors-part-one)

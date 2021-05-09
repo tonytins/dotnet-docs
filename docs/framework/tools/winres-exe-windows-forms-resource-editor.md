@@ -1,5 +1,6 @@
 ---
 title: "Winres.exe (Windows Resource Localization Editor)"
+description: Use Winres.exe, the Windows Resource Localization Editor. This visual layout tool helps localization experts localize Windows Forms UI resources used by forms.
 ms.date: 08/15/2018
 helpviewer_keywords:
   - "Winres.exe"
@@ -16,7 +17,7 @@ ms.assetid: cb8bc835-9221-4888-af53-1a4f5fad6c48
 
 The Windows Resource Localization Editor, Winres.exe, is a visual layout tool that helps localization experts localize Windows Forms user interface (UI) resources used by forms. The .resx or .resources files that are used as input to Winres.exe can be created using a visual design environment such as Microsoft Visual Studio. For information on deploying resources in .NET Framework applications, see [Resources in Desktop Apps](../resources/index.md).
 
-Winres.exe is installed with Visual Studio. To run the tool, use the Developer Command Prompt for Visual Studio. For more information, see [Command Prompts](developer-command-prompt-for-vs.md).
+Winres.exe is installed with Visual Studio. To run the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell).
 
 ## Syntax
 
@@ -45,7 +46,7 @@ The state of UI elements from a form in a Windows Forms project are typically st
 
 - A culture resource file can be saved as another culture resource file. For example, an English (U.S.) resource file could be saved as a Polish resource file. Typically the new file would subsequently be edited to be compatible with the new culture.
 
-Also see [Hierarchical Organization of Resources for Localization](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2012/756hydy4(v=vs.110)) or [Hierarchical Organization of Resources for Localization](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2013/756hydy4(v=vs.120)).
+Also see [Hierarchical Organization of Resources for Localization](/previous-versions/visualstudio/visual-studio-2012/756hydy4(v=vs.110)) or [Hierarchical Organization of Resources for Localization](/previous-versions/visualstudio/visual-studio-2013/756hydy4(v=vs.120)).
 
 Winres.exe cannot convert a .resx file into its corresponding .resources file; use the Resgen.exe tool instead. For more information about Resgen.exe, see [Resgen.exe (Resource File Generator)](resgen-exe-resource-file-generator.md).
 

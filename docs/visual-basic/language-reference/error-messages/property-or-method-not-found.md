@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Property or method not found"
 title: "Property or method not found"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 471d8c1d-9edf-4014-8427-1a01b634a72d
 ---
 # Property or method not found
+
 The referenced object method or object property is not defined.  
   
 ## To correct this error  

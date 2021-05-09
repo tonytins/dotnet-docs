@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorThreadpool::CorBindIoCompletionCallback Method"
 title: "ICorThreadpool::CorBindIoCompletionCallback Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorThreadpool::CorBindIoCompletionCallback Method
+
 This method supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CorBindIoCompletionCallback (
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport2::GetPEKind Method"
 title: "IMetaDataImport2::GetPEKind Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport2::GetPEKind Method
+
 Gets a value identifying the nature of the code in the portable executable (PE) file, typically a DLL or EXE file, that is defined in the current metadata scope.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetPEKind (
 ```  
   
 ## Parameters  
+
  `pdwPEKind`  
  [out] A pointer to a value of the [CorPEKind](corpekind-enumeration.md) enumeration that describes the PE file.  
   
@@ -36,6 +39,7 @@ HRESULT GetPEKind (
  [out] A pointer to a value that identifies the architecture of the machine. See the next section for possible values.  
   
 ## Remarks  
+
  The value referenced by the `pdwMachine` parameter can be one of the following.  
   
 |Value|Machine architecture|  
@@ -45,6 +49,7 @@ HRESULT GetPEKind (
 |IMAGE_FILE_MACHINE_AMD64<br /><br /> 0x8664|x64|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

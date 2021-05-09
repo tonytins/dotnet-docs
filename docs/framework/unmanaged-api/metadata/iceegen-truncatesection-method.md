@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICeeGen::TruncateSection Method"
 title: "ICeeGen::TruncateSection Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICeeGen::TruncateSection Method
+
 Truncates the specified code section by the specified length.  
   
  This method is obsolete and should not be used.  
@@ -31,6 +33,7 @@ HRESULT TruncateSection (
 ```  
   
 ## Parameters  
+
  `section`  
  [in] The section to truncate.  
   
@@ -38,9 +41,11 @@ HRESULT TruncateSection (
  [in] The length, in bytes, by which to truncate the section.  
   
 ## Remarks  
+
  Call `TruncateSection` only if you have special section requirements that are not handled by other methods.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

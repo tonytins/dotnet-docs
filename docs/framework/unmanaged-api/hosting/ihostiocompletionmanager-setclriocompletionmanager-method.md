@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostIoCompletionManager::SetCLRIoCompletionManager Method"
 title: "IHostIoCompletionManager::SetCLRIoCompletionManager Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostIoCompletionManager::SetCLRIoCompletionManager Method
+
 Provides the host with an interface pointer to the [ICLRIoCompletionManager](iclriocompletionmanager-interface.md) instance implemented by the common language runtime (CLR).  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT SetCLRIoCompletionManager (
 ```  
   
 ## Parameters  
+
  `pManager`  
  [in] An interface pointer to an `ICLRIoCompletionManager` instance provided by the CLR.  
   
@@ -43,9 +46,11 @@ HRESULT SetCLRIoCompletionManager (
 |E_FAIL|An unknown catastrophic failure occurred. When a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  After the CLR has called `SetCLRIoCompletionManager`, the host must call [ICLRIoCompletionManager::OnComplete](iclriocompletionmanager-oncomplete-method.md) to notify the CLR when an I/O request has been completed.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

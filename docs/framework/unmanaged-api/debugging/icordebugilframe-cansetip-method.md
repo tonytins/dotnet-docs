@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugILFrame::CanSetIP Method"
 title: "ICorDebugILFrame::CanSetIP Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugILFrame::CanSetIP Method
+
 Gets an HRESULT that indicates whether it is safe to set the instruction pointer to the specified offset location in Microsoft Intermediate Language (MSIL) code.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT CanSetIP (
 ```  
   
 ## Parameters  
+
  `nOffset`  
  [in] The desired setting for the instruction pointer.  
   
 ## Remarks  
+
  Use the `CanSetIP` method before calling the [ICorDebugILFrame::SetIP](icordebugilframe-setip-method.md) method. If `CanSetIP` returns any HRESULT other than S_OK, you can still invoke `ICorDebugILFrame::SetIP`, but there is no guarantee that the debugger will continue the safe and correct execution of the code being debugged.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug,h  

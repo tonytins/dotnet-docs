@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateAssemblyNameObject Function"
 title: "CreateAssemblyNameObject Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # CreateAssemblyNameObject Function
+
 Gets an interface pointer to an [IAssemblyName](iassemblyname-interface.md) instance that represents the unique identity of the assembly with the specified name.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT CreateAssemblyNameObject (
 ```  
   
 ## Parameters  
+
  `ppAssemblyNameObj`  
  [out] The returned `IAssemblyName`.  
   
@@ -45,6 +48,7 @@ HRESULT CreateAssemblyNameObject (
  [in] Reserved for future extensibility. `pvReserved` must be a null reference.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

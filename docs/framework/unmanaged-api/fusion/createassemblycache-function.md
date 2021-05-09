@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateAssemblyCache Function"
 title: "CreateAssemblyCache Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # CreateAssemblyCache Function
+
 Gets a pointer to a new [IAssemblyCache](iassemblycache-interface.md) instance that represents the global assembly cache.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT CreateAssemblyCache (
 ```  
   
 ## Parameters  
+
  `ppAsmCache`  
  [out] The returned `IAssemblyCache` pointer.  
   
@@ -37,6 +40,7 @@ HRESULT CreateAssemblyCache (
  [in] Reserved for future extensibility. `dwReserved` must be 0 (zero).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

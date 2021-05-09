@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugHeapValue2::CreateHandle Method"
 title: "ICorDebugHeapValue2::CreateHandle Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugHeapValue2::CreateHandle Method
+
 Creates a handle of the specified type for the heap value represented by this ICorDebugHeapValue2 object.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CreateHandle (
 ```  
   
 ## Parameters  
+
  `type`  
  [in] A value of the CorDebugHandleType enumeration that specifies the type of handle to be created.  
   
@@ -36,11 +39,13 @@ HRESULT CreateHandle (
  [out] A pointer to the address of an ICorDebugHandleValue object that represents the new handle for this heap value.  
   
 ## Remarks  
+
  The handle will be created in the application domain that is associated with the heap value, and will become invalid if the application domain gets unloaded.  
   
  Multiple calls to this function for the same heap value will create multiple handles. Because handles affect the performance of the garbage collector, the debugger should limit itself to a relatively small number of handles (about 256) that are active at a time.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMapToken Interface"
 title: "IMapToken Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IMapToken Interface
+
 Provides mapping capabilities between assemblies.  
   
 > [!NOTE]
@@ -28,6 +30,7 @@ Provides mapping capabilities between assemblies.
 |[Map Method](imaptoken-map-method.md)|Maps a relationship between two assemblies using metadata signatures.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

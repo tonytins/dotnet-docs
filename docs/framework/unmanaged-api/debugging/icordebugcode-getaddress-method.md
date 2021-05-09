@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugCode::GetAddress Method"
 title: "ICorDebugCode::GetAddress Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugCode::GetAddress Method
+
 Gets the relative virtual address (RVA) of the code segment that this "ICorDebugCode" interface represents.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetAddress (
 ```  
   
 ## Parameters  
+
  `pStart`  
  [out] A pointer to the RVA of the code segment.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

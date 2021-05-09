@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Validating Strings in Visual Basic"
 title: "Validating Strings"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -9,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: 9a1acf9b-7e2c-40cb-bba4-656ee2bc2ed0
 ---
 # Validating Strings in Visual Basic
+
 This section discusses how to validate strings in Visual Basic.  
   
 ## In This Section  
+
  [How to: Validate File Names and Paths in Visual Basic](how-to-validate-file-names-and-paths.md)  
  How to determine whether a string represents a file name or path.  
   
@@ -27,4 +30,4 @@ This section discusses how to validate strings in Visual Basic.
 ## See also
 
 - [Strings](index.md)
-- [MaskedTextBox Control](../../../../framework/winforms/controls/maskedtextbox-control-windows-forms.md)
+- [MaskedTextBox Control](/dotnet/desktop/winforms/controls/maskedtextbox-control-windows-forms)

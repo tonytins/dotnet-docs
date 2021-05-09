@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StrongNameSignatureVerificationEx2 Method"
 title: "StrongNameSignatureVerificationEx2 Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # StrongNameSignatureVerificationEx2 Method
+
 Verifies the signature of a strongly named assembly, and provides a mapping from the ECMA key to a real key.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT StrongNameSignatureVerificationEx (
 ```  
   
 ## Parameters  
+
  `wszFilePath`  
  [in] The path to the portable executable (.exe or .dll) file for the assembly to be verified.  
   
@@ -47,9 +50,11 @@ HRESULT StrongNameSignatureVerificationEx (
  [out] `true` if the strong name signature was verified; otherwise, `false`. This parameter is also set to `false` if the verification was successful due to registry settings.  
   
 ## Return Value  
+
  `S_OK` if the verification was successful; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

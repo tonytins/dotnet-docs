@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICeeGen Interface"
 title: "ICeeGen Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICeeGen Interface
+
 Provides methods for dynamic code compilation.  
   
  This interface is obsolete and should not be used.  
@@ -41,6 +43,7 @@ Provides methods for dynamic code compilation.
 |[TruncateSection Method](iceegen-truncatesection-method.md)|Obsolete. Truncates the specified code section by the specified length.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

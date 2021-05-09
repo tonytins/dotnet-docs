@@ -2,9 +2,10 @@
 title: "How to: Load and unload assemblies"
 description: The CLR automatically loads .NET assemblies referenced by a program. You can also dynamically load specific assemblies into the current application domain.
 ms.date: 08/19/2019
-ms.assetid: 6a4f490f-3576-471f-9533-003737cad4a3
+ms.topic: how-to
 ---
 # How to: Load and unload assemblies
+
 The assemblies referenced by your program will automatically be loaded by the common language runtime, but it is also possible to dynamically load specific assemblies into the current application domain. For more information, see [How to: Load assemblies into an application domain](../../framework/app-domains/how-to-load-assemblies-into-an-application-domain.md).
 
 In .NET Framework, there is no way to unload an individual assembly without unloading all of the application domains that contain it. Even if the assembly goes out of scope, the actual assembly file will remain loaded until all application domains that contain it are unloaded. In .NET Core, the <xref:System.Runtime.Loader.AssemblyLoadContext?displayProperty=nameWithType> class handles the unloading of assemblies. For more information, see [How to use and debug assembly unloadability in .NET Core](unloadability.md).

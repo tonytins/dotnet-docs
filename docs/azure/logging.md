@@ -2,7 +2,7 @@
 title: Logging with the Azure SDK for .NET
 description: Learn how to enable logging with the Azure SDK for .NET client libraries
 ms.date: 03/20/2020
-ms.custom: azure-sdk-dotnet
+ms.custom: devx-track-dotnet
 ms.author: casoper
 author: camsoper
 ---
@@ -41,7 +41,7 @@ HTTP response log entry:
 For request and response content:
 
 - Content stream as text or bytes depending on the Content-Type header.
-     > [!NOTE}
+     > [!NOTE]
      > Content logging is disabled by default. To enable it, set `Diagnostics.IsLoggingContentEnabled` to `true` in `ClientOptions`.
 
 Event logs are output usually at one of these three levels:

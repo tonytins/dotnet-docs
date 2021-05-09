@@ -27,6 +27,9 @@ dotnet run -h|--help
 
 The `dotnet run` command provides a convenient option to run your application from the source code with one command. It's useful for fast iterative development from the command line. The command depends on the [`dotnet build`](dotnet-build.md) command to build the code. Any requirements for the build, such as that the project must be restored first, apply to `dotnet run` as well.
 
+> [!NOTE]
+> `dotnet run` doesn't respect arguments like `/property:property=value`, which are respected by `dotnet build`.
+
 Output files are written into the default location, which is `bin/<configuration>/<target>`. For example if you have a `netcoreapp2.1` application and you run `dotnet run`, the output is placed in `bin/Debug/netcoreapp2.1`. Files are overwritten as needed. Temporary files are placed in the `obj` directory.
 
 If the project specifies multiple frameworks, executing `dotnet run` results in an error unless the `-f|--framework <FRAMEWORK>` option is used to specify the framework.
@@ -37,7 +40,7 @@ The `dotnet run` command is used in the context of projects, not built assemblie
 dotnet myapp.dll
 ```
 
-For more information on the `dotnet` driver, see the [.NET Core Command Line Tools (CLI)](index.md) topic.
+For more information on the `dotnet` driver, see the [.NET Command Line Tools (CLI)](index.md) topic.
 
 To run the application, the `dotnet run` command resolves the dependencies of the application that are outside of the shared runtime from the NuGet cache. Because it uses cached dependencies, it's not recommended to use `dotnet run` to run applications in production. Instead, [create a deployment](../deploying/index.md) using the [`dotnet publish`](dotnet-publish.md) command and deploy the published output.
 
@@ -124,7 +127,6 @@ To run the application, the `dotnet run` command resolves the dependencies of th
   ```
 
 - Restore dependencies and tools for the project in the current directory only showing minimal output and then run the project:
- (.NET Core SDK 2.0 and later versions):
 
   ```dotnetcli
   dotnet run --verbosity m

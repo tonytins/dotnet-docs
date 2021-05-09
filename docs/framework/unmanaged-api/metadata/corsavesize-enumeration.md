@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorSaveSize Enumeration"
 title: "CorSaveSize Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorSaveSize Enumeration
+
 Contains values indicating the level of precision required when querying for the size of a save operation.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ typedef enum CorSaveSize {
 |`cssDiscardTransientCAs`|Specifies that discardable types should be removed.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

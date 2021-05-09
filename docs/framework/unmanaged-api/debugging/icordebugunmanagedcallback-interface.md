@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugUnmanagedCallback Interface"
 title: "ICorDebugUnmanagedCallback Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugUnmanagedCallback Interface
+
 Provides notification of native events that are not directly related to the common language runtime (CLR).  
   
 ## Methods  
@@ -30,6 +32,7 @@ Provides notification of native events that are not directly related to the comm
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

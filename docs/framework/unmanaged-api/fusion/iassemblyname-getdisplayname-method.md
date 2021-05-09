@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyName::GetDisplayName Method"
 title: "IAssemblyName::GetDisplayName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyName::GetDisplayName Method
+
 Gets the human-readable name of the assembly referenced by this [IAssemblyName](iassemblyname-interface.md) object.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetDisplayName (
 ```  
   
 ## Parameters  
+
  `szDisplayName`  
  [out] The string buffer that contains the name of the referenced assembly.  
   
@@ -40,6 +43,7 @@ HRESULT GetDisplayName (
  [in] A bitwise combination of [ASM_DISPLAY_FLAGS](asm-display-flags-enumeration.md) values that influence the features of `szDisplayName`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

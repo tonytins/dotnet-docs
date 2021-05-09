@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedConstant::GetSignature Method"
 title: "ISymUnmanagedConstant::GetSignature Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedConstant::GetSignature Method
+
 Gets the signature of the constant.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetSignature(
 ```  
   
 ## Parameters  
+
  `cSig`  
  [in] The length of the buffer that the `pcSig` parameter points to.  
   
@@ -40,9 +43,11 @@ HRESULT GetSignature(
  [out] The buffer that stores the signature.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

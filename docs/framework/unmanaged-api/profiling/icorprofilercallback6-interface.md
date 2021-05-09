@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback6 Interface"
 title: "ICorProfilerCallback6 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -13,6 +14,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback6 Interface
+
 [Supported in the .NET Framework 4.5.2 and later versions]  
   
  A subclass of [ICorProfilerCallback5](icorprofilercallback5-interface.md) that provides a callback method that the common language runtime uses to notify a profiler that an assembly is loading.  
@@ -26,6 +28,7 @@ topic_type:
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

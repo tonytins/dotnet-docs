@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorErrorIfEmitOutOfOrder Enumeration"
 title: "CorErrorIfEmitOutOfOrder Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorErrorIfEmitOutOfOrder Enumeration
+
 Contains flag values that indicate the conditions under which an error message should be generated when metadata is emitted out of order.  
   
 ## Syntax  
@@ -49,6 +51,7 @@ typedef enum CorErrorIfEmitOutOfOrder {
 |`MDEventOutOfOrder`|Indicates that the compiler should generate an error message when an event is emitted out of order.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

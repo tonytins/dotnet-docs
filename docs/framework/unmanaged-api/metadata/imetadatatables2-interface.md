@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataTables2 Interface"
 title: "IMetaDataTables2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataTables2 Interface
+
 Extends [IMetaDataTables](imetadatatables-interface.md) to include methods for working with metadata streams.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Extends [IMetaDataTables](imetadatatables-interface.md) to include methods for w
 |[GetMetaDataStreamInfo Method](imetadatatables2-getmetadatastreaminfo-method.md)|Gets the name, size, and contents of the metadata stream at the specified index.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

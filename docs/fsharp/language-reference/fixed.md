@@ -1,11 +1,11 @@
 ---
 title: The fixed keyword
 description: Learn how you can 'pin' a local onto the stack to prevent collection with the F# 'fixed' keyword.
-ms.date: 04/24/2017
+ms.date: 08/15/2020
 ---
 # The fixed keyword
 
-F# 4.1 introduces the `fixed` keyword, which allows you to "pin" a local onto the stack to prevent it from being collected or moved during garbage-collection.  It is used for low-level programming scenarios.
+The `fixed` keyword allows you to "pin" a local onto the stack to prevent it from being collected or moved during garbage-collection.  It is used for low-level programming scenarios.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ let squareWithPointer (p: nativeptr<int>) =
     NativePtr.set p 0 value
 
 let pnt = { X = 1; Y = 2 }
-printfn "pnt before - X: %d Y: %d" pnt.X pnt.Y // prints 1 and 2
+printfn $"pnt before - X: %d{pnt.X} Y: %d{pnt.Y}" // prints 1 and 2
 
 // Note that the use of 'fixed' is inside a function.
 // You cannot fix a pointer at a script-level or module-level scope.
@@ -50,11 +50,11 @@ let doPointerWork() =
 
     // Square the Y value
     squareWithPointer ptr
-    printfn "pnt after - X: %d Y: %d" pnt.X pnt.Y // prints 1 and 4
+    printfn $"pnt after - X: %d{pnt.X} Y: %d{pnt.Y}" // prints 1 and 4
 
 doPointerWork()
 ```
 
 ## See also
 
-- [NativePtr Module](https://msdn.microsoft.com/visualfsharpdocs/conceptual/nativeinterop.nativeptr-module-%5Bfsharp%5D)
+- [NativePtr Module](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-nativeinterop-nativeptrmodule.html)

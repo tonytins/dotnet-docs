@@ -1,26 +1,27 @@
 ---
 title: "Implement a Dispose method"
 description: In this article, learn to implement the Dispose method, which releases unmanaged resources used by your code in .NET.
-ms.date: 05/27/2020
-ms.technology: dotnet-standard
+ms.date: 04/07/2021
 dev_langs:
   - "csharp"
   - "vb"
 helpviewer_keywords:
   - "Dispose method"
   - "garbage collection, Dispose method"
-ms.assetid: eb4e1af0-3b48-4fbc-ad4e-fc2f64138bf9
+ms.topic: how-to
 ---
 
 # Implement a Dispose method
 
-Implementing the <xref:System.IDisposable.Dispose%2A> method is primarily for releasing unmanaged resources used by your code. When working with instance members that are <xref:System.IDisposable> implementations, it's common to cascade <xref:System.IDisposable.Dispose%2A> calls. There are additional reasons for implementing <xref:System.IDisposable.Dispose%2A>, such as undoing something that was previously done. For example, freeing memory that was allocated, removing an item from a collection that was added, signaling the release of a lock that was acquired, and so on.
+Implementing the <xref:System.IDisposable.Dispose%2A> method is primarily for releasing unmanaged resources. When working with instance members that are <xref:System.IDisposable> implementations, it's common to cascade <xref:System.IDisposable.Dispose%2A> calls. There are additional reasons for implementing <xref:System.IDisposable.Dispose%2A>, for example, to free memory that was allocated, remove an item that was added to a collection, or signal the release of a lock that was acquired.
 
 The [.NET garbage collector](index.md) does not allocate or release unmanaged memory. The pattern for disposing an object, referred to as the dispose pattern, imposes order on the lifetime of an object. The dispose pattern is used for objects that implement the <xref:System.IDisposable> interface, and is common when interacting with file and pipe handles, registry handles, wait handles, or pointers to blocks of unmanaged memory. This is because the garbage collector is unable to reclaim unmanaged objects.
 
 To help ensure that resources are always cleaned up appropriately, a <xref:System.IDisposable.Dispose%2A> method should be idempotent, such that it is callable multiple times without throwing an exception. Furthermore, subsequent invocations of <xref:System.IDisposable.Dispose%2A> should do nothing.
 
 The code example provided for the <xref:System.GC.KeepAlive%2A?displayProperty=nameWithType> method shows how garbage collection can cause a finalizer to run, while an unmanaged reference to the object or its members is still in use. It may make sense to utilize <xref:System.GC.KeepAlive%2A?displayProperty=nameWithType> to make the object ineligible for garbage collection from the start of the current routine to the point where this method is called.
+
+[!INCLUDE [disposables-and-dependency-injection](includes/disposables-and-dependency-injection.md)]
 
 ## Safe handles
 
@@ -72,9 +73,9 @@ The body of the method consists of two blocks of code:
 
   - **Managed objects that implement <xref:System.IDisposable>.** The conditional block can be used to call their <xref:System.IDisposable.Dispose%2A> implementation (cascade dispose). If you have used a derived class of <xref:System.Runtime.InteropServices.SafeHandle?displayProperty=nameWithType> to wrap your unmanaged resource, you should call the <xref:System.Runtime.InteropServices.SafeHandle.Dispose?displayProperty=nameWithType> implementation here.
 
-  - **Managed objects that consume large amounts of memory or consume scarce resources.** Assign large managed object references to `null` to make them more likely to be unreachable. This releases them faster than if they were reclaimed non-deterministically.
+  - **Managed objects that consume large amounts of memory or consume scarce resources.** Assign large managed object references to `null` to make them more likely to be unreachable. This releases them faster than if they were reclaimed non-deterministically, and this is usually done outside of the conditional block.
 
-If the method call comes from a finalizer, only the code that frees unmanaged resources should execute. The implementer is responsible for ensuring the the false path doesn't interact with managed objects that may have been reclaimed. This is important because the order in which the garbage collector destroys managed objects during finalization is non-deterministic.
+If the method call comes from a finalizer, only the code that frees unmanaged resources should execute. The implementer is responsible for ensuring that the false path doesn't interact with managed objects that may have been reclaimed. This is important because the order in which the garbage collector destroys managed objects during finalization is non-deterministic.
 
 ## Cascade dispose calls
 
@@ -146,6 +147,7 @@ The following example illustrates the dispose pattern for a derived class, `Disp
 
 ## See also
 
+- [Disposal of services](../../core/extensions/dependency-injection-guidelines.md#disposal-of-services)
 - <xref:System.GC.SuppressFinalize%2A>
 - <xref:System.IDisposable>
 - <xref:System.IDisposable.Dispose%2A?displayProperty=nameWithType>

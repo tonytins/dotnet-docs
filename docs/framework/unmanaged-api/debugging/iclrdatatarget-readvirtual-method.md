@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataTarget::ReadVirtual Method"
 title: "ICLRDataTarget::ReadVirtual Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataTarget::ReadVirtual Method
+
 Reads data from the specified virtual memory address into the specified buffer.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT ReadVirtual (
 ```  
   
 ## Parameters  
+
  `address`  
  [in] A CLRDATA_ADDRESS that stores the virtual memory address.  
   
@@ -45,6 +48,7 @@ HRESULT ReadVirtual (
  [out] A pointer to the number of bytes returned.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

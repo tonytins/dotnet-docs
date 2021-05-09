@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Debugging Workflows"
 title: "Debugging Workflows"
 ms.date: "03/30/2017"
 ms.assetid: b23b4814-ebb1-4c51-b7a9-469f4da7a96d
@@ -25,7 +26,7 @@ Workflow debugging also supports using Visual Studio’s infrastructure to attac
 
 ## Remote Debugging
 
-Windows Workflow Foundation (WF) remote debugging functions the same as remote debugging for other Visual Studio components. For information on using remote debugging, see [How to: Enable Remote Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/febz73k0(v=vs.100)).
+Windows Workflow Foundation (WF) remote debugging functions the same as remote debugging for other Visual Studio components. For information on using remote debugging, see [How to: Enable Remote Debugging](/previous-versions/visualstudio/visual-studio-2010/febz73k0(v=vs.100)).
 
 > [!NOTE]
 > If the workflow application targets the x86 architecture and is hosted on a computer running a 64 bit operating system, then remote debugging will not work unless Visual Studio is installed on the remote computer or the target for the workflow application is changed to **Any CPU**.

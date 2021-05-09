@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: File '<filename>' is write protected"
 title: "File '<filename>' is write protected"
 ms.date: 07/20/2015
 ms.assetid: 6e5105b1-a634-4cde-a753-5bf1ae85a55a
 ---
 # File '\<filename>' is write protected
+
 The file you are attempting to write to is write-protected and therefore cannot be changed.  
   
 ## To correct this error  

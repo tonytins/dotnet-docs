@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo10::IsFrozenObject Method"
 title: "ICorProfilerInfo10::IsFrozenObject"
 ms.date: "08/06/2019"
 dev_langs:
@@ -25,23 +26,21 @@ HRESULT IsFrozenObject( [in]  ObjectID objectId,
 
 ## Parameters
 
-- `objectId`
+`objectId`
+[in] The object to examine.
 
-  \[in] The object to examine.
-
-- `pbFrozen`
-
-  \[out] A `BOOL` indicating if the object is in a read-only segment.
+`pbFrozen`
+[out] A `BOOL` indicating if the object is in a read-only segment.
 
 ## Requirements
 
-**Platforms:** See [.NET Core supported operating systems](../../../core/install/dependencies.md?pivots=os-windows).
+**Platforms:** See [.NET Core supported operating systems](../../../core/install/windows.md?pivots=os-windows).
 
 **Header:** CorProf.idl, CorProf.h
 
 **Library:** CorGuids.lib
 
-**.NET Versions:** [!INCLUDE[net_core_22](../../../../includes/net-core-30-md.md)]
+**.NET Versions:** [!INCLUDE[net_core_30](../../../../includes/net-core-30-md.md)]
 
 ## See also
 

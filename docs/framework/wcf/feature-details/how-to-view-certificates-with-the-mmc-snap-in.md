@@ -7,6 +7,7 @@ helpviewer_keywords:
 ms.assetid: 2b8782aa-ebb4-4ee7-974b-90299e356dc5
 ---
 # How to: View certificates with the MMC snap-in
+
 When you create a secure client or service, you can use a [certificate](working-with-certificates.md) as the credential. For example, a common type of credential is the X.509 certificate, which you create with the <xref:System.ServiceModel.Security.X509CertificateInitiatorClientCredential.SetCertificate%2A?displayProperty=nameWithType> method.
 
 There are three different types of certificate stores that you can examine with the Microsoft Management Console (MMC) on Windows systems:
@@ -44,7 +45,7 @@ The following procedure demonstrates how to examine the stores on your local dev
   
 6. In the **Add or Remove Snap-in** window, select **OK**.  
   
-    ![Add certificate snap-in](./media/mmc-certificate-snap-in-selected.png)
+    ![Add or Remove Snap-ins window with OK button highlighted](./media/mmc-certificate-snap-in-selected.png)
 
 7. Optional: From the **File** menu, select **Save** or **Save As** to save the MMC console file for later use.  
 

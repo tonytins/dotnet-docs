@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Argument '<argumentname>' must be in the range of -32768 to 65535"
 title: "Argument '<argumentname>' must be in the range of -32768 to 65535"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: d1ab6767-8334-4d7c-bb99-c837a793ed69
 ---
 # Argument '\<argumentname>' must be in the range of -32768 to 65535
+
 An argument's value falls outside the allowable range of -32,768 to 65,535.  
   
 ## To correct this error  

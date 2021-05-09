@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRRuntimeInfo Interface"
 title: "ICLRRuntimeInfo Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRRuntimeInfo Interface
+
 Provides methods that return information about a specific common language runtime (CLR), including version, directory, and load status. This interface also provides runtime-specific functionality without initializing the runtime. It includes the runtime-relative [LoadLibrary](iclrruntimeinfo-loadlibrary-method.md) method, the runtime module-specific [GetProcAddress](iclrruntimeinfo-getprocaddress-method.md) method, and runtime-provided interfaces through the [GetInterface](iclrruntimeinfo-getinterface-method.md) method.  
   
 ## Methods  
@@ -36,6 +38,7 @@ Provides methods that return information about a specific common language runtim
 |[SetDefaultStartupFlags Method](iclrruntimeinfo-setdefaultstartupflags-method.md)|Sets the CLR startup flags and host configuration file.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

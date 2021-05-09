@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugMappingResult Enumeration"
 title: "CorDebugMappingResult Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugMappingResult Enumeration
+
 Provides the details of how the value of the instruction pointer (IP) was obtained.  
   
 ## Syntax  
@@ -43,9 +45,11 @@ typedef enum CorDebugMappingResult {
 |`MAPPING_APPROXIMATE`|The method was successfully mapped, but the value of the IP may be approximate.|  
   
 ## Remarks  
+
  You can use the [ICorDebugILFrame::GetIP](icordebugilframe-getip-method.md) method to obtain the value of the instruction pointer.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

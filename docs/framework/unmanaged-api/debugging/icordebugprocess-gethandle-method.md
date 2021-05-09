@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess::GetHandle Method"
 title: "ICorDebugProcess::GetHandle Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess::GetHandle Method
+
 Gets a handle to the process.  
   
 ## Syntax  
@@ -26,13 +28,16 @@ HRESULT GetHandle([out] HPROCESS *phProcessHandle);
 ```  
   
 ## Parameters  
+
  `phProcessHandle`  
  [out] A pointer to an `HPROCESS` that is the handle to the process.  
   
 ## Remarks  
+
  The retrieved handle is owned by the debugging interface. The debugger should duplicate the handle before using it.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

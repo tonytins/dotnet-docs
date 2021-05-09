@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFrame::GetChain Method"
 title: "ICorDebugFrame::GetChain Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFrame::GetChain Method
+
 Gets a pointer to the chain this frame is a part of.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetChain (
 ```  
   
 ## Parameters  
+
  `ppChain`  
  [out] A pointer to the address of an ICorDebugChain object that represents the chain containing this frame.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

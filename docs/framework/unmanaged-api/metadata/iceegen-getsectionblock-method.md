@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICeeGen::GetSectionBlock Method"
 title: "ICeeGen::GetSectionBlock Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICeeGen::GetSectionBlock Method
+
 Gets a section block of the code base.  
   
  This method is obsolete and should not be used.  
@@ -33,6 +35,7 @@ HRESULT GetSectionBlock (
 ```  
   
 ## Parameters  
+
  `section`  
  [in] The section from which to retrieve a block of the code base.  
   
@@ -46,9 +49,11 @@ HRESULT GetSectionBlock (
  [out] A pointer to a location that receives the address of the retrieved block.  
   
 ## Remarks  
+
  Call `GetSectionBlock` only if you have special section requirements that are not handled by other methods.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

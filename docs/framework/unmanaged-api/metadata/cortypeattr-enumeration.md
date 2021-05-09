@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorTypeAttr Enumeration"
 title: "CorTypeAttr Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorTypeAttr Enumeration
+
 Contains values that indicate type metadata.  
   
 ## Syntax  
@@ -106,6 +108,7 @@ typedef enum CorTypeAttr {
 |`tdHasSecurity`|Specifies that the type has security associated with it.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <module> Element (Network Settings)"
 title: "<module> Element (Network Settings)"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 10318725-9666-4d65-ab61-b94c64e59f13
 ---
 # \<module> Element (Network Settings)
+
 Adds a new proxy module to the application.  
 
 [**\<configuration>**](../configuration-element.md)\
@@ -26,6 +28,7 @@ Adds a new proxy module to the application.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -35,6 +38,7 @@ Adds a new proxy module to the application.
 |`type`|The fully qualified type name (indicated by the <xref:System.Type.FullName%2A> property) and the assembly name (indicated by the <xref:System.Reflection.Assembly.FullName%2A> property), separated by a comma, that implements the proxy.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -44,14 +48,17 @@ Adds a new proxy module to the application.
 |[defaultProxy](defaultproxy-element-network-settings.md)|Configures the Hypertext Transfer Protocol (HTTP) proxy server.|  
   
 ## Remarks  
+
  The `module` element registers proxy classes that implement the <xref:System.Net.IWebProxy> interface. After registering the proxy class, `module` can be used to request information through the supported proxy.  
   
  The value for the `type` attribute should be the class name of the module and the name of its corresponding Dynamic Link Library (DLL).  
   
 ## Configuration Files  
+
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
+
  The following example registers a custom proxy class.  
   
 ```xml  

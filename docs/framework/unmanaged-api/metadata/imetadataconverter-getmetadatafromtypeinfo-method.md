@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataConverter::GetMetaDataFromTypeInfo Method"
 title: "IMetaDataConverter::GetMetaDataFromTypeInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataConverter::GetMetaDataFromTypeInfo Method
+
 Gets a pointer to an [IMetaDataImport](imetadataimport-interface.md) instance that represents the metadata signature of the type library referenced by the specified `ITypeInfo` instance.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetMetaDataFromTypeInfo (
 ```  
   
 ## Parameters  
+
  `pITI`  
  [in] A pointer to an `ITypeInfo` object that refers to the type library.  
   
@@ -36,6 +39,7 @@ HRESULT GetMetaDataFromTypeInfo (
  [out] A pointer to a location that receives the address of the `IMetaDataImport` instance that represents the metadata signature.  
   
 ## Requirements  
+
  **Platform:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

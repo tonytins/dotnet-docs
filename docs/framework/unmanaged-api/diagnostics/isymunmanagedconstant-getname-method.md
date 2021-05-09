@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedConstant::GetName Method"
 title: "ISymUnmanagedConstant::GetName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedConstant::GetName Method
+
 Gets the name of the constant.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetName(
 ```  
   
 ## Parameters  
+
  `cchName`  
  [in] The length of the buffer that the `szName` parameter points to.  
   
@@ -40,9 +43,11 @@ HRESULT GetName(
  [out] The buffer that stores the name.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

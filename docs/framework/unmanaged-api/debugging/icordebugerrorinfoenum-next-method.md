@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugErrorInfoEnum::Next Method"
 title: "ICorDebugErrorInfoEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugErrorInfoEnum::Next Method
+
 `ICorDebugErrorInfoEnum::Next` is obsolete. Do not call this method.  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::DeleteFieldMarshal Method"
 title: "IMetaDataEmit::DeleteFieldMarshal Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::DeleteFieldMarshal Method
+
 Destroys the PInvoke marshaling metadata signature for the object referenced by the specified token.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT DeleteFieldMarshal (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] An `mdFieldDef` or `mdParamDef` token that represents the field or parameter for which to delete the marshaling metadata signature.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

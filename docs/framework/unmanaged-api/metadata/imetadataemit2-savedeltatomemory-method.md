@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit2::SaveDeltaToMemory Method"
 title: "IMetaDataEmit2::SaveDeltaToMemory Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit2::SaveDeltaToMemory Method
+
 Saves changes from the current edit-and-continue session to memory.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SaveDeltaToMemory (
 ```  
   
 ## Parameters  
+
  `pbData`  
  [out] The address at which to begin writing the metadata delta.  
   
@@ -36,6 +39,7 @@ HRESULT SaveDeltaToMemory (
  [in] The size of the changes. Use [IMetaDataEmit2::GetDeltaSaveSize](imetadataemit2-getdeltasavesize-method.md) to determine the size.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess Interface"
 title: "ICorDebugProcess Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess Interface
+
 Represents a process that is executing managed code. This interface is a subclass of ICorDebugController.  
   
 ## Methods  
@@ -46,6 +48,7 @@ Represents a process that is executing managed code. This interface is a subclas
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

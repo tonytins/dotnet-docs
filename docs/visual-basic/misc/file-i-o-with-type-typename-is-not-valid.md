@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File I/O with type '<typename>' is not valid"
 title: "File I/O with type '<typename>' is not valid"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: b6c527e3-b75a-4c1a-b6f1-ee9f7460b5f0
 ---
 # File I/O with type '\<typename>' is not valid
+
 You are attempting to write an unsupported type to a file.  
   
 ## To correct this error  

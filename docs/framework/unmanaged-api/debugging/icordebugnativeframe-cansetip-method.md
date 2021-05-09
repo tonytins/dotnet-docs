@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugNativeFrame::CanSetIP Method"
 title: "ICorDebugNativeFrame::CanSetIP Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugNativeFrame::CanSetIP Method
+
 Gets an HRESULT that indicates whether it is safe to set the instruction pointer (IP) to the specified offset location in native code.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT CanSetIP (
 ```  
   
 ## Parameters  
+
  `nOffset`  
  [in] The desired setting for the instruction pointer.  
   
 ## Remarks  
+
  Use the `CanSetIP` method prior to calling the [ICorDebugNativeFrame::SetIP](icordebugnativeframe-setip-method.md) method. If `CanSetIP` returns any HRESULT other than S_OK, you can still invoke `ICorDebugNativeFrame::SetIP`, but there is no guarantee that the debugger will continue the safe and correct execution of the code being debugged.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

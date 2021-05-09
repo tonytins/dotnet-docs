@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorFileFlags Enumeration"
 title: "CorFileFlags Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorFileFlags Enumeration
+
 Contains values that describe the type of file defined in a call to [IMetaDataAssemblyEmit::DefineFile](imetadataassemblyemit-definefile-method.md).  
   
 ## Syntax  
@@ -37,6 +39,7 @@ typedef enum CorFileFlags {
 |`ffContainsNoMetaData`|Indicates that the file, possibly a resource file, does not contain metadata.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

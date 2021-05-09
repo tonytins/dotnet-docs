@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Initialization Expressions"
 title: "Initialization Expressions"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -7,6 +8,7 @@ dev_langs:
 ms.assetid: 98daef1f-15d4-483e-985c-d78ea3abe8c8
 ---
 # Initialization Expressions
+
 An initialization expression initializes a new object. Most initialization expressions are supported, including most new C# 3.0 and Visual Basic 9.0 initialization expressions. The following types can be initialized and returned by a LINQ to Entities query:  
   
 - A collection of zero or more typed entity objects or a projection of complex types that are defined in the conceptual model.  

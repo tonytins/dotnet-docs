@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerThreadEnum::GetCount Method"
 title: "ICorProfilerThreadEnum::GetCount Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerThreadEnum::GetCount Method
+
 Gets the number of threads that are used by the application.  
   
 ## Syntax  
@@ -27,10 +29,12 @@ HRESULT GetCount (    [out] ULONG * pcelt
 ```  
   
 ## Parameters  
+
  `celt`  
  [out] The number of threads used by the application.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

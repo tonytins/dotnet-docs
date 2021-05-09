@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo9::GetCodeInfo4 Method"
 title: "ICorProfilerInfo9::GetCodeInfo4"
 ms.date: "08/06/2019"
 dev_langs:
@@ -27,21 +28,17 @@ HRESULT GetCodeInfo4( [in]  UINT_PTR pNativeCodeStartAddress,
 
 ## Parameters
 
-- `pNativeCodeStartAddress`
+`pNativeCodeStartAddress`
+[in] A pointer to the start of a native function.
 
-  \[in] A pointer to the start of a native function.
+`cCodeInfos`
+[in] The size of the `codeInfos` array.
 
-- `cCodeInfos`
+`pcCodeInfos`
+[out] A pointer to the total number of [COR_PRF_CODE_INFO](cor-prf-code-info-structure.md) structures available.
 
-  \[in] The size of the `codeInfos` array.
-
-- `pcCodeInfos`
-
-  \[out] A pointer to the total number of [COR_PRF_CODE_INFO](cor-prf-code-info-structure.md) structures available.
-
-- `codeInfos`
-
-  \[out] A caller-provided buffer. After the method returns, it contains an array of `COR_PRF_CODE_INFO` structures, each of which describes a block of native code.
+`codeInfos`
+[out] A caller-provided buffer. After the method returns, it contains an array of `COR_PRF_CODE_INFO` structures, each of which describes a block of native code.
 
 ## Remarks
 
@@ -58,13 +55,13 @@ Alternatively, you can first call `GetCodeInfo4` with a zero-length `codeInfos` 
 
 ## Requirements
 
-**Platforms:** See [.NET Core supported operating systems](../../../core/install/dependencies.md?pivots=os-windows).
+**Platforms:** See [.NET Core supported operating systems](../../../core/install/windows.md?pivots=os-windows).
 
 **Header:** CorProf.idl, CorProf.h
 
 **Library:** CorGuids.lib
 
-**.NET Versions:** [!INCLUDE[net_core_22](../../../../includes/net-core-22-md.md)]
+**.NET Versions:** [!INCLUDE[net_core_21](../../../../includes/net-core-21-md.md)]
 
 ## See also
 

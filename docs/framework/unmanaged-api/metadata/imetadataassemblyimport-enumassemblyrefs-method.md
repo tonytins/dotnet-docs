@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataAssemblyImport::EnumAssemblyRefs Method"
 title: "IMetaDataAssemblyImport::EnumAssemblyRefs Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataAssemblyImport::EnumAssemblyRefs Method
+
 Enumerates the `mdAssemblyRef` instances that are defined in the assembly manifest.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT EnumAssemblyRefs (
 ```  
   
 ## Parameters  
+
  `phEnum`  
  [in, out] A pointer to the enumerator. This must be a null value when the `EnumAssemblyRefs` method is called for the first time.  
   
@@ -51,6 +54,7 @@ HRESULT EnumAssemblyRefs (
 |`S_FALSE`|There are no tokens to enumerate. In this case, `pcTokens` is set to zero.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugGCReferenceEnum::Next Method"
 title: "ICorDebugGCReferenceEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugGCReferenceEnum::Next Method
+
 Gets the specified number of [COR_GC_REFERENCE](cor-gc-reference-structure.md) instances that contain information about objects that will be garbage-collected.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT Next(
 ```  
   
 ## Parameters  
+
  celt  
  [in] The number of roots to be retrieved.  
   
@@ -41,6 +44,7 @@ HRESULT Next(
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

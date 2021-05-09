@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <authenticationModules> Element (Network Settings)"
 title: "<authenticationModules> Element (Network Settings)"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 10fcfaad-82ef-4692-871a-0aec9dfbe75e
 ---
 # \<authenticationModules> Element (Network Settings)
+
 Specifies modules used to authenticate network requests.  
 
 [**\<configuration>**](../configuration-element.md)\
@@ -24,9 +26,11 @@ Specifies modules used to authenticate network requests.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
+
  None.  
   
 ### Child Elements  
@@ -44,12 +48,15 @@ Specifies modules used to authenticate network requests.
 |[system.net](system-net-element-network-settings.md)|Contains settings that specify how the .NET Framework connects to the network.|  
   
 ## Remarks  
+
  The `authenticationModule` element specifies the authentication modules that conduct the authentication process with a server. An authentication module must implement the <xref:System.Net.IAuthenticationModule> interface.  
   
 ## Configuration Files  
+
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
+
  The following example enables an authentication module. You should replace the values for Version and PublicKeyToken with the correct values for the specified module.  
   
 ```xml  

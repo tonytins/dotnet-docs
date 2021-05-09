@@ -1,10 +1,12 @@
 ---
+description: "Learn more about: <add>"
 title: "<add>"
 ms.date: "03/30/2017"
 ms.assetid: 4712a888-f154-4395-8887-ef14a88a6497
 author: "BrucePerlerMS"
 ---
 # \<add>
+
 Adds the specified security token handler to the token handler collection.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -29,13 +31,14 @@ Adds the specified security token handler to the token handler collection.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|type|The CLR type name of the token handler to be added. For more information about how to specify the `type` attribute, see [Custom Type References](https://docs.microsoft.com/previous-versions/windows-identity-foundation/gg638728(v=msdn.10)#custom-type-references).|  
+|type|The CLR type name of the token handler to be added. For more information about how to specify the `type` attribute, see [Custom Type References](/previous-versions/windows-identity-foundation/gg638728(v=msdn.10)#custom-type-references).|  
   
 ### Child Elements  
   
@@ -53,6 +56,7 @@ Adds the specified security token handler to the token handler collection.
 |[\<securityTokenHandlers>](securitytokenhandlers.md)|Specifies a collection of security token handlers that are registered with the endpoint.|  
   
 ## Remarks  
+
  The `<add>` element can take a single child element that specifies the configuration for the token handler. This is dependent on whether the handler class referenced through the `type` attribute of the `<add>` element provides support for this feature. Token handler classes that provide this feature must expose a constructor that takes an <xref:System.Xml.XmlElement> object.  
 
 ```csharp  
@@ -72,6 +76,7 @@ public class CustomTokenHandler : Microsoft.IdentityModel.Tokens.SecurityTokenHa
  Settings specified on a handler override equivalent settings specified on the token handler collection under the [\<securityTokenHandlerConfiguration>](securitytokenhandlerconfiguration.md) element and those specified at the service-level under the [\<identityConfiguration>](identityconfiguration.md) element.  
   
 ## Example  
+
  The following XML shows the use of the `<add>` and `<remove>` elements to replace the default session token handler with a custom session token handler. The XML is taken from the `ClaimsAwareWebFarm` sample.  
   
 ```xml  

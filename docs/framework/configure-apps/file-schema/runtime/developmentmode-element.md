@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <developmentMode> Element"
 title: "<developmentMode> Element"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: 60e79a8c-415a-497d-be29-b9d0fd9bdee3
 ---
 # \<developmentMode> Element
+
 Specifies whether the runtime searches for assemblies in directories specified by the DEVPATH environment variable.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -24,6 +26,7 @@ Specifies whether the runtime searches for assemblies in directories specified b
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -40,6 +43,7 @@ Specifies whether the runtime searches for assemblies in directories specified b
 |**false**|Does not search for assemblies in directories specified by the DEVPATH environment variable. This is the default|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -50,9 +54,11 @@ Specifies whether the runtime searches for assemblies in directories specified b
 |`runtime`|Contains information about assembly binding and garbage collection.|  
   
 ## Remarks  
+
  Use this setting only at development time. The runtime does not check the versions on strong-named assemblies found in the DEVPATH. It simply uses the first assembly it finds.  
   
 ## Example  
+
  The following example shows how to cause the runtime to search for assemblies in directories specified by the DEVPATH environment variable.  
   
 ```xml  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugDebugEventKind Enumeration"
 title: "CorDebugDebugEventKind Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -12,6 +13,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugDebugEventKind Enumeration
+
 Indicates the type of event whose information is decoded by the [DecodeEvent](icordebugprocess6-decodeevent-method.md) method.  
   
 ## Syntax  
@@ -39,12 +41,14 @@ typedef enum CorDebugDebugEventKind {
 |`DEBUG_EVENT_KIND_MANAGED_EXCEPTION_UNHANDLED`|An unhandled exception.|  
   
 ## Remarks  
+
  A member of the `CorDebugDebugEventKind` enumeration is returned by calling the [ICorDebugDebugEvent::GetEventKind](icordebugdebugevent-geteventkind-method.md) method.  
   
 > [!NOTE]
 > This enumeration is intended for use in .NET Native debugging scenarios only.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

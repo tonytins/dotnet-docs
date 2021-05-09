@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugManagedCallback::ExitThread Method"
 title: "ICorDebugManagedCallback::ExitThread Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugManagedCallback::ExitThread Method
+
 Notifies the debugger that a thread that was executing managed code has exited.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT ExitThread (
 ```  
   
 ## Parameters  
+
  `pAppDomain`  
  [in] A pointer to an ICorDebugAppDomain object that represents the application domain containing the managed thread.  
   
@@ -36,9 +39,11 @@ HRESULT ExitThread (
  [in] A pointer to an ICorDebugThread object that represents the managed thread.  
   
 ## Remarks  
+
  Once the `ExitThread` callback is fired, the thread will no longer appear in thread enumerations.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

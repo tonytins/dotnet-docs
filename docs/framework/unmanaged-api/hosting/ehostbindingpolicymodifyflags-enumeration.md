@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EHostBindingPolicyModifyFlags Enumeration"
 title: "EHostBindingPolicyModifyFlags Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # EHostBindingPolicyModifyFlags Enumeration
+
 Allows the host to specify the type of redirection the common language runtime (CLR) should perform when applying policy modifications from a source assembly to a target assembly.  
   
 ## Syntax  
@@ -39,9 +41,11 @@ typedef enum _hostBindingPolicyModifyFlags {
 |`HOST_BINDING_POLICY_MODIFY_REMOVE`|Specifies that the CLR will replace policy values of the target assembly with those of the source assembly.|  
   
 ## Remarks  
+
  The [ICLRHostBindingPolicyManager::ModifyApplicationPolicy](iclrhostbindingpolicymanager-modifyapplicationpolicy-method.md) method takes a parameter of type `EHostBindingPolicyModifyFlags`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

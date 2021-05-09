@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo4::RequestRevert Method"
 title: "ICorProfilerInfo4::RequestRevert Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo4::RequestRevert Method
+
 Reverts all instances of the specified functions to their original versions.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT RequestRevert (
 ```  
   
 ## Parameters  
+
  `cFunctions`  
  [in] The number of functions to revert.  
   
@@ -43,6 +46,7 @@ HRESULT RequestRevert (
  [out] An array of HRESULTs listed in the "Status HRESULTs" section later in this topic. Each HRESULT indicates the success or failure of trying to revert each function specified in the parallel arrays `moduleIds` and `methodIds`.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -65,9 +69,11 @@ HRESULT RequestRevert (
 |Other|The operating system returned a failure outside the control of the CLR. For example, if a system call to change the access protection of a page of memory fails, the operating system error will be displayed.|  
   
 ## Remarks  
+
  The next time any of the revereted function instances are called, the original versions of the functions will be run. If a function is already running, it will finish executing the version that is running.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

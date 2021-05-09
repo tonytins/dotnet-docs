@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tracking Profiles"
 title: "Tracking Profiles"
 ms.date: "03/30/2017"
 ms.assetid: 22682566-1cd9-4672-9791-fb3523638e18
@@ -384,5 +385,5 @@ Here are some of the common examples of tracking profiles.
 ## See also
 
 - [SQL Tracking](./samples/sql-tracking.md)
-- [Windows Server App Fabric Monitoring](https://docs.microsoft.com/previous-versions/appfabric/ee677251(v=azure.10))
-- [Monitoring Applications with App Fabric](https://docs.microsoft.com/previous-versions/appfabric/ee677276(v=azure.10))
+- [Windows Server App Fabric Monitoring](/previous-versions/appfabric/ee677251(v=azure.10))
+- [Monitoring Applications with App Fabric](/previous-versions/appfabric/ee677276(v=azure.10))

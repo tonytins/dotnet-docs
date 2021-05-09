@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedScope::GetChildren Method"
 title: "ISymUnmanagedScope::GetChildren Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedScope::GetChildren Method
+
 Gets the children of this scope.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetChildren(
 ```  
   
 ## Parameters  
+
  `cChildren`  
  [in] A `ULONG32` that indicates the size of the `children` array.  
   
@@ -40,9 +43,11 @@ HRESULT GetChildren(
  [out] The returned array of children.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

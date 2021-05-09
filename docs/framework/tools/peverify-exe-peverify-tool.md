@@ -16,7 +16,7 @@ ms.assetid: f4f46f9e-8d08-4e66-a94b-0c69c9b0bbfa
 
 The PEVerify tool helps developers who generate Microsoft intermediate language (MSIL) (such as compiler writers and script engine developers) to determine whether their MSIL code and associated metadata meet type safety requirements. Some compilers generate verifiably type-safe code only if you avoid using certain language constructs. If you're using such a compiler, you may want to verify that you have not compromised the type safety of your code. You can run the PEVerify tool on your files to check the MSIL and metadata.  
   
- This tool is automatically installed with Visual Studio. To run the tool, use the Developer Command Prompt for Visual Studio (or the Visual Studio Command Prompt in Windows 7). For more information, see [Command Prompts](developer-command-prompt-for-vs.md).
+ This tool is automatically installed with Visual Studio. To run the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell).
   
 ## Syntax  
   
@@ -49,6 +49,7 @@ peverify filename [options]
 |**/?**|Displays command syntax and options for the tool.|  
   
 ## Remarks  
+
  The common language runtime relies on the type-safe execution of application code to help enforce security and isolation mechanisms. Normally, code that is not [verifiably type safe](../../standard/security/key-security-concepts.md#type-safety-and-security) cannot run, although you can set security policy to allow the execution of trusted but unverifiable code.  
   
  If neither the **/md** nor **/il** options are specified, Peverify.exe performs both types of checks. Peverify.exe performs **/md** checks first. If there are no errors, **/il** checks are made. If you specify both **/md** and **/il**, **/il** checks are made even if there are errors in the metadata. Thus, if there are no metadata errors, **peverify** *filename* is equivalent to **peverify** *filename* **/md** **/il**.  
@@ -58,6 +59,7 @@ peverify filename [options]
 .NET Framework version 2.0 or later supports verifiable `byref` returns specified using the following MSIL instructions: `dup`, `ldsflda`, `ldflda`, `ldelema`, `call`, and `unbox`.  
   
 ## Examples  
+
  The following command performs metadata validation checks and MSIL type safety verification checks for methods implemented in the assembly `myAssembly.exe`.  
   
 ```console  
@@ -117,4 +119,4 @@ peverify myAssembly.exe /break=100 /ignore@ignoreErrors.rsp
 - [Tools](index.md)
 - [Writing Verifiably Type-Safe Code](../misc/code-access-security-basics.md#typesafe_code)
 - [Type Safety and Security](../../standard/security/key-security-concepts.md#type-safety-and-security)
-- [Command Prompts](developer-command-prompt-for-vs.md)
+- [Developer command-line shells](/visualstudio/ide/reference/command-prompt-powershell)

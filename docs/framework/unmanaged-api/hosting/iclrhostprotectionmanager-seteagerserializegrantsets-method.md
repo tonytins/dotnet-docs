@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRHostProtectionManager::SetEagerSerializeGrantSets Method"
 title: "ICLRHostProtectionManager::SetEagerSerializeGrantSets Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRHostProtectionManager::SetEagerSerializeGrantSets Method
+
 This method supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ HRESULT SetEagerSerializeGrantSets ();
 |E_FAIL|An unknown catastrophic failure occurred. After a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

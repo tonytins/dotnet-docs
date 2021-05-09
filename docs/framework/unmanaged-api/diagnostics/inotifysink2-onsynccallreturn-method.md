@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INotifySink2::OnSyncCallReturn Method"
 title: "INotifySink2::OnSyncCallReturn Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # INotifySink2::OnSyncCallReturn Method
+
 Gets invoked when a call returns.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT OnSyncCallReturn
 ```  
   
 ## Parameters  
+
  `in_CallID`  
  [in] ID of the call being returned from. See [CALL_ID Structure](call-id-structure.md).  
   
@@ -41,9 +44,11 @@ HRESULT OnSyncCallReturn
  [in] Size of the call buffer, in bytes.  
   
 ## Return Value  
+
  S_OK if the method succeeds.  
   
 ## Requirements  
+
  **Header:** ProtocolNotify2.idl  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StrongNameTokenFromPublicKey Function"
 title: "StrongNameTokenFromPublicKey Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -20,6 +21,7 @@ topic_type:
   - "apiref"
 ---
 # StrongNameTokenFromPublicKey Function
+
 Gets a token representing a public key. A strong name token is the shortened form of a public key.  
   
  This function has been deprecated. Use the [ICLRStrongName::StrongNameTokenFromPublicKey](../hosting/iclrstrongname-strongnametokenfrompublickey-method.md) method instead.  
@@ -27,7 +29,7 @@ Gets a token representing a public key. A strong name token is the shortened for
 ## Syntax  
   
 ```cpp  
-BOOLEANStrongNameTokenFromPublicKey (
+BOOLEAN StrongNameTokenFromPublicKey (
     [in]  BYTE    *pbPublicKeyBlob,  
     [in]  ULONG   cbPublicKeyBlob,  
     [out] BYTE    **ppbStrongNameToken,  
@@ -36,6 +38,7 @@ BOOLEANStrongNameTokenFromPublicKey (
 ```  
   
 ## Parameters  
+
  `pbPublicKeyBlob`  
  [in] A structure of type [PublicKeyBlob](publickeyblob-structure.md) that contains the public portion of the key pair used to generate the strong name signature.  
   
@@ -49,14 +52,17 @@ BOOLEANStrongNameTokenFromPublicKey (
  [out] The size, in bytes, of the returned strong name token.  
   
 ## Return Value  
+
  `true` on successful completion; otherwise, `false`.  
   
 ## Remarks  
+
  A strong name token is the shortened form of a public key used to save space when storing key information in metadata. Specifically, strong name tokens are used in assembly references to refer to the dependent assembly.  
   
  If the `StrongNameTokenFromPublicKey` function does not complete successfully, call the [StrongNameErrorInfo](strongnameerrorinfo-function.md) function to retrieve the last generated error.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** StrongName.h  

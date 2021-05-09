@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugEHClause Structure"
 title: "CorDebugEHClause Structure"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -14,6 +15,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugEHClause Structure
+
 [Supported in the .NET Framework 4.5.2 and later versions]  
   
  Represents an exception handling (EH) clause for a given piece of intermediate language (IL) code.  
@@ -45,6 +47,7 @@ typedef struct _CorDebugEHClause {
 |`FilterOffset`|The offset, in bytes, from the start of the method body for a filter-based exception handler.|  
   
 ## Remarks  
+
  An array of `CoreDebugEHClause` values is returned by the [GetEHClauses](icordebugilcode-getehclauses-method.md) method.  
   
  The EH clause information is defined by the CLI specification. For more information, see [Standard ECMA-355: Common Language Infrastructure (CLI), 6th Edition](https://www.ecma-international.org/publications/standards/Ecma-335.htm).  
@@ -59,6 +62,7 @@ typedef struct _CorDebugEHClause {
 |`COR_ILEXCEPTION_CLAUSE_FAULT`|0x00000004|A fault clause (a `finally` clause that is called only when an exception is thrown).|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

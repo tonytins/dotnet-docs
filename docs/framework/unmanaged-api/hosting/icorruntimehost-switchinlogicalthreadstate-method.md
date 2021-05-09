@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorRuntimeHost::SwitchInLogicalThreadState Method"
 title: "ICorRuntimeHost::SwitchInLogicalThreadState Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorRuntimeHost::SwitchInLogicalThreadState Method
+
 This method supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT SwitchInLogicalThreadState(
 ```  
   
 ## Parameters  
+
  `pFiberCookie`  
  [in] Cookie that indicates the fiber to use.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

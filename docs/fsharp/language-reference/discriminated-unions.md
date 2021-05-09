@@ -1,7 +1,7 @@
 ---
 title: Discriminated Unions
 description: Learn how to use F# discriminated unions.
-ms.date: 05/16/2016
+ms.date: 08/15/2020
 ---
 # Discriminated Unions
 
@@ -74,7 +74,7 @@ let getShapeWidth shape =
     | Prism(width = w) -> w
 ```
 
-Normally, the case identifiers can be used without qualifying them with the name of the union. If you want the name to always be qualified with the name of the union, you can apply the [RequireQualifiedAccess](https://msdn.microsoft.com/visualfsharpdocs/conceptual/core.requirequalifiedaccessattribute-class-[fsharp]) attribute to the union type definition.
+Normally, the case identifiers can be used without qualifying them with the name of the union. If you want the name to always be qualified with the name of the union, you can apply the [RequireQualifiedAccess](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-requirequalifiedaccessattribute.html) attribute to the union type definition.
 
 ### Unwrapping Discriminated Unions
 
@@ -184,10 +184,10 @@ type Shape =
     interface IPrintable with
         member this.Print () =
             match this with
-            | Circle r -> printfn "Circle with radius %f" r
-            | EquilateralTriangle s -> printfn "Equilateral Triangle of side %f" s
-            | Square s -> printfn "Square with side %f" s
-            | Rectangle(l, w) -> printfn "Rectangle with length %f and width %f" l w
+            | Circle r -> printfn $"Circle with radius %f{r}"
+            | EquilateralTriangle s -> printfn $"Equilateral Triangle of side %f{s}"
+            | Square s -> printfn $"Square with side %f{s}"
+            | Rectangle(l, w) -> printfn $"Rectangle with length %f{l} and width %f{w}"
 ```
 
 ## Common attributes

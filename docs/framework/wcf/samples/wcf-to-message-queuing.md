@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Communication Foundation to Message Queuing"
 title: "Windows Communication Foundation to Message Queuing"
 ms.date: "03/30/2017"
 ms.assetid: 78d0d0c9-648e-4d4a-8f0a-14d9cafeead9
@@ -125,7 +126,7 @@ public partial class OrderProcessorClient : System.ServiceModel.ClientBase<IOrde
  When you run the sample, the client and service activities are displayed in both the service and client console windows. You can see the service receive messages from the client. Press ENTER in each console window to shut down the service and client. Note that because queuing is in use, the client and service do not have to be up and running at the same time. For example, you could run the client, shut it down, and then start up the service and it would still receive its messages.
 
 > [!NOTE]
-> This sample requires the installation of Message Queuing. See the installation instructions in [Message Queuing](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)).
+> This sample requires the installation of Message Queuing. See the installation instructions in [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)).
 
 ## Set up, build, and run the sample
 
@@ -171,4 +172,4 @@ public partial class OrderProcessorClient : System.ServiceModel.ClientBase<IOrde
 ## See also
 
 - [How to: Exchange Messages with WCF Endpoints and Message Queuing Applications](../feature-details/how-to-exchange-messages-with-wcf-endpoints-and-message-queuing-applications.md)
-- [Message Queuing](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85))
+- [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85))

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRRuntimeHost::Stop Method"
 title: "ICLRRuntimeHost::Stop Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRRuntimeHost::Stop Method
+
 Stops the execution of code by the common language runtime (CLR).  
   
 > [!IMPORTANT]
@@ -40,6 +42,7 @@ HRESULT Stop();
 |E_FAIL|An unknown catastrophic failure occurred. If a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::FindTypeDefByName Method"
 title: "IMetaDataImport::FindTypeDefByName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::FindTypeDefByName Method
+
 Gets a pointer to the TypeDef metadata token for the <xref:System.Type> with the specified name.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT FindTypeDefByName
 ```  
   
 ## Parameters  
+
  `szTypeDef`  
  [in] The name of the type for which to get the TypeDef token.  
   
@@ -40,6 +43,7 @@ HRESULT FindTypeDefByName
  [out] A pointer to the matching TypeDef token.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

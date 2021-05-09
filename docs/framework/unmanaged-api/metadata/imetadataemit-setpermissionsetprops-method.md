@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::SetPermissionSetProps Method"
 title: "IMetaDataEmit::SetPermissionSetProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::SetPermissionSetProps Method
+
 Sets or updates features of the metadata signature of a permission set defined by a prior call to [IMetaDataEmit::DefinePermissionSet](imetadataemit-definepermissionset-method.md).  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT SetPermissionSetProps (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] A metadata token that represents the object to be decorated.  
   
@@ -48,6 +51,7 @@ HRESULT SetPermissionSetProps (
  [out] An `mdPermission` metadata token that represents the updated permissions.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

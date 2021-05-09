@@ -1,5 +1,6 @@
 ---
 title: "Data type(s) of the type parameter(s) cannot be inferred from these arguments"
+description: "Learn more about: BC36647 and BC36644: Data type(s) of the type parameter(s) cannot be inferred from these arguments"
 ms.date: 07/20/2015
 f1_keywords:
   - "bc36644"
@@ -11,7 +12,7 @@ helpviewer_keywords:
   - "BC36647"
 ms.assetid: 0e0050f2-2039-4311-b260-f0ebfde84189
 ---
-# Data type(s) of the type parameter(s) cannot be inferred from these arguments
+# BC36647 and BC36644: Data type(s) of the type parameter(s) cannot be inferred from these arguments
 
 Data type(s) of the type parameter(s) cannot be inferred from these arguments. Specifying the data type(s) explicitly might correct this error.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugMDA::GetFlags Method"
 title: "ICorDebugMDA::GetFlags Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugMDA::GetFlags Method
+
 Gets the flags associated with the managed debugging assistant (MDA) represented by [ICorDebugMDA](icordebugmda-interface.md).  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetFlags (
 ```  
   
 ## Parameters  
+
  `pFlags`  
  [in] A bitwise combination of the [CorDebugMDAFlags](cordebugmdaflags-enumeration.md) enumeration values that specify the settings of the flags for this MDA.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

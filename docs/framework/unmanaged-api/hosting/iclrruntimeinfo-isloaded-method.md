@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRRuntimeInfo::IsLoaded Method"
 title: "ICLRRuntimeInfo::IsLoaded Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRRuntimeInfo::IsLoaded Method
+
 Indicates whether the common language runtime (CLR) associated with the [ICLRRuntimeInfo](iclrruntimeinfo-interface.md) interface is loaded into a process. A runtime can be loaded without also being started.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT IsLoaded(
 ```  
   
 ## Parameters  
+
  `hndProcess`  
  [in] A handle to the process.  
   
@@ -35,6 +38,7 @@ HRESULT IsLoaded(
  [out] `true` if the CLR is loaded into the process; otherwise, `false`.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -43,6 +47,7 @@ HRESULT IsLoaded(
 |E_POINTER|`pbLoaded` is null.|  
   
 ## Remarks  
+
  This method is backward-compatible with the following functions and interfaces:  
   
 - [ICorRuntimeHost](icorruntimehost-interface.md) interface (in the .NET Framework version 1 hosting API).  
@@ -56,6 +61,7 @@ HRESULT IsLoaded(
  If the host then calls the `IsLoaded` method on the returned [ICLRRuntimeInfo](iclrruntimeinfo-interface.md) interface, `pbLoaded` returns `true`; otherwise, it returns `false`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

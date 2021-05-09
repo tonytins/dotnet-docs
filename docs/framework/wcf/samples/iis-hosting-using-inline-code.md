@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IIS Hosting Using Inline Code"
 title: "IIS Hosting Using Inline Code"
 ms.date: "03/30/2017"
 helpviewer_keywords:
@@ -90,4 +91,4 @@ Press <ENTER> to terminate client.
 
 ## See also
 
-- [AppFabric Hosting and Persistence Samples](https://docs.microsoft.com/previous-versions/appfabric/ff383418(v=azure.10))
+- [AppFabric Hosting and Persistence Samples](/previous-versions/appfabric/ff383418(v=azure.10))

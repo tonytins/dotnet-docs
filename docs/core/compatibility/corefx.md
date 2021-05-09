@@ -1,9 +1,9 @@
 ---
-title: Base class library breaking changes
-description: Lists the breaking changes in core .NET libraries.
-ms.date: 09/20/2019
+title: .NET library breaking changes
+description: Lists the breaking changes in core .NET libraries for .NET Core versions 1.0-3.0.
+ms.date: 07/27/2020
 ---
-# Core .NET libraries breaking changes
+# Core .NET libraries breaking changes in .NET Core 1.0-3.0
 
 The core .NET libraries provide the primitives and other general types used by .NET Core.
 
@@ -11,56 +11,30 @@ The following breaking changes are documented on this page:
 
 | Breaking change | Version introduced |
 | - | :-: |
-| [Default ActivityIdFormat is W3C](#default-activityidformat-is-w3c) | 5.0 |
-| [Behavior change for Vector2.Lerp and Vector4.Lerp](#behavior-change-for-vector2lerp-and-vector4lerp) | 5.0 |
-| [SSE and SSE2 CompareGreaterThan methods properly handle NaN inputs](#sse-and-sse2-comparegreaterthan-methods-properly-handle-nan-inputs) | 5.0 |
-| [CounterSet.CreateCounterSetInstance now throws InvalidOperationException if instance already exist](#countersetcreatecountersetinstance-now-throws-invalidoperationexception-if-instance-already-exists) | 5.0 |
-| [Microsoft.DotNet.PlatformAbstractions package removed](#microsoftdotnetplatformabstractions-package-removed) | 5.0 |
-| [APIs that report version now report product and not file version](#apis-that-report-version-now-report-product-and-not-file-version) | 3.0 |
-| [Custom EncoderFallbackBuffer instances cannot fall back recursively](#custom-encoderfallbackbuffer-instances-cannot-fall-back-recursively) | 3.0 |
-| [Floating point formatting and parsing behavior changes](#floating-point-formatting-and-parsing-behavior-changed) | 3.0 |
-| [Floating-point parsing operations no longer fail or throw an OverflowException](#floating-point-parsing-operations-no-longer-fail-or-throw-an-overflowexception) | 3.0 |
-| [InvalidAsynchronousStateException moved to another assembly](#invalidasynchronousstateexception-moved-to-another-assembly) | 3.0 |
-| [Replacing ill-formed UTF-8 byte sequences follows Unicode guidelines](#replacing-ill-formed-utf-8-byte-sequences-follows-unicode-guidelines) | 3.0 |
-| [TypeDescriptionProviderAttribute moved to another assembly](#typedescriptionproviderattribute-moved-to-another-assembly) | 3.0 |
-| [ZipArchiveEntry no longer handles archives with inconsistent entry sizes](#ziparchiveentry-no-longer-handles-archives-with-inconsistent-entry-sizes) | 3.0 |
-| [JSON serializer exception type changed from JsonException to NotSupportedException](#json-serializer-exception-type-changed-from-jsonexception-to-notsupportedexception) | 3.0 |
-| [Change in semantics of (string)null in Utf8JsonWriter](#change-in-semantics-of-stringnull-in-utf8jsonwriter) | 3.0 |
-| [JsonEncodedText.Encode methods have an additional JavaScriptEncoder argument](#jsonencodedtextencode-methods-have-an-additional-javascriptencoder-argument) | 3.0 |
-| [JsonFactoryConverter.CreateConverter signature changed](#jsonfactoryconvertercreateconverter-signature-changed) | 3.0 |
-| [JsonElement API changes](#jsonelement-api-changes) | 3.0 |
-| [FieldInfo.SetValue throws exception for static, init-only fields](#fieldinfosetvalue-throws-exception-for-static-init-only-fields) | 3.0 |
-| [Private fields added to built-in struct types](#private-fields-added-to-built-in-struct-types) | 2.1 |
-| [Change in default value of UseShellExecute](#change-in-default-value-of-useshellexecute) | 2.1 |
-| [OpenSSL versions on macOS](#openssl-versions-on-macos) | 2.1 |
-| [UnauthorizedAccessException thrown by FileSystemInfo.Attributes](#unauthorizedaccessexception-thrown-by-filesysteminfoattributes) | 1.0 |
-| [Handling corrupted-process-state exceptions is not supported](#handling-corrupted-state-exceptions-is-not-supported) | 1.0 |
-| [UriBuilder properties no longer prepend leading characters](#uribuilder-properties-no-longer-prepend-leading-characters) | 1.0 |
-| [Process.StartInfo throws InvalidOperationException for processes you didn't start](#processstartinfo-throws-invalidoperationexception-for-processes-you-didnt-start) | 1.0 |
-
-## .NET 5.0
-
-[!INCLUDE [default-activityidformat-changed](../../../includes/core-changes/corefx/5.0/default-activityidformat-changed.md)]
-
-***
-
-[!INCLUDE [vector-lerp-behavior-change](../../../includes/core-changes/corefx/5.0/vector-lerp-behavior-change.md)]
-
-***
-
-[!INCLUDE [sse-comparegreaterthan-intrinsics](../../../includes/core-changes/corefx/5.0/sse-comparegreaterthan-intrinsics.md)]
-
-***
-
-[!INCLUDE [createcountersetinstance-throws-invalidoperation](../../../includes/core-changes/corefx/5.0/createcountersetinstance-throws-invalidoperation.md)]
-
-***
-
-[!INCLUDE [platformabstractions-package-removed](../../../includes/core-changes/corefx/5.0/platformabstractions-package-removed.md)]
-
-***
+| [Passing GroupCollection to extension methods taking IEnumerable\<T> requires disambiguation](#passing-groupcollection-to-extension-methods-taking-ienumerablet-requires-disambiguation) | .NET Core 3.0 |
+| [APIs that report version now report product and not file version](#apis-that-report-version-now-report-product-and-not-file-version) | .NET Core 3.0 |
+| [Custom EncoderFallbackBuffer instances cannot fall back recursively](#custom-encoderfallbackbuffer-instances-cannot-fall-back-recursively) | .NET Core 3.0 |
+| [Floating point formatting and parsing behavior changes](#floating-point-formatting-and-parsing-behavior-changed) | .NET Core 3.0 |
+| [Floating-point parsing operations no longer fail or throw an OverflowException](#floating-point-parsing-operations-no-longer-fail-or-throw-an-overflowexception) | .NET Core 3.0 |
+| [InvalidAsynchronousStateException moved to another assembly](#invalidasynchronousstateexception-moved-to-another-assembly) | .NET Core 3.0 |
+| [Replacing ill-formed UTF-8 byte sequences follows Unicode guidelines](#replacing-ill-formed-utf-8-byte-sequences-follows-unicode-guidelines) | .NET Core 3.0 |
+| [TypeDescriptionProviderAttribute moved to another assembly](#typedescriptionproviderattribute-moved-to-another-assembly) | .NET Core 3.0 |
+| [ZipArchiveEntry no longer handles archives with inconsistent entry sizes](#ziparchiveentry-no-longer-handles-archives-with-inconsistent-entry-sizes) | .NET Core 3.0 |
+| [FieldInfo.SetValue throws exception for static, init-only fields](#fieldinfosetvalue-throws-exception-for-static-init-only-fields) | .NET Core 3.0 |
+| [Path APIs don't throw an exception for invalid characters](#path-apis-dont-throw-an-exception-for-invalid-characters) | .NET Core 2.1 |
+| [Private fields added to built-in struct types](#private-fields-added-to-built-in-struct-types) | .NET Core 2.1 |
+| [Change in default value of UseShellExecute](#change-in-default-value-of-useshellexecute) | .NET Core 2.1 |
+| [OpenSSL versions on macOS](#openssl-versions-on-macos) | .NET Core 2.1 |
+| [UnauthorizedAccessException thrown by FileSystemInfo.Attributes](#unauthorizedaccessexception-thrown-by-filesysteminfoattributes) | .NET Core 1.0 |
+| [Handling corrupted-process-state exceptions is not supported](#handling-corrupted-state-exceptions-is-not-supported) | .NET Core 1.0 |
+| [UriBuilder properties no longer prepend leading characters](#uribuilder-properties-no-longer-prepend-leading-characters) | .NET Core 1.0 |
+| [Process.StartInfo throws InvalidOperationException for processes you didn't start](#processstartinfo-throws-invalidoperationexception-for-processes-you-didnt-start) | .NET Core 1.0 |
 
 ## .NET Core 3.0
+
+[!INCLUDE [disambiguate-generic-type-for-groupcollection](../../../includes/core-changes/corefx/3.0/disambiguate-generic-type-for-groupcollection.md)]
+
+***
 
 [!INCLUDE[APIs that report version now report product and not file version](~/includes/core-changes/corefx/3.0/version-information-changes.md)]
 
@@ -94,31 +68,15 @@ The following breaking changes are documented on this page:
 
 ***
 
-[!INCLUDE[JSON serializer exception type changed from JsonException to NotSupportedException](~/includes/core-changes/corefx/3.0/serializer-throws-notsupportedexception.md)]
-
-***
-
-[!INCLUDE[Change in semantics of (string)null in Utf8JsonWriter](~/includes/core-changes/corefx/3.0/change-in-null-in-utf8jsonwriter.md)]
-
-***
-
-[!INCLUDE[JsonEncodedText.Encode methods have an additional JavaScriptEncoder argument](~/includes/core-changes/corefx/3.0/jsonencodedtext-encode-has-additional-argument.md)]
-
-***
-
-[!INCLUDE[JsonFactoryConverter.CreateConverter signature changed](~/includes/core-changes/corefx/3.0/jsonfactoryconverter-createconverter.md)]
-
-***
-
-[!INCLUDE[JsonElement API changes](~/includes/core-changes/corefx/3.0/jsonelement-api-changes.md)]
-
-***
-
 [!INCLUDE [FieldInfo.SetValue throws exception for static, init-only fields](~/includes/core-changes/corefx/3.0/fieldinfo-setvalue-exception.md)]
 
 ***
 
 ## .NET Core 2.1
+
+[!INCLUDE [path-apis-dont-throw-exception-for-invalid-paths](../../../includes/core-changes/corefx/2.1/path-apis-dont-throw-exception-for-invalid-paths.md)]
+
+***
 
 [!INCLUDE[Private fields added to built-in struct types](~/includes/core-changes/corefx/2.1/instantiate-struct.md)]
 

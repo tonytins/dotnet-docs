@@ -29,6 +29,21 @@ A scenario is a description of the type of prediction you want to make using you
 - detect whether a banking transaction is fraudulent
 - route customer feedback issues to the correct team in your company
 
+Each scenario maps to a different Machine Learning Task which include:
+
+- Binary classification
+- Multiclass classification
+- Regression
+- Clustering
+- Anomaly detection
+- Ranking
+- Recommendation
+- Forecasting
+
+For example, the scenario of classifying sentiments as positive or negative would fall under the binary classification task.
+
+For more information about the different ML Tasks supported by ML.NET see [Machine learning tasks in ML.NET](resources/tasks.md).
+
 ### Which machine learning scenario is right for me?
 
 In Model Builder, you need to select a scenario. The type of scenario depends on what type of prediction you are trying to make.
@@ -43,15 +58,21 @@ Classification is used to categorize data into categories.
 
 #### Value prediction
 
-Regression is used to predict numbers.
+Value prediction, which falls under the regression task, is used to predict numbers.
 
 ![Diagram showing regression examples such as price prediction, sales forecasting, and predictive maintenance](media/regression-examples.png)
 
 #### Image classification
 
-Image classification can be used to identify images of different categories. For example, different types of terrain or animals or manufacturing defects.
+Image classification is used to identify images of different categories. For example, different types of terrain or animals or manufacturing defects.
 
 You can use the image classification scenario if you have a set of images, and you want to classify the images into different categories.
+
+#### Object detection
+
+Object detection is used to locate and categorize entities within images.  For example, locating and identifying cars and people in an image.
+
+You can use object detection when images contain multiple objects of different types.
 
 #### Recommendation
 
@@ -61,13 +82,15 @@ You can use the recommendation scenario when you have a set of users and a set o
 
 ## Environment
 
-You can train your machine learning model locally on your machine or in the cloud on Azure.
+You can train your machine learning model locally on your machine or in the cloud on Azure, depending on the scenario.
 
 When you train locally, you work within the constraints of your computer resources (CPU, memory, and disk). When you train in the cloud, you can scale up your resources to meet the demands of your scenario, especially for large datasets.
 
-Local training is supported for all scenarios.
+Local CPU training is supported for all scenarios except Object Detection.
 
-Azure training is supported for Image Classification.
+Local GPU training is supported for Image Classification.
+
+Azure training is supported for Image Classification and Object Detection.
 
 ## Data
 
@@ -104,11 +127,11 @@ If you don't have your own data yet, try out one of these datasets:
 
 |Scenario|Example|Data|Label|Features|
 |-|-|-|-|-|
-|Classification|Predict sales anomalies|[product sales data](https://github.com/dotnet/machinelearning-samples/blob/master/samples/csharp/getting-started/AnomalyDetection_Sales/SpikeDetection/Data/product-sales.csv)|Product Sales|Month|
-||Predict sentiment of website comments|[website comment data](https://raw.githubusercontent.com/dotnet/machinelearning/master/test/data/wikipedia-detox-250-line-data.tsv)|Label (0 when negative sentiment, 1 when positive)|Comment, Year|
-||Predict fraudulent credit card transactions|[credit card data](https://github.com/dotnet/machinelearning-samples/blob/master/samples/csharp/getting-started/BinaryClassification_CreditCardFraudDetection/CreditCardFraudDetection.Trainer/assets/input/creditcardfraud-dataset.zip)|Class (1 when fraudulent, 0 otherwise)|Amount, V1-V28 (anonymized features)|
-||Predict the type of issue in a GitHub repository|[GitHub issue data](https://github.com/dotnet/machinelearning-samples/blob/master/samples/csharp/end-to-end-apps/MulticlassClassification-GitHubLabeler/GitHubLabeler/Data/corefx-issues-train.tsv)|Area|Title, Description|
-|Value prediction|Predict taxi fare price|[taxi fare data](https://github.com/dotnet/machinelearning-samples/blob/master/datasets/taxi-fare-train.csv)|Fare|Trip time, distance|
+|Classification|Predict sales anomalies|[product sales data](https://github.com/dotnet/machinelearning-samples/blob/main/samples/csharp/getting-started/AnomalyDetection_Sales/SpikeDetection/Data/product-sales.csv)|Product Sales|Month|
+||Predict sentiment of website comments|[website comment data](https://raw.githubusercontent.com/dotnet/machinelearning/main/test/data/wikipedia-detox-250-line-data.tsv)|Label (0 when negative sentiment, 1 when positive)|Comment, Year|
+||Predict fraudulent credit card transactions|[credit card data](https://github.com/dotnet/machinelearning-samples/blob/main/samples/csharp/getting-started/BinaryClassification_CreditCardFraudDetection/CCFraudDetection.Trainer/assets/input/creditcardfraud-dataset.zip)|Class (1 when fraudulent, 0 otherwise)|Amount, V1-V28 (anonymized features)|
+||Predict the type of issue in a GitHub repository|[GitHub issue data](https://github.com/dotnet/machinelearning-samples/blob/main/samples/csharp/end-to-end-apps/MulticlassClassification-GitHubLabeler/GitHubLabeler/Data/corefx-issues-train.tsv)|Area|Title, Description|
+|Value prediction|Predict taxi fare price|[taxi fare data](https://github.com/dotnet/machinelearning-samples/blob/main/datasets/taxi-fare-train.csv)|Fare|Trip time, distance|
 |Image classification|Predict the category of a flower |[flower images](http://download.tensorflow.org/example_images/flower_photos.tgz)|The type of flower: daisy, dandelion, roses, sunflowers, tulips|The image data itself|
 |Recommendation|Predict movies that someone will like|[movie ratings](http://files.grouplens.org/datasets/movielens/ml-latest-small.zip)|Users, Movies|Ratings|
 

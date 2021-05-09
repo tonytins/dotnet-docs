@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ASM_NAME Enumeration"
 title: "ASM_NAME Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ASM_NAME Enumeration
+
 Indicates the version, build, culture, signature, and so on, of the assembly whose properties will be retrieved or set by [IAssemblyName](iassemblyname-interface.md) methods.  
   
 ## Syntax  
@@ -57,6 +59,7 @@ typedef enum {
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedDocument::FindClosestLine Method"
 title: "ISymUnmanagedDocument::FindClosestLine Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedDocument::FindClosestLine Method
+
 Returns the closest line that is a sequence point, given a line in this document that may or may not be a sequence point.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT FindClosestLine(
 ```  
   
 ## Parameters  
+
  `line`  
  [in] A line in this document.  
   
@@ -35,6 +38,7 @@ HRESULT FindClosestLine(
  [out] A pointer to a variable that receives the line.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, an error code.  
   
 ## See also

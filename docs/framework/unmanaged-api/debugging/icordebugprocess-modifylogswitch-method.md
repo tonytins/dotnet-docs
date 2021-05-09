@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess::ModifyLogSwitch Method"
 title: "ICorDebugProcess::ModifyLogSwitch Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess::ModifyLogSwitch Method
+
 Sets the severity level of the specified log switch.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT ModifyLogSwitch(
 ```  
   
 ## Parameters  
+
  `pLogSwitchName`  
  [in] A pointer to a string that specifies the name of the log switch.  
   
@@ -35,9 +38,11 @@ HRESULT ModifyLogSwitch(
  [in] The severity level to be set for the specified log switch.  
   
 ## Remarks  
+
  This method is valid only after the [ICorDebugManagedCallback::CreateProcess](icordebugmanagedcallback-createprocess-method.md) callback has occurred.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

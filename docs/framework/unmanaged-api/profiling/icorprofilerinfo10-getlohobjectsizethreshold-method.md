@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo10::GetLOHObjectSizeThreshold Method"
 title: "ICorProfilerInfo10::GetLOHObjectSizeThreshold"
 ms.date: "08/06/2019"
 dev_langs:
@@ -24,9 +25,8 @@ HRESULT GetLOHObjectSizeThreshold( [out] DWORD *pThreshold );
 
 ## Parameters
 
-- `pThreshold`
-
-  \[out] The large object heap threshold in bytes.
+`pThreshold`
+[out] The large object heap threshold in bytes.
 
 ## Remarks
 
@@ -34,13 +34,13 @@ Objects larger than the large object heap threshold will be allocated on the lar
 
 ## Requirements
 
-**Platforms:** See [.NET Core supported operating systems](../../../core/install/dependencies.md?pivots=os-windows).
+**Platforms:** See [.NET Core supported operating systems](../../../core/install/windows.md?pivots=os-windows).
 
 **Header:** CorProf.idl, CorProf.h
 
 **Library:** CorGuids.lib
 
-**.NET Versions:** [!INCLUDE[net_core_22](../../../../includes/net-core-30-md.md)]
+**.NET Versions:** [!INCLUDE[net_core_30](../../../../includes/net-core-30-md.md)]
 
 ## See also
 

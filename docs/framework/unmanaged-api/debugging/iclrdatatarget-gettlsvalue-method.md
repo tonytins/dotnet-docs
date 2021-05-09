@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataTarget::GetTLSValue Method"
 title: "ICLRDataTarget::GetTLSValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataTarget::GetTLSValue Method
+
 Gets a value from the thread local storage (TLS) of the specified thread in the target process. This method is called by the common language runtime (CLR) data access services.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetTLSValue (
 ```  
   
 ## Parameters  
+
  `threadID`  
  [in] The operating system identifier of a thread in the target process.  
   
@@ -40,9 +43,11 @@ HRESULT GetTLSValue (
  [out] A pointer to a `CLRDATA_ADDRESS` value that specifies the value returned from the given TLS location.  
   
 ## Remarks  
+
  This method is implemented by the writer of the debugging application.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

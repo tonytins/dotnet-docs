@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security Considerations for Data"
 title: "Security Considerations for Data"
 ms.date: "03/30/2017"
 dev_langs:
@@ -9,16 +10,19 @@ ms.assetid: a7eb98da-4a93-4692-8b59-9d670c79ffb2
 
 # Security Considerations for Data
 
-When dealing with data in Windows Communication Foundation (WCF), you must consider a number of threat categories. The following table lists the most important threat classes that relate to data processing. WCF provides tools to mitigate these threats.
+When dealing with data in Windows Communication Foundation (WCF), you must consider a number of threat categories. The following list shows the most important threat classes that relate to data processing. WCF provides tools to mitigate these threats.
 
-Denial of service
-When receiving untrusted data, the data may cause the receiving side to access a disproportionate amount of various resources, such as memory, threads, available connections, or processor cycles by causing lengthy computations. A denial-of-service attack against a server may cause it to crash and be unable to process messages from other, legitimate clients.
+* Denial of service
 
-Malicious code execution
-Incoming untrusted data causes the receiving side to run code it did not intend to.
+  When receiving untrusted data, the data may cause the receiving side to access a disproportionate amount of various resources, such as memory, threads, available connections, or processor cycles by causing lengthy computations. A denial-of-service attack against a server may cause it to crash and be unable to process messages from other, legitimate clients.
 
-Information disclosure
-The remote attacker forces the receiving party to respond to its requests in such a way as to disclose more information than it intends to.
+* Malicious code execution
+
+  Incoming untrusted data causes the receiving side to run code it did not intend to.
+
+* Information disclosure
+
+  The remote attacker forces the receiving party to respond to its requests in such a way as to disclose more information than it intends to.
 
 ## User-Provided Code and Code Access Security
 
@@ -282,7 +286,7 @@ This situation can be avoided by being aware of the following points:
 
 The <xref:System.Runtime.Serialization.NetDataContractSerializer> is a serialization engine that uses tight coupling to types. This is similar to the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> and the <xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter>. That is, it determines which type to instantiate by reading the .NET Framework assembly and type name from the incoming data. Although it is a part of WCF, there is no supplied way of plugging in this serialization engine; custom code must be written. The `NetDataContractSerializer` is provided primarily to ease migration from .NET Framework remoting to WCF. For more information, see the relevant section in [Serialization and Deserialization](serialization-and-deserialization.md).
 
-Because the message itself may indicate any type can be loaded, the <xref:System.Runtime.Serialization.NetDataContractSerializer> mechanism is inherently insecure and should be used only with trusted data. For more information, see the [BinaryFormatter security guide](/dotnet/standard/serialization/binaryformatter-security-guide).
+Because the message itself may indicate any type can be loaded, the <xref:System.Runtime.Serialization.NetDataContractSerializer> mechanism is inherently insecure and should be used only with trusted data. For more information, see the [BinaryFormatter security guide](../../../standard/serialization/binaryformatter-security-guide.md).
 
 Even when used with trusted data, the incoming data may insufficiently specify the type to load, especially if the <xref:System.Runtime.Serialization.NetDataContractSerializer.AssemblyFormat%2A> property is set to <xref:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple>. Anyone with access to the application’s directory or to the global assembly cache can substitute a malicious type in place of the one that is supposed to load. Always ensure the security of your application’s directory and of the global assembly cache by correctly setting permissions.
 

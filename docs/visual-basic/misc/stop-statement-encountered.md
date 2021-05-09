@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Stop statement encountered"
 title: "Stop statement encountered"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 4ef7216c-761a-41dc-a20c-ba133f4f1d18
 ---
 # Stop statement encountered
+
 A `Stop` statement, which suspends execution, was encountered.  
   
 ## To correct this error  

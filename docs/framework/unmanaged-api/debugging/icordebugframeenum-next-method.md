@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFrameEnum::Next Method"
 title: "ICorDebugFrameEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFrameEnum::Next Method
+
 Gets the specified number of ICorDebugFrame instances, starting at the current position.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT Next (
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of `ICorDebugFrame` instances to be retrieved.  
   
@@ -41,6 +44,7 @@ HRESULT Next (
  [out] A pointer to the number of `ICorDebugFrame` instances actually returned. This value may be null if `celt` is one.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

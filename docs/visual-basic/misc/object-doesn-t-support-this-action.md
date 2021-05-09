@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Object doesn't support this action (Visual Basic)"
 title: "Object doesn't support this action"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 25eb4310-c3aa-4d8d-8989-304cb57e12c1
 ---
 # Object doesn't support this action (Visual Basic)
+
 You referenced a method or property that is not supported by this object.  
   
 ## To correct this error  

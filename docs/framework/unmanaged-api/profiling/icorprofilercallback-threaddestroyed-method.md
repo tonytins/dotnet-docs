@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::ThreadDestroyed Method"
 title: "ICorProfilerCallback::ThreadDestroyed Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::ThreadDestroyed Method
+
 Notifies the profiler that a thread has been destroyed.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT ThreadDestroyed(
 ```  
   
 ## Parameters  
+
  `threadId`  
  [in] The ID of the thread that has been destroyed.  
   
 ## Remarks  
+
  The `threadId` value is no longer valid at the time of this call.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

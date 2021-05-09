@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugValueBreakpoint::GetValue Method"
 title: "ICorDebugValueBreakpoint::GetValue Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugValueBreakpoint::GetValue Method
+
 Gets an interface pointer to an "ICorDebugValue" object that represents the value of the object on which the breakpoint is set.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetValue (
 ```  
   
 ## Parameters  
+
  `ppValue`  
  [out] A pointer to the address of an `ICorDebugValue` object.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

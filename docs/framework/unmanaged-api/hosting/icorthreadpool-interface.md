@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorThreadpool Interface"
 title: "ICorThreadpool Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorThreadpool Interface
+
 Provides methods for accessing the thread pool.  
   
 > [!NOTE]
@@ -38,6 +40,7 @@ Provides methods for accessing the thread pool.
 |[CorGetAvailableThreads Method](icorthreadpool-corgetavailablethreads-method.md)|Reserved for internal use only.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

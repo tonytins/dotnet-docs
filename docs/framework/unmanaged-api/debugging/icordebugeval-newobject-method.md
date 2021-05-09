@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEval::NewObject Method"
 title: "ICorDebugEval::NewObject Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEval::NewObject Method
+
 Allocates a new object instance and calls the specified constructor method.  
   
  This method is obsolete in the .NET Framework version 2.0. Use [ICorDebugEval2::NewParameterizedObject](icordebugeval2-newparameterizedobject-method.md) instead.  
@@ -32,6 +34,7 @@ HRESULT NewObject (
 ```  
   
 ## Parameters  
+
  `pConstructor`  
  [in] The constructor to be called.  
   
@@ -42,6 +45,7 @@ HRESULT NewObject (
  [in] An array of ICorDebugValue objects, each of which represents an argument to be passed to the constructor.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

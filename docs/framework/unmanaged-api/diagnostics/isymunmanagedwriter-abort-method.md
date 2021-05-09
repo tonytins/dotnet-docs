@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter::Abort Method"
 title: "ISymUnmanagedWriter::Abort Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter::Abort Method
+
 Closes the symbol writer without committing the symbols to the symbol store. After this call, the symbol writer becomes invalid for further updates. To commit the symbols and close the symbol writer, use the [ISymUnmanagedWriter::Close](isymunmanagedwriter-close-method.md) method instead.  
   
 ## Syntax  
@@ -26,9 +28,11 @@ HRESULT Abort();
 ```  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

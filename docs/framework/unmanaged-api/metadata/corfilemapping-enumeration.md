@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorFileMapping Enumeration"
 title: "CorFileMapping Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorFileMapping Enumeration
+
 Contains values that describe the type of file mapping that is returned from a call to the [IMetaDataInfo::GetFileMapping](imetadatainfo-getfilemapping-method.md) method.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ typedef enum CorFileMapping {
 |`fmExecutableImage`|The file is mapped for execution, by using either the `LoadLibrary` function or the `CreateFileMapping` function with the `SEC_IMAGE` flag.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

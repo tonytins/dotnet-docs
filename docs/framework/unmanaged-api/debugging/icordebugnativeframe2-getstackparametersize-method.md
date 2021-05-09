@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugNativeFrame2::GetStackParameterSize Method"
 title: "ICorDebugNativeFrame2::GetStackParameterSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugNativeFrame2::GetStackParameterSize Method
+
 Returns the cumulative size of the parameters on the stack on x86 operating systems.  
   
 ## Syntax  
@@ -26,10 +28,12 @@ HRESULT GetStackParameterSize([out] ULONG32 * pSize)
 ```  
   
 ## Parameters  
+
  `pSize`  
  [out] A pointer to the cumulative size of the parameters on the stack.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -42,9 +46,11 @@ HRESULT GetStackParameterSize([out] ULONG32 * pSize)
 ## Exceptions  
   
 ## Remarks  
+
  The [ICorDebugStackWalk](icordebugstackwalk-interface.md) methods do not adjust the stack pointer for parameters that are pushed on the stack. Instead, you can use the value returned by `GetStackParameterSize` to adjust the stack pointer to seed a native unwinder, which does adjust for the parameters.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

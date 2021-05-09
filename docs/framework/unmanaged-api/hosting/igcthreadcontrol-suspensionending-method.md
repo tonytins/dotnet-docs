@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCThreadControl::SuspensionEnding Method"
 title: "IGCThreadControl::SuspensionEnding Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IGCThreadControl::SuspensionEnding Method
+
 Notifies the host that the runtime is resuming threads after a garbage collection or other suspension.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT SuspensionEnding (
 ```  
   
 ## Parameters  
+
  `Generation`  
  [in] The generation on which a garbage collection has been performed.  
   
 ## Remarks  
+
  Do not reschedule any threads during the `SuspensionEnding` callback.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

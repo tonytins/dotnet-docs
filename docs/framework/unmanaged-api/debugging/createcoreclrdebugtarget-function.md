@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateCoreClrDebugTarget Function"
 title: "CreateCoreClrDebugTarget Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # CreateCoreClrDebugTarget Function
+
 Creates a connection to a debugger proxy that is running on a remote machine, and returns an [ICoreClrDebugTarget](icoreclrdebugtarget-interface.md) object that can be used to query running processes and loaded runtimes on the remote machine.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT CreateCoreClrDebugTarget (
 ```  
   
 ## Parameters  
+
  `dwAddress`  
  [in] IPv4 address of a remote target machine.  
   
@@ -37,6 +40,7 @@ HRESULT CreateCoreClrDebugTarget (
  [out] Pointer to a pointer to an [ICoreClrDebugTarget](icoreclrdebugtarget-interface.md) object that will be created.  
   
 ## Return Value  
+
  S_OK  
  The number of CLRs in the process was successfully determined, and the corresponding handle and path arrays were properly filled.  
   
@@ -47,6 +51,7 @@ HRESULT CreateCoreClrDebugTarget (
  Other failures.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CoreClrRemoteDebuggingInterfaces.h  

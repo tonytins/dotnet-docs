@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymENCUnmanagedMethod::GetDocumentsForMethod Method"
 title: "ISymENCUnmanagedMethod::GetDocumentsForMethod Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymENCUnmanagedMethod::GetDocumentsForMethod Method
+
 Gets the documents that this method has lines in.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetDocumentsForMethod(
 ```  
   
 ## Parameters  
+
  `cDocs`  
  [in] The length of the buffer pointed to by `pcDocs`.  
   
@@ -39,9 +42,11 @@ HRESULT GetDocumentsForMethod(
  [in] The buffer that contains the documents.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, an error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDebugManager::SetSymbolReadingPolicy Method"
 title: "ICLRDebugManager::SetSymbolReadingPolicy Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDebugManager::SetSymbolReadingPolicy Method
+
 Sets the policy for reading program database (PDB) files. The policy determines whether information about line numbers and files is included in call stacks.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SetSymbolReadingPolicy (
 ```  
   
 ## Parameters  
+
  `policy`  
  [in] A member of the [ESymbolReadingPolicy](esymbolreadingpolicy-enumeration.md) enumeration.  
   
@@ -41,6 +44,7 @@ HRESULT SetSymbolReadingPolicy (
 |E_FAIL|An unknown catastrophic failure occurred. After a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

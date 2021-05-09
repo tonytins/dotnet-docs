@@ -1,7 +1,7 @@
 ---
 title: Operator Overloading
 description: Learn how to overload arithmetic operators in a class or record type and at the global level in F#.
-ms.date: 05/16/2016
+ms.date: 08/15/2020
 ---
 # Operator Overloading
 
@@ -33,13 +33,15 @@ The following code illustrates a vector class that has just two operators, one f
 
 ## Creating New Operators
 
-You can overload all the standard operators, but you can also create new operators out of sequences of certain characters. Allowed operator characters are `!`, `%`, `&`, `*`, `+`, `-`, `.`, `/`, `<`, `=`, `>`, `?`, `@`, `^`, `|`, and `~`. The `~` character has the special meaning of making an operator unary, and is not part of the operator character sequence. Not all operators can be made unary.
+You can overload all the standard operators, but you can also create new operators out of sequences of certain characters. Allowed operator characters are `!`, `$`, `%`, `&`, `*`, `+`, `-`, `.`, `/`, `<`, `=`, `>`, `?`, `@`, `^`, `|`, and `~`. The `~` character has the special meaning of making an operator unary, and is not part of the operator character sequence. Not all operators can be made unary.
 
 Depending on the exact character sequence you use, your operator will have a certain precedence and associativity. Associativity can be either left to right or right to left and is used whenever operators of the same level of precedence appear in sequence without parentheses.
 
 The operator character `.` does not affect precedence, so that, for example, if you want to define your own version of multiplication that has the same precedence and associativity as ordinary multiplication, you could create operators such as `.*`.
 
 Only the operators `?` and `?<-` may start with `?`.
+
+The `$` operator must stand alone and without additional symbols.
 
 A table that shows the precedence of all operators in F# can be found in [Symbol and Operator Reference](./symbol-and-operator-reference/index.md).
 
@@ -89,6 +91,8 @@ The following table shows the standard operators and their corresponding generat
 |`..`|`op_Range`|
 |`.. ..`|`op_RangeStep`|
 
+Note that the `not` operator in F# does not emit `op_Inequality` because it is not a symbolic operator. It is a function that emits IL that negates a boolean expression.
+
 Other combinations of operator characters that are not listed here can be used as operators and have names that are made up by concatenating names for the individual characters from the following table. For example, +! becomes `op_PlusBang`.
 
 |Operator character|Name|
@@ -101,6 +105,7 @@ Other combinations of operator characters that are not listed here can be used a
 |`/`|`Divide`|
 |`=`|`Equals`|
 |`~`|`Twiddle`|
+|`$`|`Dollar`|
 |`%`|`Percent`|
 |`.`|`Dot`|
 |`&`|`Amp`|

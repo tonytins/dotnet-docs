@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Synchronizing a DataSet with an XmlDataDocument"
 title: "Synchronizing a DataSet with an XmlDataDocument"
 ms.date: "03/30/2017"
 dev_langs: 
@@ -7,6 +8,7 @@ dev_langs:
 ms.assetid: fbc96fa9-b5d1-4f97-b099-c89b0e14ce2c
 ---
 # Synchronizing a DataSet with an XmlDataDocument
+
 This section demonstrates one step in the processing of a purchase order, using a strongly typed <xref:System.Data.DataSet> synchronized with an <xref:System.Xml.XmlDataDocument>. The examples that follow create a **DataSet** with a minimized schema that matches only a portion of the source XML document. The examples use an **XmlDataDocument** to preserve the fidelity of the source XML document, enabling the **DataSet** to be used to expose a subset of the XML document.  
   
  The following XML document contains all the information pertaining to a purchase order: customer information, items ordered, shipping information, and so on.  

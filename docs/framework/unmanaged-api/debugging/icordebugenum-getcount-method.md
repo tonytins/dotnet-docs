@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEnum::GetCount Method"
 title: "ICorDebugEnum::GetCount Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEnum::GetCount Method
+
 Gets the number of items in the enumeration.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetCount (
 ```  
   
 ## Parameters  
+
  `pcelt`  
  [out] A pointer to the number of items in the enumeration.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

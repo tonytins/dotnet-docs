@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::RuntimeResumeStarted Method"
 title: "ICorProfilerCallback::RuntimeResumeStarted Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::RuntimeResumeStarted Method
+
 Notifies the profiler that the runtime is resuming all run-time threads.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT RuntimeResumeStarted();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

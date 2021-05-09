@@ -1,8 +1,7 @@
 ---
 title: "Install the .NET Framework developer pack or redistributable"
 description: "Developers can download and install the .NET Framework developer pack and targeting pack. You can include the .NET Framework redistributable with your apps."
-ms.custom: "updateeachrelease"
-ms.date: "01/17/2020"
+ms.date: "04/26/2021"
 helpviewer_keywords:
   - ".NET Framework redistributable package, downloading"
   - ".NET Framework, installing"
@@ -18,6 +17,8 @@ ms.assetid: daf9d9d5-84ac-4bd9-a864-27665ffd0f5c
 > This topic is intended for **developers** who either want to install the .NET Framework on their own system or who want to install it with their applications. For **users** interested in installing the .NET Framework, see the individual topics that discuss installing the .NET Framework on specific operating systems, such as [Install the .NET Framework on Windows 10 and Windows Server 2016](on-windows-10.md).
 
 This article provides links for installing all versions of the .NET Framework from .NET Framework 4.5 to .NET Framework 4.8 on your computer. If you're a developer, you can also use these links to download and redistribute the .NET Framework with your apps. For information on deploying a version of the .NET Framework with your app, see [.NET Framework deployment guide for developers](../deployment/deployment-guide-for-developers.md).
+
+[!INCLUDE[net_retirement](../../../includes/net-framework-retired-versions.md)]
 
 [!INCLUDE[net-framework-4-versions](../../../includes/net-framework-4x-versions.md)]
 
@@ -129,11 +130,11 @@ Both web and offline installers are designed for x86-based and x64-based compute
 
 - .NET Framework 4.5 and later versions replace .NET Framework 4.0. When you install these versions on a system that has .NET Framework 4 installed, the assemblies are replaced.
 
-- Uninstalling .NET Framework 4.5 or later versions also removes pre-existing .NET Framework 4 files. If you want to go back to .NET Framework 4, you must reinstall it and any updates to it. See [Installing the .NET Framework 4](https://go.microsoft.com/fwlink/p/?LinkId=230665).
+- Uninstalling .NET Framework 4.5 or later versions also removes pre-existing .NET Framework 4 files. If you want to go back to .NET Framework 4, you must reinstall it and any updates to it. See [Installing the .NET Framework 4](/previous-versions/dotnet/netframework-4.0/5a4x27ek(v=vs.100)).
 
 - You must have administrative credentials to install .NET Framework 4.5 or later versions.
 
-- The .NET Framework 4.5 redistributable was updated on October 9, 2012 to correct an issue related to an improper timestamp on a digital certificate, which caused the digital signature on files produced and signed by Microsoft to expire prematurely. If you previously installed the .NET Framework 4.5 redistributable package dated August 16, 2012, we recommend that you update your copy with the latest redistributable from the [.NET Framework download page](https://dotnet.microsoft.com/download/dotnet-framework/net45). For more information about this issue, see [Microsoft Security Advisory 2749655](https://docs.microsoft.com/security-updates/SecurityAdvisories/2012/2749655) and [Knowledge Base article 2770445](https://support.microsoft.com/kb/2770445).
+- The .NET Framework 4.5 redistributable was updated on October 9, 2012 to correct an issue related to an improper timestamp on a digital certificate, which caused the digital signature on files produced and signed by Microsoft to expire prematurely. If you previously installed the .NET Framework 4.5 redistributable package dated August 16, 2012, we recommend that you update your copy with the latest redistributable from the [.NET Framework download page](https://dotnet.microsoft.com/download/dotnet-framework/net45). For more information about this issue, see [Microsoft Security Advisory 2749655](/security-updates/SecurityAdvisories/2012/2749655).
 
 ## To install language packs
 

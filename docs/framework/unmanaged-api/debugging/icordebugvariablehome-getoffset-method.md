@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugVariableHome::GetOffset Method"
 title: "ICorDebugVariableHome::GetOffset Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugVariableHome::GetOffset Method
+
 Gets the offset from the base register for a variable.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetOffset(
 ```  
   
 ## Parameters  
+
  `pOffset`  
  [out] The offset from the base register.  
   
 ## Return Value  
+
  The method returns the following values:  
   
 |Value|Description|  
@@ -40,6 +44,7 @@ HRESULT GetOffset(
 |`E_FAIL`|The variable is not in a register-relative memory location.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

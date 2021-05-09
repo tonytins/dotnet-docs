@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublishProcess::IsManaged Method"
 title: "ICorPublishProcess::IsManaged Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublishProcess::IsManaged Method
+
 Gets a value that indicates whether the process referenced by this [ICorPublishProcess](icorpublishprocess-interface.md) is known to have managed code.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT IsManaged (
 ```  
   
 ## Parameters  
+
  `pbManaged`  
  [out] A pointer to a Boolean value that indicates whether the process has managed code. The value is `true` if the process has managed code; otherwise, `false`.  
   
 ## Remarks  
+
  Since the current version of `ICorPublishProcess` allows access only to processes that have managed code, `IsManaged` always returns `true`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

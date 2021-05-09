@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <assert> Element"
 title: "<assert> Element"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: ef4c3229-b151-4d85-8091-e6456af9b935
 ---
 # \<assert> Element
+
 Specifies whether to display a message box when you call the <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=nameWithType> method; also specifies the name of the file to write messages to.  
 
 [**\<configuration>**](../configuration-element.md)\
@@ -23,6 +25,7 @@ Specifies whether to display a message box when you call the <xref:System.Diagno
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -40,6 +43,7 @@ Specifies whether to display a message box when you call the <xref:System.Diagno
 |`false`|Does not display the message box.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -50,9 +54,11 @@ Specifies whether to display a message box when you call the <xref:System.Diagno
 |`system.diagnostics`|Specifies trace listeners that collect, store, and route messages and the level where a trace switch is set.|  
   
 ## Remarks  
+
  Both attributes in the **\<assert>** element are optional. You can disable message boxes without specifying a file to write the messages to, or you can specify a file to write messages to while leaving message boxes enabled.  
   
 ## Example  
+
  The following example shows how to disable displaying message boxes when you call **Debug.Assert** and write the messages to `c:\log.txt`.  
   
 ```xml  

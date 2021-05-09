@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugDataTarget::GetThreadContext Method"
 title: "ICorDebugDataTarget::GetThreadContext Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugDataTarget::GetThreadContext Method
+
 Returns the current thread context for the specified thread.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetThreadContext(
 ```  
   
 ## Parameters  
+
  `dwThreadID`  
  [in] The identifier of the thread whose context is to be retrieved. The identifier is defined by the operating system.  
   
@@ -43,9 +46,11 @@ HRESULT GetThreadContext(
  [out] The buffer where the thread context will be stored.  
   
 ## Remarks  
+
  On Windows platforms, `pContext` must be a `CONTEXT` structure (defined in WinNT.h) that is appropriate for the machine type specified by the [ICorDebugDataTarget::GetPlatform](icordebugdatatarget-getplatform-method.md) method. `contextFlags` must have the same values as the `ContextFlags` field of the `CONTEXT` structure. The `CONTEXT` structure is processor-specific; refer to the WinNT.h file for details.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

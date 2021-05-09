@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEval::IsActive Method"
 title: "ICorDebugEval::IsActive Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEval::IsActive Method
+
 Gets a value that indicates whether this ICorDebugEval object is currently executing.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT IsActive (
 ```  
   
 ## Parameters  
+
  `pbActive`  
  [out] Pointer to a value that indicates whether this evaluation is active.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

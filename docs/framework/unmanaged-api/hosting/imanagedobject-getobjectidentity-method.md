@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IManagedObject::GetObjectIdentity Method"
 title: "IManagedObject::GetObjectIdentity Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IManagedObject::GetObjectIdentity Method
+
 Gets the identity of this managed object.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetObjectIdentity (
 ```  
   
 ## Parameters  
+
  `pBSTRGUID`  
  [out] A pointer to the GUID of the process in which the object resides.  
   
@@ -40,9 +43,11 @@ HRESULT GetObjectIdentity (
  [out] A pointer to object's index in the COM classic v-table.  
   
 ## Remarks  
+
  The identity of a managed object includes process GUID, application domain ID, and the object's index in the COM classic v-table.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback4::ReJITCompilationFinished Method"
 title: "ICorProfilerCallback4::ReJITCompilationFinished Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback4::ReJITCompilationFinished Method
+
 Notifies the profiler that the just-in-time (JIT) compiler has finished recompiling a function.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT ReJITCompilationFinished(
 ```  
   
 ## Parameters  
+
  `functionId`  
  [in] The ID of the function that was recompiled.  
   
@@ -44,6 +47,7 @@ HRESULT ReJITCompilationFinished(
  A value of `true` does not harm the runtime, but can affect the profiling results.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

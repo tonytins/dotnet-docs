@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugArrayValue::GetDimensions Method"
 title: "ICorDebugArrayValue::GetDimensions Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugArrayValue::GetDimensions Method
+
 Gets the number of elements in each dimension of this array.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetDimensions (
 ```  
   
 ## Parameters  
+
  `cdim`  
  [in] The number of dimensions of this ICorDebugArrayValue object.  
   
@@ -39,6 +42,7 @@ HRESULT GetDimensions (
  [out] An array of integers, each of which specifies the number of elements in a dimension in this `ICorDebugArrayValue` object.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

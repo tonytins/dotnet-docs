@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CoInitializeCor Function"
 title: "CoInitializeCor Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # CoInitializeCor Function
+
 `CoInitializeCor` is obsolete.  
   
 ## Syntax  
@@ -28,9 +30,11 @@ STDAPI CoInitializeCor (
 ```  
   
 ## Remarks  
+
  To initialize the common language runtime, use either [CorBindToRuntimeEx](corbindtoruntimeex-function.md) or [CorBindToCurrentRuntime](corbindtocurrentruntime-function.md).  
   
 ## Requirements  
+
  **Header:** Cor.h  
   
 ## See also

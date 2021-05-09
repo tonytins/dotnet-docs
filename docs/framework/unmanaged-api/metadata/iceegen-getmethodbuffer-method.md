@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICeeGen::GetMethodBuffer Method"
 title: "ICeeGen::GetMethodBuffer Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICeeGen::GetMethodBuffer Method
+
 Gets a buffer of the appropriate size for the method at the specified relative virtual address.  
   
  This method is obsolete and should not be used.  
@@ -31,6 +33,7 @@ HRESULT GetMethodBuffer (
 ```  
   
 ## Parameters  
+
  `RVA`  
  [in] The relative virtual address of the method for which to return a buffer.  
   
@@ -38,6 +41,7 @@ HRESULT GetMethodBuffer (
  [out] A pointer to the returned buffer.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

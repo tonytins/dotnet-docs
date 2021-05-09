@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: -main"
 title: "-main"
 ms.date: 03/13/2018
 helpviewer_keywords: 
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 83fc339d-6652-415d-b205-b5133319b5b0
 ---
 # -main
+
 Specifies the class or module that contains the `Sub Main` procedure.  
   
 ## Syntax  
@@ -17,10 +19,12 @@ Specifies the class or module that contains the `Sub Main` procedure.
 ```  
   
 ## Arguments  
+
  `location`  
  Required. The name of the class or module that contains the `Sub Main` procedure to be called when the program starts. This may be in the form **-main:module** or **-main:namespace.module**.  
   
 ## Remarks  
+
  Use this option when you create an executable file or Windows executable program. If the **-main** option is omitted, the compiler searches for a valid shared `Sub Main` in all public classes and modules.  
   
  See [Main Procedure in Visual Basic](../../programming-guide/program-structure/main-procedure.md) for a discussion of the various forms of the `Main` procedure.  
@@ -40,6 +44,7 @@ Specifies the class or module that contains the `Sub Main` procedure.
 4. Modify the value in the **Startup object** box.  
   
 ## Example  
+
  The following code compiles `T2.vb` and `T3.vb`, specifying that the `Sub Main` procedure will be found in the `Test2` class.  
   
 ```console

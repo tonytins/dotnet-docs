@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess::ReadMemory Method"
 title: "ICorDebugProcess::ReadMemory Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess::ReadMemory Method
+
 Reads a specified area of memory for this process.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT ReadMemory(
 ```  
   
 ## Parameters  
+
  `address`  
  [in] A `CORDB_ADDRESS` value that specifies the base address of the memory to be read.  
   
@@ -43,6 +46,7 @@ HRESULT ReadMemory(
  [out] A pointer to the number of bytes transferred into the specified buffer.  
   
 ## Remarks  
+
  The `ReadMemory` method is primarily intended to be used by interop debugging to inspect memory regions that are being used by the unmanaged portion of the debuggee. This method can also be used to read Microsoft intermediate language (MSIL) code and native JIT-compiled code.  
   
  Any managed breakpoints will be removed from the data that is returned in the `buffer` parameter. No adjustments will be made for native breakpoints set by [ICorDebugProcess2::SetUnmanagedBreakpoint](icordebugprocess2-setunmanagedbreakpoint-method.md).  
@@ -50,6 +54,7 @@ HRESULT ReadMemory(
  No caching of process memory is performed.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

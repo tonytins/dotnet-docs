@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorRuntimeHost::Start Method"
 title: "ICorRuntimeHost::Start Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorRuntimeHost::Start Method
+
 Starts the common language runtime (CLR).  
   
 ## Syntax  
@@ -35,9 +37,11 @@ HRESULT Start ();
 |HOST_E_CLRNOTAVAILABLE|The CLR has not been loaded into a process, or the CLR is in a state in which it cannot run managed code or process the call successfully.|  
   
 ## Remarks  
+
  It is typically not necessary to call the `Start` method, because the CLR starts automatically upon the first request to run managed code.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

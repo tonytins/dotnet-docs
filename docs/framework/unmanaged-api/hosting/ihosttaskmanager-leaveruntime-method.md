@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostTaskManager::LeaveRuntime Method"
 title: "IHostTaskManager::LeaveRuntime Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostTaskManager::LeaveRuntime Method
+
 Notifies the host that the currently executing task is about to leave the common language runtime (CLR) and enter unmanaged code.  
   
 > [!IMPORTANT]
@@ -31,6 +33,7 @@ HRESULT LeaveRuntime (
 ```  
   
 ## Parameters  
+
  `target`  
  [in] The address within the mapped portable executable file of the unmanaged function to be called.  
   
@@ -47,6 +50,7 @@ HRESULT LeaveRuntime (
 |E_OUTOFMEMORY|Not enough memory is available to complete the requested allocation.|  
   
 ## Remarks  
+
  Call sequences to and from unmanaged code can be nested. For example, the list below describes a hypothetical situation in which the sequence of calls to `LeaveRuntime`, [IHostTaskManager::ReverseEnterRuntime](ihosttaskmanager-reverseenterruntime-method.md), [IHostTaskManager::ReverseLeaveRuntime](ihosttaskmanager-reverseleaveruntime-method.md), and `IHostTaskManager::EnterRuntime` allows the host to identify the nested layers.  
   
 |Action|Corresponding Method Call|  
@@ -59,6 +63,7 @@ HRESULT LeaveRuntime (
 |The first unmanaged function returns execution to the Visual Basic program.|`IHostTaskManager::EnterRuntime`|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

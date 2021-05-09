@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Debugging Enumerations"
 title: "Debugging Enumerations"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: 3af9f584-f1b4-4154-aeaa-8fce7c9f8b50
 ---
 # Debugging Enumerations
+
 This section describes the unmanaged enumerations that the debugging API uses.  
   
 ## In This Section  
+
  [CLR_DEBUGGING_PROCESS_FLAGS Enumeration](clr-debugging-process-flags-enumeration.md)  
  Provides values that are used by the [ICLRDebugging::OpenVirtualProcess](iclrdebugging-openvirtualprocess-method.md) method.  
   
@@ -135,6 +138,7 @@ This section describes the unmanaged enumerations that the debugging API uses.
  Provides values that are used by the CLRDATA_IL_ADDRESS_MAP structure.
 
 ## Related Sections  
+
  [Debugging Coclasses](debugging-coclasses.md)  
   
  [Debugging Interfaces](debugging-interfaces.md)  

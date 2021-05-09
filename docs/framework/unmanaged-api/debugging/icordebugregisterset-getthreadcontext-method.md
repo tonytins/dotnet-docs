@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugRegisterSet::GetThreadContext Method"
 title: "ICorDebugRegisterSet::GetThreadContext Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugRegisterSet::GetThreadContext Method
+
 Gets the context of the current thread.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetThreadContext(
 ```  
   
 ## Parameters  
+
  `contextSize`  
  [in] The size, in bytes, of the `context` array.  
   
@@ -37,11 +40,13 @@ HRESULT GetThreadContext(
  [in, out] An array of bytes that compose the Win32 `CONTEXT` structure for the current platform.  
   
 ## Remarks  
+
  The debugger should call this function instead of the Win32 `GetThreadContext` function, because the thread may be in a "hijacked" state where its context has been temporarily changed. The data returned is a Win32 `CONTEXT` structure for the current platform.  
   
  For non-leaf frames, clients should check which registers are valid by using [ICorDebugRegisterSet::GetRegistersAvailable](icordebugregisterset-getregistersavailable-method.md).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,14 +1,14 @@
 ---
+description: "Learn more about: How to: Instantiate a TimeZoneInfo object"
 title: "How to: Instantiate a TimeZoneInfo object"
 ms.date: "04/10/2017"
-ms.technology: dotnet-standard
 dev_langs: 
   - "csharp"
   - "vb"
 helpviewer_keywords: 
   - "instantiating time zone objects"
-  - "time zone objects [.NET Framework], instantiation"
-ms.assetid: 8cb620e5-c6a6-4267-a52e-beeb73cd1a34
+  - "time zone objects [.NET], instantiation"
+ms.topic: how-to
 ---
 # How to: Instantiate a TimeZoneInfo object
 

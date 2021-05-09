@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::RemotingServerInvocationStarted Method"
 title: "ICorProfilerCallback::RemotingServerInvocationStarted Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::RemotingServerInvocationStarted Method
+
 Notifies the profiler that the process is invoking a method in response to a remote method invocation request.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT RemotingServerInvocationStarted();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

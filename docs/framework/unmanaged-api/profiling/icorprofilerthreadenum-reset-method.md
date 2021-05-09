@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerThreadEnum::Reset Method"
 title: "ICorProfilerThreadEnum::Reset Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerThreadEnum::Reset Method
+
 Moves the enumerator's cursor to the starting position of the sequence.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT Reset();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

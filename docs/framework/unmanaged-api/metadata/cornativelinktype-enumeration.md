@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorNativeLinkType Enumeration"
 title: "CorNativeLinkType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorNativeLinkType Enumeration
+
 Provides values that indicate the type linked in native code.  
   
 ## Syntax  
@@ -44,6 +46,7 @@ typedef enum
 |`nltMaxValue`|Not used.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

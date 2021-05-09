@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugJITCompilerFlagsDeprecated Enumeration"
 title: "CorDebugJITCompilerFlagsDeprecated Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugJITCompilerFlagsDeprecated Enumeration
+
 This enumeration is obsolete. Use the `CORDEBUG_JIT_DEFAULT` member of the [CorDebugJITCompilerFlags](cordebugjitcompilerflags-enumeration.md) enumeration instead.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ typedef enum CorDebugJITCompilerFlagsDeprecated {
 |`CORDEBUG_JIT_TRACK_DEBUG_INFO`|Use `CORDEBUG_JIT_DEFAULT` instead.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

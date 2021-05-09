@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedDocument::GetSourceRange Method"
 title: "ISymUnmanagedDocument::GetSourceRange Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedDocument::GetSourceRange Method
+
 Returns the specified range of the embedded source into the given buffer. The buffer must be large enough to hold the source.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT GetSourceRange(
 ```  
   
 ## Parameters  
+
  `startLine`  
  [in] The starting line in the current document.  
   
@@ -56,6 +59,7 @@ HRESULT GetSourceRange(
  [out] The size and length of the specified range of the source document, in bytes.  
   
 ## Return Value  
+
  S_OK if the method succeeds.  
   
 ## See also

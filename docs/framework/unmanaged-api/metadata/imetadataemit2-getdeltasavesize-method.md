@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit2::GetDeltaSaveSize Method"
 title: "IMetaDataEmit2::GetDeltaSaveSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit2::GetDeltaSaveSize Method
+
 Gets a value indicating any change in metadata size that results from the current edit-and-continue session.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetDeltaSaveSize (
 ```  
   
 ## Parameters  
+
  `fSave`  
  [in] One of the [CorSaveSize](corsavesize-enumeration.md) values, indicating the level of precision desired. For the .NET Framework version 2.0, this parameter is ignored.  
   
@@ -36,6 +39,7 @@ HRESULT GetDeltaSaveSize (
  [out] The change in the size of the metadata.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

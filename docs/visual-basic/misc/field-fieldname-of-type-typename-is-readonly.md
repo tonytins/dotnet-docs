@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Field '<fieldname>' of type '<typename>' is 'ReadOnly'"
 title: "Field '<fieldname>' of type '<typename>' is 'ReadOnly'"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: fb51f54b-f12d-4aea-9a6e-6e070721c010
 ---
 # Field '\<fieldname>' of type '\<typename>' is 'ReadOnly'
+
 You attempted to write to a field that is declared `ReadOnly`.  
   
 ## To correct this error  

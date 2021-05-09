@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostSyncManager::CreateMonitorEvent Method"
 title: "IHostSyncManager::CreateMonitorEvent Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostSyncManager::CreateMonitorEvent Method
+
 Creates a monitored auto-reset event object.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CreateMonitorEvent (
 ```  
   
 ## Parameters  
+
  `cookie`  
  [in] A cookie to associate with the event object.  
   
@@ -48,11 +51,13 @@ HRESULT CreateMonitorEvent (
 |E_OUTOFMEMORY|Not enough memory was available to create the requested event object.|  
   
 ## Remarks  
+
  `CreateMonitorEvent` returns an `IHostAutoEvent` that the CLR uses in its implementation of the managed <xref:System.Threading.Monitor?displayProperty=nameWithType> type. This method mirrors the Win32 `CreateEvent` function, with a value of `false` specified for the `bManualReset` parameter.  
   
  The host can use the cookie to determine which task is waiting on the monitor by calling the [ICLRSyncManager::GetMonitorOwner](iclrsyncmanager-getmonitorowner-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

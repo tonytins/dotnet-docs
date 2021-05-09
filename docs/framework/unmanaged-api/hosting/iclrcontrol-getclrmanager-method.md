@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRControl::GetCLRManager Method"
 title: "ICLRControl::GetCLRManager Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRControl::GetCLRManager Method
+
 Gets an interface pointer to an instance of any of the manager types the host can use to configure the common language runtime (CLR).  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetCLRManager (
 ```  
   
 ## Parameters  
+
  `riid`  
  [in] The `IID` of the manager type to return. The following `IID` values are supported.  
   
@@ -62,6 +65,7 @@ HRESULT GetCLRManager (
 |E_NOINTERFACE|The interface type is not supported.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

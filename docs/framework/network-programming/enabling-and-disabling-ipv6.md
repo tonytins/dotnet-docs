@@ -2,12 +2,14 @@
 title: "Enabling and Disabling IPv6"
 description: Follow these configuration steps to enable the use the IPv6 protocol, including modifying the configuration file for the computer or for the application.
 ms.date: "03/30/2017"
-ms.assetid: 6408d3ef-c9ba-49d9-b15e-fe74bd3ef031
+ms.topic: how-to
 ---
 # Enabling and Disabling IPv6
+
 To use the IPv6 protocol, ensure that you are running a version of the operating system that supports IPv6 and ensure that the operating system and the networking classes are configured properly.  
   
 ## Configuration Steps  
+
  The following table lists various configurations  
   
 |Operating system IPv6-enabled?|Networking classes IPv6-enabled?|Description|  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedScope Interface"
 title: "ISymUnmanagedScope Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedScope Interface
+
 Represents a lexical scope within a method.  
   
 ## Methods  
@@ -32,6 +34,7 @@ Represents a lexical scope within a method.
 |[GetStartOffset Method](isymunmanagedscope-getstartoffset-method.md)|Gets the start offset for this scope.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

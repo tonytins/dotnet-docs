@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader::GetGlobalVariables Method"
 title: "ISymUnmanagedReader::GetGlobalVariables Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader::GetGlobalVariables Method
+
 Returns all global variables.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetGlobalVariables(
 ```  
   
 ## Parameters  
+
  `cVars`  
  [in] The length of the buffer pointed to by `pcVars`.  
   
@@ -40,9 +43,11 @@ HRESULT GetGlobalVariables(
  [out] A buffer that contains the variables.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugGuidToTypeEnum Interface"
 title: "ICorDebugGuidToTypeEnum Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugGuidToTypeEnum Interface
+
 Provides an enumerator that defines the mapping between a set of GUIDs and their corresponding types, which are represented by ICorDebugType instances. This interface inherits the methods from the ICorDebugEnum interface.  
   
 ## Methods  
@@ -25,9 +27,11 @@ Provides an enumerator that defines the mapping between a set of GUIDs and their
 |[ICorDebugGuidToTypeEnum::Next](icordebugguidtotypeenum-next-method.md)|Gets the specified number of [CorDebugGuidToTypeMapping](cordebugguidtotypemapping-structure.md) instances that map GUIDs to type information.|  
   
 ## Remarks  
+
  An `ICorDebugGuidToTypeEnum` interface object can be retrieved by calling the [ICorDebugAppDomain3::GetCachedWinRTTypes](icordebugappdomain3-getcachedwinrttypes-method.md) method. A debugger can call this interface's [Next](icordebugguidtotypeenum-next-method.md) method to retrieve [CorDebugGuidToTypeMapping](cordebugguidtotypemapping-structure.md) objects that represent mappings of managed representations of Windows Runtime types loaded in the application domain used for the call to the [ICorDebugAppDomain3::GetCachedWinRTTypes](icordebugappdomain3-getcachedwinrttypes-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** Windows Runtime  
   
  **Header:** CorDebug.idl, CorDebug.h  

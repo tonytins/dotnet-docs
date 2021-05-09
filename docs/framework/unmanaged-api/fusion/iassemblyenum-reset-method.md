@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyEnum::Reset Method"
 title: "IAssemblyEnum::Reset Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyEnum::Reset Method
+
 Resets this [IAssemblyEnum](iassemblyenum-interface.md) object to its starting position.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT Reset (
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

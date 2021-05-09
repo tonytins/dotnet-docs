@@ -1,10 +1,12 @@
 ---
+description: "Learn more about: <claimType>"
 title: "<claimType>"
 ms.date: "03/30/2017"
 ms.assetid: d17b5831-9a2c-45c4-b0d1-68f48e72e861
 author: "BrucePerlerMS"
 ---
 # \<claimType>
+
 Specifies a single optional or required claim for incoming security tokens.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -27,6 +29,7 @@ Specifies a single optional or required claim for incoming security tokens.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -37,6 +40,7 @@ Specifies a single optional or required claim for incoming security tokens.
 |optional|A boolean value that specifies whether the claim type is optional. Optional.|  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  

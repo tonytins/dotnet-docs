@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INotifySink2::OnSyncCallOut Method"
 title: "INotifySink2::OnSyncCallOut Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # INotifySink2::OnSyncCallOut Method
+
 Gets invoked when a call is out.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT OnSyncCallOut
 ```  
   
 ## Parameters  
+
  `in_CallID`  
  [in] ID of the call that is out. See [CALL_ID Structure](call-id-structure.md).  
   
@@ -41,9 +44,11 @@ HRESULT OnSyncCallOut
  [out] Size of the call buffer, in bytes.  
   
 ## Return Value  
+
  S_OK if the method succeeds.  
   
 ## Requirements  
+
  **Header:** ProtocolNotify2.idl  
   
 ## See also

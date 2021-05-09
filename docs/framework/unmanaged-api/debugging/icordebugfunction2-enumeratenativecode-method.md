@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFunction2::EnumerateNativeCode Method"
 title: "ICorDebugFunction2::EnumerateNativeCode Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFunction2::EnumerateNativeCode Method
+
 Gets an interface pointer to an ICorDebugCodeEnum object that contains the native code statements in the function referenced by this ICorDebugFunction2 object.  
   
 > [!NOTE]
@@ -31,4 +33,5 @@ HRESULT EnumerateNativeCode (
 ```  
   
 ## Requirements  
+
  **Header:** CorDebug.idl, CorDebug.h

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorBindToCurrentRuntime Function"
 title: "CorBindToCurrentRuntime Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,9 +18,10 @@ topic_type:
   - "apiref"
 ---
 # CorBindToCurrentRuntime Function
+
 Loads the common language runtime (CLR) into a process by using version information stored in an XML file. The format of the XML file is modeled after the standard application configuration file. For more information about configuration files, see [Configuration File Schema](../../configure-apps/file-schema/index.md).  
   
- This function has been deprecated in the .NET Framework 4. See [Loading the Common Language Runtime into a Process](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/01918c6x(v=vs.100)).  
+ This function has been deprecated in the .NET Framework 4. See [Loading the Common Language Runtime into a Process](/previous-versions/dotnet/netframework-4.0/01918c6x(v=vs.100)).  
   
 ## Syntax  
   
@@ -33,6 +35,7 @@ HRESULT CorBindToCurrentRuntime (
 ```  
   
 ## Parameters  
+
  `pwszFileName`  
  [in] The name of an application configuration file that specifies the version of the CLR to load. If the file name is not fully qualified, it is assumed to be in the same directory as the executable making the call.  
   
@@ -50,6 +53,7 @@ HRESULT CorBindToCurrentRuntime (
  [out] The returned interface pointer.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFunctionBreakpoint Interface"
 title: "ICorDebugFunctionBreakpoint Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -32,6 +33,7 @@ Extends the ICorDebugBreakpoint interface to support breakpoints within function
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

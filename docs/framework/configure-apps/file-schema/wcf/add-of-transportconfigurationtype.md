@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <add> of <transportConfigurationType>"
 title: "<add> of <transportConfigurationType>"
 ms.date: "03/30/2017"
 ms.assetid: 03d79db9-571d-4534-acef-d05e5467b257
 ---
 # \<add> of \<transportConfigurationType>
+
 This element is a key/value pair, which identifies the type of a particular transport.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -24,6 +26,7 @@ This element is a key/value pair, which identifies the type of a particular tran
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -34,6 +37,7 @@ This element is a key/value pair, which identifies the type of a particular tran
 |transportConfigurationType|A string that contains the type that implements the specific transport.|  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  

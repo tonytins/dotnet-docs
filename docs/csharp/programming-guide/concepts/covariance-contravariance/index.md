@@ -1,9 +1,11 @@
 ---
 title: "Covariance and Contravariance (C#)"
+description: Learn about covariance and contravariance and how they affect assignment compatibility. See a code example that demonstrates the differences between them.
 ms.date: 07/20/2015
 ms.assetid: 066d9a3c-aab7-4ea6-826d-0b1a85399c74
 ---
 # Covariance and Contravariance (C#)
+
 In C#, covariance and contravariance enable implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.  
   
  The following code demonstrates the difference between assignment compatibility, covariance, and contravariance.  
@@ -77,9 +79,9 @@ IEnumerable<Object> objects = strings;
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Variance in Generic Interfaces (C#)](./variance-in-generic-interfaces.md)|Discusses covariance and contravariance in generic interfaces and provides a list of variant generic interfaces in the .NET Framework.|  
+|[Variance in Generic Interfaces (C#)](./variance-in-generic-interfaces.md)|Discusses covariance and contravariance in generic interfaces and provides a list of variant generic interfaces in .NET.|  
 |[Creating Variant Generic Interfaces (C#)](./creating-variant-generic-interfaces.md)|Shows how to create custom variant interfaces.|  
 |[Using Variance in Interfaces for Generic Collections (C#)](./using-variance-in-interfaces-for-generic-collections.md)|Shows how covariance and contravariance support in the <xref:System.Collections.Generic.IEnumerable%601> and <xref:System.IComparable%601> interfaces can help you reuse code.|  
-|[Variance in Delegates (C#)](./variance-in-delegates.md)|Discusses covariance and contravariance in generic and non-generic delegates and provides a list of variant generic delegates in the .NET Framework.|  
+|[Variance in Delegates (C#)](./variance-in-delegates.md)|Discusses covariance and contravariance in generic and non-generic delegates and provides a list of variant generic delegates in .NET.|  
 |[Using Variance in Delegates (C#)](./using-variance-in-delegates.md)|Shows how to use covariance and contravariance support in non-generic delegates to match method signatures with delegate types.|  
 |[Using Variance for Func and Action Generic Delegates (C#)](./using-variance-for-func-and-action-generic-delegates.md)|Shows how covariance and contravariance support in the `Func` and `Action` delegates can help you reuse code.|

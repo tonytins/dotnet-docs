@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFunction::GetModule Method"
 title: "ICorDebugFunction::GetModule Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFunction::GetModule Method
+
 Gets the module in which this function is defined.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetModule (
 ```  
   
 ## Parameters  
+
  `ppModule`  
  [out] A pointer to the address of an ICorDebugModule object that represents the module in which this function is defined.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

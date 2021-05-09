@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Call an Extension Method (Visual Basic)"
 title: "How to: Call an Extension Method"
 ms.date: 07/20/2015
 helpviewer_keywords:
@@ -58,6 +59,7 @@ The method must be in scope when it is called.
      The result this time is: `or not!!!`.
 
 ## Example
+
  The following code is a complete example of the creation and use of a simple extension method.
 
 ```vb

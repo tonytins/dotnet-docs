@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HOST_TYPE Enumeration"
 title: "HOST_TYPE Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # HOST_TYPE Enumeration
+
 Contains values that specify the type of host that is launching an application.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ typedef enum {
 |`HOST_TYPE_DEFAULT`|Same as HOST_TYPE_APPLAUNCH.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Math Summary (Visual Basic)"
 title: "Math Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -9,6 +10,7 @@ helpviewer_keywords:
 ms.assetid: 6abf2dd7-92d2-488a-8e2b-819be9b30c3f
 ---
 # Math Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

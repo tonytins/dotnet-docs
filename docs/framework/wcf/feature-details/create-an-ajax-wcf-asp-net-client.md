@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Create an AJAX-Enabled WCF Service and an ASP.NET Client that Accesses the Service"
 title: Create an AJAX-Enabled WCF Service and an ASP.NET Client in Visual Studio
 ms.date: 08/17/2018
 ms.assetid: 95012df8-2a66-420d-944a-8afab261013e
@@ -77,7 +78,7 @@ This topic shows how to use Visual Studio to create an AJAX-enabled Windows Comm
     </Services>
     ```
 
-5. Add the code for the Javascript function `Calculate()`. Place the following code in the **head** section of the web form:
+5. Add the code for the JavaScript function `Calculate()`. Place the following code in the **head** section of the web form:
 
     ```html
     <script type="text/javascript">

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom Bindings"
 title: "Custom Bindings"
 ms.date: "03/30/2017"
 helpviewer_keywords:
@@ -8,7 +9,7 @@ ms.assetid: 58532b6d-4eea-4a4f-854f-a1c8c842564d
 ---
 # Custom Bindings
 
-You can use the <xref:System.ServiceModel.Channels.CustomBinding> class when one of the system-provided bindings does not meet the requirements of your service. All bindings are constructed from an ordered set of binding elements. Custom bindings can be built from a set of system-provided binding elements or can include user-defined custom binding elements. You can use custom binding elements, for example, to enable the use of new transports or encoders at a service endpoint. For working examples, see [Custom Binding Samples](https://docs.microsoft.com/previous-versions/dotnet/netframework-3.5/ms751479(v=vs.90)). For more information, see [\<customBinding>](../../configure-apps/file-schema/wcf/custombinding.md).
+You can use the <xref:System.ServiceModel.Channels.CustomBinding> class when one of the system-provided bindings does not meet the requirements of your service. All bindings are constructed from an ordered set of binding elements. Custom bindings can be built from a set of system-provided binding elements or can include user-defined custom binding elements. You can use custom binding elements, for example, to enable the use of new transports or encoders at a service endpoint. For working examples, see [Custom Binding Samples](/previous-versions/dotnet/netframework-3.5/ms751479(v=vs.90)). For more information, see [\<customBinding>](../../configure-apps/file-schema/wcf/custombinding.md).
 
 ## Construction of a Custom Binding
 

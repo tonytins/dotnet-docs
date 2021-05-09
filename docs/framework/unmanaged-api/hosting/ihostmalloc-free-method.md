@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostMAlloc::Free Method"
 title: "IHostMAlloc::Free Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostMAlloc::Free Method
+
 Frees memory that was allocated by using the [Alloc](ihostmalloc-alloc-method.md) function.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT Free (
 ```  
   
 ## Parameters  
+
  `pMem`  
  [in] A pointer to the memory to be freed.  
   
@@ -44,9 +47,11 @@ HRESULT Free (
 |HOST_E_INVALIDOPERATION|An attempt was made to free memory that was not allocated through the host.|  
   
 ## Remarks  
+
  If the `pMem` parameter refers to a region of memory that was not allocated by using a call to `Alloc`, the host should return HOST_E_INVALIDOPERATION.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

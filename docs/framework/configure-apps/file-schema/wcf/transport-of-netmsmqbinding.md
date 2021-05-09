@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <transport> of <netMsmqBinding>"
 title: "<transport> of <netMsmqBinding>"
 ms.date: "03/30/2017"
 ms.assetid: 72e1b338-39f0-4af1-a5d9-7a2fb79f6a0b
 ---
 # \<transport> of \<netMsmqBinding>
+
 Defines the transport security settings.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -30,6 +32,7 @@ Defines the transport security settings.
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -42,6 +45,7 @@ Defines the transport security settings.
 |msmqSecureHashAlgorithm|Specifies the hash algorithm to be used for computing the message digest. Valid values include the following:<br /><br /> -   MD5<br />-   SHA1<br />-   SHA256<br />-   SHA512<br /><br /> The default is `SHA1`. This attribute is of type <xref:System.ServiceModel.MsmqSecureHashAlgorithm>.<br>Due to collision problems with MD5 and SHA1, Microsoft recommends SHA256 or better.|  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  

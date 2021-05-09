@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName::GetHashFromAssemblyFileW Method"
 title: "ICLRStrongName::GetHashFromAssemblyFileW Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName::GetHashFromAssemblyFileW Method
+
 Generates a hash over the contents of the file specified by a Unicode string.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT GetHashFromAssemblyFileW (
 ```  
   
 ## Parameters  
+
  `wszFilePath`  
  [in] The path to the file to be hashed. This parameter must be a Unicode string.  
   
@@ -48,9 +51,11 @@ HRESULT GetHashFromAssemblyFileW (
  [out] The returned size, in bytes, of `pbHash`.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

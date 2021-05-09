@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ITypeNameBuilder::Clear Method"
 title: "ITypeNameBuilder::Clear Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ITypeNameBuilder::Clear Method
+
 This method supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT Clear ( );
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

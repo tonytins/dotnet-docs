@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedDocument::GetSourceLength Method"
 title: "ISymUnmanagedDocument::GetSourceLength Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedDocument::GetSourceLength Method
+
 Gets the length, in bytes, of the embedded source.  
   
 ## Syntax  
@@ -27,10 +29,12 @@ HRESULT GetSourceLength(
 ```  
   
 ## Parameters  
+
  `pRetVal`  
  [out] A pointer to a variable that indicates the length, in bytes, of the embedded source.  
   
 ## Return Value  
+
  S_OK if the method succeeds.  
   
 ## See also

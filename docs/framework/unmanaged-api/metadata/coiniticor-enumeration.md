@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COINITICOR Enumeration"
 title: "COINITICOR Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COINITICOR Enumeration
+
 Specifies constants used by [CoInitializeCor](../hosting/coinitializecor-function.md) when it initializes the common language runtime.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ typedef enum tagCOINITCOR
 |`COINITCOR`|Indicates the default initialization mode.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

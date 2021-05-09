@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyName::Finalize Method"
 title: "IAssemblyName::Finalize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyName::Finalize Method
+
 Allows this [IAssemblyName](iassemblyname-interface.md) object to release resources and perform other cleanup operations before its destructor is called.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT Finalize ();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

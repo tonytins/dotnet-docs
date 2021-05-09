@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <security> of <netPeerBinding>"
 title: "<security> of <netPeerBinding>"
 ms.date: "03/30/2017"
 ms.assetid: 1ef40d8c-f903-4426-9b08-da81462766d8
 ---
 # \<security> of \<netPeerBinding>
+
 Defines the security settings of the [\<netPeerTcpBinding>](netpeertcpbinding.md), including the type of authentication used and the security used for the message transport.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -26,6 +28,7 @@ Defines the security settings of the [\<netPeerTcpBinding>](netpeertcpbinding.md
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements  
   
 ### Attributes  
@@ -56,6 +59,7 @@ Defines the security settings of the [\<netPeerTcpBinding>](netpeertcpbinding.md
 |[\<binding>](bindings.md)|Defines all binding capabilities of the [\<netPeerTcpBinding>](netpeertcpbinding.md).|  
   
 ## Remarks  
+
  Security can be either message- or transport-specific.  
   
 ## See also

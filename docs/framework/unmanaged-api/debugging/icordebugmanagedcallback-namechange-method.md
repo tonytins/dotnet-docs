@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugManagedCallback::NameChange Method"
 title: "ICorDebugManagedCallback::NameChange Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugManagedCallback::NameChange Method
+
 Notifies the debugger that the name of either an application domain or a thread has changed.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT NameChange (
 ```  
   
 ## Parameters  
+
  `pAppDomain`  
  [in] A pointer to an ICorDebugAppDomain object that represents the application domain that either had a name change or that contains the thread that had a name change.  
   
@@ -36,6 +39,7 @@ HRESULT NameChange (
  [in] A pointer to an ICorDebugThread object that represents the thread that had a name change.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

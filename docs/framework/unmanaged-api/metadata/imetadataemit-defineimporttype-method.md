@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::DefineImportType Method"
 title: "IMetaDataEmit::DefineImportType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::DefineImportType Method
+
 Creates a reference to the specified type that is defined outside the current scope, and defines a token for that reference.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT DefineImportType (
 ```  
   
 ## Parameters  
+
  `pAssemImport`  
  [in] An [IMetaDataAssemblyImport](imetadataassemblyimport-interface.md) interface that represents the assembly from which the target type is imported.  
   
@@ -56,9 +59,11 @@ HRESULT DefineImportType (
  [out] The `mdTypeRef` token that is defined in the current scope for the type reference.  
   
 ## Remarks  
+
  Prior to calling the [IMetaDataEmit::DefineImportMember](imetadataemit-defineimportmember-method.md) method, you can use the `DefineImportType` method to create a type reference, in the current scope, for the member's parent class or parent interface.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

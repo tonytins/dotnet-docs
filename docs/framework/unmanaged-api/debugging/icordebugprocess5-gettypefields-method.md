@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess5::GetTypeFields Method"
 title: "ICorDebugProcess5::GetTypeFields Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess5::GetTypeFields Method
+
 Provides information about the fields that belong to a type.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetTypeFields(
 ```  
   
 ## Parameters  
+
  `id`  
  [in] The identifier of the type whose field information is retrieved.  
   
@@ -44,9 +47,11 @@ HRESULT GetTypeFields(
  [out] A pointer to the number of [COR_FIELD](cor-field-structure.md) objects included in `fields`.  
   
 ## Remarks  
+
  The `celt` parameter, which specifies the number of fields whose field information the method uses to populate `fields`, should correspond to the value of the `COR_TYPE_LAYOUT::numFields` field.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

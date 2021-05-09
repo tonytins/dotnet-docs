@@ -3,14 +3,12 @@ title: What is .NET for Apache Spark?
 description: Learn about .NET for Apache Spark, a free, open-source, and cross-platform big data analytics framework that takes Spark anywhere you write .NET code.
 author: mamccrea
 ms.topic: overview
-ms.date: 06/25/2020
+ms.date: 10/09/2020
 ---
 
 # What is .NET for Apache Spark?
 
-[Apache Spark](what-is-spark.md) is a general-purpose distributed processing engine for analytics over large data sets - typically terabytes or petabytes of data. With .NET for Apache Spark, the free, open-source, and cross-platform .NET Support for the popular open-source big data analytics framework, you can now add the power of Apache Spark to your big data applications using languages you already know.
-
-[!INCLUDE [spark-preview-note](../../includes/spark-preview-note.md)]
+[Apache Spark](what-is-spark.md) is a general-purpose distributed processing engine for analytics over large data sets - typically terabytes or petabytes of data. With .NET for Apache Spark, the free, [open-source](https://github.com/dotnet/spark), and cross-platform .NET Support for the popular open-source big data analytics framework, you can now add the power of Apache Spark to your big data applications using languages you already know.
 
 ## Why choose .NET for Apache Spark?
 
@@ -38,11 +36,11 @@ You can learn about interop support for Spark language extensions from [the prop
 
 When compared against Python and Scala using the [TPC-H benchmark](http://www.tpc.org/tpch/), .NET for Apache Spark performs well in most cases and is 2x faster than Python when user-defined function performance is critical. There is an ongoing effort to improve and benchmark performance.
 
-To do your own benchmarking, see the benchmarks available on the [.NET for Apache Spark GitHub](https://github.com/dotnet/spark/tree/master/benchmark).
+To do your own benchmarking, see the benchmarks available on the [.NET for Apache Spark GitHub](https://github.com/dotnet/spark/tree/main/benchmark).
 
 ## .NET for Apache Spark roadmap
 
-Learn about short term and long term plans from the official [.NET for Apache Spark roadmap](https://github.com/dotnet/spark/blob/master/ROADMAP.md).
+Learn about short term and long term plans from the official [.NET for Apache Spark roadmap](https://github.com/dotnet/spark/blob/main/ROADMAP.md).
 
 ## .NET Foundation
 

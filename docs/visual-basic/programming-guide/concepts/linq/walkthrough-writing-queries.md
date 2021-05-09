@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Writing Queries in Visual Basic"
 title: "Writing Queries"
 ms.date: 07/20/2015
 helpviewer_keywords:
@@ -139,7 +140,7 @@ After you are familiar with the basic concepts of working with queries, you are 
 
 - [LINQ to SQL](../../../../framework/data/adonet/sql/linq/index.md)
 
-- [LINQ to XML](linq-to-xml.md)
+- [LINQ to XML](../../../../standard/linq/linq-xml-overview.md)
 
 - [LINQ to DataSet](../../../../framework/data/adonet/linq-to-dataset.md)
 

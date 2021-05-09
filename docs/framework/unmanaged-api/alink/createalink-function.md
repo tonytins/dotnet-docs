@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateALink Function"
 title: "CreateALink Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # CreateALink Function
+
 Creates an instance of the Assembly Linker and sets a pointer to the specified interface.  
   
 ## Syntax  
@@ -36,6 +38,7 @@ HRESULT CreateALink (
 |`ppInterface`|The location that on successful completion contains a pointer to the `riid` interface.|  
   
 ## Requirements  
+
  **Library**: alink.dll  
   
 ## See also

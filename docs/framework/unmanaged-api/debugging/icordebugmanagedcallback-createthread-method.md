@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugManagedCallback::CreateThread Method"
 title: "ICorDebugManagedCallback::CreateThread Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugManagedCallback::CreateThread Method
+
 Notifies the debugger that a thread has started executing managed code.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CreateThread (
 ```  
   
 ## Parameters  
+
  `pAppDomain`  
  [in] A pointer to an ICorDebugAppDomain object that represents the application domain that contains the thread.  
   
@@ -36,9 +39,11 @@ HRESULT CreateThread (
  [in] A pointer to an ICorDebugThread object that represents the thread.  
   
 ## Remarks  
+
  The thread will be positioned at the first managed code instruction to be executed.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

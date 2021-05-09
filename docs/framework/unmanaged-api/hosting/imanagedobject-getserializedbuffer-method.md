@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IManagedObject::GetSerializedBuffer Method"
 title: "IManagedObject::GetSerializedBuffer Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IManagedObject::GetSerializedBuffer Method
+
 Gets the string representation of this managed object.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetSerializedBuffer (
 ```  
   
 ## Parameters  
+
  `pBSTR`  
  [out] A pointer to a string that is the serialized object.  
   
 ## Remarks  
+
  The `GetSerializedBuffer` method serializes the object so it can be marshaled to the client.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

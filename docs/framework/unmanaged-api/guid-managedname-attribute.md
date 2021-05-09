@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GUID_ManagedName Attribute"
 title: "GUID_ManagedName Attribute"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # GUID_ManagedName Attribute
+
 Defines a custom interface attribute that specifies the managed namespace name for a component object model (COM) library.  
   
 ## Syntax  
@@ -27,10 +29,12 @@ Defines a custom interface attribute that specifies the managed namespace name f
 ```  
   
 ## Parameters  
+
  `value`  
  The managed namespace name for the library.  
   
 ## Definition  
+
  `GUID_ManagedName` is defined in Cor.h as follows:  
   
 ```cpp
@@ -39,6 +43,7 @@ EXTERN_GUID(GUID_ManagedName, 0xf21f359, 0xab84, 0x41e8, 0x9a, 0x78, 0x36, 0xd1,
 ```  
   
 ## Remarks  
+
  A custom interface attribute defines metadata for an object in the type library.  
   
  Use <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2.GetCustData%2A?displayProperty=nameWithType> or <xref:System.Runtime.InteropServices.ComTypes.ITypeLib2.GetCustData%2A?displayProperty=nameWithType> to retrieve the managed name from the attribute.  
@@ -46,6 +51,7 @@ EXTERN_GUID(GUID_ManagedName, 0xf21f359, 0xab84, 0x41e8, 0x9a, 0x78, 0x36, 0xd1,
  For more information, see [Interface Attributes](/cpp/windows/attributes/interface-attributes) in the Visual C++ reference documentation.  
   
 ## Example  
+
  The following example shows a library definition using the `GUID_ManagedName` attribute.  
   
 ```idl
@@ -60,4 +66,5 @@ library Microsoft_VisualStudio_CommandBars
 ```  
   
 ## Requirements  
+
  **Header:** Cor.h

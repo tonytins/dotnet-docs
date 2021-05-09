@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_NATIVE_LINK Structure"
 title: "COR_NATIVE_LINK Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_NATIVE_LINK Structure
+
 Contains information that is used to link native code.  
   
 ## Syntax  
@@ -38,6 +40,7 @@ typedef struct
 |`m_entryPoint`|The MemberRef metadata token that represents the entry point. The format is `lib:entrypoint`.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

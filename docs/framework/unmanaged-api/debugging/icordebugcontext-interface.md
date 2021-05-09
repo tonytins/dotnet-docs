@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugContext Interface"
 title: "ICorDebugContext Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -25,6 +26,7 @@ Represents a context object. This interface has not been implemented yet.
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

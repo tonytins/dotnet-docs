@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorFieldAttr Enumeration"
 title: "CorFieldAttr Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorFieldAttr Enumeration
+
 Contains values that describe metadata about a field.  
   
 ## Syntax  
@@ -75,6 +77,7 @@ typedef enum CorFieldAttr {
 |`fdHasFieldRVA`|Specifies that the field has a relative virtual address.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

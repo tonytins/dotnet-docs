@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CustomDumpItem Structure"
 title: "CustomDumpItem Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CustomDumpItem Structure
+
 Describes an item to be added to a custom dump in error reporting.  
   
 ## Syntax  
@@ -37,9 +39,11 @@ struct {
 |`pReserved`|Not currently used. Any items added to the union must be no larger than pointer size. If a `struct` is required, you must allocate it separately and point to it.|  
   
 ## Remarks  
+
  [ICLRErrorReportingManager::BeginCustomDump](iclrerrorreportingmanager-begincustomdump-method.md) takes a parameter of type `CustomDumpItem`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.idl  

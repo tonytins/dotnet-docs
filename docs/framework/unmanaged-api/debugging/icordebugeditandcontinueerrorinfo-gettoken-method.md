@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEditAndContinueErrorInfo::GetToken Method"
 title: "ICorDebugEditAndContinueErrorInfo::GetToken Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEditAndContinueErrorInfo::GetToken Method
+
 `GetToken` is obsolete. Do not call this method.  
   
 ## See also

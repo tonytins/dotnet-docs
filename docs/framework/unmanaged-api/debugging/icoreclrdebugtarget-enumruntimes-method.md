@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICoreClrDebugTarget::EnumRuntimes Method"
 title: "ICoreClrDebugTarget::EnumRuntimes Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -19,6 +20,7 @@ topic_type:
   - "apiref"
 ---
 # ICoreClrDebugTarget::EnumRuntimes Method
+
 Enumerates the common language runtimes (CLRs) in the specified process that is running on a remote computer.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT EnumRuntimes (
 ```  
   
 ## Parameters  
+
  `dwInternalProcessID`  
  [in] The internal process ID of the process for which you want to enumerate runtimes. This will be `m_dwInternalID` from the corresponding [CoreClrDebugProcInfo](coreclrdebugprocinfo-structure.md).  
   
@@ -42,6 +45,7 @@ HRESULT EnumRuntimes (
  [out] An array of [CoreClrDebugRuntimeInfo](coreclrdebugruntimeinfo-structure.md) structures that represent the runtimes loaded in the remote target process.  
   
 ## Return Value  
+
  S_OK  
  Success.  
   
@@ -55,9 +59,11 @@ HRESULT EnumRuntimes (
  Other failures.  
   
 ## Remarks  
+
  To free the memory that was allocated by this method, call the [ICoreClrDebugTarget::FreeMemory](icoreclrdebugtarget-freememory-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CoreClrRemoteDebuggingInterfaces.h  

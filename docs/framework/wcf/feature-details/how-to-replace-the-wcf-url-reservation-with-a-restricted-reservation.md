@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Replace the WCF URL Reservation with a Restricted Reservation"
 title: "How to: Replace the WCF URL Reservation with a Restricted Reservation"
 ms.date: "03/30/2017"
 ms.assetid: 2754d223-79fc-4e2b-a6ce-989889f2abfa
@@ -11,7 +12,7 @@ A URL reservation allows you to restrict who can receive messages from a URL or 
   
 On Windows Vista or Windows Server 2008, you can view all of the HTTP URL reservations from an elevated command prompt by entering `netsh http show urlacl`. The following example shows what a WCF URL reservation should resemble:
 
-```
+```output
 Reserved URL : http://+:80/Temporary_Listen_Addresses/  
         User: \Everyone  
             Listen: Yes  
@@ -30,6 +31,7 @@ Reserved URL : http://+:80/Temporary_Listen_Addresses/
 3. If the reservation is deleted successfully, the following message is displayed. **URL reservation successfully deleted**  
   
 ## Creating a New Security Group and New Restricted URL Reservation  
+
  To replace the WCF URL reservation with a restricted reservation you must first create a new security group. You can do this in one of two ways: from a command prompt or from the computer management console. You only have to do one.  
   
 ### To create a new security group from a command prompt  

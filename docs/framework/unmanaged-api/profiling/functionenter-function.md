@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FunctionEnter Function"
 title: "FunctionEnter Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # FunctionEnter Function
+
 Notifies the profiler that control is being passed to a function.  
   
 > [!NOTE]
@@ -31,11 +33,11 @@ void __stdcall FunctionEnter (
   
 ## Parameters
 
-- `funcID`
-
-  \[in] The identifier of the function to which control is passed.
+`funcID`
+[in] The identifier of the function to which control is passed.
 
 ## Remarks  
+
  The `FunctionEnter` function is a callback; you must implement it. The implementation must use the `__declspec`(`naked`) storage-class attribute.  
   
  The execution engine does not save any registers before calling this function.  
@@ -49,6 +51,7 @@ void __stdcall FunctionEnter (
  Also, the `FunctionEnter` function must not call into managed code or in any way cause a managed memory allocation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl  

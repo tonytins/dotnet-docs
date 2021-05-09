@@ -10,12 +10,12 @@ class Program
         do
         {
             if (row == 0 || row >= 25)
-               ResetConsole();
+                ResetConsole();
 
             string input = Console.ReadLine();
-            if (String.IsNullOrEmpty(input)) break;
+            if (string.IsNullOrEmpty(input)) break;
             Console.WriteLine($"Input: {input} {"Begins with uppercase? ",30}: " +
-                              $"{(input.StartsWithUpper() ? "Yes" : "No")}\n");
+                              $"{(input.StartsWithUpper() ? "Yes" : "No")}{Environment.NewLine}");
             row += 3;
         } while (true);
         return;
@@ -23,12 +23,13 @@ class Program
         // Declare a ResetConsole local method
         void ResetConsole()
         {
-            if (row > 0) {
-               Console.WriteLine("Press any key to continue...");
-               Console.ReadKey();
+            if (row > 0)
+            {
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadKey();
             }
             Console.Clear();
-            Console.WriteLine("\nPress <Enter> only to exit; otherwise, enter a string and press <Enter>:\n");
+            Console.WriteLine($"{Environment.NewLine}Press <Enter> only to exit; otherwise, enter a string and press <Enter>:{Environment.NewLine}");
             row = 3;
         }
     }

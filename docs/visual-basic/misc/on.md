@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: On (Visual Basic)"
 title: "On"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -9,11 +10,13 @@ helpviewer_keywords:
 ms.assetid: 8619c328-1637-4f41-b466-cbe693f4fe73
 ---
 # On (Visual Basic)
+
 Introduces a response to a run-time error or turns a compiler option on.  
   
  In queries, identifies keys for the collections being joined.  
   
 ## Remarks  
+
  The `On` keyword is used in these contexts:  
   
  [Group Join Clause](../language-reference/queries/group-join-clause.md)  

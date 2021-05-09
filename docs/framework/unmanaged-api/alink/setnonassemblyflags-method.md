@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetNonAssemblyFlags Method"
 title: "SetNonAssemblyFlags Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # SetNonAssemblyFlags Method
+
 Sets flags that are not assembly-specific.  
   
 ## Syntax  
@@ -27,13 +29,16 @@ HRESULT SetNonAssemblyFlags(
 ```  
   
 ## Parameters  
+
  `afFlags`  
  ALink flags.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

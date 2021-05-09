@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugNativeFrame::GetRegisterSet Method"
 title: "ICorDebugNativeFrame::GetRegisterSet Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugNativeFrame::GetRegisterSet Method
+
 Gets the register set for this stack frame.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetRegisterSet (
 ```  
   
 ## Parameters  
+
  `ppRegisters`  
  [out] A pointer to the address of an [ICorDebugRegisterSet](icordebugregisterset-interface.md) object that represents the register set for this stack frame.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -5,9 +5,10 @@ ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "runtime information events [.NET Framework]"
   - "ETW, runtime information events"
-ms.assetid: 68b4edbc-7f3b-45f6-ab75-4fd066d6af9a
+ms.topic: reference
 ---
 # Runtime Information ETW Events
+
 These ETW events log information about the runtime, including the SKU, version number, the manner in which the runtime was activated, the command-line parameters it was started with, the GUID (if applicable), and other relevant information. If multiple runtimes are executing within a process, the information provided by these events (the ClrInstanceID) helps disambiguate the runtimes.  
   
  The following table shows the two runtime information events. The events can be raised under any keyword or mask. (For more information, see [CLR ETW Keywords and Levels](clr-etw-keywords-and-levels.md).)  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedMethod::GetRanges Method"
 title: "ISymUnmanagedMethod::GetRanges Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedMethod::GetRanges Method
+
 Given a position in a document, returns an array of start and end offset pairs that correspond to the ranges of Microsoft intermediate language (MSIL) that the position covers within this method. The array is an array of integers and has the format [start, end, start, end]. The number of range pairs is the length of the array divided by 2.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT GetRanges(
 ```  
   
 ## Parameters  
+
  `document`  
  [in] The document for which the offset is requested.  
   
@@ -52,9 +55,11 @@ HRESULT GetRanges(
  [out] A pointer to the buffer that receives the ranges.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

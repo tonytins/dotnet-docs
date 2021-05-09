@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Persisting an Object using C#"
+description: This example creates a basic Loan object in C# and persist its data to a file, then creates a new object with data from the file.
 ms.date: 04/26/2018
 ---
 # Walkthrough: persisting an object using C\#
@@ -25,7 +26,7 @@ In this walkthrough, you will create a basic `Loan` object and persist its data 
 
 - The example requires C# 7.3. See [Select the C# language version](../../../language-reference/configure-language-version.md)
 
-You can examine the sample code online [at the .NET samples GitHub repository](https://github.com/dotnet/samples/tree/master/csharp/serialization).
+You can examine the sample code online [at the .NET samples GitHub repository](https://github.com/dotnet/samples/tree/main/csharp/serialization).
 
 ## Creating the loan object
 

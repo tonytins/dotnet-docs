@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COUNINITIEE Enumeration"
 title: "COUNINITIEE Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COUNINITIEE Enumeration
+
 Specifies constants used by [CoUninitializeEE](../hosting/couninitializeee-function.md) when initializing the common language runtime.  
   
 ## Syntax  
@@ -36,6 +38,7 @@ typedef enum tagCOUNINITEE
 |`COUNINITEE_DLL`|Indicates uninitialization mode for unloading an assembly.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

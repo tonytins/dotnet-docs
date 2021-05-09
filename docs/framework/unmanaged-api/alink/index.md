@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ALink API (Unmanaged API Reference)"
 title: "ALink API (Unmanaged API Reference)"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: f4a84be2-309c-439c-b686-6facb85f4654
 ---
 # ALink API (Unmanaged API Reference)
+
 Supports creating .NET Framework assemblies and unbound modules.  
   
 ## In This Section  
+
  [AssemblyAttributesGoHere](assemblyattributesgohere.md)  
   
  [AssemblyAttributesGoHereM](assemblyattributesgoherem.md)  

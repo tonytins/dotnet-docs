@@ -4,11 +4,9 @@ description: Learn how the architectures of ASP.NET Web Forms and Blazor compare
 author: danroth27
 ms.author: daroth
 no-loc: [Blazor]
-ms.date: 09/11/2019
+ms.date: 11/20/2020
 ---
 # Architecture comparison of ASP.NET Web Forms and Blazor
-
-[!INCLUDE [book-preview](../../../includes/book-preview.md)]
 
 While ASP.NET Web Forms and Blazor have many similar concepts, there are differences in how they work. This chapter examines the inner workings and architectures of ASP.NET Web Forms and Blazor.
 

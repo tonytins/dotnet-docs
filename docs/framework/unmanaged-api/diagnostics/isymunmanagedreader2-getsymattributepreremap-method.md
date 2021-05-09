@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader2::GetSymAttributePreRemap Method"
 title: "ISymUnmanagedReader2::GetSymAttributePreRemap Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader2::GetSymAttributePreRemap Method
+
 Gets a custom attribute based upon its name. Unlike metadata custom attributes, these attributes are held in the symbol store.  
   
 ## Syntax  
@@ -32,6 +34,7 @@ HRESULT GetSymAttributePreRemap(
 ```  
   
 ## Parameters  
+
  `parent`  
  [in] The metadata token of the parent.  
   
@@ -48,9 +51,11 @@ HRESULT GetSymAttributePreRemap(
  [out] A pointer to the buffer that receives the attribute bytes.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

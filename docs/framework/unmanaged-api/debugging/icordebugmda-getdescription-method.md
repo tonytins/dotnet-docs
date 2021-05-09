@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugMDA::GetDescription Method"
 title: "ICorDebugMDA::GetDescription Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugMDA::GetDescription Method
+
 Gets a string containing the description of the managed debugging assistant (MDA) represented by [ICorDebugMDA](icordebugmda-interface.md).  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetDescription (
 ```  
   
 ## Parameters  
+
  `cchName`  
  [in] The size of the string buffer that will store the description.  
   
@@ -41,9 +44,11 @@ HRESULT GetDescription (
  [out] A string buffer containing the description of the MDA.  
   
 ## Remarks  
+
  The string can be zero in length.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

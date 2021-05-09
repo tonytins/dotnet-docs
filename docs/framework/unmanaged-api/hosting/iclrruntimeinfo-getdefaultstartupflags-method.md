@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRRuntimeInfo::GetDefaultStartupFlags Method"
 title: "ICLRRuntimeInfo::GetDefaultStartupFlags Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRRuntimeInfo::GetDefaultStartupFlags Method
+
 Gets the startup flags and host configuration file that will be used to start the runtime.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetDefaultStartupFlags(
 ```  
   
 ## Parameters  
+
  `pdwStartupFlags`  
  [out] A pointer to the host startup flags that are currently set.  
   
@@ -39,6 +42,7 @@ HRESULT GetDefaultStartupFlags(
  [in, out] On input, the size of `pwzHostConfigFile`, to avoid buffer overruns. If `pwzHostConfigFile` is null, the method returns the required size of `pwzHostConfigFile` for pre-allocation.  
   
 ## Return Value  
+
  This method returns the following specific HRESULT as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -46,9 +50,11 @@ HRESULT GetDefaultStartupFlags(
 |S_OK|The method completed successfully.|  
   
 ## Remarks  
+
  This method returns the default flag values (`STARTUP_CONCURRENT_GC` and `NULL`), or the values provided by a previous call to the [ICLRRuntimeInfo::SetDefaultStartupFlags method](iclrruntimeinfo-setdefaultstartupflags-method.md), or the values set by any of the `CorBind*` methods if they are bound to this runtime.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

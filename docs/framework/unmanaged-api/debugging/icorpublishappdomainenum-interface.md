@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublishAppDomainEnum Interface"
 title: "ICorPublishAppDomainEnum Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublishAppDomainEnum Interface
+
 A subclass of the [ICorPublishEnum](icorpublishenum-interface.md) interface that provides methods to traverse a collection of [ICorPublishAppDomain](icorpublishappdomain-interface.md) objects that currently exist within a process.  
   
 ## Methods  
@@ -25,9 +27,11 @@ A subclass of the [ICorPublishEnum](icorpublishenum-interface.md) interface that
 |[Next Method](icorpublishappdomainenum-next-method.md)|Gets the specified number of `ICorPublishAppDomain` instances from the collection, starting at the current position.|  
   
 ## Remarks  
+
  The `ICorPublishAppDomainEnum` interface implements the methods of the abstract interface, [ICorPublishEnum](icorpublishenum-interface.md).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

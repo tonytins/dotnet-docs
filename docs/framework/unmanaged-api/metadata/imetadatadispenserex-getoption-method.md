@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataDispenserEx::GetOption Method"
 title: "IMetaDataDispenserEx::GetOption Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataDispenserEx::GetOption Method
+
 Gets the value of the specified option for the current metadata scope. The option controls how calls to the current metadata scope are handled.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetOption (
 ```  
   
 ## Parameters  
+
  `optionId`  
  [in] A pointer to a GUID that specifies the option to be retrieved. See the Remarks section for a list of supported GUIDs.  
   
@@ -36,6 +39,7 @@ HRESULT GetOption (
  [out] The value of the returned option. The type of this value will be a variant of the specified option's type.  
   
 ## Remarks  
+
  The following list shows the GUIDs that are supported for this method. For descriptions, see the [IMetaDataDispenserEx::SetOption](imetadatadispenserex-setoption-method.md) method. If `optionId` is not in this list, this method returns HRESULT `E_INVALIDARG`, indicating an incorrect parameter.  
   
 - MetaDataCheckDuplicatesFor  
@@ -53,6 +57,7 @@ HRESULT GetOption (
 - MetaDataLinkerOptions  
   
 ## Requirements  
+
  **Platform:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

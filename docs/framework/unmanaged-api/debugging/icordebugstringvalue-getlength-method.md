@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugStringValue::GetLength Method"
 title: "ICorDebugStringValue::GetLength Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugStringValue::GetLength Method
+
 Gets the number of characters in the string referenced by this ICorDebugStringValue.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetLength (
 ```  
   
 ## Parameters  
+
  `pcchString`  
  [out] A pointer to a value that specifies the length of the string referenced by this `ICorDebugStringValue` object.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

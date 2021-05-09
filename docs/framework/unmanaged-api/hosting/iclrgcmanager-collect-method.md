@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRGCManager::Collect Method"
 title: "ICLRGCManager::Collect Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRGCManager::Collect Method
+
 Forces a garbage collection for the specified generation.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT Collect (
 ```  
   
 ## Parameters  
+
  `Generation`  
  [in] The generation to collect. A value of -1 forces a collection of all generations.  
   
@@ -43,9 +46,11 @@ HRESULT Collect (
 |E_FAIL|An unknown catastrophic failure occurred. After a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Remarks  
+
  The `Collect` method forces the CLR's garbage collector to perform a collection regardless of its current state.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

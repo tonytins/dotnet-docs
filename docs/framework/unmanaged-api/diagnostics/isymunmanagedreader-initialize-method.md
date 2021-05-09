@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader::Initialize Method"
 title: "ISymUnmanagedReader::Initialize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader::Initialize Method
+
 Initializes the symbol reader with the metadata importer interface that this reader will be associated with, along with the file name of the module.  
   
 > [!NOTE]
@@ -33,6 +35,7 @@ HRESULT Initialize (
 ```  
   
 ## Parameters  
+
  `importer`  
  [in] The metadata importer interface with which this reader will be associated.  
   
@@ -46,12 +49,15 @@ HRESULT Initialize (
  [in] The file stream, used as an alternative to the filename parameter.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Remarks  
+
  You need to specify only one of the `filename` or the `pIStream` parameters, not both. The `searchPath` parameter is optional.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

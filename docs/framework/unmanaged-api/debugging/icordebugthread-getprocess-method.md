@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugThread::GetProcess Method"
 title: "ICorDebugThread::GetProcess Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugThread::GetProcess Method
+
 Gets an interface pointer to the process of which this ICorDebugThread forms a part.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetProcess (
 ```  
   
 ## Parameters  
+
  `ppProcess`  
  [out] A pointer to the address of an ICorDebugProcess interface object that represents the process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

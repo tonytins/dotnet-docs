@@ -1,6 +1,5 @@
 ---
 title: Install the .NET Framework on Windows 7 SP1
-ms.custom: "updateeachrelease"
 description: Learn how to install the .NET Framework on Windows 7 SP1.
 ms.date: 04/18/2019
 ---
@@ -19,6 +18,16 @@ These instructions will help you install the .NET Framework versions you need. T
 > [Download .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
 
 The [.NET Framework 4.8](https://github.com/Microsoft/dotnet/tree/master/releases/net48) can be used to run applications built for .NET Framework 4.0 or later.
+
+### Offline installer
+
+When doing an offline install for .NET Framework on Windows 7, you'll first need to make sure that the latest [Microsoft Root Certificate Authority 2011](https://www.microsoft.com/pkiops/Docs/Repository.htm) has been installed on the target machine.
+
+The _certmgr.exe_ tool can automate installing a certificate and is obtained from Visual Studio or the Windows SDK. The following command is used to install the certificate before running the .NET Framework installer:
+
+```console
+certmgr.exe /add MicRooCerAut2011_2011_03_22.crt /s /r localMachine root
+```
 
 ## .NET Framework 3.5
 

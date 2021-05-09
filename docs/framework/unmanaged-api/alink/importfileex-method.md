@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ImportFileEx Method"
 title: "ImportFileEx Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ImportFileEx Method
+
 Imports indicated assembly or unbound module.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT ImportFileEx(
 ```  
   
 ## Parameters  
+
  `pszFilename`  
  Fully qualified name of file from which to import.  
   
@@ -55,9 +58,11 @@ HRESULT ImportFileEx(
  Receives count of imported files and/or scopes.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h.  
   
 ## See also

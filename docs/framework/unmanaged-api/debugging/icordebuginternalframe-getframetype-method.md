@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugInternalFrame::GetFrameType Method"
 title: "ICorDebugInternalFrame::GetFrameType Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugInternalFrame::GetFrameType Method
+
 Gets the type of this internal frame.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetFrameType (
 ```  
   
 ## Parameters  
+
  `pType`  
  [out] A pointer to a value of the CorDebugInternalFrameType enumeration that indicates the type of internal frame represented by this `ICorDebugInternalFrame` object.  
   
 ## Remarks  
+
  The internal frame type will never be STUBFRAME_NONE. Debuggers should gracefully ignore unrecognized internal frame types.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

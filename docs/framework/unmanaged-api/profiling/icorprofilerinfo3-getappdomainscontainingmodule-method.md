@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo3::GetAppDomainsContainingModule Method"
 title: "ICorProfilerInfo3::GetAppDomainsContainingModule Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo3::GetAppDomainsContainingModule Method
+
 Gets the identifiers of the application domains in which the given module has been loaded.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetAppDomainsContainingModule(
 ```  
   
 ## Parameters  
+
  `moduleId`  
  [in] The ID of the loaded module.  
   
@@ -44,9 +47,11 @@ HRESULT GetAppDomainsContainingModule(
  [out] An array of application domain ID values.  
   
 ## Remarks  
+
  The method uses caller allocated buffers.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

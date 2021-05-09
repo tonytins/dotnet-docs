@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetVersionFromProcess Function"
 title: "GetVersionFromProcess Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # GetVersionFromProcess Function
+
 Gets the version number of the common language runtime (CLR) that is associated with the specified process handle.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -33,6 +35,7 @@ HRESULT GetVersionFromProcess (
 ```  
   
 ## Parameters  
+
  `hProcess`  
  [in] A handle to a process.  
   
@@ -46,6 +49,7 @@ HRESULT GetVersionFromProcess (
  [out] A pointer to the length of the version number string.  
   
 ## Return Value  
+
  This method returns standard Component Object Model (COM) error codes, as defined in WinError.h, in addition to the following values.  
   
 |Return code|Description|  
@@ -56,6 +60,7 @@ HRESULT GetVersionFromProcess (
 |E_NOTIMPL|This method is not available on the Microsoft Windows 95, Microsoft Windows 98, or Microsoft Windows Millennium Edition operating system.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

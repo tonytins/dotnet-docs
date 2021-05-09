@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataTables::GetCodedTokenInfo Method"
 title: "IMetaDataTables::GetCodedTokenInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataTables::GetCodedTokenInfo Method
+
 Gets a pointer to an array of tokens associated with the specified row index.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetCodedTokenInfo (
 ```  
   
 ## Parameters  
+
  `ixCdTkn`  
  [in] The kind of coded token to return.  
   
@@ -44,6 +47,7 @@ HRESULT GetCodedTokenInfo (
  [out] A pointer to a pointer to the name of the token at `ixCdTkn`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

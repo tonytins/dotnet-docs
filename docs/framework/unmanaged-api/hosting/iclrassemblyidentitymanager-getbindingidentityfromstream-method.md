@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRAssemblyIdentityManager::GetBindingIdentityFromStream Method"
 title: "ICLRAssemblyIdentityManager::GetBindingIdentityFromStream Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRAssemblyIdentityManager::GetBindingIdentityFromStream Method
+
 Gets the canonical assembly identity data for the assembly in the specified stream.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT GetBindingIdentityFromStream (
 ```  
   
 ## Parameters  
+
  `pStream`  
  [in] The assembly stream to be evaluated.  
   
@@ -57,6 +60,7 @@ HRESULT GetBindingIdentityFromStream (
 |E_FAIL|An unknown catastrophic failure occurred. If a method returns E_FAIL, the CLR is no longer usable within the process. Subsequent calls to hosting methods return HOST_E_CLRNOTAVAILABLE.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

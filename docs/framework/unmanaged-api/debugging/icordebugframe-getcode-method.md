@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFrame::GetCode Method"
 title: "ICorDebugFrame::GetCode Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFrame::GetCode Method
+
 Gets a pointer to the code associated with this stack frame.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetCode (
 ```  
   
 ## Parameters  
+
  `ppCode`  
  [out] A pointer to the address of an ICorDebugCode object that represents the code associated with this frame.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

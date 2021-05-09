@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback3 Interface"
 title: "ICorProfilerCallback3 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback3 Interface
+
 Provides callback methods that the common language runtime (CLR) uses to communicate attach and detach state information to the profiler.  
   
 ## Methods  
@@ -29,6 +31,7 @@ Provides callback methods that the common language runtime (CLR) uses to communi
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

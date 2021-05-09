@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQL tracking"
 title: "SQL Tracking"
 ms.date: "03/30/2017"
 ms.assetid: bcaebeb1-b9e5-49e8-881b-e49af66fd341
@@ -58,4 +59,4 @@ This sample demonstrates how to write a custom SQL tracking participant that wri
 
 ## See also
 
-- [AppFabric Monitoring Samples](https://docs.microsoft.com/previous-versions/appfabric/ff383407(v=azure.10))
+- [AppFabric Monitoring Samples](/previous-versions/appfabric/ff383407(v=azure.10))

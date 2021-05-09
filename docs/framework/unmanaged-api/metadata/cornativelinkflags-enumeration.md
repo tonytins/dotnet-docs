@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorNativeLinkFlags Enumeration"
 title: "CorNativeLinkFlags Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorNativeLinkFlags Enumeration
+
 Provides flag values used by the linker when linking native code.  
   
 ## Syntax  
@@ -40,6 +42,7 @@ typedef enum
 |`nlfMaxValue`|Not used.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

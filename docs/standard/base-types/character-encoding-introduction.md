@@ -2,6 +2,7 @@
 title: Introduction to character encoding in .NET
 description: Learn about character encoding and decoding in .NET.
 ms.date: 03/09/2020
+ms.topic: conceptual
 no-loc: [Rune, char, string]
 dev_langs:
   - "csharp"
@@ -80,7 +81,7 @@ In the preceding example, each character except the space is represented by two 
 
 A single Unicode emoji is also represented by two `char`s, as seen in the following example showing an ox emoji:
 
-```
+```output
 "🐂".Length = 2
 s[0] = '�' ('\ud83d')
 s[1] = '�' ('\udc02')
@@ -101,7 +102,7 @@ Here are some examples of code point assignments, with links to Unicode charts i
 |Decimal|Hex       |Example|Description|
 |------:|----------|-------|-----------|
 |10     | `U+000A` |N/A| [LINE FEED](https://www.unicode.org/charts/PDF/U0000.pdf) |
-|65     | `U+0061` | a | [LATIN SMALL LETTER A](https://www.unicode.org/charts/PDF/U0000.pdf) |
+|97     | `U+0061` | a | [LATIN SMALL LETTER A](https://www.unicode.org/charts/PDF/U0000.pdf) |
 |562    | `U+0232` | Ȳ | [LATIN CAPITAL LETTER Y WITH MACRON](https://www.unicode.org/charts/PDF/U0180.pdf) |
 |68,675 | `U+10C43`| 𐱃 | [OLD TURKIC LETTER ORKHON AT](https://www.unicode.org/charts/PDF/U10C00.pdf) |
 |127,801| `U+1F339`| 🌹 | [ROSE emoji](https://www.unicode.org/charts/PDF/U1F300.pdf) |
@@ -229,7 +230,7 @@ For more information about the .NET `Rune` type, see the [`Rune` API reference](
 
 What looks like one character might result from a combination of multiple code points, so a more descriptive term that is often used in place of "character" is [grapheme cluster](https://www.unicode.org/glossary/#grapheme_cluster). The equivalent term in .NET is [text element](xref:System.Globalization.StringInfo.GetTextElementEnumerator%2A).
 
-Consider the `string` instances "a", "á". "á", and "`👩🏽‍🚒`". If your operating system handles them as specified by the Unicode standard, each of these `string` instances appears as a single text element or grapheme cluster. But the last two are represented by more than one scalar value code point.
+Consider the `string` instances "a", "á", "á", and "`👩🏽‍🚒`". If your operating system handles them as specified by the Unicode standard, each of these `string` instances appears as a single text element or grapheme cluster. But the last two are represented by more than one scalar value code point.
 
 * The string "a" is represented by one scalar value and contains one `char` instance.
 

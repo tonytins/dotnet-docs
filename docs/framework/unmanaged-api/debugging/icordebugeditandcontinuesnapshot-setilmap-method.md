@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEditAndContinueSnapshot::SetILMap Method"
 title: "ICorDebugEditAndContinueSnapshot::SetILMap Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEditAndContinueSnapshot::SetILMap Method
+
 `SetILMap` is obsolete. Do not call this method.  
   
 ## See also

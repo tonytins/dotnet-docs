@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugInternalFrame Interface"
 title: "ICorDebugInternalFrame Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -31,6 +32,7 @@ Represents a runtime-internal frame on the stack. This interface is a subclass o
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

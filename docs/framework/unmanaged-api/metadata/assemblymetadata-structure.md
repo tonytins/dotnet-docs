@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ASSEMBLYMETADATA Structure"
 title: "ASSEMBLYMETADATA Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ASSEMBLYMETADATA Structure
+
 Contains information about the referenced assembly, including its version and its level of support for locales, processors, and operating systems.  
   
 ## Syntax  
@@ -51,6 +53,7 @@ typedef struct {
 |`ulOS`|The length of the `rOS` array.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

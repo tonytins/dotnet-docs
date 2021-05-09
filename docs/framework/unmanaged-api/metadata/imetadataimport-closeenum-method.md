@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::CloseEnum Method"
 title: "IMetaDataImport::CloseEnum Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::CloseEnum Method
+
 Closes the enumerator that is identified by the specified handle.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ void CloseEnum (
 ```  
   
 ## Parameters  
+
  `hEnum`  
  [in] The handle for the enumerator to close.  
   
 ## Remarks  
+
  The handle specified by `hEnum` is obtained from a previous `Enum`*Name* call (for example, [IMetaDataImport::EnumTypeDefs](imetadataimport-enumtypedefs-method.md)).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

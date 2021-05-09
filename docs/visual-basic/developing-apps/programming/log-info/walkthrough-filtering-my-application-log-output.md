@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Filtering My.Application.Log Output (Visual Basic)"
 title: "Filtering My.Application.Log Output"
 ms.date: 07/20/2015
 helpviewer_keywords:
@@ -132,7 +133,7 @@ This table explains the log output shown in the previous example: with the defau
 9. Change the value of the `value` attribute back to "Information".
 
     > [!NOTE]
-    > The `DefaultSwitch` switch setting controls only `My.Application.Log`. It does not change how the .NET Framework <xref:System.Diagnostics.Trace?displayProperty=nameWithType> and <xref:System.Diagnostics.Debug?displayProperty=nameWithType> classes behave.
+    > The `DefaultSwitch` switch setting controls only `My.Application.Log`. It does not change how the .NET <xref:System.Diagnostics.Trace?displayProperty=nameWithType> and <xref:System.Diagnostics.Debug?displayProperty=nameWithType> classes behave.
 
 ## Individual Filtering For My.Application.Log Listeners
 

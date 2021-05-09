@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRMemoryNotificationCallback Interface"
 title: "ICLRMemoryNotificationCallback Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRMemoryNotificationCallback Interface
+
 Allows the host to report memory pressure conditions using an approach similar to that of the Win32 `CreateMemoryResourceNotification` function.  
   
 ## Methods  
@@ -25,9 +27,11 @@ Allows the host to report memory pressure conditions using an approach similar t
 |[OnMemoryNotification Method](iclrmemorynotificationcallback-onmemorynotification-method.md)|Notifies the common language runtime (CLR) of the memory load on the computer.|  
   
 ## Remarks  
+
  The host uses the `ICLRMemoryNotificationCallback` interface to request that the CLR free memory resources.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateAssemblyEnum Function"
 title: "CreateAssemblyEnum Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # CreateAssemblyEnum Function
+
 Gets a pointer to an [IAssemblyEnum](iassemblyenum-interface.md) instance that can enumerate the objects in the assembly with the specified [IAssemblyName](iassemblyname-interface.md).  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT CreateAssemblyEnum (
 ```  
   
 ## Parameters  
+
  `pEnum`  
  [out] Pointer to a memory location that contains the requested `IAssemblyEnum` pointer.  
   
@@ -49,9 +52,11 @@ HRESULT CreateAssemblyEnum (
  [in] Reserved for future extensibility. `pvReserved` must be a null reference.  
   
 ## Remarks  
+
  The `dwFlags` parameter contains exactly one bit from the `ASM_CACHE_FLAGS` enumeration.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

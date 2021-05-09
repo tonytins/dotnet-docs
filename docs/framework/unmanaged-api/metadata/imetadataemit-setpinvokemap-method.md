@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::SetPinvokeMap Method"
 title: "IMetaDataEmit::SetPinvokeMap Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::SetPinvokeMap Method
+
 Sets or changes features of a method's PInvoke signature, as defined by a prior call to [IMetaDataEmit::DefinePinvokeMap](imetadataemit-definepinvokemap-method.md).  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT SetPinvokeMap (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] The `mdToken` to which mapping information applies.  
   
@@ -44,6 +47,7 @@ HRESULT SetPinvokeMap (
  [in] The `mdModuleRef` token for the target unmanaged DLL.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

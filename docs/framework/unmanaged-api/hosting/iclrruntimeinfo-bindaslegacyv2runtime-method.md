@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRRuntimeInfo::BindAsLegacyV2Runtime Method"
 title: "ICLRRuntimeInfo::BindAsLegacyV2Runtime Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRRuntimeInfo::BindAsLegacyV2Runtime Method
+
 Binds the current runtime for all legacy common language runtime (CLR) version 2 activation policy decisions.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT BindAsLegacyV2Runtime ();
 ```  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs:  
   
 |HRESULT|Description|  
@@ -34,9 +37,11 @@ HRESULT BindAsLegacyV2Runtime ();
 |CLR_E_SHIM_LEGACYRUNTIMEALREADYBOUND|A different runtime was already bound to the legacy CLR version 2 activation policy.|  
   
 ## Remarks  
+
  If the current runtime is already bound for all legacy CLR version 2 activation policy decisions (for example, by using the `useLegacyV2RuntimeActivationPolicy` attribute on the [\<startup> element](../../configure-apps/file-schema/startup/startup-element.md) in the configuration file), this method does not return an error result; instead, the result is S_OK, just as it would be if the method had successfully bound legacy activation policy.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

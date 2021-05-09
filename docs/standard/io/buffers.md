@@ -1,7 +1,7 @@
 ---
+description: "Learn more about: Work with Buffers in .NET"
 title: "System.Buffers - .NET"
 ms.date: 12/05/2019
-ms.technology: dotnet-standard
 helpviewer_keywords: 
   - "buffers [.NET]"
   - "I/O [.NET], buffers"

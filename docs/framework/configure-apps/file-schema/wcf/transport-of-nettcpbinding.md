@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <transport> of <netTcpBinding>"
 title: "<transport> of <netTcpBinding>"
 ms.date: "03/30/2017"
 ms.assetid: 49462e0a-66e1-463f-b3e1-c83a441673c6
 ---
 # \<transport> of \<netTcpBinding>
+
 Defines the type of message-level security requirements for an endpoint configured with the [\<netTcpBinding>](nettcpbinding.md).  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -35,6 +37,7 @@ Defines the type of message-level security requirements for an endpoint configur
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements  
   
 ### Attributes  
@@ -63,6 +66,7 @@ Defines the type of message-level security requirements for an endpoint configur
 |EncryptAndSign|-   Messages are encrypted and signed.|  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  
@@ -72,6 +76,7 @@ Defines the type of message-level security requirements for an endpoint configur
 |[\<security>](security-of-nettcpbinding.md)|Specifies the security capabilities of the [\<netTcpBinding>](nettcpbinding.md).|  
   
 ## Remarks  
+
  Use Transport security for integrity and confidentiality of the SOAP message and for mutual authentication. If this security mode is selected on a binding, the channel stack is configured using a secure transport and the SOAP messages are secured using transport security such as Windows (Negotiate) or SSL over TCP.  
   
 ## See also

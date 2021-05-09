@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ASM_CMP_FLAGS Enumeration"
 title: "ASM_CMP_FLAGS Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ASM_CMP_FLAGS Enumeration
+
 Indicates the version, build, culture, signature, and so on, of two assemblies to be compared by the [IAssemblyName::IsEqual](iassemblyname-isequal-method.md) method.  
   
 ## Syntax  
@@ -60,6 +62,7 @@ typedef enum {
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

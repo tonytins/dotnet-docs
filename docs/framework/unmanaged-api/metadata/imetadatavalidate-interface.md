@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataValidate Interface"
 title: "IMetaDataValidate Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataValidate Interface
+
 Provides methods to validate metadata signatures.  
   
 ## Methods  
@@ -26,6 +28,7 @@ Provides methods to validate metadata signatures.
 |[ValidatorInit Method](imetadatavalidate-validatorinit-method.md)|Sets a flag that specifies the type of the module in the current metadata scope, and registers the specified callback method for validation errors.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

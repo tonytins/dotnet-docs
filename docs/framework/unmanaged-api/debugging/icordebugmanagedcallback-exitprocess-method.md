@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugManagedCallback::ExitProcess Method"
 title: "ICorDebugManagedCallback::ExitProcess Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugManagedCallback::ExitProcess Method
+
 Notifies the debugger that a process has exited.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT ExitProcess (
 ```  
   
 ## Parameters  
+
  `pProcess`  
  [in] A pointer to an ICorDebugProcess object that represents the process.  
   
 ## Remarks  
+
  You cannot continue from an `ExitProcess` event. This event may fire asynchronously to other events while the process appears to be stopped. This can occur if the process terminates while stopped, usually due to some external force.  
   
  If the common language runtime (CLR) is already dispatching a managed callback, this event will be delayed until after that callback has returned.  
@@ -39,6 +43,7 @@ HRESULT ExitProcess (
  The `ExitProcess` event is the only exit/unload event that is guaranteed to get called on shutdown.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

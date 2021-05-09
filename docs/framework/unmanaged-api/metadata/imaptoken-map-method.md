@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMapToken::Map Method"
 title: "IMapToken::Map Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMapToken::Map Method
+
 Maps a relationship between the assemblies using metadata signatures.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT Map (
 ```  
   
 ## Parameters  
+
  `tkImp`  
  [in] The metadata token that represents the imported code object.  
   
@@ -36,9 +39,11 @@ HRESULT Map (
  [in] The metadata token that represents the emitted code object.  
   
 ## Remarks  
+
  When the token re-map occurs during a merge, the original token is scoped in the imported (source) metadata scope and the new token is scoped in the emitted (target) metadata scope.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

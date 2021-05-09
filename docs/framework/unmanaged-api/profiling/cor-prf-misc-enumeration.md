@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_PRF_MISC Enumeration"
 title: "COR_PRF_MISC Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_PRF_MISC Enumeration
+
 Contains constant values that specify special identifiers.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ typedef enum {
 |`PROFILER_GLOBAL_MODULE`|The default module identifier for global objects that do not belong to a module.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

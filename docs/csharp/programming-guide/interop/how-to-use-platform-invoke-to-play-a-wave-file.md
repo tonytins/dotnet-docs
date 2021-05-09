@@ -1,5 +1,7 @@
 ---
 title: "How to use platform invoke to play a WAV file - C# Programming Guide"
+description: This C# code example illustrates how to use platform invoke services to play a WAV sound file on the Windows operating system.
+ms.topic: how-to
 ms.date: 07/20/2015
 helpviewer_keywords:
   - "platform invoke, sound files"
@@ -14,7 +16,7 @@ The following C# code example illustrates how to use platform invoke services to
 
 ## Example
 
-This example code uses <xref:System.Runtime.InteropServices.DllImportAttribute> to import `winmm.dll`'s `PlaySound` method entry point as `Form1 PlaySound()`. The example has a simple Windows Form with a button. Clicking the button opens a standard windows <xref:System.Windows.Forms.OpenFileDialog> dialog box so that you can open a file to play. When a wave file is selected, it is played by using the `PlaySound()` method of the *winmm.dll* library. For more information about this method, see [Using the PlaySound function with Waveform-Audio Files](https://docs.microsoft.com/windows/desktop/multimedia/using-playsound-to-play-waveform-audio-files). Browse and select a file that has a .wav extension, and then click **Open** to play the wave file by using platform invoke. A text box shows the full path of the file selected.
+This example code uses <xref:System.Runtime.InteropServices.DllImportAttribute> to import `winmm.dll`'s `PlaySound` method entry point as `Form1 PlaySound()`. The example has a simple Windows Form with a button. Clicking the button opens a standard windows <xref:System.Windows.Forms.OpenFileDialog> dialog box so that you can open a file to play. When a wave file is selected, it is played by using the `PlaySound()` method of the *winmm.dll* library. For more information about this method, see [Using the PlaySound function with Waveform-Audio Files](/windows/desktop/multimedia/using-playsound-to-play-waveform-audio-files). Browse and select a file that has a .wav extension, and then click **Open** to play the wave file by using platform invoke. A text box shows the full path of the file selected.
 
 The **Open Files** dialog box is filtered to show only files that have a .wav extension through the filter settings:
 

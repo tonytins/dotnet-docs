@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter::DefineConstant Method"
 title: "ISymUnmanagedWriter::DefineConstant Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter::DefineConstant Method
+
 Defines a name for a constant value.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT DefineConstant(
 ```  
   
 ## Parameters  
+
  `name`  
  [in] A pointer to a `WCHAR` that defines the constant name.  
   
@@ -43,9 +46,11 @@ HRESULT DefineConstant(
  [in] The type signature for the constant.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

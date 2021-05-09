@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataEmit::SaveToMemory Method"
 title: "IMetaDataEmit::SaveToMemory Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataEmit::SaveToMemory Method
+
 Saves all metadata in the current scope to the specified area of memory.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT SaveToMemory (
 ```  
   
 ## Parameters  
+
  `pbData`  
  [out] The address at which to begin writing metadata.  
   
@@ -36,6 +39,7 @@ HRESULT SaveToMemory (
  [in] The size, in bytes, of the allocated memory.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

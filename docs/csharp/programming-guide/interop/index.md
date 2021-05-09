@@ -1,5 +1,6 @@
 ---
 title: "Interoperability - C# Programming Guide"
+description: Interoperability supports unmanaged code beside the code that runs under the common language runtime. Use these resources to understand interop options.
 ms.date: 07/20/2015
 helpviewer_keywords: 
   - "COM interop"
@@ -15,6 +16,7 @@ Interoperability enables you to preserve and take advantage of existing investme
 .NET enables interoperability with unmanaged code through platform invoke services, the <xref:System.Runtime.InteropServices> namespace, C++ interoperability, and COM interoperability (COM interop).  
   
 ## In This Section  
+
  [Interoperability Overview](./interoperability-overview.md)  
  Describes methods to interoperate between C# managed code and unmanaged code.  
   

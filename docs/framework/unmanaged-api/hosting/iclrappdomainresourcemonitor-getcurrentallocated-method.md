@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRAppDomainResourceMonitor::GetCurrentAllocated Method"
 title: "ICLRAppDomainResourceMonitor::GetCurrentAllocated Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRAppDomainResourceMonitor::GetCurrentAllocated Method
+
 Gets the total size, in bytes, of all memory allocations that have been made by the application domain since it was created, without subtracting memory that has been garbage-collected.  
   
 ## Syntax  
@@ -27,6 +29,7 @@ HRESULT GetCurrentAllocated([in]  DWORD dwAppDomainId,
 ```  
   
 ## Parameters  
+
  `dwAppDomainId`  
  [in] The ID of the requested application domain.  
   
@@ -34,6 +37,7 @@ HRESULT GetCurrentAllocated([in]  DWORD dwAppDomainId,
  [out] A pointer to the total size of all memory allocations.  
   
 ## Return Value  
+
  This method returns the following specific HRESULTs as well as HRESULT errors that indicate method failure.  
   
 |HRESULT|Description|  
@@ -42,9 +46,11 @@ HRESULT GetCurrentAllocated([in]  DWORD dwAppDomainId,
 |COR_E_APPDOMAINUNLOADED|The application domain has been unloaded or does not exist.|  
   
 ## Remarks  
+
  This method is the unmanaged equivalent of the managed <xref:System.AppDomain.MonitoringTotalAllocatedMemorySize%2A?displayProperty=nameWithType> property.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

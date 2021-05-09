@@ -17,7 +17,7 @@ ms.date: 02/14/2020
 dotnet build [<PROJECT>|<SOLUTION>] [-c|--configuration <CONFIGURATION>]
     [-f|--framework <FRAMEWORK>] [--force] [--interactive] [--no-dependencies]
     [--no-incremental] [--no-restore] [--nologo] [-o|--output <OUTPUT_DIRECTORY>]
-    [-r|--runtime <RUNTIME_IDENTIFIER>] [-s|--source <SOURCE>]
+    [-r|--runtime <RUNTIME_IDENTIFIER>] [--source <SOURCE>]
     [-v|--verbosity <LEVEL>] [--version-suffix <VERSION_SUFFIX>]
 
 dotnet build -h|--help
@@ -33,7 +33,7 @@ The `dotnet build` command builds the project and its dependencies into a set of
 - A *.runtimeconfig.json* file, which specifies the shared runtime and its version for an application.
 - Other libraries that the project depends on (via project references or NuGet package references).
 
-For executable projects targeting versions earlier than .NET Core 3.0, library dependencies from NuGet are typically NOT copied to the output folder.  They're resolved from the NuGet global packages folder at run time. With that in mind, the product of `dotnet build` isn't ready to be transferred to another machine to run. To create a version of the application that can be deployed, you need to publish it (for example, with the [dotnet publish](dotnet-publish.md) command). For more information, see [.NET Core Application Deployment](../deploying/index.md).
+For executable projects targeting versions earlier than .NET Core 3.0, library dependencies from NuGet are typically NOT copied to the output folder.  They're resolved from the NuGet global packages folder at run time. With that in mind, the product of `dotnet build` isn't ready to be transferred to another machine to run. To create a version of the application that can be deployed, you need to publish it (for example, with the [dotnet publish](dotnet-publish.md) command). For more information, see [.NET Application Deployment](../deploying/index.md).
 
 For executable projects targeting .NET Core 3.0 and later, library dependencies are copied to the output folder. This means that if there isn't any other publish-specific logic (such as Web projects have), the build output should be deployable.
 
@@ -61,6 +61,9 @@ To produce a library, omit the `<OutputType>` property or change its value to `L
 
 In addition to its options, the `dotnet build` command accepts MSBuild options, such as `-p` for setting properties or `-l` to define a logger. For more information about these options, see the [MSBuild Command-Line Reference](/visualstudio/msbuild/msbuild-command-line-reference). Or you can also use the [dotnet msbuild](dotnet-msbuild.md) command.
 
+> [!NOTE]
+> When `dotnet build` is run automatically by `dotnet run`, arguments like `-property:property=value` aren't respected.
+
 Running `dotnet build` is equivalent to running `dotnet msbuild -restore`; however, the default verbosity of the output is different.
 
 ## Arguments
@@ -77,7 +80,7 @@ The project or solution file to build. If a project or solution file isn't speci
 
 - **`-f|--framework <FRAMEWORK>`**
 
-  Compiles for a specific [framework](../../standard/frameworks.md). The framework must be defined in the [project file](csproj.md).
+  Compiles for a specific [framework](../../standard/frameworks.md). The framework must be defined in the [project file](../project-sdk/overview.md).
 
 - **`--force`**
 
@@ -115,7 +118,7 @@ The project or solution file to build. If a project or solution file isn't speci
 
   Specifies the target runtime. For a list of Runtime Identifiers (RIDs), see the [RID catalog](../rid-catalog.md).
 
-- **`-s|--source <SOURCE>`**
+- **`--source <SOURCE>`**
 
   The URI of the NuGet package source to use during the restore operation.
 
@@ -147,7 +150,7 @@ The project or solution file to build. If a project or solution file isn't speci
   dotnet build --runtime ubuntu.18.04-x64
   ```
 
-- Build the project and use the specified NuGet package source during the restore operation (.NET Core 2.0 SDK and later versions):
+- Build the project and use the specified NuGet package source during the restore operation:
 
   ```dotnetcli
   dotnet build --source c:\packages\mypackages

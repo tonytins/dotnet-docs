@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugVariableHome::GetSlotIndex Method"
 title: "ICorDebugVariableHome::GetSlotIndex Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugVariableHome::GetSlotIndex Method
+
 Gets the managed slot-index of a local variable.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetSlotIndex(
 ```  
   
 ## Parameters  
+
  `pSlotIndex`  
  [out] A pointer to the slot-index of a local variable.  
   
 ## Return Value  
+
  The method returns the following values.  
   
 |Value|Description|  
@@ -40,9 +44,11 @@ HRESULT GetSlotIndex(
 |`E_FAIL`|The current [ICorDebugVariableHome](icordebugvariablehome-interface.md) instance represents a function argument.|  
   
 ## Remarks  
+
  The slot-index can be used to retrieve the metadata for this local variable.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

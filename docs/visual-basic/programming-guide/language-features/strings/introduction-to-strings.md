@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Introduction to Strings in Visual Basic"
 title: "Introduction to Strings"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -6,9 +7,11 @@ helpviewer_keywords:
 ms.assetid: c1b0f6b4-9717-426b-a3db-957e57a60764
 ---
 # Introduction to Strings in Visual Basic
+
 This section describes the basic concepts behind using strings in Visual Basic.  
   
 ## In This Section  
+
  [String Basics](string-basics.md)  
  Introduces the basic concepts behind using strings and string variables.  
   

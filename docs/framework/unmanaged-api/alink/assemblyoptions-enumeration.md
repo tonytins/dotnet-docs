@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AssemblyOptions Enumeration"
 title: "AssemblyOptions Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # AssemblyOptions Enumeration
+
 Enumerates the assembly options.  
   
 ## Syntax  
@@ -72,6 +74,7 @@ typedef enum _AssemblyOptions {
 |optLastAssemOption|A counter of the number of elements.|  
   
 ## Requirements  
+
  **Header:** alink.h  
   
  **Library**: alink.dll  

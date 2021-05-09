@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dates and Times Summary (Visual Basic)"
 title: "Dates and Times Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: 914d0563-b53c-492c-ac62-d833ce805f2f
 ---
 # Dates and Times Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

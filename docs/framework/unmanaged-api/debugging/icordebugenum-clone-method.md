@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEnum::Clone Method"
 title: "ICorDebugEnum::Clone Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEnum::Clone Method
+
 Creates a copy of this ICorDebugEnum object.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT Clone (
 ```  
   
 ## Parameters  
+
  `ppEnum`  
  [out] A pointer to the address of an `ICorDebugEnum` object that is a copy of this `ICorDebugEnum` object.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

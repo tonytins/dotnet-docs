@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: -moduleassemblyname"
 title: "-moduleassemblyname"
 ms.date: 03/13/2018
 helpviewer_keywords: 
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 013a57b6-f425-4dd3-b333-512d72c42f55
 ---
 # -moduleassemblyname
+
 Specifies the name of the assembly that this module will be a part of.  
   
 ## Syntax  
@@ -23,6 +25,7 @@ Specifies the name of the assembly that this module will be a part of.
 |`assembly_name`|The name of the assembly that this module will be a part of.|  
   
 ## Remarks  
+
  The compiler processes the `-moduleassemblyname` option only if the `-target:module` option has been specified. This causes the compiler to create a module. The module created by the compiler is valid only for the assembly specified with the `-moduleassemblyname` option. If you place the module in a different assembly, run-time errors will occur.  
   
  The `-moduleassemblyname` option is needed only when the following are true:  

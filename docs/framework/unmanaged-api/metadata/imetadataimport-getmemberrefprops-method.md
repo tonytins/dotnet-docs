@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetMemberRefProps Method"
 title: "IMetaDataImport::GetMemberRefProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetMemberRefProps Method
+
 Gets metadata associated with the member referenced by the specified token.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT GetMemberRefProps (
 ```  
   
 ## Parameters  
+
  `mr`  
  [in] The MemberRef token to return associated metadata for.  
   
@@ -56,6 +59,7 @@ HRESULT GetMemberRefProps (
  [out] The size in bytes of `ppvSigBlob`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

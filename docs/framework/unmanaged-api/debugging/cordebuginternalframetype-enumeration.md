@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorDebugInternalFrameType Enumeration"
 title: "CorDebugInternalFrameType Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorDebugInternalFrameType Enumeration
+
 Identifies the type of stack frame. This enumeration is used by the [ICorDebugInternalFrame::GetFrameType](icordebuginternalframe-getframetype-method.md) method.  
   
 ## Syntax  
@@ -54,6 +56,7 @@ typedef enum CorDebugInternalFrameType {
 |`STUBFRAME_JIT_COMPILATION`|The runtime is JIT-compiling a method.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

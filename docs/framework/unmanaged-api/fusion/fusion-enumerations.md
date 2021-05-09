@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fusion Enumerations"
 title: "Fusion Enumerations"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: 5817b4bc-b0ba-4b2f-a11c-a03dd8cb8f84
 ---
 # Fusion Enumerations
+
 This section describes the unmanaged enumerations that the fusion API uses.  
   
 ## In This Section  
+
  [ASM_CACHE_FLAGS Enumeration](asm-cache-flags-enumeration.md)  
  Indicates the source of an assembly represented by [IAssemblyCacheItem](iassemblycacheitem-interface.md) in the global assembly cache.  
   
@@ -30,6 +33,7 @@ This section describes the unmanaged enumerations that the fusion API uses.
  Specifies the attributes of an `IAssemblyName` object when it is constructed by the [CreateAssemblyNameObject](createassemblynameobject-function.md) function.  
   
 ## Related Sections  
+
  [Fusion Interfaces](fusion-interfaces.md)  
   
  [Fusion Global Static Functions](fusion-global-static-functions.md)  

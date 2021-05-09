@@ -65,7 +65,7 @@ Create experiment settings for the determined ML task type:
 
 ## Configure experiment settings
 
-Experiments are highly configurable. See the [AutoML API docs](https://docs.microsoft.com/dotnet/api/microsoft.ml.automl?view=ml-dotnet-preview) for a full list of configuration settings.
+Experiments are highly configurable. See the [AutoML API docs](/dotnet/api/microsoft.ml.automl?view=ml-dotnet-preview) for a full list of configuration settings.
 
 Some examples include:
 
@@ -226,4 +226,4 @@ The following are all the available metrics per ML task:
 
 ## See also
 
-For full code samples and more visit the [dotnet/machinelearning-samples](https://github.com/dotnet/machinelearning-samples/tree/master#automate-mlnet-models-generation-preview-state) GitHub repository.
+For full code samples and more visit the [dotnet/machinelearning-samples](https://github.com/dotnet/machinelearning-samples/tree/main#automate-mlnet-models-generation-preview-state) GitHub repository.

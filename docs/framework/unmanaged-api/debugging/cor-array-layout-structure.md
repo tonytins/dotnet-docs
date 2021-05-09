@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COR_ARRAY_LAYOUT Structure"
 title: "COR_ARRAY_LAYOUT Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # COR_ARRAY_LAYOUT Structure
+
 Provides information about the layout of an array object in memory.  
   
 ## Syntax  
@@ -47,11 +49,13 @@ typedef struct COR_ARRAY_LAYOUT {
 |`rankOffset`|The offset at which the ranks start.|  
   
 ## Remarks  
+
  The `rankSize` field specifies the size of a rank in a multi-dimensional array. It is accurate for single-dimensional arrays as well.  
   
  The value of `numRanks` is 1 for a single-dimensional array and `N` for a multi-dimensional array of `N` dimensions.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

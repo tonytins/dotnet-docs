@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedNamespace::GetName Method"
 title: "ISymUnmanagedNamespace::GetName Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedNamespace::GetName Method
+
 Gets the name of this namespace.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetName(
 ```  
   
 ## Parameters  
+
  `cchName`  
  [in] A `ULONG32` that indicates the size of the `szName` buffer.  
   
@@ -40,9 +43,11 @@ HRESULT GetName(
  [out] A pointer to a buffer that contains the namespace name.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

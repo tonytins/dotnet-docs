@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorLinkerOptions Enumeration"
 title: "CorLinkerOptions Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorLinkerOptions Enumeration
+
 Specifies flags to select options for the metadata linker.  
   
 ## Syntax  
@@ -35,6 +37,7 @@ typedef enum CorLinkerOptions {
 |`MDNetModule`|The private types and global functions are preserved.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

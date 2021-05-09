@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo2::EnumModuleFrozenObjects Method"
 title: "ICorProfilerInfo2::EnumModuleFrozenObjects Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo2::EnumModuleFrozenObjects Method
+
 Gets an enumerator that allows iteration over the frozen objects in the specified module.This method is obsolete.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT EnumModuleFrozenObjects(
 ```  
   
 ## Parameters  
+
  `moduleID`  
  [in] The ID of the module that contains the frozen objects to be enumerated.  
   
@@ -35,6 +38,7 @@ HRESULT EnumModuleFrozenObjects(
  [out] A pointer to the address of an [ICorProfilerObjectEnum](icorprofilerobjectenum-interface.md) interface, which enumerates the frozen objects.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

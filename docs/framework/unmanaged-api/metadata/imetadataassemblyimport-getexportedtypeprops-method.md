@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataAssemblyImport::GetExportedTypeProps Method"
 title: "IMetaDataAssemblyImport::GetExportedTypeProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataAssemblyImport::GetExportedTypeProps Method
+
 Gets the set of properties of the exported type with the specified metadata signature.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT GetExportedTypeProps (
 ```  
   
 ## Parameters  
+
  `mdct`  
  [in] An `mdExportedType` metadata token that represents the exported type.  
   
@@ -56,6 +59,7 @@ HRESULT GetExportedTypeProps (
  [out] A pointer to the flags that describe the metadata applied to the exported type. The flags value can be one or more [CorTypeAttr](cortypeattr-enumeration.md) values.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

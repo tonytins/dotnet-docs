@@ -1,6 +1,8 @@
 ---
 title: "How to create a file or folder - C# Programming Guide"
+description: Learn how to create a file or folder programmatically. You can create a folder, a subfolder, a file in the subfolder, and write data to that file.
 ms.date: 07/20/2015
+ms.topic: how-to
 helpviewer_keywords: 
   - "folders [C#]"
   - "creating files [C#]"
@@ -9,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: 4582ee2d-d72d-4687-bcb9-08d336c62c25
 ---
 # How to create a file or folder (C# Programming Guide)
+
 You can programmatically create a folder on your computer, create a subfolder, create a file in the subfolder, and write data to the file.  
   
 ## Example  
+
  [!code-csharp[csFilesandFolders#10](~/samples/snippets/csharp/VS_Snippets_VBCSharp/csFilesAndFolders/CS/FileIteration.cs#10)]  
   
  If the folder already exists, <xref:System.IO.Directory.CreateDirectory%2A> does nothing, and no exception is thrown. However, <xref:System.IO.File.Create%2A?displayProperty=nameWithType> replaces an existing file with a new file. The example uses an `if`-`else` statement to prevent an existing file from being replaced.  
@@ -57,6 +61,7 @@ You can programmatically create a folder on your computer, create a subfolder, c
 - The folder name is only a colon, ":" (<xref:System.IO.PathTooLongException> class).  
   
 ## .NET Security  
+
  An instance of the <xref:System.Security.SecurityException> class may be thrown in partial-trust situations.  
   
  If you don't have permission to create the folder, the example throws an instance of the <xref:System.UnauthorizedAccessException> class.  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IEnumDefinitionIdentity Interface"
 title: "IEnumDefinitionIdentity Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IEnumDefinitionIdentity Interface
+
 Serves as the enumerator for a collection of `IDefinitionIdentity` objects.  
   
 ## Syntax  
@@ -53,6 +55,7 @@ IEnumDefinitionIdentity : IUnknown {
 |`IEnumDefinitionIdentity::Skip`|Moves the instruction pointer forward by the specified number of elements, starting at the current position.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Isolation.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugManagedCallback3 Interface"
 title: "ICorDebugManagedCallback3 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugManagedCallback3 Interface
+
 Provides a callback method that indicates that an enabled custom debugger notification has been raised.  
   
 ## Methods  
@@ -25,12 +27,14 @@ Provides a callback method that indicates that an enabled custom debugger notifi
 |[CustomNotification Method](icordebugmanagedcallback3-customnotification-method.md)|Indicates that an enabled custom debugger notification has been raised.|  
   
 ## Remarks  
+
  This interface is a logical extension of the [ICorDebugManagedCallback](icordebugmanagedcallback-interface.md) and [ICorDebugManagedCallback2](icordebugmanagedcallback2-interface.md) interfaces.  
   
 > [!NOTE]
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

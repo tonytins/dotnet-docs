@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataDispenserEx::OpenScopeOnITypeInfo Method"
 title: "IMetaDataDispenserEx::OpenScopeOnITypeInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataDispenserEx::OpenScopeOnITypeInfo Method
+
 This method is not implemented. If called, it returns E_NOTIMPL.  
   
 ## Syntax  
@@ -31,8 +33,9 @@ HRESULT OpenScopeOnITypeInfo (
 ```  
   
 ## Parameters  
+
  `pITI`  
- [in] Pointer to an [ITypeInfo](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo) interface that provides the type information on which to open the scope.  
+ [in] Pointer to an [ITypeInfo](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo) interface that provides the type information on which to open the scope.  
   
  `dwOpenFlags`  
  [in] The open mode flags.  
@@ -44,6 +47,7 @@ HRESULT OpenScopeOnITypeInfo (
  [out] Pointer to a pointer to the returned interface.  
   
 ## Requirements  
+
  **Platform:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

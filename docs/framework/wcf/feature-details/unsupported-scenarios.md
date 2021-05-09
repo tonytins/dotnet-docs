@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unsupported scenarios"
 title: "Unsupported Scenarios"
 ms.date: "03/30/2017"
 ms.assetid: 72027d0f-146d-40c5-9d72-e94392c8bb40
@@ -10,6 +11,7 @@ For various reasons, Windows Communication Foundation (WCF) does not support som
 ## Impersonation scenarios
 
 ### Impersonated identity might not flow when clients make asynchronous calls
+
  When a WCF client makes asynchronous calls to a WCF service using Windows authentication under impersonation, authentication might occur with the identity of the client process instead of the impersonated identity.
 
 ### Windows XP and secure context token cookie enabled
@@ -74,7 +76,7 @@ FIPS-compliant AES encryption does not work in duplex callbacks under identifica
 
 - Do a `p/invoke` of `CertGetCertificateContextProperty`, and inspect `dwProvType` on the returned `CertGetCertificateContextProperty`.
 
-- Use the  `certutil` command from the command line for querying certificates. For more information, see [Certutil tasks for troubleshooting certificates](https://docs.microsoft.com/previous-versions/orphan-topics/ws.10/cc772619(v=ws.10)).
+- Use the  `certutil` command from the command line for querying certificates. For more information, see [Certutil tasks for troubleshooting certificates](/previous-versions/orphan-topics/ws.10/cc772619(v=ws.10)).
 
 ## Message security fails if using ASP.NET impersonation and ASP.NET compatibility is required
 

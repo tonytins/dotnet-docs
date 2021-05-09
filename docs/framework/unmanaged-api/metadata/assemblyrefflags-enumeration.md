@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AssemblyRefFlags Enumeration"
 title: "AssemblyRefFlags Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # AssemblyRefFlags Enumeration
+
 Contains values that describe features of an assembly reference.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ typedef enum {
 |`arfFullOriginator`|Specifies that the assembly reference contains full, unhashed information about the publisher of the assembly.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

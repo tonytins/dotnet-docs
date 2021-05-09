@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to read fixed width fields because FieldWidths is Nothing or empty"
 title: "Unable to read fixed width fields because FieldWidths is Nothing or empty"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 623e0825-5640-4e47-8341-7eeec80fc145
 ---
 # Unable to read fixed width fields because FieldWidths is Nothing or empty
+
 The `TextFieldParser` is unable to read fixed-width fields because the `FieldWidths` property is set to `Nothing` or is empty.  
   
 ## To correct this error  

@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <transport> of <webHttpBinding>"
 title: "<transport> of <webHttpBinding>"
 ms.date: "03/30/2017"
 ms.assetid: f150fb19-7de1-44af-81f4-86cad881cd05
 ---
 # \<transport> of \<webHttpBinding>
+
 Defines the transport-level security settings for a service endpoint configured to receive HTTP requests.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -35,9 +37,11 @@ Defines the transport-level security settings for a service endpoint configured 
 ```  
   
 ## Type  
+
  <xref:System.ServiceModel.HttpTransportSecurity>  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -71,6 +75,7 @@ Defines the transport-level security settings for a service endpoint configured 
 |`Windows`|Uses integrated Windows authentication.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  

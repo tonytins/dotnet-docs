@@ -2,11 +2,11 @@
 title: Securing .NET Microservices and Web Applications
 description: Security in .NET Microservices and Web Applications - Get to know the authentication options in ASP.NET Core web applications.
 author: mjrousos
-ms.date: 01/30/2020
+ms.date: 01/13/2021
 ---
 # Make secure .NET Microservices and Web Applications
 
-There are so many aspects about security in microservices and web applications that the topic could easy take several books like this one so, in this section, we'll focus on authentication, authorization, and application secrets.
+There are so many aspects about security in microservices and web applications that the topic could easily take several books like this one. So, in this section, we'll focus on authentication, authorization, and application secrets.
 
 ## Implement authentication in .NET microservices and web applications
 
@@ -71,7 +71,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 ```
 
 > [!IMPORTANT]
-> The lines in the preceeding code **MUST BE IN THE ORDER SHOWN** for Identity to work correctly.
+> The lines in the preceding code **MUST BE IN THE ORDER SHOWN** for Identity to work correctly.
 
 Using ASP.NET Core Identity enables several scenarios:
 
@@ -124,13 +124,13 @@ In all cases, you must complete an application registration procedure that is ve
 
 1. Getting a Client Application ID.
 2. Getting a Client Application Secret.
-3. Configuring an redirection URL, that's handled by the authorization middleware and the registered provider
+3. Configuring a redirection URL, that's handled by the authorization middleware and the registered provider
 4. Optionally, configuring a sign-out URL to properly handle sign out in a Single Sign On (SSO) scenario.
 
 For details on configuring your app for an external provider, see the [External provider authentication in the ASP.NET Core documentation](/aspnet/core/security/authentication/social/)).
 
->[!TIP]
->All details are handled by the authorization middleware and services previously mentioned. So, you just have to choose the **Individual User Account** authentication option when you create the ASP.NET Code web application project in Visual Studio, as shown in Figure 9-3, besides registering the authentication providers previously mentioned.
+> [!TIP]
+> All details are handled by the authorization middleware and services previously mentioned. So, you just have to choose the **Individual User Account** authentication option when you create the ASP.NET Core web application project in Visual Studio, as shown in Figure 9-3, besides registering the authentication providers previously mentioned.
 
 ![Screenshot of the New ASP.NET Core Web Application dialog.](./media/index/select-individual-user-account-authentication-option.png)
 
@@ -168,7 +168,7 @@ public void ConfigureServices(IServiceCollection services)
 {
     var identityUrl = Configuration.GetValue<string>("IdentityUrl");
     var callBackUrl = Configuration.GetValue<string>("CallBackUrl");
-    var sessionCookieLifetime = configuration.GetValue("SessionCookieLifetimeMinutes", 60);
+    var sessionCookieLifetime = Configuration.GetValue("SessionCookieLifetimeMinutes", 60);
 
     // Add Authentication services
 
@@ -201,7 +201,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-Note that when you use this workflow, the ASP.NET Core Identity middleware is not needed, because all user information storage and authentication is handled by the Identity service.
+When you use this workflow, the ASP.NET Core Identity middleware is not needed, because all user information storage and authentication is handled by the Identity service.
 
 ### Issue security tokens from an ASP.NET Core service
 

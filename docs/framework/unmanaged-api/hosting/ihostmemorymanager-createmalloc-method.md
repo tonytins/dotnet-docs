@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostMemoryManager::CreateMAlloc Method"
 title: "IHostMemoryManager::CreateMAlloc Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostMemoryManager::CreateMAlloc Method
+
 Gets an interface pointer to an [IHostMAlloc](ihostmalloc-interface.md) instance that is used to make allocation requests from a heap created by the host.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT CreateMalloc (
 ```  
   
 ## Parameters  
+
  `dwMallocType`  
  [in] A combination of [MALLOC_TYPE](malloc-type-enumeration.md) flags that specifies the characteristics of the memory that is being allocated.  
   
@@ -48,9 +51,11 @@ HRESULT CreateMalloc (
 |E_OUTOFMEMORY|Not enough physical memory was available to complete the allocation request.|  
   
 ## Remarks  
+
  `CreateMAlloc` returns an object that allows the CLR to make allocation requests through the host instead of using the standard Win32 functions.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INotifySink2 Interface"
 title: "INotifySink2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # INotifySink2 Interface
+
 Declares methods for sink notification.  
   
 ## Methods  
@@ -28,6 +30,7 @@ Declares methods for sink notification.
 |[OnSyncCallReturn Method](inotifysink2-onsynccallreturn-method.md)|Gets invoked when a call returns.|  
   
 ## Requirements  
+
  **Header:** ProtocolNotify2.idl  
   
 ## See also

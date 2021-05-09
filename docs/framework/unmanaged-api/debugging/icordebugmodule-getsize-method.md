@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugModule::GetSize Method"
 title: "ICorDebugModule::GetSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugModule::GetSize Method
+
 Gets the size, in bytes, of the module.  
   
 ## Syntax  
@@ -28,12 +30,14 @@ HRESULT GetSize(
 ```  
   
 ## Parameters  
+
  `pcBytes`  
  [out] The size of the module in bytes.  
   
  If the module was produced from the native image generator (NGen.exe), the size of the module will be zero.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

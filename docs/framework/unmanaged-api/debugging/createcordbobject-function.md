@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateCordbObject Function"
 title: "CreateCordbObject Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # CreateCordbObject Function
+
 Creates a debugger interface ([ICorDebug](icordebug-interface.md)) that provides functionality for instantiating a managed debugging session on a remote process.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT CordbCreateObject (
 ```  
   
 ## Parameters  
+
  `iDebuggerVersion`  
  [in] Debugger version of the target process. This parameter must be CorDebugVersion_2_0 for remote debugging.  
   
@@ -37,6 +40,7 @@ HRESULT CordbCreateObject (
  [out] Pointer to a pointer to an object that will be cast to an [ICorDebug](icordebug-interface.md) interface and returned.  
   
 ## Return Value  
+
  S_OK  
  The number of CLRs in the process was successfully determined, and the corresponding handle and path arrays were properly filled.  
   
@@ -50,9 +54,11 @@ HRESULT CordbCreateObject (
  Other failures.  
   
 ## Remarks  
+
  The [ICorDebug](icordebug-interface.md) interface that is returned in `ppCordb` is the top-level debugging interface for all managed debugging services.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CoreClrRemoteDebuggingInterfaces.h  

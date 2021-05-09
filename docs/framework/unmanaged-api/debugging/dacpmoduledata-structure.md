@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DacpModuleData Structure"
 title: "DacpModuleData Structure"
 ms.date: "02/01/2019"
 api.name:
@@ -48,6 +49,7 @@ struct DacpModuleData
 This structure lives inside the runtime and is not exposed through any headers or library files. To use it, define the structure as specified above.
 
 ## Requirements
+
 **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
 **Header:** None  
 **Library:** None  

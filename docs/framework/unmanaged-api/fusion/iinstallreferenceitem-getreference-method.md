@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IInstallReferenceItem::GetReference Method"
 title: "IInstallReferenceItem::GetReference Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IInstallReferenceItem::GetReference Method
+
 Gets a pointer to the [FUSION_INSTALL_REFERENCE](fusion-install-reference-structure.md) structure represented by this [IInstallReferenceItem](iinstallreferenceitem-interface.md) object.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetReference (
 ```  
   
 ## Parameters  
+
  `ppRefData`  
  [out] The returned `FUSION_INSTALL_REFERENCE` pointer.  
   
@@ -40,6 +43,7 @@ HRESULT GetReference (
  [in] Reserved for future extensibility. `pvReserved` must be a null reference.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

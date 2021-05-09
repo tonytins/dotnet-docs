@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback::RemotingServerInvocationReturned Method"
 title: "ICorProfilerCallback::RemotingServerInvocationReturned Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerCallback::RemotingServerInvocationReturned Method
+
 Notifies the profiler that the process has finished invoking a method in response to a remote method invocation request.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT RemotingServerInvocationReturned();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

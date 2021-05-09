@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MALLOC_TYPE Enumeration"
 title: "MALLOC_TYPE Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # MALLOC_TYPE Enumeration
+
 Contains values that specify the characteristics of the memory that is being allocated.  
   
 ## Syntax  
@@ -35,6 +37,7 @@ typedef enum {
 |`MALLOC_THREADSAFE`|The allocated memory is thread-safe. That is, the memory can be accessed by multiple threads without any synchronization.<br /><br /> If this flag is not set, calls on the object must be serialized.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

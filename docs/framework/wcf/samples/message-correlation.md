@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Correlation"
 title: "Message Correlation"
 ms.date: "03/30/2017"
 ms.assetid: 3f62babd-c991-421f-bcd8-391655c82a1f
@@ -310,4 +311,4 @@ static void DisplayOrderStatus()
 ## See also
 
 - [Queuing in WCF](../feature-details/queuing-in-wcf.md)
-- [Message Queuing](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85))
+- [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85))

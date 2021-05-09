@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugManagedCallback::BreakpointSetError Method"
 title: "ICorDebugManagedCallback::BreakpointSetError Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugManagedCallback::BreakpointSetError Method
+
 Notifies the debugger that the common language runtime was unable to accurately bind a breakpoint that was set before a function was just-in-time (JIT) compiled.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT BreakpointSetError (
 ```  
   
 ## Parameters  
+
  `pAppDomain`  
  [in] A pointer to an ICorDebugAppDomain object that represents the application domain that contains the unbound breakpoint.  
   
@@ -44,9 +47,11 @@ HRESULT BreakpointSetError (
  [in] An integer that indicates the error.  
   
 ## Remarks  
+
  The given breakpoint will never be hit. The debugger should deactivate and rebind it.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

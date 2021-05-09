@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataTables::GetStringHeapSize Method"
 title: "IMetaDataTables::GetStringHeapSize Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataTables::GetStringHeapSize Method
+
 Gets the size, in bytes, of the string heap.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetStringHeapSize (
 ```  
   
 ## Parameters  
+
  `pcbStrings`  
  [out] A pointer to the size, in bytes, of the string heap.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

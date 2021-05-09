@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugThread::ClearCurrentException Method"
 title: "ICorDebugThread::ClearCurrentException Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugThread::ClearCurrentException Method
+
 This method is not implemented. Do not use it.  
   
 ## Syntax  
@@ -26,6 +28,7 @@ HRESULT ClearCurrentException();
 ```  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

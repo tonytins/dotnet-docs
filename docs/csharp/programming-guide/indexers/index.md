@@ -1,5 +1,6 @@
 ---
 title: "Indexers - C# Programming Guide"
+description: Indexers in C# allow class or struct instances to be indexed like arrays. You can set or get the indexed value without specifying a type or instance member.
 ms.date: 03/10/2017
 f1_keywords: 
   - "cs.indexers"
@@ -39,7 +40,7 @@ Starting with C# 7.0, both the get and set accessor can be an implemented as exp
   
 - The [this](../../language-reference/keywords/this.md) keyword is used to define the indexer.  
   
-- The [value](../../language-reference/keywords/value.md) keyword is used to define the value being assigned by the `set` indexer.  
+- The [value](../../language-reference/keywords/value.md) keyword is used to define the value being assigned by the `set` accessor.  
   
 - Indexers do not have to be indexed by an integer value; it is up to you how to define the specific look-up mechanism.  
   

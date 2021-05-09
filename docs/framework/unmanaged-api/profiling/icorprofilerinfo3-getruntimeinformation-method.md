@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo3::GetRuntimeInformation Method"
 title: "ICorProfilerInfo3::GetRuntimeInformation Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo3::GetRuntimeInformation Method
+
 Provides version information about the common language runtime (CLR) that is being profiled.  
   
 ## Syntax  
@@ -36,6 +38,7 @@ HRESULT GetRuntimeInformation(
 ```  
   
 ## Parameters  
+
  `pClrInstanceId`  
  [out] The representative ID of a running CLR instance in a process. This is the same as the `ClrInstanceID` that the event tracing for Windows (ETW) startup event reports.  
   
@@ -64,9 +67,11 @@ HRESULT GetRuntimeInformation(
  [out] The CLR version string.  
   
 ## Remarks  
+
  You may pass null for any parameter. However, `pcchVersionString` cannot be null unless `szVersionString` is also null.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

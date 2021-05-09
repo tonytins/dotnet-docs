@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <defaultFtpCachePolicy> Element (Network Settings)"
 title: "<defaultFtpCachePolicy> Element (Network Settings)"
 ms.date: "03/30/2017"
 f1_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 0eb0c5cb-dd97-484d-8614-785e88877abb
 ---
 # \<defaultFtpCachePolicy> Element (Network Settings)
+
 Describes whether FTP caching is active and describes the default caching policy.  
 
 [**\<configuration>**](../configuration-element.md)\
@@ -26,6 +28,7 @@ Describes whether FTP caching is active and describes the default caching policy
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -48,6 +51,7 @@ Describes whether FTP caching is active and describes the default caching policy
 |`Revalidate`|Satisfies a request by using the cached copy of the resource if the timestamp is the same as the timestamp of the resource on the server; otherwise, the resource is downloaded from the server, presented to the caller, and stored in the cache.|  
   
 ### Child Elements  
+
  None.  
   
 ### Parent Elements  
@@ -59,6 +63,7 @@ Describes whether FTP caching is active and describes the default caching policy
 ## Remarks  
   
 ## Example  
+
  The following example shows how to specify an FTP caching policy of `NoCacheNoStore`.  
   
 ```xml  

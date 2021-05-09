@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRDataTarget2 Interface"
 title: "ICLRDataTarget2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRDataTarget2 Interface
+
 A subclass of [ICLRDataTarget](iclrdatatarget-interface.md) that is used by the data access services layer to manipulate virtual memory regions in the target process.  
   
 ## Methods  
@@ -26,9 +28,11 @@ A subclass of [ICLRDataTarget](iclrdatatarget-interface.md) that is used by the 
 |[FreeVirtual Method](iclrdatatarget2-freevirtual-method.md)|Frees memory that was previously allocated in the address space of the target process.|  
   
 ## Remarks  
+
  The API client (that is, the debugger) must implement this interface as appropriate for the particular target process. For example, a live process would have an implementation different from that of a memory dump. The target may not support modification of its memory regions.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** ClrData.idl, ClrData.h  

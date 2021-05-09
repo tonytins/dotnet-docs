@@ -1,14 +1,14 @@
 ---
+description: "Learn more about: How to: Enumerate time zones present on a computer"
 title: "How to: Enumerate time zones present on a computer"
 ms.date: "04/10/2017"
-ms.technology: dotnet-standard
 dev_langs: 
   - "csharp"
   - "vb"
 helpviewer_keywords: 
-  - "time zones [.NET Framework], enumerating"
-  - "enumerating time zones [.NET Framework]"
-ms.assetid: bb7a42ab-6bd9-4c5c-b734-5546d51f8669
+  - "time zones [.NET], enumerating"
+  - "enumerating time zones [.NET]"
+ms.topic: how-to
 ---
 # How to: Enumerate time zones present on a computer
 

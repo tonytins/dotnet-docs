@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEditAndContinueErrorInfo Interface"
 title: "ICorDebugEditAndContinueErrorInfo Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEditAndContinueErrorInfo Interface
+
 `ICorDebugEditAndContinueErrorInfo` is obsolete. Do not use this interface.  
   
 ## See also

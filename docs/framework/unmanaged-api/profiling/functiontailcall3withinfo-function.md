@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FunctionTailcall3WithInfo Function"
 title: "FunctionTailcall3WithInfo Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # FunctionTailcall3WithInfo Function
+
 Notifies the profiler that the currently executing function is about to perform a tail call to another function, and provides a handle that can be passed to the [ICorProfilerInfo3::GetFunctionTailcall3Info method](icorprofilerinfo3-getfunctiontailcall3info-method.md) to retrieve the stack frame.  
   
 ## Syntax  
@@ -28,15 +30,14 @@ void __stdcall FunctionTailcall3WithInfo(
   
 ## Parameters  
 
-- `functionIDOrClientID`
+`functionIDOrClientID`
+[in] The identifier of the currently executing function that is about to make a tail call.
 
-  \[in] The identifier of the currently executing function that is about to make a tail call.
-
-- `eltInfo`
-
-  \[in] An opaque handle that represents information about a given stack frame. This handle is valid only during the callback to which it is passed.
+`eltInfo`
+[in] An opaque handle that represents information about a given stack frame. This handle is valid only during the callback to which it is passed.
 
 ## Remarks  
+
  The `FunctionTailcall3WithInfo` callback method notifies the profiler as functions are called, and allows the profiler to use the [ICorProfilerInfo3::GetFunctionTailcall3Info method](icorprofilerinfo3-getfunctiontailcall3info-method.md) to inspect the stack frame. To access stack frame information, the `COR_PRF_ENABLE_FRAME_INFO` flag has to be set. The profiler can use the [ICorProfilerInfo::SetEventMask method](icorprofilerinfo-seteventmask-method.md) to set the event flags, and then use the [ICorProfilerInfo3::SetEnterLeaveFunctionHooks3WithInfo method](icorprofilerinfo3-setenterleavefunctionhooks3withinfo-method.md) to register your implementation of this function.  
   
  The `FunctionTailcall3WithInfo` function is a callback; you must implement it. The implementation must use the `__declspec(naked)` storage-class attribute.  
@@ -52,6 +53,7 @@ void __stdcall FunctionTailcall3WithInfo(
  Also, the FunctionTailcall3WithInfo function must not call into managed code or cause a managed memory allocation in any way.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl  

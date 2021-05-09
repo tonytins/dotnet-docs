@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostSyncManager Interface"
 title: "IHostSyncManager Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostSyncManager Interface
+
 Provides methods that allow the common language runtime (CLR) to create synchronization primitives by calling the host instead of using the Win32 synchronization functions.  
   
 ## Methods  
@@ -33,9 +35,11 @@ Provides methods that allow the common language runtime (CLR) to create synchron
 |[SetCLRSyncManager Method](ihostsyncmanager-setclrsyncmanager-method.md)|Sets the [ICLRSyncManager](iclrsyncmanager-interface.md) instance to associate with the current `IHostSyncManager` instance.|  
   
 ## Remarks  
+
  The CLR discovers the host's implementation of `IHostSyncManager` by calling the [IHostControl::GetHostManager](ihostcontrol-gethostmanager-method.md) method with an `IID` of IID_IHostSyncManager.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

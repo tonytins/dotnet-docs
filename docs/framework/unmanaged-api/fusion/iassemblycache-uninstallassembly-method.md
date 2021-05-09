@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyCache::UninstallAssembly Method"
 title: "IAssemblyCache::UninstallAssembly Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyCache::UninstallAssembly Method
+
 Uninstalls the specified assembly from the global assembly cache.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT UninstallAssembly (
 ```  
   
 ## Parameters  
+
  `dwFlags`  
  [in] Flags defined in Fusion.idl.  
   
@@ -56,6 +59,7 @@ HRESULT UninstallAssembly (
 - IASSEMBLYCACHE_UNINSTALL_DISPOSITION_REFERENCE_NOT_FOUND (6)  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

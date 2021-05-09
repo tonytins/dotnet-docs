@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugThread Interface"
 title: "ICorDebugThread Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugThread Interface
+
 Represents a thread in a process. The lifetime of an `ICorDebugThread` instance is the same as the lifetime of the thread it represents.  
   
 ## Methods  
@@ -45,6 +47,7 @@ Represents a thread in a process. The lifetime of an `ICorDebugThread` instance 
 > This interface does not support being called remotely, either cross-machine or cross-process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

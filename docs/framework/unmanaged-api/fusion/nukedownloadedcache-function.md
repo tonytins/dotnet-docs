@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: NukeDownloadedCache Function"
 title: "NukeDownloadedCache Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -18,6 +19,7 @@ topic_type:
   - "apiref"
 ---
 # NukeDownloadedCache Function
+
 Deletes the common language runtime (CLR) download cache.  
   
 ## Syntax  
@@ -27,12 +29,15 @@ HRESULT NukeDownloadedCache();
 ```  
   
 ## Return Value  
+
  This method returns standard COM error codes, as defined in WinError.h.  
   
 ## Remarks  
+
  The CLR download cache is the area where strong-named assemblies that are downloaded from a URL are stored for possible reuse.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

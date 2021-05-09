@@ -1,5 +1,6 @@
 ---
 title: "Sn.exe (Strong Name Tool)"
+description: Get started with Sn.exe, the Strong Name tool. Sign assemblies with strong names. Manage keys, and generate and verify signatures.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "public keys, signing files"
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: c1d2b532-1b8e-4c7a-8ac5-53b801135ec6
 ---
 # Sn.exe (Strong Name Tool)
+
 The Strong Name tool (Sn.exe) helps sign assemblies with [strong names](../../standard/assembly/strong-named.md). Sn.exe provides options for key management, signature generation, and signature verification.  
   
 > [!WARNING]
@@ -19,7 +21,7 @@ The Strong Name tool (Sn.exe) helps sign assemblies with [strong names](../../st
 
  For more information on strong naming and strong-named assemblies, see [Strong-Named Assemblies](../../standard/assembly/strong-named.md) and [How to: Sign an Assembly with a Strong Name](../../standard/assembly/sign-strong-name.md).  
   
- The Strong Name tool is automatically installed with Visual Studio. To start the tool, use the Developer Command Prompt (or the Visual Studio Command Prompt in Windows 7). For more information, see [Command Prompts](developer-command-prompt-for-vs.md).  
+ The Strong Name tool is automatically installed with Visual Studio. To start the tool, use [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell).  
 
 > [!NOTE]
 > On 64-bit computers, run the 32-bit version of Sn.exe by using the Developer Command Prompt for Visual Studio and the 64-bit version by using the Visual Studio x64 Win64 Command Prompt.
@@ -72,6 +74,7 @@ sn [-quiet][option [parameter(s)]]
 > All Sn.exe options are case-sensitive and must be typed exactly as shown to be recognized by the tool.  
   
 ## Remarks  
+
  The **-R** and **–Rc** options are useful with assemblies that have been delay-signed. In this scenario, only the public key has been set at compile time and signing is performed later, when the private key is known.  
   
 > [!NOTE]
@@ -80,6 +83,7 @@ sn [-quiet][option [parameter(s)]]
 The Strong Name tool assumes that public/private key pairs are generated with the `AT_SIGNATURE` algorithm identifier. Public/private key pairs generated with the `AT_KEYEXCHANGE` algorithm generate an error.
 
 ## Examples  
+
  The following command creates a new, random key pair and stores it in `keyPair.snk`.  
   
 ```console  
@@ -121,4 +125,4 @@ sn -d MyContainer
 - [Tools](index.md)
 - [Al.exe (Assembly Linker)](al-exe-assembly-linker.md)
 - [Strong-Named Assemblies](../../standard/assembly/strong-named.md)
-- [Command Prompts](developer-command-prompt-for-vs.md)
+- [Developer command-line shells](/visualstudio/ide/reference/command-prompt-powershell)

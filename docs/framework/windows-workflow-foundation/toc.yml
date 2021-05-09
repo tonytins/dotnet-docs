@@ -7,8 +7,11 @@
     href: whats-new.md
   - name: What's New in Windows Workflow Foundation in .NET 4.5
     href: whats-new-in-wf-in-dotnet.md
-  - name: Deprecated types in Windows Workflow Foundation
+  - name: Obsolete types and tools
     href: deprecated-types.md
+    items:
+    - name: "wfc.exe Workflow Compiler Tool"
+      href: "wfc-exe-workflow-compiler-tool.md" 
   - name: Windows Workflow Foundation Feature Specifics
     href: feature-specifics.md
   - name: Windows Workflow Conceptual Overview
@@ -238,9 +241,8 @@
       - name: Pausing and Resuming a Workflow
         href: pausing-and-resuming-a-workflow.md
     - name: Migration Guidance
-      href: wf-migration-guidance.md
       items:
-      - name: Migration Guidance
+      - name: Overview
         href: migration-guidance.md
       - name: Using .NET Framework 3.0 WF Activities in .NET Framework 4 with the Interop Activity
         href: net-framework-3-0-wf-in-net-framework-4-interop.md

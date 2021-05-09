@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorBindToRuntimeEx Function"
 title: "CorBindToRuntimeEx Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # CorBindToRuntimeEx Function
+
 Enables unmanaged hosts to load the common language runtime (CLR) into a process. The [CorBindToRuntime](corbindtoruntime-function.md) and `CorBindToRuntimeEx` functions perform the same operation, but the `CorBindToRuntimeEx` function allows you to set flags to specify the behavior of the CLR.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -50,6 +52,7 @@ HRESULT CorBindToRuntimeEx (
 ```  
   
 ## Parameters  
+
  `pwszVersion`  
  [in] A string describing the version of the CLR you want to load.  
   
@@ -105,9 +108,11 @@ HRESULT CorBindToRuntimeEx (
  [out] The returned interface pointer to `riid`.  
   
 ## Remarks  
+
  If `pwszVersion` specifies a runtime version that does not exist, `CorBindToRuntimeEx` returns an HRESULT value of CLR_E_SHIM_RUNTIMELOAD.  
   
 ## Execution Context and Flow of Windows Identity  
+
  In version 1 of the CLR, the <xref:System.Security.Principal.WindowsIdentity> object does not flow across asynchronous points such as new threads, thread pools, or timer callbacks. In version 2.0 of the CLR, an <xref:System.Threading.ExecutionContext> object wraps some information about the currently executing thread and flows it across any asynchronous point, but not across application domain boundaries. Similarly, the <xref:System.Security.Principal.WindowsIdentity> object also flows across any asynchronous point. Therefore, the current impersonation on the thread, if any, flows too.  
   
  You can alter the flow in two ways:  
@@ -123,6 +128,7 @@ HRESULT CorBindToRuntimeEx (
      The version 1 compatibility mode applies to the entire process and to all the application domains in the process.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

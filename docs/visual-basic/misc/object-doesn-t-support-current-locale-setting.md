@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Object doesn't support current locale setting (Visual Basic)"
 title: "Object doesn't support current locale setting"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 580a26bc-479a-4569-9246-10dcf0251bcb
 ---
 # Object doesn't support current locale setting (Visual Basic)
+
 You tried to access an object that does not support the locale setting for the current project.  
   
 ## To correct this error  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyName::IsEqual Method"
 title: "IAssemblyName::IsEqual Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyName::IsEqual Method
+
 Determines whether a specified [IAssemblyName](iassemblyname-interface.md) object is equal to this `IAssemblyName`, based on the specified comparison flags.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT IsEqual (
 ```  
   
 ## Parameters  
+
  `pName`  
  [in] The `IAssemblyName` object to which to compare this `IAssemblyName`.  
   
@@ -36,6 +39,7 @@ HRESULT IsEqual (
  [in] A bitwise combination of [ASM_CMP_FLAGS](asm-cmp-flags-enumeration.md) values that influence the comparison.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

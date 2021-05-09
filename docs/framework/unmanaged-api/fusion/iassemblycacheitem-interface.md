@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyCacheItem Interface"
 title: "IAssemblyCacheItem Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyCacheItem Interface
+
 Represents a single assembly in the global assembly cache.  
   
 ## Methods  
@@ -27,6 +29,7 @@ Represents a single assembly in the global assembly cache.
 |[CreateStream Method](iassemblycacheitem-createstream-method.md)|Creates a stream with the specified name and format.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

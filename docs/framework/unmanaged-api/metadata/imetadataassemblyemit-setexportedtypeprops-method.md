@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataAssemblyEmit::SetExportedTypeProps Method"
 title: "IMetaDataAssemblyEmit::SetExportedTypeProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataAssemblyEmit::SetExportedTypeProps Method
+
 Modifies the specified `ExportedType` metadata structure.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT SetExportedTypeProps (
 ```  
   
 ## Parameters  
+
  `ct`  
  [in] The metadata token that specifies the `ExportedType` metadata structure to be modified.  
   
@@ -44,9 +47,11 @@ HRESULT SetExportedTypeProps (
  [in] A bitwise combination of values that specify attributes of the type.  
   
 ## Remarks  
+
  To create an `ExportedType` metadata structure, use the [IMetaDataAssemblyEmit::DefineExportedType](imetadataassemblyemit-defineexportedtype-method.md) method.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

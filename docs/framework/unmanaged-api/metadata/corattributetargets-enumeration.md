@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CorAttributeTargets Enumeration"
 title: "CorAttributeTargets Enumeration"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # CorAttributeTargets Enumeration
+
 Specifies the application elements on which it is valid to apply an attribute.  
   
 ## Syntax  
@@ -74,11 +76,13 @@ typedef enum CorAttributeTargets
 |`catClassMembers`|Attribute can be applied to a member of a class.|  
   
 ## Remarks  
+
  The `CorAttributeTargets` enumeration values can be combined with a bitwise OR operation to get the preferred combination.  
   
  The `CorAttributeTargets` parallels the managed <xref:System.AttributeTargets?displayProperty=nameWithType> enumeration.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorHdr.h  

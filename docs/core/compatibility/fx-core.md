@@ -1,12 +1,12 @@
 ---
 title: Breaking changes - .NET Framework to .NET Core
 titleSuffix: ""
-description: Lists the breaking changes from .NET Framework to .NET Core.
+description: Lists the breaking changes from .NET Framework to .NET Core 1.0 - 3.1.
 ms.date: 05/05/2020
 ---
 # Breaking changes for migration from .NET Framework to .NET Core
 
-If you're migrating an app from .NET Framework to .NET Core, the breaking changes listed in this article may affect you. Breaking changes are grouped by category, and within those categories, by the version of .NET Core in which they were introduced.
+If you're migrating an app from .NET Framework to .NET Core versions 1.0 through 3.1, the breaking changes listed in this article may affect you. Breaking changes are grouped by category, and within those categories, by the version of .NET Core in which they were introduced.
 
 > [!NOTE]
 > This article is not a complete list of breaking changes between .NET Framework and .NET Core. The most important breaking changes are added here as we become aware of them.
@@ -90,8 +90,6 @@ Windows Forms support was added to .NET Core in version 3.0. If you're migrating
 - [EnableVisualStyleValidation compatibility switch not supported](#enablevisualstylevalidation-compatibility-switch-not-supported)
 - [UseLegacyContextMenuStripSourceControlValue compatibility switch not supported](#uselegacycontextmenustripsourcecontrolvalue-compatibility-switch-not-supported)
 - [UseLegacyImages compatibility switch not supported](#uselegacyimages-compatibility-switch-not-supported)
-- [Change of access for AccessibleObject.RuntimeIDFirstItem](#change-of-access-for-accessibleobjectruntimeidfirstitem)
-- [Duplicated APIs removed from Windows Forms](#duplicated-apis-removed-from-windows-forms)
 
 ### .NET Core 3.1
 
@@ -146,14 +144,6 @@ Windows Forms support was added to .NET Core in version 3.0. If you're migrating
 ***
 
 [!INCLUDE[UseLegacyImages compatibility switch not supported](~/includes/core-changes/windowsforms/3.0/deprecate-uselegacyimages.md)]
-
-***
-
-[!INCLUDE[Change of access for AccessibleObject.RuntimeIDFirstItem](~/includes/core-changes/windowsforms/3.0/changed-access-for-runtimeidfirstitem.md)]
-
-***
-
-[!INCLUDE[Duplicated APIs removed from Windows Forms](~/includes/core-changes/windowsforms/3.0/remove-duplicated-apis.md)]
 
 ***
 

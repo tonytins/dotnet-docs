@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EmitAssemblyCustomAttribute Method"
 title: "EmitAssemblyCustomAttribute Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # EmitAssemblyCustomAttribute Method
+
 Call to set assembly-level custom attributes.  
   
 ## Syntax  
@@ -34,6 +36,7 @@ HRESULT EmitAssemblyCustomAttribute(
 ```  
   
 ## Parameters  
+
  `AssemblyID`  
  ID of the assembly.  
   
@@ -56,9 +59,11 @@ HRESULT EmitAssemblyCustomAttribute(
  TRUE if multiple attributes are to be emitted.  
   
 ## Return Value  
+
  Returns S_OK if the method succeeds.  
   
 ## Requirements  
+
  Requires alink.h  
   
 ## See also

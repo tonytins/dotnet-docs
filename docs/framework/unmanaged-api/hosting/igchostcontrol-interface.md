@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCHostControl Interface"
 title: "IGCHostControl Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IGCHostControl Interface
+
 Provides a method that allows the garbage collector to request the host to change the limits of virtual memory.  
   
 ## Methods  
@@ -25,6 +27,7 @@ Provides a method that allows the garbage collector to request the host to chang
 |[RequestVirtualMemLimit Method](igchostcontrol-requestvirtualmemlimit-method.md)|Requests the host to change the limits of virtual memory.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

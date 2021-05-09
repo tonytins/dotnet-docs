@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CodeChunkInfo Structure"
 title: "CodeChunkInfo Structure"
 ms.date: "03/30/2017"
 api_name: 
@@ -36,9 +37,11 @@ typedef struct _CodeChunkInfo {
 |`length`|The size, in bytes, of the chunk.|  
   
 ## Remarks  
+
  The single chunk of code is a region of native code that is part of a code object such as a function.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl  

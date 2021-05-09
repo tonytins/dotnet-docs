@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Refer to the Current Instance of an Object (Visual Basic)"
 title: "How to: Refer to the Current Instance of an Object"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7f9b2c77-03cd-428f-adc2-b18070226e7c
 ---
 # How to: Refer to the Current Instance of an Object (Visual Basic)
+
 The *current instance* of an object is the instance in which the code is currently executing.  
   
  You use the `Me` keyword to refer to the current instance.  

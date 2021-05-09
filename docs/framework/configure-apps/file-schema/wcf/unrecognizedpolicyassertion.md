@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <unrecognizedPolicyAssertion>"
 title: "<unrecognizedPolicyAssertion>"
 ms.date: "03/30/2017"
 ms.assetid: 043c3c8f-f263-4ac7-a1af-945d03413f0b
 ---
 # \<unrecognizedPolicyAssertion>
+
 Represents a binding element that specifies policy assertion. This element has no attribute and is present as an empty switch.  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -20,15 +22,19 @@ Represents a binding element that specifies policy assertion. This element has n
 ```  
   
 ## Type  
+
  `Type`  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
+
  None.  
   
 ### Child Elements  
+
  None  
   
 ### Parent Elements  

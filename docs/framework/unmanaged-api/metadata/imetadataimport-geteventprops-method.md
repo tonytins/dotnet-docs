@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetEventProps Method"
 title: "IMetaDataImport::GetEventProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetEventProps Method
+
 Gets metadata information for the event represented by the specified event token, including the declaring type, the add and remove methods for delegates, and any flags and other associated data.  
   
 ## Syntax  
@@ -40,6 +42,7 @@ HRESULT GetEventProps (
 ```  
   
 ## Parameters  
+
  `ev`  
  [in] The event metadata token representing the event to get metadata for.  
   
@@ -77,6 +80,7 @@ HRESULT GetEventProps (
  [out] The number of tokens returned in `rmdOtherMethod`.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

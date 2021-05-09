@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IAssemblyName Interface"
 title: "IAssemblyName Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IAssemblyName Interface
+
 Provides methods for describing and working with an assembly's unique identity.  
   
 ## Methods  
@@ -32,6 +34,7 @@ Provides methods for describing and working with an assembly's unique identity.
 |[SetProperty Method](iassemblyname-setproperty-method.md)|Sets the value of the property referenced by the specified `PropertyId`.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Fusion.h  

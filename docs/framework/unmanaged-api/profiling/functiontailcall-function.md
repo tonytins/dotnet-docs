@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FunctionTailcall Function"
 title: "FunctionTailcall Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # FunctionTailcall Function
+
 Notifies the profiler that the currently executing function is about to perform a tail call to another function.  
   
 > [!NOTE]
@@ -31,11 +33,11 @@ void __stdcall FunctionTailcall (
   
 ## Parameters
 
-- `funcID`
-
-  \[in] The identifier of the currently executing function that is about to make a tail call.
+`funcID`
+[in] The identifier of the currently executing function that is about to make a tail call.
 
 ## Remarks  
+
  The target function of the tail call will use the current stack frame, and will return directly to the caller of the function that made the tail call. This means that a [FunctionLeave](functionleave-function.md) callback will not be issued for a function that is the target of a tail call.  
   
  The `FunctionTailcall` function is a callback; you must implement it. The implementation must use the `__declspec`(`naked`) storage-class attribute.  
@@ -51,6 +53,7 @@ void __stdcall FunctionTailcall (
  Also, the `FunctionTailcall` function must not call into managed code or in any way cause a managed memory allocation.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl  

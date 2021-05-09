@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugProcess::GetObject Method"
 title: "ICorDebugProcess::GetObject Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugProcess::GetObject Method
+
 This method has not been implemented.  
   
 ## Syntax  

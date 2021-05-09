@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: <security> of <wsDualHttpBinding>"
 title: "<security> of <wsDualHttpBinding>"
 ms.date: "03/30/2017"
 ms.assetid: 869c05e7-4ebe-467d-95ab-c8f8de4e6b9e
 ---
 # \<security> of \<wsDualHttpBinding>
+
 Defines the security capabilities of the [\<wsDualHttpBinding>](wsdualhttpbinding.md).  
   
 [**\<configuration>**](../configuration-element.md)\
@@ -24,6 +26,7 @@ Defines the security capabilities of the [\<wsDualHttpBinding>](wsdualhttpbindin
 ```  
   
 ## Attributes and Elements  
+
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -52,6 +55,7 @@ Defines the security capabilities of the [\<wsDualHttpBinding>](wsdualhttpbindin
 |[\<binding>](bindings.md)|Defines all binding capabilities of the [\<wsDualHttpBinding>](wsdualhttpbinding.md).|  
   
 ## Remarks  
+
  A dual binding exposes the IP address of the client to the service. The client should use security to ensure that it only connects to services it trusts.  
   
 ## See also

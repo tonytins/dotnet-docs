@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::GetParamProps Method"
 title: "IMetaDataImport::GetParamProps Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::GetParamProps Method
+
 Gets metadata values for the parameter referenced by the specified ParamDef token.  
   
 ## Syntax  
@@ -37,6 +39,7 @@ HRESULT GetParamProps (
 ```  
   
 ## Parameters  
+
  `tk`  
  [in] A ParamDef token that represents the parameter to return metadata for.  
   
@@ -72,6 +75,7 @@ HRESULT GetParamProps (
 The sequence values in `pulSequence` begin with 1 for parameters. A return value has a sequence number of 0.
 
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

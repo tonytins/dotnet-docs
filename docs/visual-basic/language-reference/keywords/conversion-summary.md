@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Conversion Summary (Visual Basic)"
 title: "Conversion Summary"
 ms.date: 07/20/2015
 helpviewer_keywords: 
@@ -9,6 +10,7 @@ helpviewer_keywords:
 ms.assetid: ae2c79a7-2d62-4fbe-8585-14360d11f987
 ---
 # Conversion Summary (Visual Basic)
+
 Visual Basic language keywords and run-time library members are organized by purpose and use.  
   
 |Action|Language element|  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IGCHost::GetThreadStats Method"
 title: "IGCHost::GetThreadStats Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IGCHost::GetThreadStats Method
+
 Gets the per-thread statistics for garbage collection.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT GetThreadStats (
 ```  
   
 ## Parameters  
+
  `pFiberCookie`  
  [in] A pointer to a fiber cookie that specifies the thread for which to retrieve the statistics.  
   
@@ -36,6 +39,7 @@ HRESULT GetThreadStats (
  [in, out] A pointer to a [COR_GC_THREAD_STATS](cor-gc-thread-stats-structure.md) structure that contains the garbage collection statistics for the specified thread.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** GCHost.idl, GCHost.h  

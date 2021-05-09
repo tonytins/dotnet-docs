@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostManualEvent Interface"
 title: "IHostManualEvent Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostManualEvent Interface
+
 Provides the host's implementation of a representation of a manual reset event.  
   
 ## Methods  
@@ -27,6 +29,7 @@ Provides the host's implementation of a representation of a manual reset event.
 |[Wait Method](ihostmanualevent-wait-method.md)|Causes the current `IHostManualEvent` instance to wait until it is owned, or a specified amount of time elapses.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

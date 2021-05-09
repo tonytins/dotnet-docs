@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader2 Interface"
 title: "ISymUnmanagedReader2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader2 Interface
+
 Represents a symbol reader that provides access to documents, methods, and variables within a symbol store. This interface extends the [ISymUnmanagedReader](isymunmanagedreader-interface.md) interface.  
   
 ## Methods  
@@ -27,6 +29,7 @@ Represents a symbol reader that provides access to documents, methods, and varia
 |[GetSymAttributePreRemap Method](isymunmanagedreader2-getsymattributepreremap-method.md)|Gets a custom attribute based upon its name.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

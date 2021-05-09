@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugAssembly::EnumerateModules Method"
 title: "ICorDebugAssembly::EnumerateModules Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugAssembly::EnumerateModules Method
+
 Gets an enumerator for the modules contained in the `ICorDebugAssembly`.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT EnumerateModules (
 ```  
   
 ## Parameters  
+
  `ppModules`  
  [out] A pointer to the address of the ICorDebugModuleEnum interface that is the enumerator.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

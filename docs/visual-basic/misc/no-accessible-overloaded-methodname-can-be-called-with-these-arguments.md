@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: No accessible overloaded '<methodname>' can be called with these arguments without a narrowing conversion"
 title: "No accessible overloaded '<methodname>' can be called with these arguments without a narrowing conversion"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 2fdbadb9-8ef1-404a-a2ed-ce5f5e55cfcb
 ---
 # No accessible overloaded '\<methodname>' can be called with these arguments without a narrowing conversion
+
 An overloaded method was called, but no method was matched with the list of provided arguments without a narrowing conversion.  
   
 ## To correct this error  

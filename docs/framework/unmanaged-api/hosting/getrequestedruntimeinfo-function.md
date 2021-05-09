@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetRequestedRuntimeInfo Function"
 title: "GetRequestedRuntimeInfo Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # GetRequestedRuntimeInfo Function
+
 Gets version and directory information about the common language runtime (CLR) requested by an application.  
   
  This function has been deprecated in the .NET Framework 4.  
@@ -40,6 +42,7 @@ HRESULT GetRequestedRuntimeInfo (
 ```  
   
 ## Parameters  
+
  `pExe`  
  [in] The name of the application.  
   
@@ -74,6 +77,7 @@ HRESULT GetRequestedRuntimeInfo (
  [out] A pointer to the length of the version string.  
   
 ## Return Value  
+
  This method returns standard Component Object Model (COM) error codes, as defined in WinError.h, in addition to the following values.  
   
 |Return code|Description|  
@@ -82,6 +86,7 @@ HRESULT GetRequestedRuntimeInfo (
 |ERROR_INSUFFICIENT_BUFFER|The directory buffer is not large enough to store the directory path.<br /><br /> - or -<br /><br /> The version buffer is not large enough to store the version string.|  
   
 ## Remarks  
+
  The `GetRequestedRuntimeInfo` method returns run-time information about the version loaded into the process, which is not necessarily the latest version installed on the computer.  
   
  In the .NET Framework version 2.0, you can get information about the latest installed version by using the `GetRequestedRuntimeInfo` method as follows:  
@@ -107,6 +112,7 @@ HRESULT GetRequestedRuntimeInfo (
 - RUNTIME_INFO_REQUEST_X86  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

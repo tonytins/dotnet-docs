@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerCallback9 Interface"
 title: "ICorProfilerCallback9 Interface"
 ms.date: "04/10/2018"
 api_name: 
@@ -10,6 +11,7 @@ api_type:
   - "COM"
 ---
 # ICorProfilerCallback9 Interface
+
 [Supported in the .NET Framework 4.7.2 and later versions]  
 
  A subclass of [ICorProfilerCallback8](icorprofilercallback8-interface.md) that provides a callback method used by the common language runtime to notify the profiler that a dynamic method has been garbage collected and subsequently unloaded.  
@@ -21,6 +23,7 @@ api_type:
 |[DynamicMethodUnloaded Method](ICorProfilerCallback9-dynamicmethodunloaded-method.md)|Notifies the profiler that a dynamic method has been garbage collected and subsequently unloaded.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

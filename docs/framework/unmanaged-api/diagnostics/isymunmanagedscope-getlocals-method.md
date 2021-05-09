@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedScope::GetLocals Method"
 title: "ISymUnmanagedScope::GetLocals Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedScope::GetLocals Method
+
 Gets the local variables defined within this scope.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT GetLocals(
 ```  
   
 ## Parameters  
+
  `cLocals`  
  [in] A `ULONG32` that indicates the size of the `locals` array.  
   
@@ -40,9 +43,11 @@ HRESULT GetLocals(
  [out] The array that receives the local variables.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

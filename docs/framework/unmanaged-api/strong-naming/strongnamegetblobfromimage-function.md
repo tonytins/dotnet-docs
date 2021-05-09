@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StrongNameGetBlobFromImage Function"
 title: "StrongNameGetBlobFromImage Function"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # StrongNameGetBlobFromImage Function
+
 Gets a binary representation of the assembly image at the specified memory address.  
   
  This function has been deprecated. Use the [ICLRStrongName::StrongNameGetBlobFromImage](../hosting/iclrstrongname-strongnamegetblobfromimage-method.md) method instead.  
@@ -32,6 +34,7 @@ BOOLEAN StrongNameGetBlobFromImage (
 ```  
   
 ## Parameters  
+
  `pbBase`  
  [in] The memory address of the mapped assembly manifest.  
   
@@ -45,12 +48,15 @@ BOOLEAN StrongNameGetBlobFromImage (
  [in, out] The requested maximum size, in bytes, of `pbBlob`. Upon return, the actual size, in bytes, of `pbBlob`.  
   
 ## Return Value  
+
  `true` on successful completion; otherwise, `false`.  
   
 ## Remarks  
+
  If the `StrongNameGetBlobFromImage` function does not complete successfully, call the [StrongNameErrorInfo](strongnameerrorinfo-function.md) function to retrieve the last generated error.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** StrongName.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Diagnostics Symbol Store Enumerations"
 title: "Diagnostics Symbol Store Enumerations"
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -9,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: 57d68c70-aba1-4bad-a13f-6d0c55f43746
 ---
 # Diagnostics Symbol Store Enumerations
+
 This topic describes the unmanaged enumerations that the diagnostics symbol store API uses.  
   
 ## In This Section  
+
  [CorSymAddrKind Enumeration](corsymaddrkind-enumeration.md)  
  Indicates the type of memory address.  
   
@@ -25,6 +28,7 @@ This topic describes the unmanaged enumerations that the diagnostics symbol stor
  Identifies callbacks for debugger functions.  
   
 ## Related Sections  
+
  [Diagnostics Symbol Store Interfaces](diagnostics-symbol-store-interfaces.md)  
   
  [Diagnostics Symbol Store Structures](diagnostics-symbol-store-structures.md)  

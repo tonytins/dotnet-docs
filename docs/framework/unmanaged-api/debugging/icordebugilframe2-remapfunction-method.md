@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugILFrame2::RemapFunction Method"
 title: "ICorDebugILFrame2::RemapFunction Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugILFrame2::RemapFunction Method
+
 Remaps an edited function by specifying the new Microsoft intermediate language (MSIL) offset  
   
 ## Syntax  
@@ -28,12 +30,14 @@ HRESULT RemapFunction (
 ```  
   
 ## Parameters  
+
  `newILOffset`  
  [in] The stack frame's new MSIL offset at which the instruction pointer should be placed. This value must be a sequence point.  
   
  It is the caller’s responsibility to ensure the validity of this value. For example, the MSIL offset is not valid if it is outside the bounds of the function.  
   
 ## Remarks  
+
  When a frame’s function has been edited, the debugger can call the `RemapFunction` method to swap in the latest version of the frame's function so it can be executed. The code execution will begin at the given MSIL offset.  
   
 > [!NOTE]
@@ -46,6 +50,7 @@ HRESULT RemapFunction (
 - While code execution is stopped because of an [ICorDebugManagedCallback::EditAndContinueRemap](icordebugmanagedcallback-editandcontinueremap-method.md) event for this frame.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

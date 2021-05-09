@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFunction::GetLocalVarSigToken Method"
 title: "ICorDebugFunction::GetLocalVarSigToken Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFunction::GetLocalVarSigToken Method
+
 Gets the metadata token for the local variable signature of the function that is represented by this ICorDebugFunction instance.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT GetLocalVarSigToken (
 ```  
   
 ## Parameters  
+
  `pmdSig`  
  [out] A pointer to the `mdSignature` token for the local variable signature of this function, or `mdSignatureNil`, if this function has no local variables.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

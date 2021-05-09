@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Call a Windows Function that Takes Unsigned Types (Visual Basic)"
 title: "How to: Call a Windows Function that Takes Unsigned Types"
 ms.date: 07/20/2015
 helpviewer_keywords:
@@ -71,7 +72,7 @@ If you are consuming a class, module, or structure that has members of unsigned 
     > Making a call to unmanaged code, such as the Windows application programming interface (API), exposes your code to potential security risks.
 
     > [!IMPORTANT]
-    > Calling the Windows API requires unmanaged code permission, which might affect its execution in partial-trust situations. For more information, see <xref:System.Security.Permissions.SecurityPermission> and [Code Access Permissions](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/h846e9b3(v=vs.100)).
+    > Calling the Windows API requires unmanaged code permission, which might affect its execution in partial-trust situations. For more information, see <xref:System.Security.Permissions.SecurityPermission> and [Code Access Permissions](/previous-versions/dotnet/netframework-4.0/h846e9b3(v=vs.100)).
 
 ## See also
 

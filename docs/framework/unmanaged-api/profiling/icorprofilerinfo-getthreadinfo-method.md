@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerInfo::GetThreadInfo Method"
 title: "ICorProfilerInfo::GetThreadInfo Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerInfo::GetThreadInfo Method
+
 Gets the current Win32 thread identity for the specified thread.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT GetThreadInfo(
 ```  
   
 ## Parameters  
+
  `threadId`  
  [in] The ID of the thread for which to get the current Win32 ID.  
   
@@ -35,6 +38,7 @@ HRESULT GetThreadInfo(
  [out] A pointer to the specified thread's current Win32 thread ID.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

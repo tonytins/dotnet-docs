@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName2 Interface"
 title: "ICLRStrongName2 Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName2 Interface
+
 Provides the ability to create strong names using the SHA-2 group of Secure Hash Algorithms (SHA-256, SHA-384, and SHA-512).  
   
 ## Methods  
@@ -28,6 +30,7 @@ Provides the ability to create strong names using the SHA-2 group of Secure Hash
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

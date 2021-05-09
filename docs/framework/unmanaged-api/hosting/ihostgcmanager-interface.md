@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostGCManager Interface"
 title: "IHostGCManager Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # IHostGCManager Interface
+
 Provides methods that notify the host of events in the garbage collection mechanism implemented by the common language runtime (CLR).  
   
 ## Members  
@@ -27,6 +29,7 @@ Provides methods that notify the host of events in the garbage collection mechan
 |[ThreadIsBlockingForSuspension Method](ihostgcmanager-threadisblockingforsuspension-method.md)|Notifies the host that the thread from which the method call was made is about to block for a garbage collection.|  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

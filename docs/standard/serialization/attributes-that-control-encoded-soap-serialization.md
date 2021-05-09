@@ -6,9 +6,9 @@ helpviewer_keywords:
   - "SOAP, XML serialization"
   - "XML serialization, SOAP"
   - "XML serialization, attributes"
-  - "attributes [.NET Framework], XML serialization"
+  - "attributes [.NET], XML serialization"
   - "serialization, attributes"
-ms.assetid: 93ee258c-9c0f-4a08-897c-c10db7a00f91
+ms.topic: reference
 ---
 # Attributes That Control Encoded SOAP Serialization
 

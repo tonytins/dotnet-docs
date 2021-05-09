@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugNativeFrame::SetIP Method"
 title: "ICorDebugNativeFrame::SetIP Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugNativeFrame::SetIP Method
+
 Sets the instruction pointer to the specified offset location in native code.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT SetIP (
 ```  
   
 ## Parameters  
+
  `nOffset`  
  [in] The offset location in the native code.  
   
 ## Remarks  
+
  Calls to `SetIP` immediately invalidate all frames and chains for the current thread. If the debugger needs frame information after a call to `SetIP`, it must perform a new stack trace.  
   
  [ICorDebug](icordebug-interface.md) will attempt to keep the stack frame in a valid state. However, even if the frame is in a valid state, as far as the runtime is concerned, there still may be problems, such as uninitialized local variables, and so on. The caller is responsible for insuring coherency of the running program.  
@@ -39,6 +43,7 @@ HRESULT SetIP (
  On 64-bit platforms, the instruction pointer cannot be moved out of a `catch` or `finally` block. If `SetIP` is called to make such a move on a 64-bit platform, it will return an HRESULT indicating failure.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

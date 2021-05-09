@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName::StrongNameSignatureVerification Method"
 title: "ICLRStrongName::StrongNameSignatureVerification Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName::StrongNameSignatureVerification Method
+
 Gets a value that indicates whether the assembly manifest at the supplied path contains a strong name signature, which is verified according to the specified flags.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT StrongNameSignatureVerification (
 ```  
   
 ## Parameters  
+
  `wszFilePath`  
  [in] The path to the portable executable (.dll or .exe) file for the assembly to verify.  
   
@@ -54,9 +57,11 @@ HRESULT StrongNameSignatureVerification (
 - `SN_OUTFLAG_WAS_VERIFIED` (0x00000001) - This value is set to `false` to specify that the verification succeeded due to registry settings.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

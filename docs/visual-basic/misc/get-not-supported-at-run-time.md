@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get not supported at run time"
 title: "Get not supported at run time"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: b527c5a8-3f24-42e9-871f-e6305c9f514b
 ---
 # Get not supported at run time
+
 You tried to read a property at run time that is only accessible at design time.  
   
 ## To correct this error  

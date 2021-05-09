@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorProfilerObjectEnum::Next Method"
 title: "ICorProfilerObjectEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorProfilerObjectEnum::Next Method
+
 Gets the specified number of contiguous objects from a sequential collection of objects, starting at the enumerator's current position in the sequence.  
   
 ## Syntax  
@@ -31,6 +33,7 @@ HRESULT Next (
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of objects to be retrieved.  
   
@@ -41,6 +44,7 @@ HRESULT Next (
  [out] A pointer to the number of elements actually returned in the `objects` array.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorProf.idl, CorProf.h  

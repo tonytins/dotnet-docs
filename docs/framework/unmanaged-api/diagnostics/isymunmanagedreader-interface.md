@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedReader Interface"
 title: "ISymUnmanagedReader Interface"
 ms.date: "03/30/2017"
 api_name: 
@@ -16,6 +17,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedReader Interface
+
 Represents a symbol reader that provides access to documents, methods, and variables within a symbol store.  
   
 ## Methods  
@@ -41,6 +43,7 @@ Represents a symbol reader that provides access to documents, methods, and varia
 |[UpdateSymbolStore Method](isymunmanagedreader-updatesymbolstore-method.md)|Updates the existing symbol store with a delta symbol store.|  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

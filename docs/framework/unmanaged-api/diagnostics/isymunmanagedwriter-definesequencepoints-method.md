@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISymUnmanagedWriter::DefineSequencePoints Method"
 title: "ISymUnmanagedWriter::DefineSequencePoints Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ISymUnmanagedWriter::DefineSequencePoints Method
+
 Defines a group of sequence points within the current method. Each starting line and starting column define the start of a statement within a method. Each ending line and ending column define the end of a statement within a method. The arrays should be sorted in increasing order of offsets. The offset is always measured from the start of the method, in bytes.  
   
 ## Syntax  
@@ -33,6 +35,7 @@ HRESULT DefineSequencePoints(
 ```  
   
 ## Parameters  
+
  `document`  
  [in] The document object for which the sequence points are being defined.  
   
@@ -55,9 +58,11 @@ HRESULT DefineSequencePoints(
  [in] The ending column numbers of the sequence points. This parameter is optional.  
   
 ## Return Value  
+
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  
   
 ## Requirements  
+
  **Header:** CorSym.idl, CorSym.h  
   
 ## See also

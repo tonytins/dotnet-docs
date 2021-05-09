@@ -1,7 +1,7 @@
 ---
 title: Pattern Matching
 description: Learn how patterns are used in F# to compare data with logical structures, decompose data into constituent parts, or extract information from data.
-ms.date: 10/27/2019
+ms.date: 11/12/2020
 ---
 # Pattern Matching
 
@@ -41,6 +41,7 @@ Supported patterns are shown in the following table. At run time, the input is t
 |Pattern together with type annotation|*pattern* : *type*|`a : int`|
 |Type test pattern|:? *type* [ as *identifier* ]|`:? System.DateTime as dt`|
 |Null pattern|null|`null`|
+|Nameof pattern|*nameof expr*|`nameof str`|
 
 ## Constant Patterns
 
@@ -81,8 +82,8 @@ You can use the named fields in a pattern matching expression as follows.
 ```fsharp
 let matchShape shape =
     match shape with
-    | Rectangle(height = h) -> printfn "Rectangle with length %f" h
-    | Circle(r) -> printfn "Circle with radius %f" r
+    | Rectangle(height = h) -> printfn $"Rectangle with length %f{h}"
+    | Circle(r) -> printfn $"Circle with radius %f{r}"
 ```
 
 The use of the named field is optional, so in the previous example, both `Circle(r)` and `Circle(radius = r)` have the same effect.
@@ -91,7 +92,7 @@ When you specify multiple fields, use the semicolon (;) as a separator.
 
 ```fsharp
 match shape with
-| Rectangle(height = h; width = w) -> printfn "Rectangle with height %f and width %f" h w
+| Rectangle(height = h; width = w) -> printfn $"Rectangle with height %f{h} and width %f{w}"
 | _ -> ()
 ```
 
@@ -127,7 +128,7 @@ The following example demonstrates the OR pattern.
 
 The AND pattern requires that the input match two patterns. The types of both sides of the AND pattern must be compatible.
 
-The following example is like `detectZeroTuple` shown in the [Tuple Pattern](https://msdn.microsoft.com/library/#tuple) section later in this topic, but here both `var1` and `var2` are obtained as values by using the AND pattern.
+The following example is like `detectZeroTuple` shown in the Tuple Pattern section later in this topic, but here both `var1` and `var2` are obtained as values by using the AND pattern.
 
 [!code-fsharp[Main](~/samples/snippets/fsharp/lang-ref-2/snippet4808.fs)]
 
@@ -208,6 +209,22 @@ The null pattern matches the null value that can appear when you are working wit
 The following example uses the null pattern and the variable pattern.
 
 [!code-fsharp[Main](~/samples/snippets/fsharp/lang-ref-2/snippet4817.fs)]
+
+## Nameof pattern
+
+The `nameof` pattern matches against a string when its value is equal to the expression that follows the `nameof` keyword. for example:
+
+```fsharp
+let f (str: string) =
+    match str with
+    | nameof str -> "It's 'str'!"
+    | _ -> "It is not 'str'!"
+
+f "str" // matches
+f "asdf" // does not match
+```
+
+See the [`nameof`](nameof.md) operator for information on what you can take a name of.
 
 ## See also
 

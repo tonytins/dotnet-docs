@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICLRStrongName::StrongNameKeyInstall Method"
 title: "ICLRStrongName::StrongNameKeyInstall Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICLRStrongName::StrongNameKeyInstall Method
+
 Imports a public/private key pair into a container.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT StrongNameKeyInstall (
 ```  
   
 ## Parameters  
+
  `wszKeyContainer`  
  [in] The name of the key container. `wszKeyContainer` must be a non-empty string.  
   
@@ -40,12 +43,15 @@ HRESULT StrongNameKeyInstall (
  [in] The size, in bytes, of `pbKeyBlob`.  
   
 ## Return Value  
+
  `S_OK` if the method completed successfully; otherwise, an HRESULT value that indicates failure (see [Common HRESULT Values](/windows/win32/seccrypto/common-hresult-values) for a list).  
   
 ## Remarks  
+
  Use the [ICLRStrongName::StrongNameKeyDelete](iclrstrongname-strongnamekeydelete-method.md) method to delete the key container.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MetaHost.h  

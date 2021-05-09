@@ -1,4 +1,7 @@
-class ExampleProgram
+﻿using System;
+using System.Threading.Tasks;
+
+class ExampleConfigureAwaitProgram
 {
     static async Task Main()
     {

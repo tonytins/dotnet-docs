@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BC30686: Default property access is ambiguous between the inherited interface members '<defaultpropertyname>' of interface '<interfacename1>' and '<defaultpropertyname>' of interface '<interfacename2>'"
 title: "Default property access is ambiguous between the inherited interface members '<defaultpropertyname>' of interface '<interfacename1>' and '<defaultpropertyname>' of interface '<interfacename2>'"
 ms.date: 07/20/2015
 f1_keywords:
@@ -8,7 +9,7 @@ helpviewer_keywords:
   - "BC30686"
 ms.assetid: 784fefec-ef57-48cf-b960-957df419b439
 ---
-# Default property access is ambiguous between the inherited interface members '\<defaultpropertyname>' of interface '\<interfacename1>' and '\<defaultpropertyname>' of interface '\<interfacename2>'
+# BC30686: Default property access is ambiguous between the inherited interface members '\<defaultpropertyname>' of interface '\<interfacename1>' and '\<defaultpropertyname>' of interface '\<interfacename2>'
 
 An interface inherits from two interfaces, each of which declares a default property with the same name. The compiler cannot resolve an access to this default property without qualification. The following example illustrates this.
 

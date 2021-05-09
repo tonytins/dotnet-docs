@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMetaDataImport::IsGlobal Method"
 title: "IMetaDataImport::IsGlobal Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IMetaDataImport::IsGlobal Method
+
 Gets a value indicating whether the field, method, or type represented by the specified metadata token has global scope.  
   
 ## Syntax  
@@ -29,6 +31,7 @@ HRESULT IsGlobal (
 ```  
   
 ## Parameters  
+
  `pd`  
  [in] A metadata token that represents a type, field, or method.  
   
@@ -36,6 +39,7 @@ HRESULT IsGlobal (
  [out] 1 if the object has global scope; otherwise, 0 (zero).  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** Cor.h  

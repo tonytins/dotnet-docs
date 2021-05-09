@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugGuidToTypeEnum::Next Method"
 title: "ICorDebugGuidToTypeEnum::Next Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugGuidToTypeEnum::Next Method
+
 Gets the specified number of [CorDebugGuidToTypeMapping](cordebugguidtotypemapping-structure.md) instances that map GUIDs to type information.  
   
 ## Syntax  
@@ -30,6 +32,7 @@ HRESULT Next(
 ```  
   
 ## Parameters  
+
  `celt`  
  [in] The number of GUID-to-type mapping objects to be retrieved.  
   
@@ -42,6 +45,7 @@ HRESULT Next(
 ## Remarks  
   
 ## Requirements  
+
  **Platforms:** Windows Runtime  
   
  **Header:** CorDebug.idl, CorDebug.h  

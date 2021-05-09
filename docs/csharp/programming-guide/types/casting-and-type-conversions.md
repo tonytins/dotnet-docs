@@ -1,5 +1,6 @@
 ---
 title: "Casting and type conversions - C# Programming Guide"
+description: Learn about casting and type conversions, such as implicit, explicit (casts), and user-defined conversions.
 ms.date: 07/06/2020
 helpviewer_keywords: 
   - "type conversion [C#]"
@@ -93,5 +94,5 @@ For more information, see the [Conversions](~/_csharplang/spec/conversions.md) s
 - [Types](./index.md)
 - [Cast expression](../../language-reference/operators/type-testing-and-cast.md#cast-expression)
 - [User-defined conversion operators](../../language-reference/operators/user-defined-conversion-operators.md)
-- [Generalized Type Conversion](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2013/yy580hbd(v=vs.120))
+- [Generalized Type Conversion](/previous-versions/visualstudio/visual-studio-2013/yy580hbd(v=vs.120))
 - [How to convert a string to a number](./how-to-convert-a-string-to-a-number.md)

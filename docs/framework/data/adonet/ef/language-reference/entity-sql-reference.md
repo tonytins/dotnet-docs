@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Entity SQL reference"
 title: "Entity SQL reference"
 ms.date: "03/30/2017"
 ms.assetid: 61ce7ee1-ffe2-477d-8a9f-835b0a11d900
@@ -61,7 +62,7 @@ Logical operators test for the truth of a condition. The CASE expression evaluat
 |[\! (Logical NOT)](not-entity-sql.md)|Logical NOT.|
 |[&#124;&#124; (Logical OR)](or-entity-sql.md)|Logical OR.|
 |[CASE](case-entity-sql.md)|Evaluates a set of Boolean expressions to determine the result.|
-|[THEN](then-entity-sql.md)|The result of a [WHEN](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/bb387119(v=vs.100)) clause when it evaluates to true.|
+|[THEN](then-entity-sql.md)|The result of a [WHEN](/previous-versions/dotnet/netframework-4.0/bb387119(v=vs.100)) clause when it evaluates to true.|
 
 ## Query operators
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugFrame::GetFunction Method"
 title: "ICorDebugFrame::GetFunction Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugFrame::GetFunction Method
+
 Gets the function that contains the code associated with this stack frame.  
   
 ## Syntax  
@@ -28,13 +30,16 @@ HRESULT GetFunction (
 ```  
   
 ## Parameters  
+
  `ppFunction`  
  [out] A pointer to the address of an ICorDebugFunction object that represents the function containing the code associated with this stack frame.  
   
 ## Remarks  
+
  The `GetFunction` method may fail if the frame is not associated with any particular function.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

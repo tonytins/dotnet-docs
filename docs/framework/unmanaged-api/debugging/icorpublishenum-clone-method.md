@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorPublishEnum::Clone Method"
 title: "ICorPublishEnum::Clone Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorPublishEnum::Clone Method
+
 Creates a copy of this [ICorPublishEnum](icorpublishenum-interface.md) object.  
   
 ## Syntax  
@@ -28,10 +30,12 @@ HRESULT Clone (
 ```  
   
 ## Parameters  
+
  `ppEnum`  
  [out] A pointer to the address of an `ICorPublishEnum` object that is a copy of this `ICorPublishEnum` object.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorPub.idl, CorPub.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IHostThreadPoolManager::SetMinThreads Method"
 title: "IHostThreadPoolManager::SetMinThreads Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # IHostThreadPoolManager::SetMinThreads Method
+
 Sets the minimum number of idle threads that the host must maintain in anticipation of requests.  
   
 ## Syntax  
@@ -28,6 +30,7 @@ HRESULT SetMinThreads (
 ```  
   
 ## Parameters  
+
  `MinThreads`  
  [in] The new minimum number of threads that the host must maintain.  
   
@@ -44,9 +47,11 @@ HRESULT SetMinThreads (
 |E_NOTIMPL|The host does not provide an implementation of `SetMinThreads`.|  
   
 ## Remarks  
+
  A host is not required to provide an implementation of `SetMinThreads`. In this case, it should return an HRESULT value of E_NOTIMPL.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** MSCorEE.h  

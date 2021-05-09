@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: ICorDebugInstanceFieldSymbol::GetName Method"
 title: "ICorDebugInstanceFieldSymbol::GetName Method"
 ms.date: "03/30/2017"
 ms.assetid: d9c12b1f-9c1d-4943-8e9e-93b55faf085f
 ---
 # ICorDebugInstanceFieldSymbol::GetName Method
+
 Gets the name of the instance field.  
   
 ## Syntax  
@@ -17,6 +19,7 @@ HRESULT GetName(
 ```  
   
 ## Parameters  
+
  `cchName`  
  [in] The number of characters in the `szName` buffer.  
   
@@ -32,6 +35,7 @@ HRESULT GetName(
 > This method is available with .NET Native only.  
   
 ## Requirements  
+
  **Platforms:** See [System Requirements](../../get-started/system-requirements.md).  
   
  **Header:** CorDebug.idl, CorDebug.h  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Statement"
 title: "Error Statement"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: 85cd5c59-5224-4f02-aaf5-fcfefab17a29
 ---
 # Error Statement
+
 Simulates the occurrence of an error.  
   
 ## Syntax  
@@ -21,10 +23,12 @@ Error errornumber
 ```  
   
 ## Parts  
+
  `errornumber`  
  Required. Can be any valid error number.  
   
 ## Remarks  
+
  The `Error` statement is supported for backward compatibility. In new code, especially when creating objects, use the `Err` object's `Raise` method to generate run-time errors.  
   
  If `errornumber` is defined, the `Error` statement calls the error handler after the properties of the `Err` object are assigned the following default values:  
@@ -44,6 +48,7 @@ Error errornumber
 > Some Visual Basic host applications cannot create objects. See your host application's documentation to determine whether it can create classes and objects.  
   
 ## Example  
+
  This example uses the `Error` statement to generate error number 11.  
   
 ```vb  
@@ -52,6 +57,7 @@ Error 11   ' Simulate the "Division by zero" error.
 ```  
   
 ## Requirements  
+
  **Namespace:** [Microsoft.VisualBasic](../runtime-library-members.md)  
   
  **Assembly:** Visual Basic Runtime Library (in Microsoft.VisualBasic.dll)  

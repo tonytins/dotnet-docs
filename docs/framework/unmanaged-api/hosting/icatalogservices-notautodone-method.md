@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICatalogServices::NotAutodone Method"
 title: "ICatalogServices::NotAutodone Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICatalogServices::NotAutodone Method
+
 This method supports the .NET Framework infrastructure and is not intended to be used directly from your code.  
   
 ## Syntax  

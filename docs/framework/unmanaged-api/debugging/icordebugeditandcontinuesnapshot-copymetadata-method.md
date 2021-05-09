@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ICorDebugEditAndContinueSnapshot::CopyMetaData Method"
 title: "ICorDebugEditAndContinueSnapshot::CopyMetaData Method"
 ms.date: "03/30/2017"
 api_name: 
@@ -17,6 +18,7 @@ topic_type:
   - "apiref"
 ---
 # ICorDebugEditAndContinueSnapshot::CopyMetaData Method
+
 `CopyMetaData` is obsolete. Do not call this method.  
   
 ## See also

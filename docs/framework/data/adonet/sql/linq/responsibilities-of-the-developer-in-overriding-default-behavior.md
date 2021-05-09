@@ -1,9 +1,11 @@
 ---
+description: "Learn more about: Responsibilities of the Developer In Overriding Default Behavior"
 title: "Responsibilities of the Developer In Overriding Default Behavior"
 ms.date: "03/30/2017"
 ms.assetid: c6909ddd-e053-46a8-980c-0e12a9797be1
 ---
 # Responsibilities of the Developer In Overriding Default Behavior
+
 [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)] does not enforce the following requirements, but behavior is undefined if these requirements are not satisfied.  
   
 - The overriding method must not call <xref:System.Data.Linq.DataContext.SubmitChanges%2A> or <xref:System.Data.Linq.Table%601.Attach%2A>. [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)] throws an exception if these methods are called in an override method.  

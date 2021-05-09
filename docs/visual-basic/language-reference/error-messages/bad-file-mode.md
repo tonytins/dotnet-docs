@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bad file mode"
 title: "Bad file mode"
 ms.date: 07/20/2015
 f1_keywords: 
@@ -6,6 +7,7 @@ f1_keywords:
 ms.assetid: 74891e96-884b-4c8d-872d-cd11ae272372
 ---
 # Bad file mode
+
 Statements used in manipulating file contents must be appropriate to the mode in which the file was opened. Possible causes include:  
   
 - A `FilePutObject` or `FileGetObject` statement specifies a sequential file.  
